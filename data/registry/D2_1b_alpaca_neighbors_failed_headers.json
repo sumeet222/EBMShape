@@ -1,0 +1,45 @@
+{
+  "source": "Alpaca SIP split diagnostic neighbors only",
+  "script_sha256": "771a2705fd5fbc4c3f36f4415fbb64202171f15fcc788b6df9d047b414741852",
+  "started_at_utc": "2026-10-16T18:51:31.464534+00:00",
+  "intervals_et": [
+    [
+      "2016-02-02",
+      "10:59",
+      "11:47"
+    ],
+    [
+      "2019-08-12",
+      "14:35",
+      "14:54"
+    ],
+    [
+      "2023-06-05",
+      "10:00",
+      "10:15"
+    ]
+  ],
+  "status": "FAILED",
+  "error": {
+    "type": "RuntimeError"
+  },
+  "requests": [
+    {
+      "request_name": "D2_1b_neighbors_2016-02-02_p0",
+      "endpoint": "https://data.alpaca.markets/v2/stocks/SPY/bars",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2016-02-02T15:59:00+00:00",
+        "end": "2016-02-02T16:47:00+00:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "sort": "asc",
+        "limit": 10000
+      },
+      "observed_at_utc": "2026-10-16T18:51:31.968755+00:00",
+      "status": 401,
+      "error": "HTTP error; no retry or entitlement workaround"
+    }
+  ],
+  "wall_seconds": 0.6424092079978436
+}

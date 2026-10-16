@@ -1,0 +1,25 @@
+{
+  "observed_at_utc": "2026-10-16T18:24:15.375981+00:00",
+  "python": "3.14.6",
+  "config_sha256": "ace8756a44c2de2293831776207af94d1bff4de3ae6d2f682cfebd7b7fe55a6b",
+  "script_sha256": "93bb9d71af071d9152cfb0dab82a9858bd7d177b9476fb097d3b60228d6fd835",
+  "auth": "public anonymous; no token loaded",
+  "error": {
+    "type": "URLError",
+    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "requests": [
+    {
+      "url": "https://huggingface.co/api/datasets/mito0o852/OHLCV-1m",
+      "range": null,
+      "bytes": 0,
+      "error": "URLError",
+      "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "wall_seconds": 0.0354
+    }
+  ],
+  "downloaded_body_bytes": 0,
+  "wall_seconds": 0.035616957989986986,
+  "cpu_seconds": 0.021585999999999994,
+  "temporary_disk_bytes": 0
+}

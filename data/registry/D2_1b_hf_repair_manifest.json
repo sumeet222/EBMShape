@@ -1,0 +1,804 @@
+{
+  "dataset_id": "B_spy_hf_repair_D2_1b_v1",
+  "view_definition": "Alpaca-only D2 UNION39 accepted HF rows; optional composite sensitivity, never default",
+  "status": "PARTIAL",
+  "baseline_manifest_sha256": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae",
+  "baseline_files": [
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "registry/D2_blocks/2016.json",
+      "bytes": 666350,
+      "sha256": "2c593de301f7808bac2a2ed0f05ce3bc1e9844a29bc7b3dd01e00eaf73098628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "registry/D2_blocks/2017.json",
+      "bytes": 661127,
+      "sha256": "da6573e788489398886a215a7bbbbdf272b960358d1dd0af94ed71e2304e1b58"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "registry/D2_blocks/2018.json",
+      "bytes": 661149,
+      "sha256": "992869b4e76d73854bdff7659e63adfa73e9d8e4e188563f030623434a79a4de"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "registry/D2_blocks/2019.json",
+      "bytes": 672158,
+      "sha256": "573e3b6cf585d9ddae21d277b6aeb3ab2e1ee422302df4da643d521485169a2c"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "registry/D2_blocks/2020.json",
+      "bytes": 681937,
+      "sha256": "a671a9c952fd06c31f911b42436a0eb32e844391b21631c60e829d69f74af912"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    },
+    {
+      "path": "registry/D2_blocks/2021.json",
+      "bytes": 665349,
+      "sha256": "b0e299def2dd4fa48afbdc691ac082b420815e0579191447ef3975612a3e4ac9"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "bytes": 869271,
+      "sha256": "d57c36d075dbad05994283d83cd4a54b6ffc6ca8cdd4db7e53f15bb9f7161d0e"
+    },
+    {
+      "path": "registry/D2_blocks/2022.json",
+      "bytes": 661106,
+      "sha256": "d59d0c02528439fb618a1090540c332e23f612feb9407304c26795b6f0db9bb7"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "bytes": 849491,
+      "sha256": "a109bcd04430e0b2ccc9cf351f0acb9ec510aaa797efd2c76844e5ca34e2d8e3"
+    },
+    {
+      "path": "registry/D2_blocks/2023.json",
+      "bytes": 659944,
+      "sha256": "d4cedcd3aa3787702d1d451d031aba54f60d0a3895f75dd58534a0889783731e"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "bytes": 865357,
+      "sha256": "9f6fdeaa057251ee6cfa106baafca09a8476decac31f16e183fcd7ac61e857bd"
+    },
+    {
+      "path": "registry/D2_blocks/2024.json",
+      "bytes": 663767,
+      "sha256": "9798099a54b5932fecfe6d44e8ad77da5313fda4eadacf08b95cfe116d82e989"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "bytes": 871110,
+      "sha256": "c4fb5b516ae19610fd53a6851709cf4b20f7b137f0ff572610ffdebef7c224e6"
+    },
+    {
+      "path": "registry/D2_blocks/2025.json",
+      "bytes": 658533,
+      "sha256": "8cddce286e4ce7c69ebe1ba3d7bf3d47f1bffa861beeca10962a0f5f02910e3b"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+      "bytes": 653037,
+      "sha256": "95e458decd2e31070a4ce5d89fbe73f467d7d054559e2e970f32a412ebca55fd"
+    },
+    {
+      "path": "registry/D2_blocks/2026.json",
+      "bytes": 492582,
+      "sha256": "61a49cee6b3a455d1331781c38cac335f508eb830cb3a06e0724f142e8ba8f49"
+    },
+    {
+      "path": "registry/D2_spy_candle_gap_clusters.csv",
+      "bytes": 1611,
+      "sha256": "f44384c02608ab3378c0c0479fcce7b46cbd5a3cff1cdbb7225eb01c2e97f7be"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_sessions.csv",
+      "bytes": 1056070,
+      "sha256": "499cf960c8d4a94b62e0cf8fb11869f4a60bbddfd5d36f0b7fe92f9a63ded337"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_summary.json",
+      "bytes": 149231,
+      "sha256": "35d1acb238ee6daeadd433ced284e211017922c3f650ecd6cd47a4b2feffcb2a"
+    },
+    {
+      "path": "registry/D2_spy_coverage_month.csv",
+      "bytes": 5389,
+      "sha256": "a0625db3d0c848dafdfeb0bf242e9e63afe95ac2af3b1b14e5487a6ea4b1616e"
+    },
+    {
+      "path": "registry/D2_spy_coverage_quarter.csv",
+      "bytes": 2082,
+      "sha256": "ae8718ab01710c104a62fa673e20379f78269202e8e8d8ef18f48b169731ab1d"
+    },
+    {
+      "path": "registry/D2_spy_coverage_year.csv",
+      "bytes": 706,
+      "sha256": "47b749795c8210c782a7340596e200c28aa687edc7735c8ac886c5726c6d2ecd"
+    },
+    {
+      "path": "registry/D2_spy_exception_log.json",
+      "bytes": 706,
+      "sha256": "b278c637e26a8d0e41da33ce99654357e566aad3e73113c4645d43d64f04a165"
+    },
+    {
+      "path": "registry/D2_spy_invalid_candles.csv",
+      "bytes": 32,
+      "sha256": "7aaa72378824dcf99f731fddd9836cbd72104bed25729bfbfbd71c216ba9d117"
+    },
+    {
+      "path": "registry/D2_spy_missing_candles.csv",
+      "bytes": 11854,
+      "sha256": "ffb61747d338692fbbd77c8ac047c9d4280167ff4942d54c32c6d3daad578e2a"
+    },
+    {
+      "path": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D2_v1/requests.json",
+      "bytes": 162322,
+      "sha256": "8f3b27e495cc8222a8ec4908f0ed5c3693d1cc15d0ab46f6b6506e55e6b53d63"
+    }
+  ],
+  "patch": {
+    "path": "patches/B/B_spy_hf_repair_D2_1b_v1.parquet",
+    "bytes": 21994,
+    "sha256": "3eba48d0e6bc684de07ecc55a0bea4a48dcc037afc550f527757cf6be2147b44",
+    "rows": 39
+  },
+  "remaining": [
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:35:00-04:00",
+      "timestamp_utc": "2020-03-09T13:35:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:36:00-04:00",
+      "timestamp_utc": "2020-03-09T13:36:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:37:00-04:00",
+      "timestamp_utc": "2020-03-09T13:37:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:38:00-04:00",
+      "timestamp_utc": "2020-03-09T13:38:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:39:00-04:00",
+      "timestamp_utc": "2020-03-09T13:39:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:40:00-04:00",
+      "timestamp_utc": "2020-03-09T13:40:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:41:00-04:00",
+      "timestamp_utc": "2020-03-09T13:41:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:42:00-04:00",
+      "timestamp_utc": "2020-03-09T13:42:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:43:00-04:00",
+      "timestamp_utc": "2020-03-09T13:43:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:44:00-04:00",
+      "timestamp_utc": "2020-03-09T13:44:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:45:00-04:00",
+      "timestamp_utc": "2020-03-09T13:45:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:46:00-04:00",
+      "timestamp_utc": "2020-03-09T13:46:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:47:00-04:00",
+      "timestamp_utc": "2020-03-09T13:47:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "timestamp_et": "2020-03-09T09:48:00-04:00",
+      "timestamp_utc": "2020-03-09T13:48:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:36:00-04:00",
+      "timestamp_utc": "2020-03-12T13:36:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:37:00-04:00",
+      "timestamp_utc": "2020-03-12T13:37:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:38:00-04:00",
+      "timestamp_utc": "2020-03-12T13:38:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:39:00-04:00",
+      "timestamp_utc": "2020-03-12T13:39:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:40:00-04:00",
+      "timestamp_utc": "2020-03-12T13:40:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:41:00-04:00",
+      "timestamp_utc": "2020-03-12T13:41:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:42:00-04:00",
+      "timestamp_utc": "2020-03-12T13:42:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:43:00-04:00",
+      "timestamp_utc": "2020-03-12T13:43:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:44:00-04:00",
+      "timestamp_utc": "2020-03-12T13:44:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:45:00-04:00",
+      "timestamp_utc": "2020-03-12T13:45:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:46:00-04:00",
+      "timestamp_utc": "2020-03-12T13:46:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:47:00-04:00",
+      "timestamp_utc": "2020-03-12T13:47:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:48:00-04:00",
+      "timestamp_utc": "2020-03-12T13:48:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "timestamp_et": "2020-03-12T09:49:00-04:00",
+      "timestamp_utc": "2020-03-12T13:49:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:31:00-04:00",
+      "timestamp_utc": "2020-03-16T13:31:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:32:00-04:00",
+      "timestamp_utc": "2020-03-16T13:32:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:33:00-04:00",
+      "timestamp_utc": "2020-03-16T13:33:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:34:00-04:00",
+      "timestamp_utc": "2020-03-16T13:34:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:35:00-04:00",
+      "timestamp_utc": "2020-03-16T13:35:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:36:00-04:00",
+      "timestamp_utc": "2020-03-16T13:36:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:37:00-04:00",
+      "timestamp_utc": "2020-03-16T13:37:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:38:00-04:00",
+      "timestamp_utc": "2020-03-16T13:38:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:39:00-04:00",
+      "timestamp_utc": "2020-03-16T13:39:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:40:00-04:00",
+      "timestamp_utc": "2020-03-16T13:40:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:41:00-04:00",
+      "timestamp_utc": "2020-03-16T13:41:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:42:00-04:00",
+      "timestamp_utc": "2020-03-16T13:42:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:43:00-04:00",
+      "timestamp_utc": "2020-03-16T13:43:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "timestamp_et": "2020-03-16T09:44:00-04:00",
+      "timestamp_utc": "2020-03-16T13:44:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T12:57:00-04:00",
+      "timestamp_utc": "2020-03-18T16:57:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T12:58:00-04:00",
+      "timestamp_utc": "2020-03-18T16:58:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T12:59:00-04:00",
+      "timestamp_utc": "2020-03-18T16:59:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:00:00-04:00",
+      "timestamp_utc": "2020-03-18T17:00:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:01:00-04:00",
+      "timestamp_utc": "2020-03-18T17:01:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:02:00-04:00",
+      "timestamp_utc": "2020-03-18T17:02:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:03:00-04:00",
+      "timestamp_utc": "2020-03-18T17:03:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:04:00-04:00",
+      "timestamp_utc": "2020-03-18T17:04:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:05:00-04:00",
+      "timestamp_utc": "2020-03-18T17:05:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:06:00-04:00",
+      "timestamp_utc": "2020-03-18T17:06:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:07:00-04:00",
+      "timestamp_utc": "2020-03-18T17:07:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:08:00-04:00",
+      "timestamp_utc": "2020-03-18T17:08:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:09:00-04:00",
+      "timestamp_utc": "2020-03-18T17:09:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "timestamp_et": "2020-03-18T13:10:00-04:00",
+      "timestamp_utc": "2020-03-18T17:10:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "timestamp_et": "2021-05-05T11:27:00-04:00",
+      "timestamp_utc": "2021-05-05T15:27:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "timestamp_et": "2021-05-05T11:28:00-04:00",
+      "timestamp_utc": "2021-05-05T15:28:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "timestamp_et": "2021-05-05T11:29:00-04:00",
+      "timestamp_utc": "2021-05-05T15:29:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "timestamp_et": "2021-05-05T11:30:00-04:00",
+      "timestamp_utc": "2021-05-05T15:30:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "timestamp_et": "2021-05-05T11:31:00-04:00",
+      "timestamp_utc": "2021-05-05T15:31:00+00:00",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "timestamp_et": "2023-06-05T09:52:00-04:00",
+      "timestamp_utc": "2023-06-05T13:52:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "timestamp_et": "2023-06-05T09:53:00-04:00",
+      "timestamp_utc": "2023-06-05T13:53:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "timestamp_et": "2023-06-05T09:54:00-04:00",
+      "timestamp_utc": "2023-06-05T13:54:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "timestamp_et": "2023-06-05T09:55:00-04:00",
+      "timestamp_utc": "2023-06-05T13:55:00+00:00",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    }
+  ],
+  "totals": {
+    "expected_regular_minutes": 1049610,
+    "observed_regular_minutes": 1049545,
+    "missing_minutes": 65,
+    "remaining_clusters": 6,
+    "remaining_dates": 6,
+    "full_session_complete": 2674,
+    "required_91_complete": 2676,
+    "opening_30_complete": 2676,
+    "anchors_1529_valid": 2680,
+    "anchors_1559_valid": 2680,
+    "prior_anchor_valid": 2679,
+    "primary_eligible_full_days": 2675,
+    "recovered_primary_days": [
+      "2019-08-12",
+      "2019-08-13"
+    ],
+    "early_close_excluded": 21,
+    "initial_prior_close_excluded": "2016-01-04",
+    "train_eligible": 1495,
+    "validation_eligible": 497,
+    "sealed_test_eligible": 683
+  },
+  "candidate_rows": 43,
+  "accepted_rows": 39,
+  "rejected_rows": 4,
+  "unavailable_rows": 61,
+  "revision": "ae15a75b073e7f6be4ef6563dcb94e98d6add0f4",
+  "license": "Repository-declared MIT for private research; upstream redistribution rights not independently established; no price publication",
+  "source_clock": "Empirically ET bar starts for accepted pitrading rows, tested EST and EDT; vendor card UTC claim is not accepted",
+  "adjustment": "Locally estimated multiplicative factors from20 genuinely overlapping pre-gap closes per accepted date; no volume scaling; no claimed known split/dividend factor",
+  "terminal_review": {
+    "date": "2019-08-12",
+    "one_sided": true,
+    "pre_overlap": "15:09\u201315:28 ET",
+    "separated_overlap": "14:35\u201314:54 ET",
+    "only_later_original_minute": "15:31 ET",
+    "max_close_discrepancy_bp": 5.652459437932578,
+    "max_high_discrepancy_bp": 6.026395648495164,
+    "mixed_1531_1532_boundary_log_bp": 4.208693500078056,
+    "hf_only_boundary_log_bp": -1.4421690247096535,
+    "decision": "Accept with one-sided uncertainty flag: p95 screens pass; source closing rows internally valid with positive volume and nonconstant observed prices; boundary discrepancy retained transparently, original15:31 never replaced"
+  },
+  "trade_count_vwap": "Null in HF repair rows; no fabricated Alpaca fields. Primary RV/return inputs require OHLC; source trade-count diagnostics must retain missing provenance",
+  "scientific_work": "None; no model, outcome correlation, test returns, or state-cutoff fitting",
+  "scripts": [
+    {
+      "path": "scripts/d2_1b_hf_extract.py",
+      "sha256": "ff695366cf49d5611f1a3ccb655e74b0c4cc26417962c32f89c2ad24addb0356"
+    },
+    {
+      "path": "scripts/d2_1b_alpaca_neighbors.py",
+      "sha256": "26662ae2cc2bed55b4c70510a87b908095902b729e1f1af97be27db521a75ee6"
+    },
+    {
+      "path": "scripts/d2_1b_hf_compare.py",
+      "sha256": "ec0cf47e4bffb803edcfcd85786e063bdc026be0d770474aa49e3f4586776ffb"
+    },
+    {
+      "path": "scripts/d2_1b_hf_overlay.py",
+      "sha256": "08da8159cb707372795c07367ce3a4995ba61c885128a78d407ca689c626abe4"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/repair.py",
+      "sha256": "81c5be321001b0f91dd9f4cb9b913e4ca3c11b22eef7455f83259a1ad98cad17"
+    }
+  ],
+  "config_sha256": "584e15f525661899da0158968383f84a690495d4376dae5b2556e8548091e5c4",
+  "qa": {
+    "default_rows": 243804,
+    "composite_rows": 243843,
+    "repaired_rows": 39,
+    "loader_twice_equal": true,
+    "original_registered_files_unchanged": 32,
+    "test_rows_unchanged": true,
+    "mechanical_required_window_recheck": true,
+    "opening_30_complete": 2676,
+    "required_91_complete": 2676,
+    "primary_eligible_full_days": 2675,
+    "all_original_columns_unchanged_in_composite": true,
+    "all_15_preexisting_untracked_files_unchanged": true,
+    "real_loader_check_wall_seconds": 7.61454166698968
+  },
+  "resources": {
+    "new_hf_http_body_bytes": 26001770,
+    "new_alpaca_success_body_bytes": 8421,
+    "prior_D2_1_http_body_bytes": 1707719,
+    "cumulative_body_bytes": 27717910,
+    "approved_cap_bytes": 500000000,
+    "temporary_logical_peak_bytes": 49735075,
+    "temporary_allocated_peak_bytes": 31485952,
+    "temporary_source_file_deleted": true,
+    "hf_purposeful_wall_seconds": 4.892271374992561,
+    "hf_cpu_seconds": 0.39737500000000003,
+    "alpaca_successful_invocation_wall_seconds": 2.083901749982033,
+    "alpaca_initial_failed_invocation_wall_seconds": 0.6424092079978436,
+    "requests_hf": 9,
+    "requests_alpaca_including_failed_header_call": 4,
+    "wire_bytes": "Unmeasured TLS/headers/redirect/error-body overhead; figures are measured successful bodies read"
+  },
+  "evidence": [
+    {
+      "path": "data/registry/D2_1b_alpaca_neighbors.json",
+      "bytes": 3068,
+      "sha256": "fbdefb5e43185c97a357babf0779a48643bcbe54269635210d3f1b8821b2a538"
+    },
+    {
+      "path": "data/registry/D2_1b_alpaca_neighbors_failed_headers.json",
+      "bytes": 1067,
+      "sha256": "216c4085732c03cbae5a08185adb3836aa37d1b334a5cefd67f7af419f71c116"
+    },
+    {
+      "path": "data/registry/D2_1b_hf_cluster_decisions.json",
+      "bytes": 99312,
+      "sha256": "39cca5a9473a42e464b4ed83d0fbc85e61c90c6e4c14ed36f5156796baf2aefd"
+    },
+    {
+      "path": "data/registry/D2_1b_hf_comparisons.json",
+      "bytes": 98537,
+      "sha256": "211498c6b02cdace4a0a10cf01080b7e781e856edd905d56aada21f5ad08c80f"
+    },
+    {
+      "path": "data/registry/D2_1b_hf_extraction.json",
+      "bytes": 6647,
+      "sha256": "25c866ac33a1223e735e9dc060f1626278cf000d958f09483ec56cc59a2a7cef"
+    },
+    {
+      "path": "data/registry/D2_1b_hf_remaining_candles.csv",
+      "bytes": 7377,
+      "sha256": "3558c18466b756ff3cdabb9bceea3ba2b7de996c7579a6b2125dc455ee55a7b8"
+    },
+    {
+      "path": "data/registry/D2_1b_hf_repair_decisions.csv",
+      "bytes": 15756,
+      "sha256": "0b85cc7069f9b028e6f7ee1f47fa9a68ecd4871497f23a52143f6149afb67c1b"
+    },
+    {
+      "path": "data/registry/D2_1b_start_state.json",
+      "bytes": 2490,
+      "sha256": "6617a958646c938c11a6e749ff2ed3046dc6ce5a2516220c84904f18c562c05f"
+    }
+  ],
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "exchange-calendars": "4.13.2"
+  },
+  "loader_post_publish_maintenance": {
+    "at_utc": "2026-10-16T18:57:29.640940+00:00",
+    "file": "src/ebm_research/experiment_b/repair.py",
+    "sha256": "4c259c75c8b16c191bba89d8a4fe62436e080fbd1e1bf84f9894576fb0b5da58",
+    "reason": "Also validate original missing-key CSV against frozen D2 published-file hash before opt-in union; patch and source prices unchanged"
+  },
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests -p test_d*_*.py -v",
+    "passed": 7,
+    "failed": 0,
+    "first_run_seconds": 1.99
+  },
+  "source_granularity_qualification": "Observed positive-volume historical OHLCV from declared pitrading origin with close/range/return/volume overlap compatibility; not independent tick verification, verified upstream redistribution rights, or exact consolidated SIP source fidelity",
+  "patch_schema": "symbol: large_string\ntimestamp_utc: timestamp[us, tz=UTC]\nsession_et: date32[day]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\ntrade_count: double\nvwap: double\nsource_batch: large_string\nrole: large_string\nsource_provider: large_string\nsource_origin: large_string\nis_repaired: bool\nrepair_id: large_string\nsource_revision: large_string\nsource_uri: large_string\nsource_row_group: int64\nsource_hash: large_string\nsource_hash_kind: large_string\nsource_range_manifest_sha256: large_string\nsource_adjustment: large_string\nadjustment_method: large_string\nadjustment_factor: double\ncalibration_rows: int64\nscale_ratio_variance: double\ntimestamp_method: large_string\nvalidation_status: large_string\none_sided_terminal_gap: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 3785",
+  "patch_columns": 30,
+  "operational_id_alignment": {
+    "at_utc": "2026-10-16T19:01:45.755503+00:00",
+    "previous_config_sha256": "584e15f525661899da0158968383f84a690495d4376dae5b2556e8548091e5c4",
+    "current_config_sha256": "b0052ddbeaaff5d40621391ce583fbad4262c56fa8be482ccc4e36f573b3ad88",
+    "previous_inherited_unused_repair_id": "B_spy_hf_repair_D2_1_v1",
+    "current_repair_id": "B_spy_hf_repair_D2_1b_v1",
+    "current_overlay_script_sha256": "b78a195abfc5b16bb9e5297b2d62b2c84139684456b4e1bd8f6f575928179531",
+    "reason": "Use the actual already-published versioned repair ID in config and read it from config instead of duplicating the string; no dates, thresholds, accepted rows or physical source/patch files changed. Original execution hashes remain above."
+  }
+}

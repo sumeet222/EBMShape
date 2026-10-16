@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-10-16T18:37:33.872763+00:00",
+  "branch": "main",
+  "commit": "cbe397abaa425a94cdacb9384cec80b8378ac684",
+  "preexisting_untracked": [
+    {
+      "path": "config/D2_1_hf_repair.json",
+      "sha256": "ace8756a44c2de2293831776207af94d1bff4de3ae6d2f682cfebd7b7fe55a6b"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_1.json",
+      "sha256": "a807d713fe5aa723ce520f770f6817d12966d1144c2deae800f4f297a7f198e9"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_2.json",
+      "sha256": "f309eb036ac7485de9d987a2f64468e6e82fdf3a675a5e196411cef0038e295d"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_2_instrument.json",
+      "sha256": "c7a9b97cf899b54f77e9143b160566f513ffe09fec20d9264d79d769630b0122"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_3.json",
+      "sha256": "ac892b44e9a807bd4797e19ed282a07c2a2adb53cb53697e41259216057be64a"
+    },
+    {
+      "path": "data/registry/D2_1_hf_instrument_stats.json",
+      "sha256": "7173e2b75f5880df20c2eba2130ec7f1725dc31fb90e4e9f747b70f4df2b4a15"
+    },
+    {
+      "path": "data/registry/D2_1_hf_repair_comparisons.csv",
+      "sha256": "64e9f6568d95f3323f98389a6c733ee5450918bb017b1624a774392d2054ed93"
+    },
+    {
+      "path": "data/registry/D2_1_hf_repair_decisions.csv",
+      "sha256": "db40184d9c3f8d5c40dcecf0bb4cee1c6a6b51915d342950b537f8264a13dada"
+    },
+    {
+      "path": "data/registry/D2_1_hf_repair_manifest.json",
+      "sha256": "59938688b2a17499526eed7789cf8458af6c034548acb5a52c719670871f408e"
+    },
+    {
+      "path": "data/registry/D2_1_hf_sandbox_failure.json",
+      "sha256": "c131947c20cc395b509fbed45c314581aba7dec8131fe6db539d8894fe587fd5"
+    },
+    {
+      "path": "reports/sessions/20261016_1424_B_D2_1_hf_repair.md",
+      "sha256": "af7f58cda938fccd4bf7e59071f815c432708d79d811f6437f44e0884e4cb0d9"
+    },
+    {
+      "path": "reports/shared/D2_1_huggingface_missing_candle_repair.md",
+      "sha256": "6f7b8b517094811f180f1be7d4ee203a0f91ee95697badaf45f196aba88acde0"
+    },
+    {
+      "path": "scripts/d2_1_hf_audit.py",
+      "sha256": "ccb9b0059f010f4102de944de15c696d4ae5fc402bccdf1753a0a0225a552286"
+    },
+    {
+      "path": "scripts/d2_1_hf_inspect.py",
+      "sha256": "ddc96f46755758ef0a11ab3c7549561c37d9717156fce9aae0d21b3261c0b25f"
+    },
+    {
+      "path": "tests/test_d2_1_hf_repair.py",
+      "sha256": "4ae136fe7b43afbc318a8ad7e7c4c1e35703ba96f42e48d5c6c9a38048e791c7"
+    }
+  ],
+  "free_disk_bytes": 63897600000
+}

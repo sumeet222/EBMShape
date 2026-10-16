@@ -1,0 +1,348 @@
+{
+  "at_utc": "2026-10-16T19:17:39.065552+00:00",
+  "repository": "mito0o852/OHLCV-1m",
+  "revision": "776328445b7ac6e7815ef3a483e9c8ded1eb6d56",
+  "month": "2019-08",
+  "uri": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+  "script_sha256": "35bc0938a2b18fb2e9f6e668f75e80f6523a8b3a4f8c718bbb759c0f2185c055",
+  "config_sha256": "3a5c67e18b40cd40c94b9b9be58e9c37690d4ab64dc8f2e216beed31e3376ce8",
+  "previous_repair_body_bytes": 388180114,
+  "license": "Undeclared; explicit private source1 inspection only, no publication or source-fidelity claim",
+  "remote_file_bytes": 290814381,
+  "footer_sha256": "87b3698fc731c297b04dad708bd8e94b2083015d49fbcd60d6c214dc26e856b4",
+  "row_groups": 23,
+  "temporary_path": "cache/D2_1c_range_jlvy2p65/ohlcv_2019-08_sparse.parquet",
+  "SPY_row_groups": [
+    {
+      "row_group": 18,
+      "SPY_rows": 17839
+    }
+  ],
+  "projected_additional_price_bytes": 12843944,
+  "status": "EXTRACTED",
+  "temporary_logical_bytes": 290814381,
+  "temporary_allocated_bytes": 13385728,
+  "extract": {
+    "path": "raw/diagnostics/D2_1c_source1_2019-08_SPY_context.parquet",
+    "rows": 82,
+    "bytes": 7019,
+    "sha256": "12da227469049d9f6531e42336e1daa87caa53ba567544e6b425a4990bea3a6c"
+  },
+  "requests": [
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=-8",
+      "bytes": 8,
+      "status": 206,
+      "content_length": "8",
+      "content_range": "bytes 290814373-290814380/290814381",
+      "sha256": "a1ff6828ef31eea21d0e8370a0b4a51a4cac9064bda7b53cfd187355efee3325",
+      "wall_seconds": 1.4993
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=290794032-290814372",
+      "bytes": 20341,
+      "status": 206,
+      "content_length": "20341",
+      "content_range": "bytes 290794032-290814372/290814381",
+      "sha256": "87b3698fc731c297b04dad708bd8e94b2083015d49fbcd60d6c214dc26e856b4",
+      "wall_seconds": 0.2882
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=12557832-12562105",
+      "bytes": 4274,
+      "status": 206,
+      "content_length": "4274",
+      "content_range": "bytes 12557832-12562105/290814381",
+      "sha256": "8301dde9c6696bcc8f8c6eacb841939b48166d161e2f4585c00242448479c2fc",
+      "wall_seconds": 0.4425
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=25400412-25404351",
+      "bytes": 3940,
+      "status": 206,
+      "content_length": "3940",
+      "content_range": "bytes 25400412-25404351/290814381",
+      "sha256": "e18f3c01d18f7ea869278c3fff07b61c3e21f93a1666ee9680453101b493fa0f",
+      "wall_seconds": 0.3437
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=38338529-38342279",
+      "bytes": 3751,
+      "status": 206,
+      "content_length": "3751",
+      "content_range": "bytes 38338529-38342279/290814381",
+      "sha256": "762bd53f2b091c3bc5f6e3bcb0d7bd1027eaff8ae478187e78b39a759f7a6811",
+      "wall_seconds": 0.3763
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=51203798-51208142",
+      "bytes": 4345,
+      "status": 206,
+      "content_length": "4345",
+      "content_range": "bytes 51203798-51208142/290814381",
+      "sha256": "dbf78a8da04f94e73bb921628866fb35a000de8093c2157edb4a7e89d58be638",
+      "wall_seconds": 0.2992
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=63785224-63789121",
+      "bytes": 3898,
+      "status": 206,
+      "content_length": "3898",
+      "content_range": "bytes 63785224-63789121/290814381",
+      "sha256": "f3f722eac848aabe7a1cb5ee26d3c3749e50c92268b373e296f5c42875eb28ef",
+      "wall_seconds": 0.7031
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=76609083-76613358",
+      "bytes": 4276,
+      "status": 206,
+      "content_length": "4276",
+      "content_range": "bytes 76609083-76613358/290814381",
+      "sha256": "11615f0cb45ff1d02408621587f145f068ecf7b8b1df448f3769f42b09e75166",
+      "wall_seconds": 0.4316
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=89145287-89149268",
+      "bytes": 3982,
+      "status": 206,
+      "content_length": "3982",
+      "content_range": "bytes 89145287-89149268/290814381",
+      "sha256": "7276d61fcaf5e140f2b6f53b01861232a8c5bc754ecc947881fa34da100b0bc6",
+      "wall_seconds": 0.3649
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=101810647-101814708",
+      "bytes": 4062,
+      "status": 206,
+      "content_length": "4062",
+      "content_range": "bytes 101810647-101814708/290814381",
+      "sha256": "d5a08800ec72d26cb428e9e3c30548de7f26313b4584ac1587d2e912fb4f3de7",
+      "wall_seconds": 0.4873
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=114554716-114558801",
+      "bytes": 4086,
+      "status": 206,
+      "content_length": "4086",
+      "content_range": "bytes 114554716-114558801/290814381",
+      "sha256": "3a3e6f00bc891fc25963c722333aa72b05d82f39abdc36307bec3530538223ae",
+      "wall_seconds": 0.3731
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=127033184-127037449",
+      "bytes": 4266,
+      "status": 206,
+      "content_length": "4266",
+      "content_range": "bytes 127033184-127037449/290814381",
+      "sha256": "3a21bb65de54bc7833eb396f45629444f3d83cfbbe0c70c1a3c5e7c59c1ecf1e",
+      "wall_seconds": 0.317
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=139938287-139942215",
+      "bytes": 3929,
+      "status": 206,
+      "content_length": "3929",
+      "content_range": "bytes 139938287-139942215/290814381",
+      "sha256": "7336aebd6fd57b70ef9ebc1f0054b924bb835fadd57dfa0049917bc74cc56586",
+      "wall_seconds": 0.4323
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=152810280-152814393",
+      "bytes": 4114,
+      "status": 206,
+      "content_length": "4114",
+      "content_range": "bytes 152810280-152814393/290814381",
+      "sha256": "f85a3813793941c8bccf7eb4a9d97f450449ba550e8c8f4d15856fef194ffc76",
+      "wall_seconds": 0.3086
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=165399127-165402899",
+      "bytes": 3773,
+      "status": 206,
+      "content_length": "3773",
+      "content_range": "bytes 165399127-165402899/290814381",
+      "sha256": "35c6fb12ddf3503ebb0a47807afa112fb4e50a75194f54a89a1d4dd1b7620695",
+      "wall_seconds": 0.4413
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=178222632-178226986",
+      "bytes": 4355,
+      "status": 206,
+      "content_length": "4355",
+      "content_range": "bytes 178222632-178226986/290814381",
+      "sha256": "87331c9867836e4cc4343c14ff63e76af8075dfbcff3b4950d0b269195905caa",
+      "wall_seconds": 0.1957
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=190904864-190909274",
+      "bytes": 4411,
+      "status": 206,
+      "content_length": "4411",
+      "content_range": "bytes 190904864-190909274/290814381",
+      "sha256": "e53cef1f961b5bb4a87bec4efd23055bb19a6fcee6ef968514af81976f7e9246",
+      "wall_seconds": 0.199
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=203643239-203646914",
+      "bytes": 3676,
+      "status": 206,
+      "content_length": "3676",
+      "content_range": "bytes 203643239-203646914/290814381",
+      "sha256": "cff2ab19f8c41150872bd40c739730c57db0aca08d14f6b8cea587d76c76b9ad",
+      "wall_seconds": 0.4607
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=216405732-216409909",
+      "bytes": 4178,
+      "status": 206,
+      "content_length": "4178",
+      "content_range": "bytes 216405732-216409909/290814381",
+      "sha256": "3cc88d23ede18b992a4e39abed447d9fefa3954b9937d06ea2f37b58729189fc",
+      "wall_seconds": 0.2659
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=229305954-229310058",
+      "bytes": 4105,
+      "status": 206,
+      "content_length": "4105",
+      "content_range": "bytes 229305954-229310058/290814381",
+      "sha256": "4962601400f7a3674ef91d747344fc6f38fe6acf00e5e76db442b332d06cb26c",
+      "wall_seconds": 0.3143
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=242154003-242157953",
+      "bytes": 3951,
+      "status": 206,
+      "content_length": "3951",
+      "content_range": "bytes 242154003-242157953/290814381",
+      "sha256": "bc02b45f1f3be4f42f5e8b9f970fc1eae766bd3d44dc6d92da49affce849f63a",
+      "wall_seconds": 0.2711
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=255030403-255034388",
+      "bytes": 3986,
+      "status": 206,
+      "content_length": "3986",
+      "content_range": "bytes 255030403-255034388/290814381",
+      "sha256": "5ddf295b4c88fd762880254b3d6bcdf1582cb50b4724ed74abaa125c24fbc3b0",
+      "wall_seconds": 0.2386
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=267688735-267692485",
+      "bytes": 3751,
+      "status": 206,
+      "content_length": "3751",
+      "content_range": "bytes 267688735-267692485/290814381",
+      "sha256": "357b28b9dc2f70789b7c749eb8e81fe3c2efebc19ccb8b969b31a211acf4d86e",
+      "wall_seconds": 0.2241
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=280056885-280060877",
+      "bytes": 3993,
+      "status": 206,
+      "content_length": "3993",
+      "content_range": "bytes 280056885-280060877/290814381",
+      "sha256": "da0952b6f98419d7091acc97ab1b9cd36ab052cc934cc8ae7c1f3ee30c5d4a9d",
+      "wall_seconds": 0.2941
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=290790755-290794031",
+      "bytes": 3277,
+      "status": 206,
+      "content_length": "3277",
+      "content_range": "bytes 290790755-290794031/290814381",
+      "sha256": "50ef25f020def7534ede0f9615d48fba9dd6751bde8fa47be760d7fadc33c727",
+      "wall_seconds": 0.6135
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=229310059-231417727",
+      "bytes": 2107669,
+      "status": 206,
+      "content_length": "2107669",
+      "content_range": "bytes 229310059-231417727/290814381",
+      "sha256": "2f87b93e73be104658e00f7b2c24cdc8f4943905da695a57443cda6b14bb1c4b",
+      "wall_seconds": 0.3282
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=231417728-233510213",
+      "bytes": 2092486,
+      "status": 206,
+      "content_length": "2092486",
+      "content_range": "bytes 231417728-233510213/290814381",
+      "sha256": "534a00c1f4608110d0727ee92881f8b74facc490e654580cf76d699ee64468e8",
+      "wall_seconds": 0.3792
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=233510214-235569941",
+      "bytes": 2059728,
+      "status": 206,
+      "content_length": "2059728",
+      "content_range": "bytes 233510214-235569941/290814381",
+      "sha256": "c712ff81e1ab87ff248f88b7600ad345fe5e89712220b83877cda7f4783aaad2",
+      "wall_seconds": 0.327
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=235569942-237651587",
+      "bytes": 2081646,
+      "status": 206,
+      "content_length": "2081646",
+      "content_range": "bytes 235569942-237651587/290814381",
+      "sha256": "da4e01c3f9d4694fbafad0310abbc3fa92e65741d81391f7837b3334ab49e2d8",
+      "wall_seconds": 0.402
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=237651588-239751853",
+      "bytes": 2100266,
+      "status": 206,
+      "content_length": "2100266",
+      "content_range": "bytes 237651588-239751853/290814381",
+      "sha256": "40b60579f9ad37295ad5483892fb81f1387adc4328a8d55a6f5ebeeba5a1f6af",
+      "wall_seconds": 0.3585
+    },
+    {
+      "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-08.parquet",
+      "range": "bytes=239751854-242154002",
+      "bytes": 2402149,
+      "status": 206,
+      "content_length": "2402149",
+      "content_range": "bytes 239751854-242154002/290814381",
+      "sha256": "6eee67b21bb3c2444071de501fe2ce49317b25f8f1fc37cdeba561a42bb0827c",
+      "wall_seconds": 0.3873
+    }
+  ],
+  "downloaded_body_bytes": 12956672,
+  "cumulative_repair_body_bytes": 401136786,
+  "temporary_deleted": true,
+  "wall_seconds": 13.276681833027396,
+  "cpu_seconds": 1.3588020000000003
+}

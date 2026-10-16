@@ -1,0 +1,42 @@
+{
+  "task_id": "B_D2_1B_BOUNDED_HF_DIAGNOSTIC",
+  "baseline_dataset_id": "B_alpaca_sip_SPY_1m_split_D2_v1",
+  "repair_id": "B_spy_hf_repair_D2_1b_v1",
+  "symbol": "SPY",
+  "months": [
+    "2023-06",
+    "2021-05",
+    "2020-03",
+    "2019-08",
+    "2016-02"
+  ],
+  "candidate_repositories": [
+    "mito0o852/OHLCV-1m",
+    "valtermedeiros/ohlcv",
+    "HaiwenWang/sp500-pit-benchmark"
+  ],
+  "minimum_neighboring_closes": 10,
+  "median_absolute_level_bp_max": 2,
+  "p95_absolute_level_bp_max": 5,
+  "p95_absolute_log_return_difference_bp_max": 8,
+  "price_adjustment": "None unless independently documented split or stable pre-gap/independent overlap calibration; never additive",
+  "licensing_gate": "Explicit legitimate access and sufficient source rights required before candle extraction or patch acceptance",
+  "timezone": "America/New_York",
+  "storage_timezone": "UTC",
+  "bar_label_required": "genuine one-minute bar start",
+  "sealed_test_patch_allowed": false,
+  "max_network_bytes": 500000000,
+  "max_temporary_disk_bytes": 150000000,
+  "max_acquisition_seconds": 900,
+  "max_metadata_response_bytes": 4000000,
+  "max_range_response_bytes": 8000000,
+  "baseline_immutable": true,
+  "prior_task_body_bytes": 1707719,
+  "authorization": "User authorizes up to500MB access and deletion of unnecessary task-created source files; scientific acceptance thresholds unchanged",
+  "candidate_repository": "valtermedeiros/ohlcv",
+  "revision": "ae15a75b073e7f6be4ef6563dcb94e98d6add0f4",
+  "remote_path": "1m/stocks/SPY.parquet",
+  "row_group": 1,
+  "retained_context_minutes": 20,
+  "private_diagnostic_license_basis": "Public repository declares MIT; diagnostic extraction only. Upstream lineage uncertainty remains explicit; no redistribution or automatic patch acceptance."
+}

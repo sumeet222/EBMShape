@@ -1,0 +1,191 @@
+{
+  "footer_inspection": {
+    "month": "instrument",
+    "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+    "remote_bytes": 49735075,
+    "footer_bytes": 6464,
+    "footer_sha256": "819cd12ec33c5134bd357ebe24d7acd09becbd57bda95875b6a6d4df95ca5ca4",
+    "rows": 2248701,
+    "schema": "<pyarrow._parquet.ParquetSchema object at 0x11073bc00>\nrequired group field_id=-1 schema {\n  optional int64 field_id=-1 datetime (Timestamp(isAdjustedToUTC=false, timeUnit=nanoseconds, is_from_converted_type=false, force_set_converted_type=false));\n  optional double field_id=-1 Open;\n  optional double field_id=-1 High;\n  optional double field_id=-1 Low;\n  optional double field_id=-1 Close;\n  optional int64 field_id=-1 Volume;\n  optional binary field_id=-1 source (String);\n}\n",
+    "row_groups": [
+      {
+        "row_group": 0,
+        "rows": 1048576,
+        "could_contain_SPY": true,
+        "columns": [
+          {
+            "name": "datetime",
+            "compressed_bytes": 7650061,
+            "statistics_present": true,
+            "min": "2002-12-30 09:30:00",
+            "max": "2014-01-29 09:39:00",
+            "null_count": 0
+          },
+          {
+            "name": "Open",
+            "compressed_bytes": 1676316,
+            "statistics_present": true
+          },
+          {
+            "name": "High",
+            "compressed_bytes": 1656260,
+            "statistics_present": true
+          },
+          {
+            "name": "Low",
+            "compressed_bytes": 1658957,
+            "statistics_present": true
+          },
+          {
+            "name": "Close",
+            "compressed_bytes": 1671653,
+            "statistics_present": true
+          },
+          {
+            "name": "Volume",
+            "compressed_bytes": 3957709,
+            "statistics_present": true
+          },
+          {
+            "name": "source",
+            "compressed_bytes": 3315,
+            "statistics_present": true,
+            "min": "pitrading",
+            "max": "pitrading",
+            "null_count": 0
+          }
+        ]
+      },
+      {
+        "row_group": 1,
+        "rows": 1048576,
+        "could_contain_SPY": true,
+        "columns": [
+          {
+            "name": "datetime",
+            "compressed_bytes": 7649833,
+            "statistics_present": true,
+            "min": "2014-01-29 09:40:00",
+            "max": "2025-02-06 13:54:00",
+            "null_count": 0
+          },
+          {
+            "name": "Open",
+            "compressed_bytes": 3373855,
+            "statistics_present": true
+          },
+          {
+            "name": "High",
+            "compressed_bytes": 3373354,
+            "statistics_present": true
+          },
+          {
+            "name": "Low",
+            "compressed_bytes": 3348201,
+            "statistics_present": true
+          },
+          {
+            "name": "Close",
+            "compressed_bytes": 3358512,
+            "statistics_present": true
+          },
+          {
+            "name": "Volume",
+            "compressed_bytes": 4888391,
+            "statistics_present": true
+          },
+          {
+            "name": "source",
+            "compressed_bytes": 3152,
+            "statistics_present": true,
+            "min": "iex",
+            "max": "pitrading",
+            "null_count": 0
+          }
+        ]
+      },
+      {
+        "row_group": 2,
+        "rows": 151549,
+        "could_contain_SPY": true,
+        "columns": [
+          {
+            "name": "datetime",
+            "compressed_bytes": 1337236,
+            "statistics_present": true,
+            "min": "2025-02-06 13:55:00",
+            "max": "2026-09-11 15:54:00",
+            "null_count": 0
+          },
+          {
+            "name": "Open",
+            "compressed_bytes": 953501,
+            "statistics_present": true
+          },
+          {
+            "name": "High",
+            "compressed_bytes": 944009,
+            "statistics_present": true
+          },
+          {
+            "name": "Low",
+            "compressed_bytes": 945914,
+            "statistics_present": true
+          },
+          {
+            "name": "Close",
+            "compressed_bytes": 951027,
+            "statistics_present": true
+          },
+          {
+            "name": "Volume",
+            "compressed_bytes": 326920,
+            "statistics_present": true
+          },
+          {
+            "name": "source",
+            "compressed_bytes": 423,
+            "statistics_present": true,
+            "min": "iex",
+            "max": "iex",
+            "null_count": 0
+          }
+        ]
+      }
+    ],
+    "candidate_row_groups": [
+      0,
+      1,
+      2
+    ],
+    "estimated_compressed_all_columns_candidate_bytes": 49728599,
+    "candle_rows_transferred": 0
+  },
+  "requests": [
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=-8",
+      "bytes": 8,
+      "status": 206,
+      "content_length": "8",
+      "content_range": "bytes 49735067-49735074/49735075",
+      "sha256": "edca5b131c792dec2a6938962a3e3970bc84cfc7038cf7d5f4365231fecf3a73",
+      "wall_seconds": 0.5506
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=49728603-49735066",
+      "bytes": 6464,
+      "status": 206,
+      "content_length": "6464",
+      "content_range": "bytes 49728603-49735066/49735075",
+      "sha256": "819cd12ec33c5134bd357ebe24d7acd09becbd57bda95875b6a6d4df95ca5ca4",
+      "wall_seconds": 0.3586
+    }
+  ],
+  "downloaded_body_bytes": 6472,
+  "wall_seconds": 0.9313662089989521,
+  "cpu_seconds": 0.0451140000000001,
+  "script_sha256": "7a3f40d88101c96de8f0639ecbe7d9afdaba79cbceeac2dc7add42f45a0437ce",
+  "temporary_disk_bytes": 0
+}

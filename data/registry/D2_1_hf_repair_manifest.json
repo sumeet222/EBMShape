@@ -1,0 +1,549 @@
+{
+  "task_id": "B_D2_1_HF_REPAIR",
+  "verdict": "NO FEASIBLE SOURCE",
+  "implementation_qa": "PASS WITH QUALIFICATIONS",
+  "observed_at_utc": "2026-10-16T18:30:24.921097+00:00",
+  "data_root": "EBM_DATA_ROOT when set, otherwise repository data/",
+  "using_default_data_root": true,
+  "baseline_manifest": {
+    "path": "registry/D2_spy_source_manifest.json",
+    "sha256": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae"
+  },
+  "baseline_files_unchanged": [
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "registry/D2_blocks/2016.json",
+      "bytes": 666350,
+      "sha256": "2c593de301f7808bac2a2ed0f05ce3bc1e9844a29bc7b3dd01e00eaf73098628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "registry/D2_blocks/2017.json",
+      "bytes": 661127,
+      "sha256": "da6573e788489398886a215a7bbbbdf272b960358d1dd0af94ed71e2304e1b58"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "registry/D2_blocks/2018.json",
+      "bytes": 661149,
+      "sha256": "992869b4e76d73854bdff7659e63adfa73e9d8e4e188563f030623434a79a4de"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "registry/D2_blocks/2019.json",
+      "bytes": 672158,
+      "sha256": "573e3b6cf585d9ddae21d277b6aeb3ab2e1ee422302df4da643d521485169a2c"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "registry/D2_blocks/2020.json",
+      "bytes": 681937,
+      "sha256": "a671a9c952fd06c31f911b42436a0eb32e844391b21631c60e829d69f74af912"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    },
+    {
+      "path": "registry/D2_blocks/2021.json",
+      "bytes": 665349,
+      "sha256": "b0e299def2dd4fa48afbdc691ac082b420815e0579191447ef3975612a3e4ac9"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "bytes": 869271,
+      "sha256": "d57c36d075dbad05994283d83cd4a54b6ffc6ca8cdd4db7e53f15bb9f7161d0e"
+    },
+    {
+      "path": "registry/D2_blocks/2022.json",
+      "bytes": 661106,
+      "sha256": "d59d0c02528439fb618a1090540c332e23f612feb9407304c26795b6f0db9bb7"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "bytes": 849491,
+      "sha256": "a109bcd04430e0b2ccc9cf351f0acb9ec510aaa797efd2c76844e5ca34e2d8e3"
+    },
+    {
+      "path": "registry/D2_blocks/2023.json",
+      "bytes": 659944,
+      "sha256": "d4cedcd3aa3787702d1d451d031aba54f60d0a3895f75dd58534a0889783731e"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "bytes": 865357,
+      "sha256": "9f6fdeaa057251ee6cfa106baafca09a8476decac31f16e183fcd7ac61e857bd"
+    },
+    {
+      "path": "registry/D2_blocks/2024.json",
+      "bytes": 663767,
+      "sha256": "9798099a54b5932fecfe6d44e8ad77da5313fda4eadacf08b95cfe116d82e989"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "bytes": 871110,
+      "sha256": "c4fb5b516ae19610fd53a6851709cf4b20f7b137f0ff572610ffdebef7c224e6"
+    },
+    {
+      "path": "registry/D2_blocks/2025.json",
+      "bytes": 658533,
+      "sha256": "8cddce286e4ce7c69ebe1ba3d7bf3d47f1bffa861beeca10962a0f5f02910e3b"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+      "bytes": 653037,
+      "sha256": "95e458decd2e31070a4ce5d89fbe73f467d7d054559e2e970f32a412ebca55fd"
+    },
+    {
+      "path": "registry/D2_blocks/2026.json",
+      "bytes": 492582,
+      "sha256": "61a49cee6b3a455d1331781c38cac335f508eb830cb3a06e0724f142e8ba8f49"
+    },
+    {
+      "path": "registry/D2_spy_candle_gap_clusters.csv",
+      "bytes": 1611,
+      "sha256": "f44384c02608ab3378c0c0479fcce7b46cbd5a3cff1cdbb7225eb01c2e97f7be"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_sessions.csv",
+      "bytes": 1056070,
+      "sha256": "499cf960c8d4a94b62e0cf8fb11869f4a60bbddfd5d36f0b7fe92f9a63ded337"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_summary.json",
+      "bytes": 149231,
+      "sha256": "35d1acb238ee6daeadd433ced284e211017922c3f650ecd6cd47a4b2feffcb2a"
+    },
+    {
+      "path": "registry/D2_spy_coverage_month.csv",
+      "bytes": 5389,
+      "sha256": "a0625db3d0c848dafdfeb0bf242e9e63afe95ac2af3b1b14e5487a6ea4b1616e"
+    },
+    {
+      "path": "registry/D2_spy_coverage_quarter.csv",
+      "bytes": 2082,
+      "sha256": "ae8718ab01710c104a62fa673e20379f78269202e8e8d8ef18f48b169731ab1d"
+    },
+    {
+      "path": "registry/D2_spy_coverage_year.csv",
+      "bytes": 706,
+      "sha256": "47b749795c8210c782a7340596e200c28aa687edc7735c8ac886c5726c6d2ecd"
+    },
+    {
+      "path": "registry/D2_spy_exception_log.json",
+      "bytes": 706,
+      "sha256": "b278c637e26a8d0e41da33ce99654357e566aad3e73113c4645d43d64f04a165"
+    },
+    {
+      "path": "registry/D2_spy_invalid_candles.csv",
+      "bytes": 32,
+      "sha256": "7aaa72378824dcf99f731fddd9836cbd72104bed25729bfbfbd71c216ba9d117"
+    },
+    {
+      "path": "registry/D2_spy_missing_candles.csv",
+      "bytes": 11854,
+      "sha256": "ffb61747d338692fbbd77c8ac047c9d4280167ff4942d54c32c6d3daad578e2a"
+    },
+    {
+      "path": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D2_v1/requests.json",
+      "bytes": 162322,
+      "sha256": "8f3b27e495cc8222a8ec4908f0ed5c3693d1cc15d0ab46f6b6506e55e6b53d63"
+    }
+  ],
+  "baseline_identity": {
+    "config_sha256": "848a8068ea146a4c45edd92e15e3aa57ff7df736815463145015dff6edc14c0c",
+    "dataset_id": "B_alpaca_sip_SPY_1m_split_D2_v1",
+    "scientific_spec_sha256": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc"
+  },
+  "baseline_totals": {
+    "expected_regular_minutes": 1049610,
+    "observed_regular_minutes": 1049506,
+    "missing_minutes": 104,
+    "gap_clusters": 9,
+    "affected_dates": 8,
+    "full_sessions": 2680,
+    "early_close_excluded": 21,
+    "full_session_complete": 2672,
+    "required_91_window_complete": 2675,
+    "opening_30_complete": 2676,
+    "anchor_1529_valid": 2679,
+    "anchor_1559_valid": 2679,
+    "prior_full_anchor_valid": 2678,
+    "primary_eligible_full_days": 2673,
+    "splits": {
+      "train": {
+        "full_days": 1499,
+        "eligible_full_days": 1493,
+        "ineligible_full_days": 6,
+        "opening_rv_loss_full_days": 3,
+        "otherwise_eligible_denominator": 1496,
+        "opening_rv_loss_otherwise": 3,
+        "opening_rv_loss_fraction_otherwise": 0.002005347593582888
+      },
+      "validation": {
+        "full_days": 498,
+        "eligible_full_days": 497,
+        "ineligible_full_days": 1,
+        "opening_rv_loss_full_days": 1,
+        "otherwise_eligible_denominator": 498,
+        "opening_rv_loss_otherwise": 1,
+        "opening_rv_loss_fraction_otherwise": 0.002008032128514056
+      },
+      "sealed_test": {
+        "full_days": 683,
+        "eligible_full_days": 683,
+        "ineligible_full_days": 0,
+        "opening_rv_loss_full_days": 0,
+        "otherwise_eligible_denominator": 683,
+        "opening_rv_loss_otherwise": 0,
+        "opening_rv_loss_fraction_otherwise": 0.0
+      }
+    },
+    "canonical_rows": 243804,
+    "required_missing_minutes": 76
+  },
+  "empty_overlay_totals": {
+    "expected_regular_minutes": 1049610,
+    "observed_regular_minutes": 1049506,
+    "missing_minutes": 104,
+    "gap_clusters": 9,
+    "affected_dates": 8,
+    "full_sessions": 2680,
+    "early_close_excluded": 21,
+    "full_session_complete": 2672,
+    "required_91_window_complete": 2675,
+    "opening_30_complete": 2676,
+    "anchor_1529_valid": 2679,
+    "anchor_1559_valid": 2679,
+    "prior_full_anchor_valid": 2678,
+    "primary_eligible_full_days": 2673,
+    "splits": {
+      "train": {
+        "full_days": 1499,
+        "eligible_full_days": 1493,
+        "ineligible_full_days": 6,
+        "opening_rv_loss_full_days": 3,
+        "otherwise_eligible_denominator": 1496,
+        "opening_rv_loss_otherwise": 3,
+        "opening_rv_loss_fraction_otherwise": 0.002005347593582888
+      },
+      "validation": {
+        "full_days": 498,
+        "eligible_full_days": 497,
+        "ineligible_full_days": 1,
+        "opening_rv_loss_full_days": 1,
+        "otherwise_eligible_denominator": 498,
+        "opening_rv_loss_otherwise": 1,
+        "opening_rv_loss_fraction_otherwise": 0.002008032128514056
+      },
+      "sealed_test": {
+        "full_days": 683,
+        "eligible_full_days": 683,
+        "ineligible_full_days": 0,
+        "opening_rv_loss_full_days": 0,
+        "otherwise_eligible_denominator": 683,
+        "opening_rv_loss_otherwise": 0,
+        "opening_rv_loss_fraction_otherwise": 0.0
+      }
+    },
+    "canonical_rows": 243804,
+    "required_missing_minutes": 76
+  },
+  "restored_minutes": 0,
+  "days_recovered": 0,
+  "patch": null,
+  "patch_sha256": null,
+  "composite_dataset_materialized": false,
+  "remaining_clusters": [
+    {
+      "session_et": "2016-02-02",
+      "start_et": "2016-02-02T11:19:00-05:00",
+      "end_et": "2016-02-02T11:27:00-05:00",
+      "start_utc": "2016-02-02T16:19:00+00:00",
+      "end_utc": "2016-02-02T16:27:00+00:00",
+      "length": "9",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:29:00-04:00",
+      "end_et": "2019-08-12T15:30:00-04:00",
+      "start_utc": "2019-08-12T19:29:00+00:00",
+      "end_utc": "2019-08-12T19:30:00+00:00",
+      "length": "2",
+      "affected_windows": "anchor;final_target;late_predictor",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:32:00-04:00",
+      "end_et": "2019-08-12T15:59:00-04:00",
+      "start_utc": "2019-08-12T19:32:00+00:00",
+      "end_utc": "2019-08-12T19:59:00+00:00",
+      "length": "28",
+      "affected_windows": "anchor;final_target",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "start_et": "2020-03-09T09:35:00-04:00",
+      "end_et": "2020-03-09T09:48:00-04:00",
+      "start_utc": "2020-03-09T13:35:00+00:00",
+      "end_utc": "2020-03-09T13:48:00+00:00",
+      "length": "14",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "start_et": "2020-03-12T09:36:00-04:00",
+      "end_et": "2020-03-12T09:49:00-04:00",
+      "start_utc": "2020-03-12T13:36:00+00:00",
+      "end_utc": "2020-03-12T13:49:00+00:00",
+      "length": "14",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "start_et": "2020-03-16T09:31:00-04:00",
+      "end_et": "2020-03-16T09:44:00-04:00",
+      "start_utc": "2020-03-16T13:31:00+00:00",
+      "end_utc": "2020-03-16T13:44:00+00:00",
+      "length": "14",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "start_et": "2020-03-18T12:57:00-04:00",
+      "end_et": "2020-03-18T13:10:00-04:00",
+      "start_utc": "2020-03-18T16:57:00+00:00",
+      "end_utc": "2020-03-18T17:10:00+00:00",
+      "length": "14",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "start_et": "2021-05-05T11:27:00-04:00",
+      "end_et": "2021-05-05T11:31:00-04:00",
+      "start_utc": "2021-05-05T15:27:00+00:00",
+      "end_utc": "2021-05-05T15:31:00+00:00",
+      "length": "5",
+      "affected_windows": "other",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "start_et": "2023-06-05T09:52:00-04:00",
+      "end_et": "2023-06-05T09:55:00-04:00",
+      "start_utc": "2023-06-05T13:52:00+00:00",
+      "end_utc": "2023-06-05T13:55:00+00:00",
+      "length": "4",
+      "affected_windows": "opening_rv",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    }
+  ],
+  "persistent_primary_exclusions": [
+    {
+      "session_et": "2016-01-04",
+      "reason": "MISSING_PRIOR_FULL_ANCHOR"
+    },
+    {
+      "session_et": "2019-08-12",
+      "reason": "MISSING_OR_INVALID_CRITICAL_CANDLE"
+    },
+    {
+      "session_et": "2019-08-13",
+      "reason": "MISSING_PRIOR_FULL_ANCHOR"
+    },
+    {
+      "session_et": "2020-03-09",
+      "reason": "INCOMPLETE_OPENING_30"
+    },
+    {
+      "session_et": "2020-03-12",
+      "reason": "INCOMPLETE_OPENING_30"
+    },
+    {
+      "session_et": "2020-03-16",
+      "reason": "INCOMPLETE_OPENING_30"
+    },
+    {
+      "session_et": "2023-06-05",
+      "reason": "INCOMPLETE_OPENING_30"
+    }
+  ],
+  "candidate_rows_retrieved": 0,
+  "accepted_rows": 0,
+  "rejected_candle_rows": 0,
+  "duplicate_candidate_rows": 0,
+  "unresolved_unextracted_keys": 104,
+  "source_gate_decisions": [
+    {
+      "repository": "mito0o852/OHLCV-1m",
+      "revision": "776328445b7ac6e7815ef3a483e9c8ded1eb6d56",
+      "status": "INELIGIBLE_RIGHTS_UNVERIFIED",
+      "reason": "No license in card metadata or file listing; all26 row groups survive ticker min/max, projected332421407 bytes for all candidate columns; finer ticker/page extraction not attempted before rights gate"
+    },
+    {
+      "repository": "valtermedeiros/ohlcv",
+      "revision": "ae15a75b073e7f6be4ef6563dcb94e98d6add0f4",
+      "declared_license": "mit",
+      "status": "ABSTAIN_UNRECONCILED_SOURCE_CONTRACT",
+      "reason": "Actual stock SPY schema has timezone-naive datetime, mixed pitrading/iex source; card UTC semantics insufficient; original price adjustments, bar labeling and upstream data rights not documented"
+    },
+    {
+      "repository": "HaiwenWang/sp500-pit-benchmark",
+      "revision": "58aacebb76471042682d1a460dc324ae8f875bf2",
+      "status": "INELIGIBLE_GATED",
+      "reason": "gated=manual; anonymous README HTTP401; no configured HF token or authorized grant verified; no restricted data requested"
+    }
+  ],
+  "timestamp_policy": "UTC aware bar starts only; naive candidate timestamps not localized or shifted",
+  "adjustment_policy": "Baseline split only; no candidate calibration or adjustment performed",
+  "license_policy": "No raw price publication; public metadata/footer evidence only; card license alone does not establish upstream provenance",
+  "config": {
+    "path": "config/D2_1_hf_repair.json",
+    "sha256": "ace8756a44c2de2293831776207af94d1bff4de3ae6d2f682cfebd7b7fe55a6b"
+  },
+  "scripts": [
+    {
+      "path": "scripts/d2_1_hf_inspect.py",
+      "sha256": "ddc96f46755758ef0a11ab3c7549561c37d9717156fce9aae0d21b3261c0b25f"
+    },
+    {
+      "path": "scripts/d2_1_hf_audit.py",
+      "sha256": "ccb9b0059f010f4102de944de15c696d4ae5fc402bccdf1753a0a0225a552286"
+    }
+  ],
+  "environment": {
+    "python": "3.14.6",
+    "pyarrow": "23.0.1",
+    "pandas": "3.0.6",
+    "exchange-calendars": "4.13.2"
+  },
+  "evidence": [
+    {
+      "path": "data/registry/D2_1_hf_candidate_1.json",
+      "bytes": 95418,
+      "sha256": "a807d713fe5aa723ce520f770f6817d12966d1144c2deae800f4f297a7f198e9"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_2.json",
+      "bytes": 86362,
+      "sha256": "f309eb036ac7485de9d987a2f64468e6e82fdf3a675a5e196411cef0038e295d"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_2_instrument.json",
+      "bytes": 90767,
+      "sha256": "c7a9b97cf899b54f77e9143b160566f513ffe09fec20d9264d79d769630b0122"
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_3.json",
+      "bytes": 1312993,
+      "sha256": "ac892b44e9a807bd4797e19ed282a07c2a2adb53cb53697e41259216057be64a"
+    },
+    {
+      "path": "data/registry/D2_1_hf_instrument_stats.json",
+      "bytes": 5958,
+      "sha256": "7173e2b75f5880df20c2eba2130ec7f1725dc31fb90e4e9f747b70f4df2b4a15"
+    },
+    {
+      "path": "data/registry/D2_1_hf_sandbox_failure.json",
+      "bytes": 859,
+      "sha256": "c131947c20cc395b509fbed45c314581aba7dec8131fe6db539d8894fe587fd5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "registry/D2_1_hf_repair_decisions.csv",
+      "bytes": 27400,
+      "sha256": "db40184d9c3f8d5c40dcecf0bb4cee1c6a6b51915d342950b537f8264a13dada"
+    },
+    {
+      "path": "registry/D2_1_hf_repair_comparisons.csv",
+      "bytes": 4274,
+      "sha256": "64e9f6568d95f3323f98389a6c733ee5450918bb017b1624a774392d2054ed93"
+    }
+  ],
+  "resources": {
+    "http_body_bytes_read": 1707719,
+    "wire_protocol_and_redirect_bytes": "unmeasured; body-byte count excludes headers/TLS/unread HTTP401 error body",
+    "http_requests_attempted": 13,
+    "purposeful_acquisition_wall_seconds": 3.860650291957427,
+    "purposeful_acquisition_cpu_seconds": 0.30771300000000024,
+    "temporary_source_data_disk_bytes": 0,
+    "peak_atomic_metadata_temporary_bytes": 1312993,
+    "retained_candle_bytes": 0,
+    "free_disk_at_audit_bytes": 62668800000
+  },
+  "errors": [
+    {
+      "evidence": "data/registry/D2_1_hf_candidate_3.json",
+      "detail": null,
+      "http_errors": [
+        {
+          "url": "https://huggingface.co/datasets/HaiwenWang/sp500-pit-benchmark/raw/58aacebb76471042682d1a460dc324ae8f875bf2/README.md",
+          "range": null,
+          "bytes": 0,
+          "status": 401,
+          "error": "HTTPError",
+          "wall_seconds": 0.0637
+        }
+      ]
+    },
+    {
+      "evidence": "data/registry/D2_1_hf_sandbox_failure.json",
+      "detail": {
+        "type": "URLError",
+        "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "http_errors": [
+        {
+          "url": "https://huggingface.co/api/datasets/mito0o852/OHLCV-1m",
+          "range": null,
+          "bytes": 0,
+          "error": "URLError",
+          "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "wall_seconds": 0.0354
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "registered_baseline_files_verified": 32,
+    "unique_canonical_keys": 243804,
+    "gap_csv_matches_recomputed_clusters": true,
+    "all_missing_keys_absent_from_canonical": true,
+    "ET_UTC_keys_agree_with_ZoneInfo": true,
+    "test_population_unchanged": true,
+    "no_overlay_means_idempotent_baseline": true
+  },
+  "audit_wall_seconds": 19.266253250010777,
+  "audit_cpu_seconds": 18.528342,
+  "next_stage": "Separate Stage1 prompt should predeclare Alpaca-only D2 principal source view; use2673 eligible days with documented exclusions. No Stage1 work executed."
+}

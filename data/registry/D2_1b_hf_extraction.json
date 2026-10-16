@@ -1,0 +1,189 @@
+{
+  "observed_at_utc": "2026-10-16T18:40:46.198223+00:00",
+  "repository": "valtermedeiros/ohlcv",
+  "revision": "ae15a75b073e7f6be4ef6563dcb94e98d6add0f4",
+  "remote_uri": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+  "declared_license": "mit",
+  "diagnostic_only": true,
+  "config_sha256": "584e15f525661899da0158968383f84a690495d4376dae5b2556e8548091e5c4",
+  "script_sha256": "ff695366cf49d5611f1a3ccb655e74b0c4cc26417962c32f89c2ad24addb0356",
+  "python": "3.14.6",
+  "pyarrow": "23.0.1",
+  "auth": "anonymous public HF; no token",
+  "baseline_manifest_sha256": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae",
+  "remote_bytes": 49735075,
+  "row_group": 1,
+  "row_group_rows": 1048576,
+  "projected_column_bytes": 25995298,
+  "chunks": [
+    {
+      "column": "datetime",
+      "start": 18274275,
+      "bytes": 7649833
+    },
+    {
+      "column": "Open",
+      "start": 25924108,
+      "bytes": 3373855
+    },
+    {
+      "column": "High",
+      "start": 29297963,
+      "bytes": 3373354
+    },
+    {
+      "column": "Low",
+      "start": 32671317,
+      "bytes": 3348201
+    },
+    {
+      "column": "Close",
+      "start": 36019518,
+      "bytes": 3358512
+    },
+    {
+      "column": "Volume",
+      "start": 39378030,
+      "bytes": 4888391
+    },
+    {
+      "column": "source",
+      "start": 44266421,
+      "bytes": 3152
+    }
+  ],
+  "temporary_path": "cache/D2_1b_l9398lhs/selected_row_group.parquet",
+  "temporary_logical_bytes": 49735075,
+  "temporary_allocated_bytes": 31485952,
+  "extract": {
+    "path": "raw/diagnostics/D2_1b_hf_SPY_gap_context.parquet",
+    "rows": 562,
+    "bytes": 21368,
+    "sha256": "47550c7f8363f7f29a89af8114b26b802db6ae7922250ea23bfcf94867e62aa5",
+    "columns": [
+      "datetime",
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Volume",
+      "source"
+    ],
+    "timestamp_semantics": "original naive candidate datetime; no localization performed",
+    "source_counts": {
+      "pitrading": 475,
+      "iex": 87
+    },
+    "rows_by_naive_date": {
+      "2023-06-05": 87,
+      "2021-05-05": 84,
+      "2020-03-09": 79,
+      "2020-03-12": 79,
+      "2020-03-16": 72,
+      "2019-08-12": 71,
+      "2016-02-02": 50,
+      "2020-03-18": 40
+    },
+    "duplicate_naive_timestamps": 0
+  },
+  "status": "EXTRACTED_DIAGNOSTIC_ONLY",
+  "requests": [
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=-8",
+      "bytes": 8,
+      "status": 206,
+      "content_length": "8",
+      "content_range": "bytes 49735067-49735074/49735075",
+      "sha256": "edca5b131c792dec2a6938962a3e3970bc84cfc7038cf7d5f4365231fecf3a73",
+      "wall_seconds": 0.6154
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=49728603-49735066",
+      "bytes": 6464,
+      "status": 206,
+      "content_length": "6464",
+      "content_range": "bytes 49728603-49735066/49735075",
+      "sha256": "819cd12ec33c5134bd357ebe24d7acd09becbd57bda95875b6a6d4df95ca5ca4",
+      "wall_seconds": 0.3817
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=18274275-25924107",
+      "bytes": 7649833,
+      "status": 206,
+      "content_length": "7649833",
+      "content_range": "bytes 18274275-25924107/49735075",
+      "sha256": "18943f941d3a1647a4ed23eb2322a4d142adf9393fad46b5e989be7dc8684138",
+      "wall_seconds": 0.5995
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=25924108-29297962",
+      "bytes": 3373855,
+      "status": 206,
+      "content_length": "3373855",
+      "content_range": "bytes 25924108-29297962/49735075",
+      "sha256": "0086cbf8b1dc92ed57dcf43e0f4726ed5e4b48cdb5814c21c719bffb012db87a",
+      "wall_seconds": 0.6927
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=29297963-32671316",
+      "bytes": 3373354,
+      "status": 206,
+      "content_length": "3373354",
+      "content_range": "bytes 29297963-32671316/49735075",
+      "sha256": "a24162e25e760f3323b86073ae3db1e1da19743eba8c6873446d03ea07048173",
+      "wall_seconds": 0.4618
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=32671317-36019517",
+      "bytes": 3348201,
+      "status": 206,
+      "content_length": "3348201",
+      "content_range": "bytes 32671317-36019517/49735075",
+      "sha256": "7c849674af4ff270f64f3bcab34e97e4176f71754ce966d3c15ef63a10d564e8",
+      "wall_seconds": 0.4343
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=36019518-39378029",
+      "bytes": 3358512,
+      "status": 206,
+      "content_length": "3358512",
+      "content_range": "bytes 36019518-39378029/49735075",
+      "sha256": "a763a9025d40d12fd6a78cc6da24a7c7e75e6c4c0c67597ddeba8219c20505ff",
+      "wall_seconds": 0.4169
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=39378030-44266420",
+      "bytes": 4888391,
+      "status": 206,
+      "content_length": "4888391",
+      "content_range": "bytes 39378030-44266420/49735075",
+      "sha256": "593ca5ebaa5f559800967cb4daf322d4b7cb194ad7a632c1fb526cb3df382b79",
+      "wall_seconds": 0.7232
+    },
+    {
+      "url": "https://huggingface.co/datasets/valtermedeiros/ohlcv/resolve/ae15a75b073e7f6be4ef6563dcb94e98d6add0f4/1m/stocks/SPY.parquet",
+      "range": "bytes=44266421-44269572",
+      "bytes": 3152,
+      "status": 206,
+      "content_length": "3152",
+      "content_range": "bytes 44266421-44269572/49735075",
+      "sha256": "99ca9399f11f1245387973af5fc41af0801a56d7ce3176c5db392dbb1712c55c",
+      "wall_seconds": 0.2782
+    }
+  ],
+  "downloaded_body_bytes": 26001770,
+  "prior_task_body_bytes": 1707719,
+  "total_task_body_bytes": 27709489,
+  "wall_seconds": 4.892271374992561,
+  "cpu_seconds": 0.39737500000000003,
+  "temporary_deleted": true,
+  "free_disk_bytes": 64017285120
+}

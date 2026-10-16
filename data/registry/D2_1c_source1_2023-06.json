@@ -1,0 +1,46 @@
+{
+  "at_utc": "2026-10-16T19:10:41.901127+00:00",
+  "repository": "mito0o852/OHLCV-1m",
+  "revision": "776328445b7ac6e7815ef3a483e9c8ded1eb6d56",
+  "uri": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2023-06.parquet?download=true",
+  "month": "2023-06",
+  "expected_file_bytes": 332444106,
+  "downloaded_body_bytes": 332444106,
+  "prior_repair_body_bytes": 27717910,
+  "config_sha256": "3a5c67e18b40cd40c94b9b9be58e9c37690d4ab64dc8f2e216beed31e3376ce8",
+  "script_sha256": "9b831c2ffb6dcb8bae956525a7132e190b298869eae5e39d1261b0d00abc001e",
+  "python": "3.14.6",
+  "license": "Not declared/verified; explicit user-directed private source inspection; no publication or source-fidelity claim",
+  "temporary_path": "cache/D2_1c_busnui3y/ohlcv_2023-06.parquet",
+  "http_status": 200,
+  "content_length": "332444106",
+  "source_file_sha256": "fef946f15a7a7159cda0bf59b3f92e244464fa96a976f57d5b43b55b757c5a9b",
+  "temporary_logical_bytes": 332444106,
+  "temporary_allocated_bytes": 336592896,
+  "status": "EXTRACTED",
+  "source_rows": 26538286,
+  "source_row_groups": 26,
+  "SPY_rows_in_month": 16592,
+  "SPY_row_groups": [
+    {
+      "row_group": 11,
+      "SPY_rows": 10549
+    },
+    {
+      "row_group": 12,
+      "SPY_rows": 6043
+    }
+  ],
+  "extract": {
+    "path": "raw/diagnostics/D2_1c_source1_2023-06_SPY_context.parquet",
+    "rows": 40,
+    "bytes": 5976,
+    "sha256": "ca1f416d507cf0049e3f5ebdb0944fef01ebd93bc0e4805338719f21650439f8",
+    "schema": "timestamp: timestamp[ns, tz=UTC]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nticker: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 880"
+  },
+  "temporary_deleted": true,
+  "cumulative_repair_body_bytes": 360162016,
+  "wall_seconds": 7.9867039999808185,
+  "cpu_seconds": 1.704182,
+  "free_disk_bytes": 64749080576
+}

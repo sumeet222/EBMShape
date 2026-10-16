@@ -1,0 +1,102 @@
+{
+  "source": "Alpaca SIP split diagnostic neighbors only",
+  "script_sha256": "26662ae2cc2bed55b4c70510a87b908095902b729e1f1af97be27db521a75ee6",
+  "started_at_utc": "2026-10-16T18:52:17.331879+00:00",
+  "intervals_et": [
+    [
+      "2016-02-02",
+      "10:59",
+      "11:47"
+    ],
+    [
+      "2019-08-12",
+      "14:35",
+      "14:54"
+    ],
+    [
+      "2023-06-05",
+      "10:00",
+      "10:15"
+    ]
+  ],
+  "status": "COMPLETE",
+  "output": {
+    "path": "raw/diagnostics/D2_1b_alpaca_neighbors.parquet",
+    "rows": 76,
+    "bytes": 7476,
+    "sha256": "be8051367e6f981bb9a58305ed46f53b35e873fd9d0772689cd29f0e22cbf8b5"
+  },
+  "requests": [
+    {
+      "request_name": "D2_1b_neighbors_2016-02-02_p0",
+      "endpoint": "https://data.alpaca.markets/v2/stocks/SPY/bars",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2016-02-02T15:59:00+00:00",
+        "end": "2016-02-02T16:47:00+00:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "sort": "asc",
+        "limit": 10000
+      },
+      "observed_at_utc": "2026-10-16T18:51:31.968755+00:00",
+      "status": 401,
+      "error": "HTTP error; no retry or entitlement workaround"
+    },
+    {
+      "request_name": "D2_1b_neighbors_2016-02-02_p0",
+      "endpoint": "https://data.alpaca.markets/v2/stocks/SPY/bars",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2016-02-02T15:59:00+00:00",
+        "end": "2016-02-02T16:47:00+00:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "sort": "asc",
+        "limit": 10000
+      },
+      "observed_at_utc": "2026-10-16T18:52:17.837010+00:00",
+      "status": 200,
+      "response_bytes": 4408,
+      "response_sha256": "dc7c06df860d257816e2a52ab88624f08a997a0a84d3cd60d4f10a008d5d9e15",
+      "wall_seconds": 0.2022
+    },
+    {
+      "request_name": "D2_1b_neighbors_2019-08-12_p0",
+      "endpoint": "https://data.alpaca.markets/v2/stocks/SPY/bars",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2019-08-12T18:35:00+00:00",
+        "end": "2019-08-12T18:54:00+00:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "sort": "asc",
+        "limit": 10000
+      },
+      "observed_at_utc": "2026-10-16T18:52:18.548086+00:00",
+      "status": 200,
+      "response_bytes": 2223,
+      "response_sha256": "9e46a35568ab59a49023596e154c237a3e5be17f977d6fa976b06cdb78986d50",
+      "wall_seconds": 0.1571
+    },
+    {
+      "request_name": "D2_1b_neighbors_2023-06-05_p0",
+      "endpoint": "https://data.alpaca.markets/v2/stocks/SPY/bars",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2023-06-05T14:00:00+00:00",
+        "end": "2023-06-05T14:15:00+00:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "sort": "asc",
+        "limit": 10000
+      },
+      "observed_at_utc": "2026-10-16T18:52:19.209240+00:00",
+      "status": 200,
+      "response_bytes": 1790,
+      "response_sha256": "47af54d90e9561d8e2e0007b7a5b62b8f1fc4d2096ceef64425776cdb341e98d",
+      "wall_seconds": 0.1578
+    }
+  ],
+  "wall_seconds": 2.083901749982033
+}
