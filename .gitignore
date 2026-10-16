@@ -1,0 +1,75 @@
+# Local credentials (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*secret*.json
+# Python environments, caches, build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local datasets: code/docs/registries stay in Git
+/data/raw/
+/data/canonical/
+/data/derived/
+/data/external/
+/data/downloads/
+/data/cache/
+# Large data files accidentally placed elsewhere
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.hdf
+*.npy
+*.npz
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.zst
+# Do not blanket-ignore CSV: small metrics/registries should be tracked.
+# Transient output only (track small curated results in artifacts/A, artifacts/B)
+/logs/
+/tmp/
+/temp/
+/cache/
+/artifacts/A/checkpoints/
+/artifacts/B/checkpoints/
+/artifacts/A/cache/
+/artifacts/B/cache/
+/artifacts/A/large/
+/artifacts/B/large/
+*.log
+# Local data pointers and machine-specific settings
+/config/local.yaml
+/config/local.yml
+/config/local.toml
+/data/local_paths.json
+# Keep AGENTS.md, README.md, docs, configs, reports, small metrics,
+# data/README.md and data/registry/ tracked.
