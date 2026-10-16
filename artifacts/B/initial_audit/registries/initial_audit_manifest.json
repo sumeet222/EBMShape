@@ -1,0 +1,1206 @@
+{
+  "task_id": "B_INITIAL_AUDIT_NINE_REMAINING_EXPERIMENTS_V1",
+  "status": "PASS_WITH_QUALIFICATIONS",
+  "created_at_utc": "2026-10-16T23:30:51.214159+00:00",
+  "protocol_sha256": "da9fbe99f4d64842ec8a76b7f5026f1683e20578361c845c5ca3c13567c3bf96",
+  "numerical_design_sha256": "099c88cdd149ca5dcc6bcd02b0322cb7137ff60495cbbdba1756a81a5a90276d",
+  "numerical_design_before_outcome": true,
+  "outcome_read_at_utc": "2026-10-16T23:29:51.546264+00:00",
+  "source_dataset": "B_SPY_daily_split_source1_stage1_v1",
+  "source_refs": [
+    {
+      "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+      "bytes": 468459,
+      "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+    },
+    {
+      "path": "patches/B/B_spy_hf_source1_D2_1c_v1.parquet",
+      "rows": 39,
+      "bytes": 22077,
+      "sha256": "398141da0889940fb03dcbe0faea29c5abd50da8fdc7d1e5deec7c0ed6f85172"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "bytes": 869271,
+      "sha256": "d57c36d075dbad05994283d83cd4a54b6ffc6ca8cdd4db7e53f15bb9f7161d0e"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "bytes": 849491,
+      "sha256": "a109bcd04430e0b2ccc9cf351f0acb9ec510aaa797efd2c76844e5ca34e2d8e3"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "bytes": 865357,
+      "sha256": "9f6fdeaa057251ee6cfa106baafca09a8476decac31f16e183fcd7ac61e857bd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "bytes": 871110,
+      "sha256": "c4fb5b516ae19610fd53a6851709cf4b20f7b137f0ff572610ffdebef7c224e6"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+      "bytes": 653037,
+      "sha256": "95e458decd2e31070a4ce5d89fbe73f467d7d054559e2e970f32a412ebca55fd"
+    }
+  ],
+  "source_root": "EBM_DATA_ROOT, default data/",
+  "training_range": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "training_rows": 1495,
+  "eligible_rows_by_direction": [
+    {
+      "experiment": "A2",
+      "n_min": 1495,
+      "n_max": 1495
+    },
+    {
+      "experiment": "A3",
+      "n_min": 1495,
+      "n_max": 1495
+    },
+    {
+      "experiment": "A4",
+      "n_min": 1495,
+      "n_max": 1495
+    },
+    {
+      "experiment": "A5",
+      "n_min": 668,
+      "n_max": 1495
+    },
+    {
+      "experiment": "A6",
+      "n_min": 1495,
+      "n_max": 1495
+    },
+    {
+      "experiment": "B1",
+      "n_min": 1495,
+      "n_max": 1495
+    },
+    {
+      "experiment": "B2",
+      "n_min": 1475,
+      "n_max": 1495
+    },
+    {
+      "experiment": "B3",
+      "n_min": 1475,
+      "n_max": 1494
+    },
+    {
+      "experiment": "C1",
+      "n_min": 1495,
+      "n_max": 1495
+    }
+  ],
+  "input_read_trace": [
+    {
+      "path": "B_SPY_daily_split_source1_stage1_v1.parquet",
+      "columns": [
+        "session_et",
+        "eligible_primary",
+        "Pprev",
+        "P16",
+        "prior_full_session",
+        "skipped_early_sessions",
+        "x_open_bp",
+        "w_preclose_bp",
+        "rv_open_log",
+        "rv_open_raw",
+        "open_overnight_part",
+        "r_open_intraday_only",
+        "early_features_available_at",
+        "late_features_available_at",
+        "terminal_repair_dependency"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2016.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2017.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2018.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2019.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2020.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "year=2021.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "B_spy_hf_source1_D2_1c_v1.parquet",
+      "columns": [
+        "session_et",
+        "symbol",
+        "timestamp_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "validation_status"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-04"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ]
+      ]
+    },
+    {
+      "path": "B_SPY_daily_split_source1_stage1_v1.parquet",
+      "columns": [
+        "session_et",
+        "y_last30_bp"
+      ],
+      "filters": [
+        [
+          "session_et",
+          ">=",
+          "2016-01-05"
+        ],
+        [
+          "session_et",
+          "<=",
+          "2021-12-31"
+        ],
+        [
+          "eligible_primary",
+          "=",
+          "True"
+        ]
+      ]
+    }
+  ],
+  "validation_outcome_rows_read": 0,
+  "sealed_scientific_rows_read": 0,
+  "model_fit_calls": 0,
+  "network_requests": 0,
+  "new_raw_copies": 0,
+  "deleted_files": [],
+  "cutoffs_log": {
+    "rv_open_log": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "rv_late_log": [
+      -7.0040583024795176,
+      -6.413856387887993
+    ]
+  },
+  "bootstrap": {
+    "seed": 20261016,
+    "B": 300,
+    "length": 5,
+    "scheme": "joint circular consecutive eligible-day records; fixed cells/masks; no re-estimated bins",
+    "percentile": [
+      2.5,
+      97.5
+    ],
+    "min_valid": 270,
+    "length10_sensitivity": "not run; optional, no most-interpretable response-based selection"
+  },
+  "qa": {
+    "status": "PASS",
+    "figure_count": 44,
+    "image_links": 44,
+    "figures": [
+      {
+        "path": "artifacts/B/initial_audit/figures/A2/01_scatter_state_lines.png",
+        "bytes": 113134,
+        "sha256": "cf7cd5bae48ba36075c88f199ca591a63b236d761b3ed48f4e50ab437ad4608b"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A2/02_conditional_means_with_intervals.png",
+        "bytes": 115114,
+        "sha256": "6eb47ec0b4f37872e4b2b9aa7ce33443bfbf969966734f5a5bddd1ba35757ff5"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A2/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 109152,
+        "sha256": "4213d82a04f4847554452b181e2622e57650dbf2e2295489d6e6d89d349593fc"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A2/04_support_and_state_contrasts.png",
+        "bytes": 98383,
+        "sha256": "5e1937d47007a5ef2aab40653800c96de3edb0aa04a160d7ff42796a856ff06f"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A2/05_temporal_and_outlier_robustness.png",
+        "bytes": 122128,
+        "sha256": "5eb7304582e24c191427b686ad6e067e6b589c5065e8edcc4c667a8b8ea76828"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A3/01_scatter_state_lines.png",
+        "bytes": 260595,
+        "sha256": "562ae1b44df2ee9f87080ecba79a6f2b58cf1768880f4057b6a8ecc467091180"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A3/02_conditional_means_with_intervals.png",
+        "bytes": 287277,
+        "sha256": "d6d5e290dcd71140e9736f5139c317a4b994b3e75d7e318a91043e0613deb654"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A3/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 286587,
+        "sha256": "f51fb0aadc0226626eaba557591c3153c988dffc3dc5498ba9f1593497ce590d"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A3/04_support_and_state_contrasts.png",
+        "bytes": 276987,
+        "sha256": "91f18ee02d15cf6bf5a455f0822412e93edf682005447c316933dcbff7aeff52"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A3/05_temporal_and_outlier_robustness.png",
+        "bytes": 370279,
+        "sha256": "e4dc5d92a64b0799ed9427ebdd0b17e5af64547299abde9acef79419e7ff17cf"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A4/01_scatter_state_lines.png",
+        "bytes": 163663,
+        "sha256": "56717b0e827bb005bab04189b73bf46bab6bb96c1943c0a55f640f8a02685c74"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A4/02_conditional_means_with_intervals.png",
+        "bytes": 170164,
+        "sha256": "7fe1f69a19e3b60f11e843c9ec8b50c532504ae75d4ad760722bbd550c6da1c2"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A4/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 168192,
+        "sha256": "f4346c9885053e5a137f6499a41569ff287b4783861d4b5d3e348230b57c6eab"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A4/04_support_and_state_contrasts.png",
+        "bytes": 161523,
+        "sha256": "e36655559b4ff37cab4af8f85a18cff8856041aaa2650be0528d8ee56069bb84"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A4/05_temporal_and_outlier_robustness.png",
+        "bytes": 202091,
+        "sha256": "515b2a8312bcd8b637e9c9b51d269b2fabb87fd5dfe7fabd3d4f8841e39d1847"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A5/01_scatter_state_lines.png",
+        "bytes": 335832,
+        "sha256": "cea68ff79baceb94d98398962b9342f1dc3c05401718bea5878ff8490588a72c"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A5/02_conditional_means_with_intervals.png",
+        "bytes": 387599,
+        "sha256": "71c407b17c066178f1c6249e8a04e84244847bbaee0f3a16b955617a3dab589a"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A5/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 394891,
+        "sha256": "e16d423da2d67176743e3cbeff41dc20ecebf838950bf639b80a63d1ec6a3ad0"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A5/04_support_and_state_contrasts.png",
+        "bytes": 409598,
+        "sha256": "ff260eb587b5e1b78e7f556af763f813bf5ad4b716ff4667fba68ead88dd54ac"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A5/05_temporal_and_outlier_robustness.png",
+        "bytes": 456706,
+        "sha256": "69e56430bb0668c1184b4ed2bea129607a47d06d8b5bd1fd642655388977394b"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A6/01_scatter_state_lines.png",
+        "bytes": 162930,
+        "sha256": "61e91679729c074df53df253715271caef6ca5395cb533a31e26f4e4e65e703a"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A6/02_conditional_means_with_intervals.png",
+        "bytes": 173659,
+        "sha256": "69c17ff6eabf1137847d149490dcf947ae6dcbca4ce87d89d24113a8471e8dc4"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A6/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 171149,
+        "sha256": "e0939abdae30e9adce9cba02b1256122a22655d919cfd5f97a231fa4728b21a6"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A6/04_support_and_state_contrasts.png",
+        "bytes": 164773,
+        "sha256": "b0e247ebef86dd5a686114c8db7273c5c8bc24f19b684835d645a905357f2a1b"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/A6/05_temporal_and_outlier_robustness.png",
+        "bytes": 206905,
+        "sha256": "c7b010c8dff73c48e24506c70b2d76882d45edd759c749ffa6c21eae380a4587"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B1/01_scatter_state_lines.png",
+        "bytes": 135976,
+        "sha256": "54ed4252fade7e26a8661965ce5178aa4721bdbc5fc89c6ccae9e6a4a0bcd3d1"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B1/02_conditional_means_with_intervals.png",
+        "bytes": 157279,
+        "sha256": "8f6380a6c4664bfc5542565315f6c541f53da3f61614e6cda3c53ceffd494b4f"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B1/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 185926,
+        "sha256": "be1cde8ac4b2d460d072f0e1b3f34fc343005cee2a456f551fe76b3cb9cbbda0"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B1/04_support_and_state_contrasts.png",
+        "bytes": 187024,
+        "sha256": "755cb6bab531b9f726676f6e4b88d2447b5ffb4e9ce45369d11785156304eb95"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B1/05_temporal_and_outlier_robustness.png",
+        "bytes": 172473,
+        "sha256": "d8c75aba019660c688e82f3a1b53a18df28097e4f90d2c75e5309f21e5f49f46"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B2/01_scatter_state_lines.png",
+        "bytes": 217746,
+        "sha256": "8969793f4f0d2b715c462bd33816b2692e4b824189537432619545ffe4f743e6"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B2/02_conditional_means_with_intervals.png",
+        "bytes": 235206,
+        "sha256": "a4b1d9d744a05c323085994f91114ad4803bf50a4ef5da9e6109e7fa508a5f57"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B2/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 238863,
+        "sha256": "68fe354ae31367a048fb6af5bc8311a7fd40d4e13f308d0dcb256a02223dd3ae"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B2/04_support_and_state_contrasts.png",
+        "bytes": 234101,
+        "sha256": "afbdcc012892f3d78ba4ab09ded0af027c029583e89d6efbb7d50b529ea7b2ca"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B2/05_temporal_and_outlier_robustness.png",
+        "bytes": 301895,
+        "sha256": "50e52910e010ed944b8fa22ababf04d6dc56a974a4a80e3b4aa6e638cf0c1d6e"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B3/01_scatter_state_lines.png",
+        "bytes": 216150,
+        "sha256": "c9a19304b889b7954b81b68075f70a073a012c4422dc3f31dcc284e638c9fe3e"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B3/02_conditional_means_with_intervals.png",
+        "bytes": 233448,
+        "sha256": "ba6d7066e9db766fc4399bc534f10150ad734dce5314643c5147844124a064e3"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B3/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 234144,
+        "sha256": "7df48b64b602cf2bd63ad08baf65a2aa995f20d89200f2748ceb2a014b5d18ed"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B3/04_support_and_state_contrasts.png",
+        "bytes": 227508,
+        "sha256": "4f0aea5da70ca423635817fc57bd1cd8df7421ae2b5bb65fa4d7cc02b9bd9fbe"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/B3/05_temporal_and_outlier_robustness.png",
+        "bytes": 277570,
+        "sha256": "8df3a1afd18c67d71806a629cbc3c881f92f9c5c065ee0b7f13a60b484b8d6eb"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/C1/01_scatter_state_lines.png",
+        "bytes": 106175,
+        "sha256": "c06447d96121a5c05d15f43b77c12dca4a5a1a8af64062c40925132c90aaf552"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/C1/02_conditional_means_with_intervals.png",
+        "bytes": 299390,
+        "sha256": "02365e2da8536dc0f922f55684e8d18b2b9bcc23c4e00111a9bd2e5446dc32ff"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/C1/03_raw_XZ_conditional_response_heatmap.png",
+        "bytes": 114622,
+        "sha256": "4934452d306431c116df3e0831cac149107e8b78b5e323fd98e148f213931fd1"
+      },
+      {
+        "path": "artifacts/B/initial_audit/figures/C1/04_support_and_state_contrasts.png",
+        "bytes": 133557,
+        "sha256": "b8a97c7dbeb8b0c372d0273ef4df207f610cfe88834e908438d271c34414eb11"
+      }
+    ],
+    "preexisting_files_verified_unchanged": 265,
+    "feature_rows": 1495,
+    "feature_columns": [
+      "session_et",
+      "late_return_5m_bp",
+      "late_return_10m_bp",
+      "late_return_15m_bp",
+      "late_accel_bp",
+      "gap_bp",
+      "morning_bp",
+      "abs_x_bp",
+      "x_squared_bp2",
+      "x_centered_squared_bp2",
+      "abs_w_bp",
+      "rv_late_30",
+      "rv_late_log",
+      "late_volume_30m",
+      "late_volume_5m",
+      "relative_late_volume",
+      "lag_close_1_bp",
+      "lag_close_5_bp",
+      "lag_close_20_bp"
+    ],
+    "primary_contrasts": 72,
+    "primary_abstained": 5,
+    "all_mask_contrasts": 576,
+    "all_mask_abstained": 241,
+    "empirical_cell_rows": 6216,
+    "empirical_cells_with_intervals": 2344,
+    "no_supported_zero_width_intervals": true
+  },
+  "new_feature_table": {
+    "path": "artifacts/B/initial_audit/derived/initial_audit_new_features.parquet",
+    "bytes": 246685,
+    "sha256": "0455fdc760b09beaf2d8b4e9a0021f7e611e0d101ddf48a7e381290440718a64"
+  },
+  "code": [
+    {
+      "path": "src/ebm_research/experiment_b/initial_audit.py",
+      "bytes": 103155,
+      "sha256": "125c2495b0c692c56e06cf1503ee27b5651aaeb0184b2e321b60e5b416d37790"
+    },
+    {
+      "path": "scripts/b_initial_audit.py",
+      "bytes": 187,
+      "sha256": "a3651bade1c96b0d04f09cf2f12d5482a91752f0568e839782c3ba2b691fcbf2"
+    },
+    {
+      "path": "tests/test_b_initial_audit.py",
+      "bytes": 4911,
+      "sha256": "84fe4d3f5d7257222da23073798c7f3adefab2d1d276c1dfddf2fd7fec5063df"
+    }
+  ],
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "matplotlib": "3.11.2",
+    "exchange-calendars": "4.13.2"
+  },
+  "git_commit": "6e6ed1150a0fd7fa38afe5c044712600eabbfdbc",
+  "resources": {
+    "wall_seconds": 90.08436424995307,
+    "cpu_seconds": 61.126563,
+    "new_audit_bytes": 13974695,
+    "figure_bytes": 9678364,
+    "free_disk_before": 61849600000,
+    "free_disk_after": 61849600000,
+    "cumulative_compute_wall_seconds": 142.5718985000276,
+    "cumulative_cpu_seconds": 112.1714,
+    "audit_root_logical_bytes": 14312030,
+    "all_new_logical_bytes": 14491736
+  },
+  "outputs": [
+    {
+      "path": "artifacts/B/initial_audit/.gitignore",
+      "bytes": 26,
+      "sha256": "196ac686261406a23bba52e0a0ca3a69e0c4a8c53ce80b3012f4834de6dc338d"
+    },
+    {
+      "path": "artifacts/B/initial_audit/NINE_EXPERIMENTS_VISUAL_REVIEW.md",
+      "bytes": 46187,
+      "sha256": "3b9318413918807c082b32889dc5f3b05f43410af9df65785aff7fb676de0bfb"
+    },
+    {
+      "path": "artifacts/B/initial_audit/README.md",
+      "bytes": 818,
+      "sha256": "5f19a51de439f10b9c7c3d02733c4b9d45501eec778f1262c2b45542ff0d9820"
+    },
+    {
+      "path": "artifacts/B/initial_audit/config/initial_audit_protocol_v1.json",
+      "bytes": 13566,
+      "sha256": "da9fbe99f4d64842ec8a76b7f5026f1683e20578361c845c5ca3c13567c3bf96"
+    },
+    {
+      "path": "artifacts/B/initial_audit/derived/initial_audit_new_features.parquet",
+      "bytes": 246685,
+      "sha256": "0455fdc760b09beaf2d8b4e9a0021f7e611e0d101ddf48a7e381290440718a64"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/01_scatter_state_lines.png",
+      "bytes": 113134,
+      "sha256": "cf7cd5bae48ba36075c88f199ca591a63b236d761b3ed48f4e50ab437ad4608b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/02_conditional_means_with_intervals.png",
+      "bytes": 115114,
+      "sha256": "6eb47ec0b4f37872e4b2b9aa7ce33443bfbf969966734f5a5bddd1ba35757ff5"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 109152,
+      "sha256": "4213d82a04f4847554452b181e2622e57650dbf2e2295489d6e6d89d349593fc"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/04_support_and_state_contrasts.png",
+      "bytes": 98383,
+      "sha256": "5e1937d47007a5ef2aab40653800c96de3edb0aa04a160d7ff42796a856ff06f"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/05_temporal_and_outlier_robustness.png",
+      "bytes": 122128,
+      "sha256": "5eb7304582e24c191427b686ad6e067e6b589c5065e8edcc4c667a8b8ea76828"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/01_scatter_state_lines.png",
+      "bytes": 260595,
+      "sha256": "562ae1b44df2ee9f87080ecba79a6f2b58cf1768880f4057b6a8ecc467091180"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/02_conditional_means_with_intervals.png",
+      "bytes": 287277,
+      "sha256": "d6d5e290dcd71140e9736f5139c317a4b994b3e75d7e318a91043e0613deb654"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 286587,
+      "sha256": "f51fb0aadc0226626eaba557591c3153c988dffc3dc5498ba9f1593497ce590d"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/04_support_and_state_contrasts.png",
+      "bytes": 276987,
+      "sha256": "91f18ee02d15cf6bf5a455f0822412e93edf682005447c316933dcbff7aeff52"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/05_temporal_and_outlier_robustness.png",
+      "bytes": 370279,
+      "sha256": "e4dc5d92a64b0799ed9427ebdd0b17e5af64547299abde9acef79419e7ff17cf"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/01_scatter_state_lines.png",
+      "bytes": 163663,
+      "sha256": "56717b0e827bb005bab04189b73bf46bab6bb96c1943c0a55f640f8a02685c74"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/02_conditional_means_with_intervals.png",
+      "bytes": 170164,
+      "sha256": "7fe1f69a19e3b60f11e843c9ec8b50c532504ae75d4ad760722bbd550c6da1c2"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 168192,
+      "sha256": "f4346c9885053e5a137f6499a41569ff287b4783861d4b5d3e348230b57c6eab"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/04_support_and_state_contrasts.png",
+      "bytes": 161523,
+      "sha256": "e36655559b4ff37cab4af8f85a18cff8856041aaa2650be0528d8ee56069bb84"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/05_temporal_and_outlier_robustness.png",
+      "bytes": 202091,
+      "sha256": "515b2a8312bcd8b637e9c9b51d269b2fabb87fd5dfe7fabd3d4f8841e39d1847"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/01_scatter_state_lines.png",
+      "bytes": 335832,
+      "sha256": "cea68ff79baceb94d98398962b9342f1dc3c05401718bea5878ff8490588a72c"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/02_conditional_means_with_intervals.png",
+      "bytes": 387599,
+      "sha256": "71c407b17c066178f1c6249e8a04e84244847bbaee0f3a16b955617a3dab589a"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 394891,
+      "sha256": "e16d423da2d67176743e3cbeff41dc20ecebf838950bf639b80a63d1ec6a3ad0"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/04_support_and_state_contrasts.png",
+      "bytes": 409598,
+      "sha256": "ff260eb587b5e1b78e7f556af763f813bf5ad4b716ff4667fba68ead88dd54ac"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/05_temporal_and_outlier_robustness.png",
+      "bytes": 456706,
+      "sha256": "69e56430bb0668c1184b4ed2bea129607a47d06d8b5bd1fd642655388977394b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/01_scatter_state_lines.png",
+      "bytes": 162930,
+      "sha256": "61e91679729c074df53df253715271caef6ca5395cb533a31e26f4e4e65e703a"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/02_conditional_means_with_intervals.png",
+      "bytes": 173659,
+      "sha256": "69c17ff6eabf1137847d149490dcf947ae6dcbca4ce87d89d24113a8471e8dc4"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 171149,
+      "sha256": "e0939abdae30e9adce9cba02b1256122a22655d919cfd5f97a231fa4728b21a6"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/04_support_and_state_contrasts.png",
+      "bytes": 164773,
+      "sha256": "b0e247ebef86dd5a686114c8db7273c5c8bc24f19b684835d645a905357f2a1b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/05_temporal_and_outlier_robustness.png",
+      "bytes": 206905,
+      "sha256": "c7b010c8dff73c48e24506c70b2d76882d45edd759c749ffa6c21eae380a4587"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/01_scatter_state_lines.png",
+      "bytes": 135976,
+      "sha256": "54ed4252fade7e26a8661965ce5178aa4721bdbc5fc89c6ccae9e6a4a0bcd3d1"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/02_conditional_means_with_intervals.png",
+      "bytes": 157279,
+      "sha256": "8f6380a6c4664bfc5542565315f6c541f53da3f61614e6cda3c53ceffd494b4f"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 185926,
+      "sha256": "be1cde8ac4b2d460d072f0e1b3f34fc343005cee2a456f551fe76b3cb9cbbda0"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/04_support_and_state_contrasts.png",
+      "bytes": 187024,
+      "sha256": "755cb6bab531b9f726676f6e4b88d2447b5ffb4e9ce45369d11785156304eb95"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/05_temporal_and_outlier_robustness.png",
+      "bytes": 172473,
+      "sha256": "d8c75aba019660c688e82f3a1b53a18df28097e4f90d2c75e5309f21e5f49f46"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/01_scatter_state_lines.png",
+      "bytes": 217746,
+      "sha256": "8969793f4f0d2b715c462bd33816b2692e4b824189537432619545ffe4f743e6"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/02_conditional_means_with_intervals.png",
+      "bytes": 235206,
+      "sha256": "a4b1d9d744a05c323085994f91114ad4803bf50a4ef5da9e6109e7fa508a5f57"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 238863,
+      "sha256": "68fe354ae31367a048fb6af5bc8311a7fd40d4e13f308d0dcb256a02223dd3ae"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/04_support_and_state_contrasts.png",
+      "bytes": 234101,
+      "sha256": "afbdcc012892f3d78ba4ab09ded0af027c029583e89d6efbb7d50b529ea7b2ca"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/05_temporal_and_outlier_robustness.png",
+      "bytes": 301895,
+      "sha256": "50e52910e010ed944b8fa22ababf04d6dc56a974a4a80e3b4aa6e638cf0c1d6e"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/01_scatter_state_lines.png",
+      "bytes": 216150,
+      "sha256": "c9a19304b889b7954b81b68075f70a073a012c4422dc3f31dcc284e638c9fe3e"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/02_conditional_means_with_intervals.png",
+      "bytes": 233448,
+      "sha256": "ba6d7066e9db766fc4399bc534f10150ad734dce5314643c5147844124a064e3"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 234144,
+      "sha256": "7df48b64b602cf2bd63ad08baf65a2aa995f20d89200f2748ceb2a014b5d18ed"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/04_support_and_state_contrasts.png",
+      "bytes": 227508,
+      "sha256": "4f0aea5da70ca423635817fc57bd1cd8df7421ae2b5bb65fa4d7cc02b9bd9fbe"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/05_temporal_and_outlier_robustness.png",
+      "bytes": 277570,
+      "sha256": "8df3a1afd18c67d71806a629cbc3c881f92f9c5c065ee0b7f13a60b484b8d6eb"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/01_scatter_state_lines.png",
+      "bytes": 106175,
+      "sha256": "c06447d96121a5c05d15f43b77c12dca4a5a1a8af64062c40925132c90aaf552"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/02_conditional_means_with_intervals.png",
+      "bytes": 299390,
+      "sha256": "02365e2da8536dc0f922f55684e8d18b2b9bcc23c4e00111a9bd2e5446dc32ff"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 114622,
+      "sha256": "4934452d306431c116df3e0831cac149107e8b78b5e323fd98e148f213931fd1"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/04_support_and_state_contrasts.png",
+      "bytes": 133557,
+      "sha256": "b8a97c7dbeb8b0c372d0273ef4df207f610cfe88834e908438d271c34414eb11"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/empirical_bins_and_support.csv",
+      "bytes": 1565635,
+      "sha256": "38bb8cd859531c0bf64d3c0441662f0bd8f0d8f271444ec2d85f31a2950e3d5d"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/empirical_state_contrasts.csv",
+      "bytes": 231876,
+      "sha256": "e02defd7f3957e0fc6ae37b084eccd352ced0a52c82b95bc4f58d459d5e99c78"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/experiment_feasibility_summary.csv",
+      "bytes": 3891,
+      "sha256": "53e093797db343c819e236104856ec2bfa223fa654ed975f2054b52a69192760"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/feature_QA.json",
+      "bytes": 5661,
+      "sha256": "e8337c002ba58a9dfb2c6ad46b6038bcd550410ff30ac2082ec4ad4051a176ea"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/feature_and_state_diagnostics.json",
+      "bytes": 1628,
+      "sha256": "e80d44bb035b759644a863559ab429b9650ed61d24f33cf054920d8614024585"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/feature_definitions.csv",
+      "bytes": 7727,
+      "sha256": "3ada06a61a30016bd3b5cc9dac2a3ab36244f387e13760e235f7a3d4ce226e61"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/final_integrity.json",
+      "bytes": 882,
+      "sha256": "35b3cc2cad99154d9070b9e8cdc1dfad398c5a6e8597eec04744badb6d10bbc3"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/illustrative_cost_scenarios.csv",
+      "bytes": 3087,
+      "sha256": "ad2dd134a394a2e8fcf3920c3771bdf7215d1ad408274ea37ea19315feb7072b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/output_QA.json",
+      "bytes": 10048,
+      "sha256": "dc304da01ee25f6d0d61656277626c5e9cd42bd24652242ce1792f10a778f6d5"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/predictor_only_design.json",
+      "bytes": 82679,
+      "sha256": "099c88cdd149ca5dcc6bcd02b0322cb7137ff60495cbbdba1756a81a5a90276d"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/start_snapshot.json",
+      "bytes": 53709,
+      "sha256": "f4743753f860a19f5ee921e845a1205e82b131432a16e9b2be67f8d97121fa72"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/visual_review_contact_sheet.png",
+      "bytes": 2022226,
+      "sha256": "53f80115430d0ce721d55b352698ed4d9331adaec159303a3fd52f6e1f08af66"
+    }
+  ],
+  "technical_report": {
+    "path": "reports/B/initial_audit_nine_experiments_feasibility.md",
+    "bytes": 23907,
+    "sha256": "a241c56301ca801696e4a3b3f6442aebb01bbb9b6dd72d24abf626938001d012"
+  },
+  "qualifications": [
+    "exploratory fixed-band variability, not point/theorem/postselection inference",
+    "A2 not independent discovery; prior A1/A2 closeout unchanged",
+    "C1 hypothetical execution/cost assumptions, TRADING_NOT_ESTABLISHED",
+    "no source-rights/adjustment limitations repaired by this audit"
+  ],
+  "publication": {
+    "wall_seconds": 26.85274358303286,
+    "cpu_seconds": 25.955750000000002,
+    "purpose": "Count-label spacing, quantile-spaced numerical heatmap axes and fuller fixed-result narrative; no numerical choices changed",
+    "numerical_CSV_hashes_unchanged": {
+      "empirical_bins_and_support": "38bb8cd859531c0bf64d3c0441662f0bd8f0d8f271444ec2d85f31a2950e3d5d",
+      "empirical_state_contrasts": "e02defd7f3957e0fc6ae37b084eccd352ced0a52c82b95bc4f58d459d5e99c78",
+      "experiment_feasibility_summary": "53e093797db343c819e236104856ec2bfa223fa654ed975f2054b52a69192760",
+      "illustrative_cost_scenarios": "ad2dd134a394a2e8fcf3920c3771bdf7215d1ad408274ea37ea19315feb7072b"
+    },
+    "bootstrap_reruns": 0,
+    "input_read_trace": [
+      {
+        "path": "B_SPY_daily_split_source1_stage1_v1.parquet",
+        "columns": [
+          "session_et",
+          "x_open_bp",
+          "w_preclose_bp",
+          "rv_open_log",
+          "y_last30_bp"
+        ],
+        "filters": [
+          [
+            "session_et",
+            ">=",
+            "2016-01-05"
+          ],
+          [
+            "session_et",
+            "<=",
+            "2021-12-31"
+          ],
+          [
+            "eligible_primary",
+            "=",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "publication_history": [
+    {
+      "wall_seconds": 25.63479066704167,
+      "cpu_seconds": 25.089087000000003,
+      "purpose": "Count-label spacing, quantile-spaced numerical heatmap axes and fuller fixed-result narrative; no numerical choices changed",
+      "numerical_CSV_hashes_unchanged": {
+        "empirical_bins_and_support": "38bb8cd859531c0bf64d3c0441662f0bd8f0d8f271444ec2d85f31a2950e3d5d",
+        "empirical_state_contrasts": "e02defd7f3957e0fc6ae37b084eccd352ced0a52c82b95bc4f58d459d5e99c78",
+        "experiment_feasibility_summary": "53e093797db343c819e236104856ec2bfa223fa654ed975f2054b52a69192760",
+        "illustrative_cost_scenarios": "ad2dd134a394a2e8fcf3920c3771bdf7215d1ad408274ea37ea19315feb7072b"
+      },
+      "bootstrap_reruns": 0,
+      "input_read_trace": [
+        {
+          "path": "B_SPY_daily_split_source1_stage1_v1.parquet",
+          "columns": [
+            "session_et",
+            "x_open_bp",
+            "w_preclose_bp",
+            "rv_open_log",
+            "y_last30_bp"
+          ],
+          "filters": [
+            [
+              "session_et",
+              ">=",
+              "2016-01-05"
+            ],
+            [
+              "session_et",
+              "<=",
+              "2021-12-31"
+            ],
+            [
+              "eligible_primary",
+              "=",
+              "True"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "wall_seconds": 26.85274358303286,
+      "cpu_seconds": 25.955750000000002,
+      "purpose": "Count-label spacing, quantile-spaced numerical heatmap axes and fuller fixed-result narrative; no numerical choices changed",
+      "numerical_CSV_hashes_unchanged": {
+        "empirical_bins_and_support": "38bb8cd859531c0bf64d3c0441662f0bd8f0d8f271444ec2d85f31a2950e3d5d",
+        "empirical_state_contrasts": "e02defd7f3957e0fc6ae37b084eccd352ced0a52c82b95bc4f58d459d5e99c78",
+        "experiment_feasibility_summary": "53e093797db343c819e236104856ec2bfa223fa654ed975f2054b52a69192760",
+        "illustrative_cost_scenarios": "ad2dd134a394a2e8fcf3920c3771bdf7215d1ad408274ea37ea19315feb7072b"
+      },
+      "bootstrap_reruns": 0,
+      "input_read_trace": [
+        {
+          "path": "B_SPY_daily_split_source1_stage1_v1.parquet",
+          "columns": [
+            "session_et",
+            "x_open_bp",
+            "w_preclose_bp",
+            "rv_open_log",
+            "y_last30_bp"
+          ],
+          "filters": [
+            [
+              "session_et",
+              ">=",
+              "2016-01-05"
+            ],
+            [
+              "session_et",
+              "<=",
+              "2021-12-31"
+            ],
+            [
+              "eligible_primary",
+              "=",
+              "True"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "final_integrity": {
+    "path": "artifacts/B/initial_audit/registries/final_integrity.json",
+    "bytes": 882,
+    "sha256": "35b3cc2cad99154d9070b9e8cdc1dfad398c5a6e8597eec04744badb6d10bbc3"
+  },
+  "session_report": {
+    "path": "reports/sessions/20261016_1938_B_initial_audit_nine_experiments.md",
+    "bytes": 47546,
+    "sha256": "fad67fff0232937ec05cacb1185f8334ff0111074326a9d28278fffc40315d86"
+  },
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests -p 'test_b_initial_audit.py' -v",
+    "passed": 8,
+    "failed": 0,
+    "log": {
+      "path": "artifacts/B/initial_audit/registries/tests.log",
+      "bytes": 1825,
+      "sha256": "de1ac520f33d6abaa5824bef0007adaea440094bef909d9b37e4089e49d8276f"
+    }
+  },
+  "visual_QA": {
+    "contact_sheet": {
+      "path": "artifacts/B/initial_audit/registries/visual_review_contact_sheet.png",
+      "bytes": 2022226,
+      "sha256": "53f80115430d0ce721d55b352698ed4d9331adaec159303a3fd52f6e1f08af66"
+    },
+    "inspected_full": [
+      "A2/02",
+      "A2/04",
+      "A5/03",
+      "B1/04",
+      "C1/02",
+      "A4/05"
+    ],
+    "all44_structural_review": true,
+    "formatting_corrections_complete": true
+  },
+  "diagnostic_files": [
+    {
+      "path": "artifacts/B/initial_audit/config/matplotlib_cache/fontlist-v3.11.0.json",
+      "bytes": 289954,
+      "sha256": "beff374b82850bbf528721f44d2c7be7302deabea39ff331f4b6b0912f2222ed"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/execution.log",
+      "bytes": 2087,
+      "sha256": "38d2d4fa3fd81f5128e541609afef46aaa2aadf8ad2c966637a97c5e0a09792e"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/final_QA.log",
+      "bytes": 1384,
+      "sha256": "c8c85918dc5352301c645f56557697d697f2043fa63aeb804b6aa1f5abee34f6"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/publication.log",
+      "bytes": 807,
+      "sha256": "9d69f3d0f0cfab81a542685d5592cb2c024e7212dfe4c88c434a1afe4d44e47a"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/publication_final.log",
+      "bytes": 807,
+      "sha256": "c60c4d778b693abb532b6742e3ec7109d59a43aebf2d07f15f42058a8ca956db"
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/tests.log",
+      "bytes": 1825,
+      "sha256": "de1ac520f33d6abaa5824bef0007adaea440094bef909d9b37e4089e49d8276f"
+    }
+  ],
+  "finalized_at_utc": "2026-10-16T23:41:51.687999+00:00"
+}

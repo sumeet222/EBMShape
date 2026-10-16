@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "time_utc": "2026-10-16T23:37:50.884011+00:00",
+  "preserved_files": 265,
+  "training_read_predicates": "all end2021-12-31",
+  "forbidden_fit_calls": 0,
+  "numerical_CSV_hashes_unchanged": true,
+  "PNG_gallery_link_checks": "44PASS",
+  "local_markdown_links": "PASS",
+  "test_count": 8,
+  "whitespace": "PASS",
+  "new_raw_copies": 0,
+  "source1_patch_unchanged": true,
+  "protocol_unchanged": true,
+  "numerical_design_unchanged": true,
+  "git_diff_check": 0,
+  "branch": "main",
+  "commit": "6e6ed1150a0fd7fa38afe5c044712600eabbfdbc",
+  "storage_free_reported": 61849600000,
+  "session_report": "reports/sessions/20261016_1938_B_initial_audit_nine_experiments.md",
+  "report_finalization_utc": "2026-10-16T23:41:51.687999+00:00",
+  "visual_QA": "All44 in contact sheet; full-resolution critical multi-panel/count/event/cost cases inspected and corrected"
+}

@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "figure_count": 44,
+  "image_links": 44,
+  "figures": [
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/01_scatter_state_lines.png",
+      "bytes": 113134,
+      "sha256": "cf7cd5bae48ba36075c88f199ca591a63b236d761b3ed48f4e50ab437ad4608b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/02_conditional_means_with_intervals.png",
+      "bytes": 115114,
+      "sha256": "6eb47ec0b4f37872e4b2b9aa7ce33443bfbf969966734f5a5bddd1ba35757ff5"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 109152,
+      "sha256": "4213d82a04f4847554452b181e2622e57650dbf2e2295489d6e6d89d349593fc"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/04_support_and_state_contrasts.png",
+      "bytes": 98383,
+      "sha256": "5e1937d47007a5ef2aab40653800c96de3edb0aa04a160d7ff42796a856ff06f"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A2/05_temporal_and_outlier_robustness.png",
+      "bytes": 122128,
+      "sha256": "5eb7304582e24c191427b686ad6e067e6b589c5065e8edcc4c667a8b8ea76828"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/01_scatter_state_lines.png",
+      "bytes": 260595,
+      "sha256": "562ae1b44df2ee9f87080ecba79a6f2b58cf1768880f4057b6a8ecc467091180"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/02_conditional_means_with_intervals.png",
+      "bytes": 287277,
+      "sha256": "d6d5e290dcd71140e9736f5139c317a4b994b3e75d7e318a91043e0613deb654"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 286587,
+      "sha256": "f51fb0aadc0226626eaba557591c3153c988dffc3dc5498ba9f1593497ce590d"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/04_support_and_state_contrasts.png",
+      "bytes": 276987,
+      "sha256": "91f18ee02d15cf6bf5a455f0822412e93edf682005447c316933dcbff7aeff52"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A3/05_temporal_and_outlier_robustness.png",
+      "bytes": 370279,
+      "sha256": "e4dc5d92a64b0799ed9427ebdd0b17e5af64547299abde9acef79419e7ff17cf"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/01_scatter_state_lines.png",
+      "bytes": 163663,
+      "sha256": "56717b0e827bb005bab04189b73bf46bab6bb96c1943c0a55f640f8a02685c74"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/02_conditional_means_with_intervals.png",
+      "bytes": 170164,
+      "sha256": "7fe1f69a19e3b60f11e843c9ec8b50c532504ae75d4ad760722bbd550c6da1c2"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 168192,
+      "sha256": "f4346c9885053e5a137f6499a41569ff287b4783861d4b5d3e348230b57c6eab"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/04_support_and_state_contrasts.png",
+      "bytes": 161523,
+      "sha256": "e36655559b4ff37cab4af8f85a18cff8856041aaa2650be0528d8ee56069bb84"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A4/05_temporal_and_outlier_robustness.png",
+      "bytes": 202091,
+      "sha256": "515b2a8312bcd8b637e9c9b51d269b2fabb87fd5dfe7fabd3d4f8841e39d1847"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/01_scatter_state_lines.png",
+      "bytes": 335832,
+      "sha256": "cea68ff79baceb94d98398962b9342f1dc3c05401718bea5878ff8490588a72c"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/02_conditional_means_with_intervals.png",
+      "bytes": 387599,
+      "sha256": "71c407b17c066178f1c6249e8a04e84244847bbaee0f3a16b955617a3dab589a"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 394891,
+      "sha256": "e16d423da2d67176743e3cbeff41dc20ecebf838950bf639b80a63d1ec6a3ad0"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/04_support_and_state_contrasts.png",
+      "bytes": 409598,
+      "sha256": "ff260eb587b5e1b78e7f556af763f813bf5ad4b716ff4667fba68ead88dd54ac"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A5/05_temporal_and_outlier_robustness.png",
+      "bytes": 456706,
+      "sha256": "69e56430bb0668c1184b4ed2bea129607a47d06d8b5bd1fd642655388977394b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/01_scatter_state_lines.png",
+      "bytes": 162930,
+      "sha256": "61e91679729c074df53df253715271caef6ca5395cb533a31e26f4e4e65e703a"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/02_conditional_means_with_intervals.png",
+      "bytes": 173659,
+      "sha256": "69c17ff6eabf1137847d149490dcf947ae6dcbca4ce87d89d24113a8471e8dc4"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 171149,
+      "sha256": "e0939abdae30e9adce9cba02b1256122a22655d919cfd5f97a231fa4728b21a6"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/04_support_and_state_contrasts.png",
+      "bytes": 164773,
+      "sha256": "b0e247ebef86dd5a686114c8db7273c5c8bc24f19b684835d645a905357f2a1b"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/A6/05_temporal_and_outlier_robustness.png",
+      "bytes": 206905,
+      "sha256": "c7b010c8dff73c48e24506c70b2d76882d45edd759c749ffa6c21eae380a4587"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/01_scatter_state_lines.png",
+      "bytes": 135976,
+      "sha256": "54ed4252fade7e26a8661965ce5178aa4721bdbc5fc89c6ccae9e6a4a0bcd3d1"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/02_conditional_means_with_intervals.png",
+      "bytes": 157279,
+      "sha256": "8f6380a6c4664bfc5542565315f6c541f53da3f61614e6cda3c53ceffd494b4f"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 185926,
+      "sha256": "be1cde8ac4b2d460d072f0e1b3f34fc343005cee2a456f551fe76b3cb9cbbda0"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/04_support_and_state_contrasts.png",
+      "bytes": 187024,
+      "sha256": "755cb6bab531b9f726676f6e4b88d2447b5ffb4e9ce45369d11785156304eb95"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B1/05_temporal_and_outlier_robustness.png",
+      "bytes": 172473,
+      "sha256": "d8c75aba019660c688e82f3a1b53a18df28097e4f90d2c75e5309f21e5f49f46"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/01_scatter_state_lines.png",
+      "bytes": 217746,
+      "sha256": "8969793f4f0d2b715c462bd33816b2692e4b824189537432619545ffe4f743e6"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/02_conditional_means_with_intervals.png",
+      "bytes": 235206,
+      "sha256": "a4b1d9d744a05c323085994f91114ad4803bf50a4ef5da9e6109e7fa508a5f57"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 238863,
+      "sha256": "68fe354ae31367a048fb6af5bc8311a7fd40d4e13f308d0dcb256a02223dd3ae"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/04_support_and_state_contrasts.png",
+      "bytes": 234101,
+      "sha256": "afbdcc012892f3d78ba4ab09ded0af027c029583e89d6efbb7d50b529ea7b2ca"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B2/05_temporal_and_outlier_robustness.png",
+      "bytes": 301895,
+      "sha256": "50e52910e010ed944b8fa22ababf04d6dc56a974a4a80e3b4aa6e638cf0c1d6e"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/01_scatter_state_lines.png",
+      "bytes": 216150,
+      "sha256": "c9a19304b889b7954b81b68075f70a073a012c4422dc3f31dcc284e638c9fe3e"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/02_conditional_means_with_intervals.png",
+      "bytes": 233448,
+      "sha256": "ba6d7066e9db766fc4399bc534f10150ad734dce5314643c5147844124a064e3"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 234144,
+      "sha256": "7df48b64b602cf2bd63ad08baf65a2aa995f20d89200f2748ceb2a014b5d18ed"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/04_support_and_state_contrasts.png",
+      "bytes": 227508,
+      "sha256": "4f0aea5da70ca423635817fc57bd1cd8df7421ae2b5bb65fa4d7cc02b9bd9fbe"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/B3/05_temporal_and_outlier_robustness.png",
+      "bytes": 277570,
+      "sha256": "8df3a1afd18c67d71806a629cbc3c881f92f9c5c065ee0b7f13a60b484b8d6eb"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/01_scatter_state_lines.png",
+      "bytes": 106175,
+      "sha256": "c06447d96121a5c05d15f43b77c12dca4a5a1a8af64062c40925132c90aaf552"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/02_conditional_means_with_intervals.png",
+      "bytes": 299390,
+      "sha256": "02365e2da8536dc0f922f55684e8d18b2b9bcc23c4e00111a9bd2e5446dc32ff"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/03_raw_XZ_conditional_response_heatmap.png",
+      "bytes": 114622,
+      "sha256": "4934452d306431c116df3e0831cac149107e8b78b5e323fd98e148f213931fd1"
+    },
+    {
+      "path": "artifacts/B/initial_audit/figures/C1/04_support_and_state_contrasts.png",
+      "bytes": 133557,
+      "sha256": "b8a97c7dbeb8b0c372d0273ef4df207f610cfe88834e908438d271c34414eb11"
+    }
+  ],
+  "preexisting_files_verified_unchanged": 265,
+  "feature_rows": 1495,
+  "feature_columns": [
+    "session_et",
+    "late_return_5m_bp",
+    "late_return_10m_bp",
+    "late_return_15m_bp",
+    "late_accel_bp",
+    "gap_bp",
+    "morning_bp",
+    "abs_x_bp",
+    "x_squared_bp2",
+    "x_centered_squared_bp2",
+    "abs_w_bp",
+    "rv_late_30",
+    "rv_late_log",
+    "late_volume_30m",
+    "late_volume_5m",
+    "relative_late_volume",
+    "lag_close_1_bp",
+    "lag_close_5_bp",
+    "lag_close_20_bp"
+  ],
+  "primary_contrasts": 72,
+  "primary_abstained": 5,
+  "all_mask_contrasts": 576,
+  "all_mask_abstained": 241,
+  "empirical_cell_rows": 6216,
+  "empirical_cells_with_intervals": 2344,
+  "no_supported_zero_width_intervals": true
+}

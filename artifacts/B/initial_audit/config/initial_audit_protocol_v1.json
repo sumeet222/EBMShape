@@ -1,0 +1,449 @@
+{
+  "task_id": "B_INITIAL_AUDIT_NINE_REMAINING_EXPERIMENTS_V1",
+  "version": 1,
+  "frozen_at_utc": "2026-10-16T23:24:42.386502+00:00",
+  "train": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "data_refs": [
+    {
+      "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+      "bytes": 468459,
+      "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+    },
+    {
+      "path": "patches/B/B_spy_hf_source1_D2_1c_v1.parquet",
+      "rows": 39,
+      "bytes": 22077,
+      "sha256": "398141da0889940fb03dcbe0faea29c5abd50da8fdc7d1e5deec7c0ed6f85172"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "bytes": 869271,
+      "sha256": "d57c36d075dbad05994283d83cd4a54b6ffc6ca8cdd4db7e53f15bb9f7161d0e"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "bytes": 849491,
+      "sha256": "a109bcd04430e0b2ccc9cf351f0acb9ec510aaa797efd2c76844e5ca34e2d8e3"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "bytes": 865357,
+      "sha256": "9f6fdeaa057251ee6cfa106baafca09a8476decac31f16e183fcd7ac61e857bd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "bytes": 871110,
+      "sha256": "c4fb5b516ae19610fd53a6851709cf4b20f7b137f0ff572610ffdebef7c224e6"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+      "bytes": 653037,
+      "sha256": "95e458decd2e31070a4ce5d89fbe73f467d7d054559e2e970f32a412ebca55fd"
+    }
+  ],
+  "directions": {
+    "A2": {
+      "title": "Late momentum \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "w_preclose_bp",
+          "label": "W: 15:00\u201315:30",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    },
+    "A3": {
+      "title": "Recent momentum and acceleration \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "late_return_5m_bp",
+          "label": "Last 5 minutes",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "late_return_10m_bp",
+          "label": "Last 10 minutes",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "late_return_15m_bp",
+          "label": "Last 15 minutes",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "late_accel_bp",
+          "label": "Recent 5m minus disjoint earlier 5m",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    },
+    "A4": {
+      "title": "Overnight gap versus morning intraday \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "gap_bp",
+          "label": "Overnight gap G",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "morning_bp",
+          "label": "09:30\u201310:00 intraday I",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        }
+      ]
+    },
+    "A5": {
+      "title": "Extreme magnitude and asymmetry \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "x_open_bp",
+          "label": "Signed opening X",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "abs_x_bp",
+          "label": "|X|",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "x_squared_bp2",
+          "label": "X\u00b2 (direction removed)",
+          "unit": "bp\u00b2",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "x_centered_squared_bp2",
+          "label": "(X \u2212 TRAIN mean X)\u00b2",
+          "unit": "bp\u00b2",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "abs_x_bp",
+          "label": "|X| conditional on X < 0",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "NEGATIVE",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "abs_x_bp",
+          "label": "|X| conditional on X \u2265 0",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "NONNEGATIVE",
+          "cutoff": "10:00"
+        }
+      ]
+    },
+    "A6": {
+      "title": "Late momentum \u00d7 recent versus opening RV",
+      "panels": [
+        {
+          "x": "w_preclose_bp",
+          "label": "W; recent RV PRINCIPAL",
+          "unit": "bp",
+          "state": "rv_late_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "w_preclose_bp",
+          "label": "W; opening RV COMPARISON",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    },
+    "B1": {
+      "title": "Downside event probability \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "x_open_bp",
+          "label": "Opening X \u2014 early information",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "w_preclose_bp",
+          "label": "Late W \u2014 late information",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    },
+    "B2": {
+      "title": "Late volume \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "late_volume_30m",
+          "label": "15:00\u201315:30 volume",
+          "unit": "shares",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "late_volume_5m",
+          "label": "15:25\u201315:30 volume",
+          "unit": "shares",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        },
+        {
+          "x": "relative_late_volume",
+          "label": "Late volume / prior 20 eligible mean",
+          "unit": "ratio",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    },
+    "B3": {
+      "title": "Lagged full-session momentum \u00d7 opening RV",
+      "panels": [
+        {
+          "x": "lag_close_1_bp",
+          "label": "Prior 1-full-session return",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "lag_close_5_bp",
+          "label": "Prior 5-full-session return",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        },
+        {
+          "x": "lag_close_20_bp",
+          "label": "Prior 20-full-session return",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "10:00"
+        }
+      ]
+    },
+    "C1": {
+      "title": "Fixed-rule decision feasibility \u2014 MODEL_DEPENDENT / DEFER",
+      "panels": [
+        {
+          "x": "abs_w_bp",
+          "label": "|W|; fixed sign(W) continuation",
+          "unit": "bp",
+          "state": "rv_open_log",
+          "facet": "ALL",
+          "cutoff": "15:30"
+        }
+      ]
+    }
+  },
+  "source_id": "B_SPY_daily_split_source1_stage1_v1",
+  "symbol": "SPY",
+  "timezone": "America/New_York",
+  "adjustment": "Alpaca SIP split + exactly39 D2.1c native missing-key rows; no D2.1b",
+  "outcome": "y_last30_bp = 10000*(C15:59/C15:29-1), signed; available16:00 ET",
+  "opening_cutoffs_log": [
+    -6.46410542902094,
+    -6.02063452513255
+  ],
+  "opening_cutoffs_raw": [
+    0.001558374721607106,
+    0.0024281183976187152
+  ],
+  "rv_epsilon": 1e-08,
+  "new_state": "sqrt(log(C15:00/O15:00)^2 +29 adjacent close-log increments through15:29); log(RV+1e-8); own TRAIN terciles",
+  "features": {
+    "late_returns": "10000*(C15:29/C15:(29-h)-1), h5/10/15",
+    "acceleration": "last5 -10000*(C15:24/C15:19-1); disjoint intervals",
+    "gap": "10000*open_overnight_part",
+    "morning": "10000*r_open_intraday_only",
+    "magnitude": "abs(X),X\u00b2,(X-mean_TRAIN_X)\u00b2; sign facets share magnitude bin edges",
+    "volume": "sum15:00..15:29 / sum15:25..15:29; relative denominator shift(1).rolling20 mean of eligible full sessions",
+    "lag": "C[t-1]/C[t-1-h]-1 on scheduled full sessions, h1/5/20; all h+1 anchors required; early closes skipped only"
+  },
+  "binning": {
+    "primary": 8,
+    "coarse": 5,
+    "z_bins": 6,
+    "ties": "unique quantile edges; boundary equality lower; no response use",
+    "display_quantiles": [
+      0.005,
+      0.995
+    ],
+    "display_min_n": 20,
+    "display_min_groups": 10
+  },
+  "contrast_candidates": [
+    [
+      0.1,
+      0.3,
+      0.7,
+      0.9
+    ],
+    [
+      0.05,
+      0.35,
+      0.65,
+      0.95
+    ],
+    [
+      0.0,
+      0.4,
+      0.6,
+      1.0
+    ]
+  ],
+  "contrast_selection": "first candidate with \u226550 dates/20 groups in all six X-band\u00d7state cells; partner marginalized; selection uses predictors only; B1 event gate applied AFTER selection without fallback",
+  "support": {
+    "min_n": 50,
+    "min_groups": 20,
+    "strong_n": 100,
+    "strong_groups": 30,
+    "event_min": 5,
+    "nonevent_min": 5,
+    "event_groups_min": 3
+  },
+  "bootstrap": {
+    "seed": 20261016,
+    "B": 300,
+    "length": 5,
+    "scheme": "joint circular consecutive eligible-day records; fixed cells/masks; no re-estimated bins",
+    "percentile": [
+      2.5,
+      97.5
+    ],
+    "min_valid": 270,
+    "length10_sensitivity": "not run; optional, no most-interpretable response-based selection"
+  },
+  "exclusions": {
+    "DROP_TOP1": [
+      "2020-03-18"
+    ],
+    "DROP_TOP5": [
+      "2020-03-18",
+      "2020-03-13",
+      "2020-02-28",
+      "2020-03-27",
+      "2020-03-24"
+    ]
+  },
+  "masks": [
+    "FULL",
+    "DROP_TOP1",
+    "DROP_TOP5",
+    "NO_2020",
+    "PRE_2020",
+    "YEAR_2020",
+    "YEAR_2021",
+    "COMMON_DATES"
+  ],
+  "event_threshold_bp": -20,
+  "optional_threshold_minus40": "omitted; no response-based threshold selection",
+  "costs_bp": [
+    0,
+    2,
+    5,
+    10
+  ],
+  "rule": "sign(W) continuation only; zero signal flat, costs per active round trip",
+  "execution": "hypothetical entry at C15:29 and exit at C15:59; immediate availability/fill assumed; no observed bid/ask, latency or slippage; TRADING_NOT_ESTABLISHED",
+  "optional_features": "VWAP, lagged volatility, partner stratification, A6 last5 and reversal omitted to keep bounded scope; patch VWAP/trade counts null",
+  "ranking": {
+    "primary_panel": "first listed for each direction; all variants displayed, never chosen by response",
+    "PROMISING_TO_TEST": "primary H-L contrast supported; interval excludes0; |D|>=max(1bp,0.10*SD(Y)) or0.02 probability; all3 fixed exclusion signs agree and at least2 temporal raw contrasts agree with display-level20/10 support; \u226550% primary curve cells pass50/20; no unresolved integrity issue",
+    "LOW_PRIORITY": "supported primary with interval crossing0 and |D|<0.05*SD(Y) (B1<0.01), or \u22652 of3 supported fixed exclusions reverse sign",
+    "INCONCLUSIVE": "all other available-data cases, including support/uncertainty failures",
+    "DATA_BLOCKED": "missing required inputs or feature-integrity failure",
+    "C1": "MODEL_DEPENDENT / DEFER, always",
+    "selection": "interpretive triage of8 exploratory families; no composite score or formal significance; NO_CLEAR_WINNER allowed"
+  },
+  "bans": [
+    "2022\u20132026 scientific reads",
+    "new downloads",
+    "predictive fits",
+    "validation selection",
+    "learned policy",
+    "null reruns"
+  ]
+}

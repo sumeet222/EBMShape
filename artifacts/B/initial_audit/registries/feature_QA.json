@@ -1,0 +1,228 @@
+{
+  "real_date_checks": [
+    {
+      "session_et": "2016-01-05",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2016-01-05T15:00:00+00:00",
+      "late_available_utc": "2016-01-05T20:30:00+00:00",
+      "prior_full_session": "2016-01-04",
+      "skipped_early": 0
+    },
+    {
+      "session_et": "2019-03-08",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2019-03-08T15:00:00+00:00",
+      "late_available_utc": "2019-03-08T20:30:00+00:00",
+      "prior_full_session": "2019-03-07",
+      "skipped_early": 0
+    },
+    {
+      "session_et": "2019-03-11",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2019-03-11T14:00:00+00:00",
+      "late_available_utc": "2019-03-11T19:30:00+00:00",
+      "prior_full_session": "2019-03-08",
+      "skipped_early": 0
+    },
+    {
+      "session_et": "2019-08-12",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2019-08-12T14:00:00+00:00",
+      "late_available_utc": "2019-08-12T19:30:00+00:00",
+      "prior_full_session": "2019-08-09",
+      "skipped_early": 0
+    },
+    {
+      "session_et": "2019-12-02",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2019-12-02T15:00:00+00:00",
+      "late_available_utc": "2019-12-02T20:30:00+00:00",
+      "prior_full_session": "2019-11-27",
+      "skipped_early": 1
+    },
+    {
+      "session_et": "2020-03-18",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2020-03-18T14:00:00+00:00",
+      "late_available_utc": "2020-03-18T19:30:00+00:00",
+      "prior_full_session": "2020-03-17",
+      "skipped_early": 0
+    },
+    {
+      "session_et": "2021-05-06",
+      "status": "PASS",
+      "checked_fields": [
+        "late_return_5m_bp",
+        "late_return_10m_bp",
+        "late_return_15m_bp",
+        "late_accel_bp",
+        "rv_late_30",
+        "late_volume_30m",
+        "late_volume_5m",
+        "gap_bp",
+        "morning_bp"
+      ],
+      "late_increments": 30,
+      "early_available_utc": "2021-05-06T14:00:00+00:00",
+      "late_available_utc": "2021-05-06T19:30:00+00:00",
+      "prior_full_session": "2021-05-05",
+      "skipped_early": 0
+    }
+  ],
+  "manual_checks": "PASS",
+  "chronology": "PASS",
+  "no_1530_start_predictor": true,
+  "timezone_DST": "zoneinfo America/New_York",
+  "volume_reference": "20 previous eligible days, excludes current",
+  "close_reference": "1/5/20 completed scheduled full sessions, missing anchors never skipped",
+  "training_minutes": 136376,
+  "native_patch_training_rows": 39,
+  "complete_late_RV": 1495,
+  "feature_rows": 1495,
+  "new_feature_columns": 18,
+  "x_mean_train_bp": 6.156015455478542,
+  "relative_volume_warmup": 20,
+  "early_skip_training_dates": [
+    "2016-11-28",
+    "2017-07-05",
+    "2017-11-27",
+    "2018-07-05",
+    "2018-11-26",
+    "2018-12-26",
+    "2019-07-05",
+    "2019-12-02",
+    "2019-12-26",
+    "2020-11-30",
+    "2020-12-28",
+    "2021-11-29"
+  ],
+  "excluded_full_sessions": [
+    {
+      "session_et": "2016-01-04"
+    },
+    {
+      "session_et": "2020-03-09"
+    },
+    {
+      "session_et": "2020-03-12"
+    },
+    {
+      "session_et": "2020-03-16"
+    }
+  ],
+  "common_dates_n": 1475,
+  "masks": {
+    "FULL": {
+      "n": 1495,
+      "first": "2016-01-05",
+      "last": "2021-12-31"
+    },
+    "DROP_TOP1": {
+      "n": 1494,
+      "first": "2016-01-05",
+      "last": "2021-12-31"
+    },
+    "DROP_TOP5": {
+      "n": 1490,
+      "first": "2016-01-05",
+      "last": "2021-12-31"
+    },
+    "NO_2020": {
+      "n": 1247,
+      "first": "2016-01-05",
+      "last": "2021-12-31"
+    },
+    "PRE_2020": {
+      "n": 996,
+      "first": "2016-01-05",
+      "last": "2019-12-31"
+    },
+    "YEAR_2020": {
+      "n": 248,
+      "first": "2020-01-02",
+      "last": "2020-12-31"
+    },
+    "YEAR_2021": {
+      "n": 251,
+      "first": "2021-01-04",
+      "last": "2021-12-31"
+    },
+    "COMMON_DATES": {
+      "n": 1475,
+      "first": "2016-02-03",
+      "last": "2021-12-31"
+    }
+  }
+}
