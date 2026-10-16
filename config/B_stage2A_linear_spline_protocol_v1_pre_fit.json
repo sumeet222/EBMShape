@@ -1,0 +1,469 @@
+{
+  "stage": "B_stage2A",
+  "version": 1,
+  "frozen_at_utc": "2026-10-16T21:38:04.353001+00:00",
+  "inputs": {
+    "AGENTS.md": "6727aa17db8369d915d1a85a61b9c1ad1b6b1f9117aef9bc59f807ef72f12455",
+    "docs/specs/experiment_B_intraday_volatility_ebm_research_spec_v1.md": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc",
+    "docs/specs/experiment_B_new_chat_codex_and_diagnostics_instructions_v1.md": "eb3aff5de76184dada05018ac25be50a3c3f84d83f4785bca96570dd8e6f6bc9",
+    "config/B_stage1_dataset_selection.json": "4f8018676e5af418b002dd38caa3000e3fb789a0483913530ff621af963b15e1",
+    "data/registry/B_stage1_daily_manifest.json": "960b4c812816a9f26f332120465e91acbd12fb299e1e7f5c61be1f566746f16f",
+    "data/registry/B_stage1_coefficients.csv": "7854f9e0e70fb97d3029667421e159051cc79573ce2afa404b88125541ecaf54",
+    "data/registry/B_stage1_state_metadata.json": "b4dd56c5fee95239d2a429fa63361e83524ab5615375dc94443ae3d41391deea",
+    "data/registry/B_stage1_qa.json": "8c50ef0a88a4ac283b69adcb2e7b85c819dcd3ec222005e8fd41ef5857c07c83",
+    "data/registry/B_stage1_5_diagnostics_manifest.json": "33845ac7aaa3ef6b9f4aa2b11bcdb9958884c63a72d2e3217e2d4a529c8827f0",
+    "data/registry/B_stage1_5_linear_diagnostics_summary.csv": "eab295b96288623983584c0793f25b95b21ce8521e0340b2a223bc8ef5d08bfe",
+    "data/registry/B_stage1_5_influence.csv": "719de5cd665abe65fdb7760654e38bee62ee4299a8f6bf7aa796fb6d3cd331d6",
+    "data/registry/D2_spy_source_manifest.json": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae",
+    "data/registry/D2_1c_hf_repair_manifest.json": "84f24f0a45473a01f8eb5c2923f81564988ff3f6fb3466bf90e6cb88a8529727",
+    "docs/experiment_B_source_method_crosswalk.md": "6bc618284c0a29678af02321f26312773d14b3eed385e012ed29b889056f6baa"
+  },
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "counts": {
+    "rows": 2680,
+    "eligible": 2675,
+    "train": 1495,
+    "validation": 497,
+    "sealed_test": 683
+  },
+  "train": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "validation": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "sealed": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "preprocessing": {
+    "asof": "2022-01-01",
+    "n": 1495,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "cutoffs_raw": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "cutoffs_log": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "z_ref": -6.257012700074515,
+    "representatives": [
+      -6.673927481801225,
+      -6.256791269350911,
+      -5.709473991823623
+    ],
+    "z_quantiles_20_50_80": [
+      -6.622536201391457,
+      -6.257012700074515,
+      -5.7834786637446225
+    ],
+    "ranges": {
+      "x_open_bp": [
+        -456.7449545615476,
+        584.2434047907963
+      ],
+      "w_preclose_bp": [
+        -137.8195584669706,
+        153.94622723330366
+      ],
+      "rv_open_log": [
+        -7.386584542825402,
+        -3.7301741628712324
+      ]
+    },
+    "splines": {
+      "4": {
+        "dimension": 4,
+        "degree": 3,
+        "quantiles": [
+          0.05,
+          0.35,
+          0.65,
+          0.95
+        ],
+        "knots": [
+          -6.913921705700965,
+          -6.44522266085524,
+          -6.043074190631212,
+          -5.250196473329516
+        ],
+        "projection": [
+          [
+            0.2478803528134451,
+            0.049396895083737125
+          ],
+          [
+            0.8200649889153115,
+            0.21775072362829587
+          ]
+        ],
+        "offset": [
+          -0.14546797715773419,
+          -0.0469882955048029
+        ],
+        "scale": [
+          0.19888118165479024,
+          0.07273532381382733
+        ],
+        "boundaries": [
+          -6.913921705700965,
+          -5.250196473329516
+        ],
+        "tail": "linear; never clipped"
+      },
+      "6": {
+        "dimension": 6,
+        "degree": 3,
+        "quantiles": [
+          0.05,
+          0.23,
+          0.41,
+          0.59,
+          0.77,
+          0.95
+        ],
+        "knots": [
+          -6.913921705700965,
+          -6.587387522943726,
+          -6.368600549458324,
+          -6.136290421575377,
+          -5.843060079784792,
+          -5.250196473329516
+        ],
+        "projection": [
+          [
+            0.26561940975599163,
+            0.10186551339108321,
+            0.04627941666223263,
+            0.015469490771849802
+          ],
+          [
+            0.9248823206352716,
+            0.43969569095635186,
+            0.22853027345817814,
+            0.08708778364596642
+          ]
+        ],
+        "offset": [
+          -0.1632070341002807,
+          -0.088838117134124,
+          -0.045777435388520187,
+          -0.015469490771849802
+        ],
+        "scale": [
+          0.2457150748971512,
+          0.1464671573927716,
+          0.08826162347696574,
+          0.03894854804743926
+        ],
+        "boundaries": [
+          -6.913921705700965,
+          -5.250196473329516
+        ],
+        "tail": "linear; never clipped"
+      }
+    }
+  },
+  "support": {
+    "x0": 0.0,
+    "x_magnitude": 10.0,
+    "x_grid": [
+      -10.0,
+      -7.5,
+      -5.0,
+      -2.5,
+      0.0,
+      2.5,
+      5.0,
+      7.5,
+      10.0
+    ],
+    "x_bins": [
+      -5.0,
+      5.0
+    ],
+    "w_fixed": 0.0,
+    "w_band": [
+      -16.620280276007815,
+      18.84402635020036
+    ],
+    "z_representatives": [
+      -6.673927481801225,
+      -6.256791269350911,
+      -5.709473991823623
+    ],
+    "minimum_n": 50,
+    "minimum_blocks": 20,
+    "strong_n": 100,
+    "strong_blocks": 30,
+    "block_unit": "nonoverlapping groups of five eligible training rows",
+    "note": "coarse state \u00d7 X cells; L additionally restricts W to training10\u201390pct band; no raw point-identification claim"
+  },
+  "source_check": {
+    "date": "2020-03-18",
+    "original_source": {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    "private_price_audit": {
+      "path": "derived/B/B_stage2A_march18_anchor_check.json",
+      "bytes": 402,
+      "sha256": "0dbaf478c8e239c863d5832b0023ec4b27be5aff5f6a02d2a3ff42eb154a8707"
+    },
+    "anchors": [
+      "Pprev",
+      "P10",
+      "P15",
+      "P1530",
+      "P16"
+    ],
+    "max_price_error": 0.0,
+    "all_manual_equations_match": true,
+    "gap_minutes": 14,
+    "gap": "12:57\u201313:10 ET",
+    "gap_outside_required_windows": true
+  },
+  "models": [
+    {
+      "model_id": "C1_E",
+      "family": "C1",
+      "info": "E",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "C2_E",
+      "family": "C2",
+      "info": "E",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "S4_E",
+      "family": "S4",
+      "info": "E",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "S6_E",
+      "family": "S6",
+      "info": "E",
+      "w_moderation": false,
+      "primary": false,
+      "complexity_role": "higher_df_sensitivity"
+    },
+    {
+      "model_id": "C1_L",
+      "family": "C1",
+      "info": "L",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "C2_L",
+      "family": "C2",
+      "info": "L",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "S4_L",
+      "family": "S4",
+      "info": "L",
+      "w_moderation": false,
+      "primary": true,
+      "complexity_role": "primary"
+    },
+    {
+      "model_id": "S6_L",
+      "family": "S6",
+      "info": "L",
+      "w_moderation": false,
+      "primary": false,
+      "complexity_role": "higher_df_sensitivity"
+    },
+    {
+      "model_id": "C1_L_Wmod",
+      "family": "C1",
+      "info": "L",
+      "w_moderation": true,
+      "primary": false,
+      "complexity_role": "optional_W_moderation"
+    },
+    {
+      "model_id": "C2_L_Wmod",
+      "family": "C2",
+      "info": "L",
+      "w_moderation": true,
+      "primary": false,
+      "complexity_role": "optional_W_moderation"
+    },
+    {
+      "model_id": "OLS1_E",
+      "family": "OLS1",
+      "info": "E",
+      "w_moderation": false,
+      "primary": false,
+      "complexity_role": "reference"
+    },
+    {
+      "model_id": "OLS3_L",
+      "family": "OLS3",
+      "info": "L",
+      "w_moderation": false,
+      "primary": false,
+      "complexity_role": "reference"
+    },
+    {
+      "model_id": "OLS2_L",
+      "family": "OLS2",
+      "info": "L",
+      "w_moderation": false,
+      "primary": false,
+      "complexity_role": "reference"
+    }
+  ],
+  "naive_models": [
+    "N0",
+    "N1"
+  ],
+  "N1": "Expanding mean of all prior eligible observed targets, initialized from full training mean for validation; updates after each prior validation close. Training descriptive first forecast0 then prior-only mean. Identical comparator in fixed/quarterly modes.",
+  "sensitivity_variants": [
+    "FULL",
+    "DROP_TOP1",
+    "DROP_TOP5",
+    "EXCLUDE_2020",
+    "MATCHED_SOURCE"
+  ],
+  "drop_top1": [
+    "2020-03-18"
+  ],
+  "drop_top5": [
+    "2020-03-18",
+    "2020-03-13",
+    "2020-02-28",
+    "2020-03-27",
+    "2020-03-24"
+  ],
+  "source_exclusions": [
+    "2019-08-12",
+    "2019-08-13"
+  ],
+  "sensitivity_preprocessing": "All fixed-fit deletions preserve original FULL training cutoffs/knots/transforms/centering; validation rows unchanged; fixed prediction only.",
+  "huber": "C1/C2/S4 and optional C1/C2 Wmod: all-days HuberT1.345 MAD maxiter200 tol1e-8 point-only; fixed validation. S6 robust omitted as redundant complexity sensitivity.",
+  "quarterly_schedule": [
+    "2022-01-01",
+    "2022-04-01",
+    "2022-07-01",
+    "2022-10-01",
+    "2023-01-01",
+    "2023-04-01",
+    "2023-07-01",
+    "2023-10-01"
+  ],
+  "quarterly_preprocessing": "Re-estimate all cutoffs/centering/knots/scales on eligible history strictly before quarter start, including completed earlier validation Y; FULL training selection only.",
+  "inference": {
+    "hac_lags": [
+      5,
+      10,
+      20
+    ],
+    "kernel": "Bartlett",
+    "use_correction": true,
+    "use_t": false,
+    "ci": 0.95,
+    "family": "Six primary tests: C1 X-state joint, C2 XZ, S4 added f/g curvature vs C2, separately E/L; Holm over6; additional tests exploratory",
+    "tails": "Linear natural spline outside first/last knots, no clipping; count boundaries and observed training-range exceedance",
+    "knots": "S4: .05,.35,.65,.95; S6: .05,.23,.41,.59,.77,.95. Function dimensions include intercept; E ranks8/12, L9/13.",
+    "transform": "Restricted cubic curvature residualized on1,Zc using training predictors only, centered0 at medianZ, divided by training residual SD; C2 columns explicit and nested."
+  },
+  "diagnostics": {
+    "lags": [
+      5,
+      10,
+      20
+    ],
+    "acf": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "arch": 5,
+    "studentization": "internal",
+    "top_cook": 5,
+    "White": "All full designs: expanded variance squares/products, actual matrix rank-1 df; NOT_APPLICABLE on instability/rank failure.",
+    "RESET": "One fitted-square HAC5 for OLS references/C1/C2 only; spline uses nested curvature Wald instead.",
+    "bins": 10,
+    "min_bin_n": 20,
+    "temporal_models": [
+      "C1_E",
+      "C2_E",
+      "S4_E",
+      "C1_L",
+      "C2_L",
+      "S4_L"
+    ],
+    "temporal_periods": {
+      "2016_2019": [
+        "2016-01-05",
+        "2019-12-31"
+      ],
+      "2020": [
+        "2020-01-01",
+        "2020-12-31"
+      ],
+      "2021": [
+        "2021-01-01",
+        "2021-12-31"
+      ]
+    },
+    "leave_year_models": [
+      "C2_E",
+      "S4_E",
+      "C2_L",
+      "S4_L"
+    ],
+    "break_models": [
+      "C2_E",
+      "C2_L"
+    ],
+    "break_definition": "Fixed2020 intercept+X\u00d7D2020, controlling original centeredZ/XZ and W when L; no breakpoint search"
+  },
+  "metrics": [
+    "MSE",
+    "RMSE",
+    "MAE",
+    "bias_prediction_minus_actual",
+    "R2_N0",
+    "R2_causal_N1",
+    "Pearson",
+    "directional_accuracy",
+    "majority_direction_baseline",
+    "p95_absolute_error"
+  ],
+  "paired": "Comparator squared loss minus candidate; HAC5 for C1/C2/S4 vs same-info OLS and best naive, plus S4 vs best C1/C2; lag10/20 for S4 comparisons. Save per-date differences in one prediction file; selected comparator inference exploratory.",
+  "recommendation": "Rank six primary FULL candidates by quarterly validation MSE within E/L; retain minimum as descriptive benchmark. Convincing improvement requires positive HAC5 CI for paired gain vs strongest same-info naive/OLS. Sensitivity variants never replace FULL; S6/Wmod are disclosed comparisons, not automatic primary replacements.",
+  "figures": 8,
+  "random_seed": null,
+  "no_sealed_scientific_access": true,
+  "no_new_data_downloads": true,
+  "execution_data_budget_bytes": 100000000
+}
