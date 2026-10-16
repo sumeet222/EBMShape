@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebm-research"
+version = "0.1.0"
+description = "Small, auditable state-dependent EBM research utilities"
+requires-python = ">=3.10"
+dependencies = ["exchange-calendars==4.13.2", "pyarrow==23.0.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

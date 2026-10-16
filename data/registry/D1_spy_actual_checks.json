@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "actual_sample_day": "2024-03-08",
+  "prior_full_session": "2024-03-07",
+  "anchors": "all five match named actual minute closes",
+  "rv_independent_numpy_logdiff": "PASS; atol=1e-14, rtol=1e-10",
+  "return_definitions": "PASS; actual anchors, simple return, no regression/performance calculation",
+  "sealed_outcome_values": "retained only in ignored actual_anchor_check.json",
+  "scope": "one small operational validation sample"
+}

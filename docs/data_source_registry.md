@@ -53,3 +53,20 @@ Verify PERMNO/PERMCO, dated ticker/share/exchange/SIC codes, RET/RETX, PRC, VOL,
 ## Access and licensing boundaries
 
 API success establishes access to the requested rows only. Existing account agreements were not available for inspection. Provider terms and exchange subscriber agreements remain applicable; no public redistribution is authorized here. [Alpaca's disclosure library](https://alpaca.markets/disclosures) lists exchange subscriber agreements; [Massive terms](https://massive.com/legal/terms) are the applicable starting reference. Store all samples locally under Git ignores; do not publish them. No purchase, new account, token refresh or login automation was performed.
+
+
+## D1 evidence update — 16 October 2026
+
+D0 observations above remain unchanged. D1 status is **PASS WITH QUALIFICATIONS** for the bounded split-adjusted SPY pilot; A remains on hold. Manifest: `data/registry/D1_spy_source_manifest.json`; candle statistics: `D1_spy_candle_qa_sessions.csv`, `D1_spy_candle_gap_clusters.csv`, `D1_spy_missing_candles.csv`, `D1_spy_candle_qa_summary.json`.
+
+Alpaca SIP `adjustment=split` now has actual whole-session evidence for 2024-03-08, 2024-03-11, 2024-11-27, 2024-11-29 (early close), 2024-12-02, and 2026-09-14/15/16/17/18/21. All 4,110 expected regular candles are present and valid; missing clusters=0. Three extra requested anchor-only rows on 2024-03-07, 2024-11-26 and 2026-09-11 are valid. No continuous-history completeness claim follows.
+
+The [issuer distribution listing](https://www.ssga.com/us/en/institutional/resources/documents/etf-dividend-distributions) identifies SPY's 2026-09-18 ex-date, record date 2026-09-18 and payment date 2026-10-30; the [2026 distribution schedule](https://www.ssga.com/library-content/products/fund-data/etfs/us/distribution/SPDR_Dividend_Distribution_Schedule.pdf), version 2026-10-14, page 3, supports the ex-date. The pre-event 15:59 close is unchanged between raw and split, but is 1.89 USD lower under the dividend query (rounded price adjustment); five opening prices on ex-date and the following session match across those modes. Raw/split OHLC agree in all 11 diagnostic bars. This is dividend-treatment evidence, **not a tested split boundary**; split QA remains NOT TESTED on an actual event.
+
+The [NYSE announcement](https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2024-2025-and-2026-Holiday-and-Early-Closings-Calendar-2023.pdf) supports the 2024-11-29 13:00 ET early close. XNYS has 210 expected minutes; the target is absent by schedule and is excluded, without forward fill. March DST samples map 09:30 ET to 14:30 UTC before and 13:30 UTC after the transition.
+
+Massive `adjusted=true` on 2026-09-15 returned 390 matching regular starts. Close and low match Alpaca exactly; **two opens** differ by more than the reporting tolerance of 0.000001 USD (maximum 0.013 USD), and **one high** differs (maximum 0.000046 USD). These are recorded discrepancies, not grounds to merge feeds or assert independent provenance. The tolerance is a diagnostic reporting threshold, not an inferred trading tick or a reason to clip data.
+
+All 11 Alpaca daily split-adjusted bars are available with trade counts >=500. Daily close minus final regular minute close ranges **−0.045 to +0.100 USD**; daily counts exceed summed regular-minute counts. The [Alpaca aggregation FAQ](https://docs.alpaca.markets/us/docs/market-data-faq) documents distinct minute/daily condition rules and day grouping; these explain why equality should not be forced, but exact trade-level attribution was not investigated. B keeps its specified minute-price anchors. Counts are diagnostic and not TAQ-equivalent source filtering.
+
+[Alpaca's public terms](https://files.alpaca.markets/disclosures/library/TermsAndConditions.pdf) describe personal/noncommercial use and restrictions on sharing content; account/exchange-specific agreements still apply. D1 retains licensed candles and price/count comparisons only in ignored local storage. No credentials/subscriptions changed; no license to publish raw bars is inferred.

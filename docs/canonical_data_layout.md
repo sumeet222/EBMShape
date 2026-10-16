@@ -1,6 +1,6 @@
 # Canonical data layout — D0 operational contract
 
-Status: layout established; **no canonical source or model table materialized**. The approved v1 A/B specifications are preserved under `docs/specs/`; original `ResearchSpec/` files remain intact. This document sets storage semantics, not a new scientific protocol.
+D0 status: layout established; no canonical source or model table materialized at D0. **D1 now adds the bounded canonical pilot described below.** The approved v1 A/B specifications are preserved under `docs/specs/`; original `ResearchSpec/` files remain intact. This document sets storage semantics, not a new scientific protocol.
 
 ## One shared physical root
 
@@ -39,3 +39,18 @@ B needs 09:30–09:59 opening bars, 14:59 anchor, 15:00–15:59 closing bars, an
 Every production dataset must register `dataset_id`, provider, source product/feed/revision, symbol/universe, requested and observed coverage, frequency, adjustment semantics, timezone/bar label, schema version, extraction parameters/time, entitlement/license reference, file paths/bytes/SHA-256, correction lineage and QA exclusions. D0 actual samples are indexed by `d0_file_manifest.json` and provider evidence. Candidate future IDs: `A_crsp_monthly_<schema>_<release>_v1`, `B_alpaca_sip_SPY_1m_split_utc_start_v1`; these are **unmaterialized proposals**, not validated datasets.
 
 Keep licensed rows ignored. A public clone has code, protocol and restore instructions only. Estimate before writing; target <1 GB newly retained, stop and flag unexpected >2 GB. Compression and partitioning must be measured on a small sample first. No schema framework, database server, automatic polling or model-cache infrastructure is needed.
+
+
+## D1 bounded pilot — actual materialization, 16 October 2026
+
+Dataset `B_alpaca_sip_SPY_1m_split_D1_v1` now has **one** ignored canonical file at `canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D1_v1/pilot.parquet` below the selected data root. It contains 4,113 rows: 4,110 whole-session regular candles across 11 sessions (10 full, one early close), plus three explicitly marked prior-anchor-only candles. Its 152,721 bytes are not replicated as raw whole-day JSON or as a separate 91-window file. No daily model table exists.
+
+Actual canonical columns are `symbol`, `timestamp_utc` (UTC-aware bar start), `session_et` (date), `requested_session` (ISO date string), `request_role` (`full_session` or `prior_anchor_only`), `source_request`, `open`, `high`, `low`, `close`, `volume`, `trade_count`, `vwap`. The artifact preserves response ordering and duplicates, if any, for auditing; the D1 audit found none. Dataset identity explicitly fixes consolidated SIP and split-only adjustment. No D0 raw file was copied/promoted into this source.
+
+`registry/D1_spy_source_manifest.json` registers config/spec/audit-code identities, canonical hash/size/row count, auxiliary hashes and request lineage. `raw/alpaca/<dataset_id>/requests.json` holds endpoint/parameters/response hashes; full-session bodies are transformed in memory into the sole canonical artifact. Separate tiny daily/ex-dividend/Massive diagnostics and the actual-anchor check remain ignored under that extract directory. Those are cross-checks, not an alternative primary source. The numerical one-day equation check is QA only; no outcome/model table or prediction analysis is produced.
+
+The reusable entry point is `python scripts/d1_spy_pilot.py --source-config config/D1_spy_source.json [--data-root PATH] [--start YYYY-MM-DD --end YYYY-MM-DD] [--dry-run]`, after `pip install -e .`. `--data-root` overrides `EBM_DATA_ROOT`; default is repository `data/`. Explicit ranges remain capped at 15 sessions and must match the configured event/overlap conditions for acquisition; custom event pilots require a matching source config/dataset ID. The output manifest rejects a conflicting identity or changed canonical/auxiliary hashes. A cached same-identity rerun performs **zero HTTP calls**. An interrupted acquisition preserves its sanitized ledger and requires inspection rather than automatic repeated network calls.
+
+Calendar semantics: `exchange_calendars` XNYS, left-labelled minutes, cross-checked against NYSE's announced early close; half-days are 210 expected regular candles, not 180 missing full-day candles. For 2024-12-02 the D1 prompt's permissible-full-session rule uses 2024-11-27 15:59, skipping 2024-11-29's early close. This rule is explicit, not a newly invented 13:00 or 16:00 price. Future D2 must retain/label that temporal span consistently.
+
+Measured pilot compression suggests about **9.74 MB** for 243,881 minimal-window/anchor rows over the calendar 2016-01-04–2026-09-30, versus about **38.97 MB** for full regular-session candles; these are projections, not provider coverage. D2 must acquire/audit complete expected session grids before discarding unused minutes if it elects minimal-window retention, so whole-session completeness remains observable. Keep the compact QA/lineage, not both full-day and minimal-window data copies. `registry/D1_spy_storage_projection.json` records assumptions and the in-memory compression measurement; no second file was retained.

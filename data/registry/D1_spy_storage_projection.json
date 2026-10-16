@@ -1,0 +1,22 @@
+{
+  "basis": "storage projection only; no full-history request or completeness claim",
+  "calendar_sessions_20160104_20260930": 2701,
+  "calendar_full_sessions": 2680,
+  "calendar_early_sessions": 21,
+  "pilot_canonical_rows": 4113,
+  "pilot_parquet_bytes": 152721,
+  "pilot_arrow_payload_bytes": 522373,
+  "pilot_required_or_anchor_rows": 943,
+  "pilot_required_or_anchor_compressed_bytes_measured_in_memory": 37674,
+  "measured_bytes_per_retained_row": 39.951219512195124,
+  "projected_91_window_rows": 243881,
+  "projected_91_window_parquet_bytes": 9743343,
+  "projected_full_session_parquet_bytes": 38973374,
+  "uncertainties": [
+    "annual partition overhead/compression differs; measure first small partition",
+    "calendar coverage is not provider coverage",
+    "first full session requires earlier permissible anchor; D0 only verifies 2016-01-04 anchor",
+    "D2 should fetch full sessions for comprehensive audit, retain only approved windows and compact summaries",
+    "no copied folds, no full-market archives; no full-day plus 91-window retained duplicate"
+  ]
+}

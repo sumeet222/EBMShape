@@ -1,0 +1,27 @@
+{
+  "status": "RECOVERED",
+  "exception_type": "RuntimeError",
+  "safe_next_step": "Inspect ignored raw request ledger; preserve partial files; no automatic retries",
+  "identity": {
+    "config_sha256": "087740cdc02e097ed236f59b7b7461ab03dbc6f8cafbbfff1091aa4f47fc9bbb",
+    "sessions": [
+      "2024-03-08",
+      "2024-03-11",
+      "2024-11-27",
+      "2024-11-29",
+      "2024-12-02",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-21"
+    ],
+    "anchor_only_dates": [
+      "2024-03-07",
+      "2024-11-26",
+      "2026-09-11"
+    ]
+  },
+  "resolution": "Initial sandbox network URLError resolved by approved escalated execution; 25 successful HTTP 200 requests, no partial candle artifact from failed attempt"
+}

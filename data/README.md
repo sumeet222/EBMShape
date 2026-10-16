@@ -2,7 +2,7 @@
 
 One physical store serves A and B. Set `EBM_DATA_ROOT` to an authorized external storage root for future acquisition, otherwise use repository-relative `data/`. D0 diagnostics intentionally use this repository's ignored `data/raw/diagnostics/`; the diagnostic scripts do not implement `EBM_DATA_ROOT` routing. See `docs/canonical_data_layout.md` for the future acquisition contract.
 
-Git contains instructions and hashed manifests, not licensed input rows. No canonical dataset has been built. Empty canonical directories are created locally and ignored; an acquisition command must create its own parents on a fresh clone.
+Git contains instructions and hashed manifests, not licensed input rows. D0 created no canonical data; D1 now adds one bounded split-adjusted SPY pilot (4,113 rows, 152,721 bytes). See [D1 report](../reports/shared/D1_spy_sip_pilot_and_candle_audit.md) and `registry/D1_spy_source_manifest.json` for setup, audit and restoration. The diagnostic commands below describe D0; D1 uses the installed package and environment credentials. Acquisition commands create their own data directories on a fresh clone.
 
 - `raw/diagnostics/`: 15 immutable, bounded provider response files (304,952 bytes); restore via the commands below with a **new** ID, subject to current access.
 - `registry/`: public metadata, request parameters without secrets, sample references/hashes and offline QA evidence.

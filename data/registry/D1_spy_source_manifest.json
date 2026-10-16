@@ -1,0 +1,219 @@
+{
+  "dataset_id": "B_alpaca_sip_SPY_1m_split_D1_v1",
+  "status": "PASS WITH QUALIFICATIONS",
+  "identity": {
+    "config_sha256": "087740cdc02e097ed236f59b7b7461ab03dbc6f8cafbbfff1091aa4f47fc9bbb",
+    "sessions": [
+      "2024-03-08",
+      "2024-03-11",
+      "2024-11-27",
+      "2024-11-29",
+      "2024-12-02",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-21"
+    ],
+    "anchor_only_dates": [
+      "2024-03-07",
+      "2024-11-26",
+      "2026-09-11"
+    ]
+  },
+  "symbol": "SPY",
+  "feed": "sip",
+  "adjustment": "split",
+  "schema_version": 1,
+  "timezone": "UTC",
+  "bar_label": "start; interval left-inclusive, right-exclusive",
+  "calendar": "XNYS",
+  "canonical": {
+    "path_relative_to_data_root": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D1_v1/pilot.parquet",
+    "bytes": 152721,
+    "sha256": "065ab7a800749ab73cf62e4afc854891a30f2eb30fdfed513aa3e131411e4cf8",
+    "rows": 4113,
+    "observed_dates": [
+      "2024-03-07",
+      "2024-03-08",
+      "2024-03-11",
+      "2024-11-26",
+      "2024-11-27",
+      "2024-11-29",
+      "2024-12-02",
+      "2026-09-11",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-21"
+    ]
+  },
+  "auxiliary_files": [
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/actual_anchor_check.json",
+      "bytes": 448,
+      "sha256": "051adcedb5acebebad510d9472119b0038b73951576cb10d9a80300041bfa72f"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/comparison_results.json",
+      "bytes": 10292,
+      "sha256": "a579b65ee75fe02a4bfe104ec437b7852b92e0cfa1b8cd63a88dc485033f171f"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/daily_2024-03-08_p0.json",
+      "bytes": 861,
+      "sha256": "a861a2ef40254a460438ab41dc04031475a24d5ea307d6d15dc0169b75a03849"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/daily_2024-11-27_p0.json",
+      "bytes": 861,
+      "sha256": "e51f9f1cf8be84f151bec933ca89aec664064f93c8a56d5cf2d3195ae68a3faa"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/daily_2024-12-02_p0.json",
+      "bytes": 653,
+      "sha256": "192879fed92cb4f7ea1667e318338dadd974167ffe0a21aa9d7e0c3f52abe64b"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/daily_2026-09-14_p0.json",
+      "bytes": 1681,
+      "sha256": "7d7564e09a772649bf1f81ca9df54e1cfd391a2395bd25cc1198a85ef63874a8"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-17_dividend_p0.json",
+      "bytes": 650,
+      "sha256": "9b96e67b614857cbda40ff209244ee737b2dae07460dbdc4bdb07cec7ecf3bc8"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-17_raw_p0.json",
+      "bytes": 649,
+      "sha256": "dd21f58f80ec4d0d0bb1db5c6a1d1130e34b9709bbfaf2266983e56120039f2d"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-18_dividend_p0.json",
+      "bytes": 1465,
+      "sha256": "33a9be84e612ec2940ab58ce19d69f72166dc58890239677136ea92e0890eab3"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-18_raw_p0.json",
+      "bytes": 1460,
+      "sha256": "ecd63efd793ff57647e19c06ac35754be4255b3fd953e1739797b6b6120d6c9b"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-21_dividend_p0.json",
+      "bytes": 1468,
+      "sha256": "84e5da22529f2b3b95acbd115c240ae3ead0fb3cca28f3f47dd507e12fead794"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/ex_2026-09-21_raw_p0.json",
+      "bytes": 1463,
+      "sha256": "883938cd275cb3cee1ec159a75cbe943faa86f04ae48411b1217ea56d5e8d66c"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/massive_split_overlap.json",
+      "bytes": 77751,
+      "sha256": "6d840b89051a6dfe09fc7e1cec795215eab6b016406b4dd97d656a2c56b37a06"
+    },
+    {
+      "path_relative_to_data_root": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/requests.json",
+      "bytes": 14190,
+      "sha256": "ca2471ab764e5097d44487ba0cc139d5ca7110805ff8bb36105b8b13a3645d5a"
+    }
+  ],
+  "source_lineage": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D1_v1/requests.json",
+  "response_bodies_policy": "whole-session minute bodies hashed in ledger, transformed directly to sole canonical store; auxiliary diagnostics cached separately",
+  "versions": {
+    "exchange-calendars": "4.13.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "pyarrow": "23.0.1",
+    "tzdata": "2026.5"
+  },
+  "python": "3.14.6",
+  "observed_at_utc": "2026-10-16T16:32:31.951786+00:00",
+  "license_caveat": "Personal noncommercial research only; account and exchange agreements apply; no public redistribution",
+  "config_evidence": {
+    "url": "https://www.ssga.com/us/en/institutional/resources/documents/etf-dividend-distributions",
+    "schedule_url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/distribution/SPDR_Dividend_Distribution_Schedule.pdf",
+    "schedule_page": 3,
+    "schedule_version": "2026-10-14",
+    "observed_distribution_usd": 1.888834,
+    "record_date": "2026-09-18",
+    "payable_date": "2026-10-30"
+  },
+  "summary": {
+    "sessions": 11,
+    "full_sessions": 10,
+    "early_sessions": 1,
+    "expected": 4110,
+    "observed_unique": 4110,
+    "valid_unique": 4110,
+    "missing": 0,
+    "missing_fraction": 0.0,
+    "gap_clusters": 0,
+    "gap_size_distribution": {},
+    "max_gap_length": 0,
+    "top_10_gaps": [],
+    "affected_sessions": 0,
+    "incomplete_full_sessions": 0,
+    "affected_opening_full_sessions": 0,
+    "affected_label_full_sessions": 0,
+    "complete_full_day_rate": 1.0,
+    "complete_required_window_rate_full": 1.0,
+    "eligible_day_clusters": 10,
+    "eligible_contiguous_runs": [
+      {
+        "start": "2024-03-08",
+        "end": "2024-03-11",
+        "length": 2
+      },
+      {
+        "start": "2024-11-27",
+        "end": "2024-11-27",
+        "length": 1
+      },
+      {
+        "start": "2024-12-02",
+        "end": "2024-12-02",
+        "length": 1
+      },
+      {
+        "start": "2026-09-14",
+        "end": "2026-09-21",
+        "length": 6
+      }
+    ],
+    "missingness_session_runs": [],
+    "integrity_totals": {
+      "duplicates": 0,
+      "conflicting_timestamps": 0,
+      "raw_ordering_violations": 0,
+      "parse_errors": 0,
+      "invalid_ohlcv_rows": 0,
+      "zero_volume_rows": 0,
+      "zero_trade_rows": 0,
+      "outside_session_count": 0,
+      "extreme_review_rows": 0
+    },
+    "longest_gap": null,
+    "gap_distribution_bands": {
+      "singletons": 0,
+      "length_2_4": 0,
+      "length_5_9": 0,
+      "length_ge10": 0
+    },
+    "maximum_eligible_run_sessions": 6,
+    "maximum_consecutive_missingness_sessions": 0
+  },
+  "cached_run": true,
+  "network_calls_this_run": 0,
+  "wall_seconds_this_run": 6.624,
+  "audit_code_sha256": {
+    "src/ebm_research/experiment_b/pilot.py": "91d2acf233c4ab897e8e0595e425148f95735ad383642d825e195ca50ffbe67a",
+    "scripts/d1_spy_pilot.py": "d4cbf5dc1dd272551320a481f52209f0e859b22a529e491a14bc3e9a298882de"
+  },
+  "scientific_spec_sha256": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc"
+}

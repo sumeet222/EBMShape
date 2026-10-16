@@ -1,0 +1,39 @@
+{
+  "dataset_id": "B_alpaca_sip_SPY_1m_split_D1_v1",
+  "symbol": "SPY",
+  "feed": "sip",
+  "adjustment": "split",
+  "calendar": "XNYS",
+  "max_sessions": 15,
+  "max_pages_per_request": 3,
+  "request_spacing_seconds": 0.25,
+  "sessions": {
+    "2024-03-08": "Before US spring DST transition (2024-03-10)",
+    "2024-03-11": "After US spring DST transition",
+    "2024-11-27": "Full session before Thanksgiving closure and early close",
+    "2024-11-29": "Scheduled 13:00 ET early close",
+    "2024-12-02": "Full session following early close; prior permissible full-session anchor is 2024-11-27",
+    "2026-09-14": "Normal full trading week, Monday",
+    "2026-09-15": "Normal full trading week; D0/Massive overlap",
+    "2026-09-16": "Normal full trading week, Wednesday",
+    "2026-09-17": "Normal full trading week; immediately before ex-date",
+    "2026-09-18": "Verified SPY ex-dividend date; Friday full session",
+    "2026-09-21": "Full session immediately after ex-dividend date"
+  },
+  "ex_date": "2026-09-18",
+  "ex_date_evidence": {
+    "url": "https://www.ssga.com/us/en/institutional/resources/documents/etf-dividend-distributions",
+    "schedule_url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/distribution/SPDR_Dividend_Distribution_Schedule.pdf",
+    "schedule_page": 3,
+    "schedule_version": "2026-10-14",
+    "observed_distribution_usd": 1.888834,
+    "record_date": "2026-09-18",
+    "payable_date": "2026-10-30"
+  },
+  "massive_overlap": "2026-09-15",
+  "price_tolerance_usd": 0.000001,
+  "manual_extreme_range_fraction": 0.05,
+  "manual_extreme_close_jump_fraction": 0.05,
+  "split_boundary_status": "NOT TESTED: no known split boundary selected; no assertion of complete split-history verification",
+  "license_url": "https://files.alpaca.markets/disclosures/library/TermsAndConditions.pdf"
+}
