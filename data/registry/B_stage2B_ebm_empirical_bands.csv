@@ -1,0 +1,29 @@
+info,cohort,estimand,estimate,status,interval_status,reason,ci_low,ci_high,block,B,assumptions,model_id
+E,train,empirical_local_X_by_RV_tercile_band_mean_D,7.957637396332636,EXPLORATORY,DEPENDENCE_SENSITIVE_BAND_ONLY,Broad band distributions differ; no pointwise equality claim; validation used for development comparisons,,,,,,
+E,train,empirical_band_D_block_interval,7.957637396332636,EXPLORATORY,,,-2.9685751432315133,19.214522807212102,5.0,500.0,Circular block resampling of complete eligible daily rows; stationarity/mixing/moments and coarse-band bias required; training estimate not held out,
+E,train,empirical_band_D_block_interval,7.957637396332636,EXPLORATORY,,,-3.0488240158493998,18.01276172564591,20.0,500.0,Circular block resampling of complete eligible daily rows; stationarity/mixing/moments and coarse-band bias required; training estimate not held out,
+E,train,model_predicted_identical_band_distribution_D,-0.03654628757573253,EXPLORATORY_FIDELITY,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,SB_E
+E,train,model_predicted_identical_band_distribution_D,0.4554146701270823,EXPLORATORY_FIDELITY,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0c_E
+E,train,model_predicted_identical_band_distribution_D,-0.037604316092304586,EXPLORATORY_FIDELITY,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0d_E
+E,train,model_predicted_identical_band_distribution_D,-0.011352290597304762,EXPLORATORY_FIDELITY,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1d_E
+E,train,model_predicted_identical_band_distribution_D,0.3358434030538832,EXPLORATORY_FIDELITY,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1c_E
+E,validation,empirical_local_X_by_RV_tercile_band_mean_D,,ABSTAIN,UNSUPPORTED,Broad band distributions differ; no pointwise equality claim; validation used for development comparisons,,,,,,
+E,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,SB_E
+E,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0c_E
+E,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0d_E
+E,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1d_E
+E,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1c_E
+L,train,empirical_local_X_by_RV_tercile_band_mean_D,,ABSTAIN,UNSUPPORTED,Broad band distributions differ; no pointwise equality claim; validation used for development comparisons,,,,,,
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,SB_L
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0c_L
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0d_L
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1d_L
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1c_L
+L,train,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A2c_L
+L,validation,empirical_local_X_by_RV_tercile_band_mean_D,,ABSTAIN,UNSUPPORTED,Broad band distributions differ; no pointwise equality claim; validation used for development comparisons,,,,,,
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,SB_L
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0c_L
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A0d_L
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1d_L
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A1c_L
+L,validation,model_predicted_identical_band_distribution_D,,ABSTAIN,,Same row distributions as empirical band mean; differs from pointwise four-prediction D_F,,,,,,A2c_L

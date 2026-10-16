@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "prediction_rows": 192117,
+  "matched497_series": 210,
+  "model_fits": 562,
+  "model_artifacts_reloaded": 11,
+  "reconstructed_primary_train_validation_rows": 21912,
+  "max_primary_prediction_error_bp": 0.0,
+  "independently_recomputed_HAC_rows": 618,
+  "max_paired_mean_error": 9.947598300641403e-14,
+  "max_paired_se_error": 2.842170943040401e-14,
+  "E_support_cells": [
+    {
+      "state": 0,
+      "x": -20.0,
+      "n": 116,
+      "blocks": 90
+    },
+    {
+      "state": 0,
+      "x": 20.0,
+      "n": 189,
+      "blocks": 122
+    },
+    {
+      "state": 2,
+      "x": -20.0,
+      "n": 72,
+      "blocks": 60
+    },
+    {
+      "state": 2,
+      "x": 20.0,
+      "n": 67,
+      "blocks": 52
+    }
+  ],
+  "all_registered_hashes_verified": true,
+  "source_hash_unchanged": true,
+  "seal_intact": true,
+  "scientific_rows_exposed_after_2023": 0,
+  "wall_seconds": 4.948050166014582
+}

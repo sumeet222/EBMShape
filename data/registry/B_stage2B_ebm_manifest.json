@@ -1,0 +1,481 @@
+{
+  "stage": "B_STAGE2B_EBM_LADDER_SHAPE_FIDELITY_AND_INFERENCE_V1",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "model_ladder": "STAGE2B_MODEL_LADDER_COMPLETE",
+  "protocol": {
+    "path": "config/B_stage2B_EBM_protocol_v1.json",
+    "bytes": 28100,
+    "sha256": "eb0de45412b5952d0012dc44f74e7ca859b2bb4981df49d54377a6caa401169d"
+  },
+  "counts": {
+    "rows": 2680,
+    "eligible": 2675,
+    "train": 1495,
+    "validation": 497,
+    "sealed_test": 683
+  },
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "stage2A_predictions": {
+    "path": "derived/B/B_stage2A_validation_predictions.parquet",
+    "bytes": 2076703,
+    "sha256": "b4512e56d4031beaa7849455f4b7b10dc2f9519ee7429ba25ade2fa6f677375a"
+  },
+  "selected": {
+    "SB_E": 1,
+    "A0c_E": 1,
+    "A0d_E": 1,
+    "A1d_E": 1,
+    "A1c_E": 1,
+    "SB_L": 1,
+    "A0c_L": 0,
+    "A0d_L": 1,
+    "A1d_L": 1,
+    "A1c_L": 0,
+    "A2c_L": 0
+  },
+  "fitted_runs": 562,
+  "required_families": 11,
+  "failed_fits": 0,
+  "planned_count_arithmetic": {
+    "component_sum": 562,
+    "v1_total_field": 662,
+    "note": "V1 total field mis-summed; all seven frozen fit categories executed unchanged"
+  },
+  "seeds": [
+    42,
+    123,
+    2025,
+    7,
+    314159
+  ],
+  "predictions": {
+    "path": "derived/B/B_stage2B_ebm_predictions_v1.parquet",
+    "bytes": 3458354,
+    "sha256": "6199ae8baffe419886c4837bfe8a4f4af21e56468f975827264ccf66d94d33d8"
+  },
+  "prediction_rows": 192117,
+  "support": {
+    "E": "SUPPORTED_BAND_DESIGN",
+    "L": "ABSTAIN"
+  },
+  "shape_status": {
+    "E": "INCONCLUSIVE_MODEL_SHAPE_NOT_CERTIFIED_RAW",
+    "L": "ABSTAIN"
+  },
+  "prediction_decisions": [
+    {
+      "info": "E",
+      "primary_model": "A1c_E",
+      "incremental_prediction": "NO_CREDIBLE_INCREMENT",
+      "strongest_state_aware": "C1_E",
+      "simple_gain": -16.518339985184145,
+      "simple_ci_low": -49.58018799094651,
+      "simple_ci_high": 16.543508020578226,
+      "strongest_naive_OLS": "N0",
+      "reference_gain": -17.866203068176233,
+      "reference_ci_low": -52.26399659807623,
+      "reference_ci_high": 16.531590461723766,
+      "additive_gain": -12.323250743478699,
+      "primary_p_holm": 0.20650188358560043,
+      "shape_status": "INCONCLUSIVE_NOT_CERTIFIED_POINTWISE",
+      "interpretation": "Developmental reused validation; no independent final confirmation; fixed-reference selection disclosed"
+    },
+    {
+      "info": "L",
+      "primary_model": "A1c_L",
+      "incremental_prediction": "NO_CREDIBLE_INCREMENT",
+      "strongest_state_aware": "C1_L",
+      "simple_gain": 5.081365043614575,
+      "simple_ci_low": -34.303634632762396,
+      "simple_ci_high": 44.466364719991546,
+      "strongest_naive_OLS": "N0",
+      "reference_gain": 1.6978689385820047,
+      "reference_ci_low": -37.64196485730846,
+      "reference_ci_high": 41.03770273447247,
+      "additive_gain": -0.9468342235540597,
+      "primary_p_holm": 0.8590219423822905,
+      "shape_status": "ABSTAIN",
+      "interpretation": "Developmental reused validation; no independent final confirmation; fixed-reference selection disclosed"
+    }
+  ],
+  "seal_intact": true,
+  "sealed_scientific_rows_exposed": 0,
+  "new_market_data_requests": 0,
+  "null_status": "DEFERRED_TO_STAGE4",
+  "shape_pipeline_bootstrap": "NOT_RUN; seed/time-window stability only",
+  "resources": [
+    {
+      "wall_seconds": 600.8699921669904,
+      "cpu_seconds": 544.215382,
+      "free_before": 63078400000,
+      "free_after": 61849600000
+    }
+  ],
+  "publication_seconds": 35.62231479102047,
+  "peak_process_RSS_bytes": 637321216,
+  "memory_note": "Process high-water RSS observed at publication; score_bytes per fit covers native score arrays only, not per-fit peak memory",
+  "effective_environment": {
+    "interpret-core": "0.7.3",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "git_commit": "ebca8fe7c7b0b3ceea36f9fd71942693e42e3cf3",
+  "code": [
+    {
+      "path": "src/ebm_research/experiment_b/stage2b.py",
+      "bytes": 19744,
+      "sha256": "a32880d1f607a7e3f3f656c10e5a1500e773ea39fb619010e218537af182ca8f"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/stage2b_report.py",
+      "bytes": 36684,
+      "sha256": "fc67c90c8d18d9062a43c41abc8354ee135adb5ce7ea0b5b8b92340fabff5402"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/stage2b_results.py",
+      "bytes": 34726,
+      "sha256": "d5bda5707fdf6cc57277c993015ed5a78f7f579c34381aef9819cc68375aea20"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/ebm_models.py",
+      "bytes": 15256,
+      "sha256": "f59d8d9ca62088df27edbee31506da78b07c2264bdd2d7385c67312341cdb09f"
+    }
+  ],
+  "products": [
+    {
+      "path": "registry/B_stage2B_ebm_models.csv",
+      "bytes": 2083783,
+      "sha256": "4771c847b043b9320d5abfa696d120a60f092e68fc71db92383093f194a767fd"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_training_metrics.csv",
+      "bytes": 328085,
+      "sha256": "86280c9c4cd97374a230a6f032b178d4d3abaeb32c9d991ebfd3959959145151"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_validation_metrics.csv",
+      "bytes": 2312634,
+      "sha256": "05c8dc7334db617d9ba0cb58954c79621714732d5d2ca178fbfc5f8d96bad120"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_diagnostics.csv",
+      "bytes": 32793499,
+      "sha256": "e42f8267cd621c54867eb14e5d6a87365f4977c710afe81bd9f7b750368a3281"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_shape_contrasts.csv",
+      "bytes": 132599,
+      "sha256": "3a51912d98fd6fe44ab7490231faff716c8fd44ae8bc4d3e5f74e76e962b1dd2"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_paired_loss_tests.csv",
+      "bytes": 212710,
+      "sha256": "090822c37cc8307a58a3e8cb8ee0634ea02ebfe38b7d48d751f21becc8e07105"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_interaction_and_multiplicity.csv",
+      "bytes": 73263,
+      "sha256": "019fae5508596394825b89b31e0bc9112bb0c00ff424e2d7bb7ed2308d05c8ce"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_stability.csv",
+      "bytes": 38649,
+      "sha256": "297ef7b2ce6585305dc1d687323f0c656c3e366487c14239d39062d363d4b507"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_theory_method_ledger.csv",
+      "bytes": 5174,
+      "sha256": "3494a69736f7e3f1a05c8bbebe70a506ebfa60e6b096caa328d7f35585721d8a"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_surfaces.csv",
+      "bytes": 2154538,
+      "sha256": "acb7f62197207b0e6451a55c83eec7cbf325dd1f4826b6a7a3d3e1d9e37d12af"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_term_importance.csv",
+      "bytes": 233710,
+      "sha256": "1c30e4a223e2a0801ce6e8a732bcbc38e89e521859bd628ff1878ce352f0ffda"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_empirical_bands.csv",
+      "bytes": 5280,
+      "sha256": "c8c5eed792c87b2a3638e82b32e7d97d3c819c88fd7d25fa76bf6df6de21896c"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_empirical_cells.csv",
+      "bytes": 5699,
+      "sha256": "3ebe098920fa1b66bab86fa28c71ead84eb99a38f02cedc8a3fecb69b7d0bfdd"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_state_composition.csv",
+      "bytes": 1700,
+      "sha256": "1ec4a4c6bf60d666f6da930208a1af53274fd0552e30bdbc0bdc1c5bd348979c"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_discretization.csv",
+      "bytes": 3028,
+      "sha256": "773459d48f28c20997d9748feb10814d7edc827120014afedab0184f88128b7d"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_continuous_grid.csv",
+      "bytes": 5928,
+      "sha256": "2c903e8cbe6602d6f745c3a1f843d2ae77e951241c8c9c15193195565e4eca86"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_software_components.csv",
+      "bytes": 71705,
+      "sha256": "60019e75988286e833dfd4c95ed0a2db59ece02b92777bf8317c283fb0d87c03"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_finite_differences.csv",
+      "bytes": 3025834,
+      "sha256": "a8259b8b77db3d434ec6beda6f52d8bd9780e650eaf7cde1c1f2aefa891ed5a5"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_decisions.csv",
+      "bytes": 869,
+      "sha256": "b11f94887350b2973704adb5ae3fce9014a6d795294e4b553d62028f1c1c01de"
+    },
+    {
+      "path": "derived/B/B_stage2B_ebm_predictions_v1.parquet",
+      "bytes": 3458354,
+      "sha256": "6199ae8baffe419886c4837bfe8a4f4af21e56468f975827264ccf66d94d33d8"
+    },
+    {
+      "path": "registry/B_stage2B_ebm_selected_parameters.json",
+      "bytes": 48681,
+      "sha256": "7325f1fcc1c77f3b261af4e91c4f29efdf6bd2b27a469650a62ac321d56b878b"
+    }
+  ],
+  "figures": [
+    {
+      "path": "artifacts/B/stage2B/01_ebm_input_support.png",
+      "bytes": 127779,
+      "sha256": "57c5670615d5e6bd8cab26d0dac6d89b1bf745a3b692f3c9e1fa7dcc90f03408"
+    },
+    {
+      "path": "artifacts/B/stage2B/02_ebm_model_ladder_shapes.png",
+      "bytes": 273219,
+      "sha256": "1f2d56326dd16ef0d3ac51d5a21a220519c3b6865c88a6d71b807f46acb4cad7"
+    },
+    {
+      "path": "artifacts/B/stage2B/03_ebm_continuous_heatmap.png",
+      "bytes": 90413,
+      "sha256": "0bdf00c7d21b887f6dbb43c25818ac983fddb96e11844530790ba3b63340facc"
+    },
+    {
+      "path": "artifacts/B/stage2B/04_supported_nonzero_contrasts.png",
+      "bytes": 57222,
+      "sha256": "2925721fabea8e071f2f6a8c92d086b5edd5587cf14b7d43156d6d5dccc95dc5"
+    },
+    {
+      "path": "artifacts/B/stage2B/05_ebm_discrete_continuous_comparison.png",
+      "bytes": 157768,
+      "sha256": "aafad91241c0efad41b9b02819833fe6f8f63537318586dd31b749ad5e42585c"
+    },
+    {
+      "path": "artifacts/B/stage2B/06_ebm_residual_qq.png",
+      "bytes": 97054,
+      "sha256": "b930f0cc611d0ab76e912d8c6b0bca446adf926643b39e9ca4cc781ac838f972"
+    },
+    {
+      "path": "artifacts/B/stage2B/07_ebm_variance_time.png",
+      "bytes": 266992,
+      "sha256": "21e7942b2fd948c29b820e0399175d36518c32820ac6afb00622021f96bfbd7a"
+    },
+    {
+      "path": "artifacts/B/stage2B/08_ebm_validation_calibration.png",
+      "bytes": 166072,
+      "sha256": "3600c5487e92210a557b391f0e8080c235878bb963c64b48e1318c1fe1d080f9"
+    },
+    {
+      "path": "artifacts/B/stage2B/09_ebm_validation_error_by_state.png",
+      "bytes": 84763,
+      "sha256": "bc5c7b7d28a137474fb46616151916a7716ea3cda7b77aa67a4be39ca178b0d3"
+    },
+    {
+      "path": "artifacts/B/stage2B/10_ebm_seed_outlier_stability.png",
+      "bytes": 114612,
+      "sha256": "948ab71e842b66665612162216f7ebec5b59124b217dcfc020dea4028d2e422b"
+    },
+    {
+      "path": "artifacts/B/stage2B/11_ebm_state_composition_fidelity.png",
+      "bytes": 69310,
+      "sha256": "2078ac7f111de699a9d5e9eb5bb1410aef06a43ed61be6cc9a71a70cd875a817"
+    },
+    {
+      "path": "artifacts/B/stage2B/12_ebm_native_components.png",
+      "bytes": 134333,
+      "sha256": "a7d6fe4f1a995a6c15d5bd26ab8b322aafcd63596099a8bcd77b37a6573c5723"
+    }
+  ],
+  "models": [
+    {
+      "path": "artifacts/B/checkpoints/stage2B/SB_E.joblib",
+      "bytes": 5392,
+      "sha256": "3f6167fb977875a406b770851747e59f435f6ea9ace1bba8e3b4daa7facff74b"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A0c_E.joblib",
+      "bytes": 10000,
+      "sha256": "75c959a9ae44e285bf2d87502785706be1f815f2e1952042ec007156772bc6f3"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A0d_E.joblib",
+      "bytes": 5330,
+      "sha256": "f0ee15004b8059ce8738159213fd9a42e4e5beb79f19b7f0692adee795fcad65"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A1d_E.joblib",
+      "bytes": 7285,
+      "sha256": "ab9edb0027d09e431e1110256993d6282271ce7162b0c16b1300cbe5ff033499"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A1c_E.joblib",
+      "bytes": 21638,
+      "sha256": "90c6c28cdcf9b2483b79233804b112bdb50dc874036c750353b0b5690a24f1c2"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/SB_L.joblib",
+      "bytes": 8049,
+      "sha256": "8842bf0d4c0f73b9d6ce34e72e23c3b37da0c6993b123e511579cac25a4c7124"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A0c_L.joblib",
+      "bytes": 7871,
+      "sha256": "516f8c7416aecd07067692ea55649a498877e52c5ddfa5a1fb6444bbc7e69213"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A0d_L.joblib",
+      "bytes": 8143,
+      "sha256": "a98f6069d196088b6bee6ea876670e803e4ce61369c3afbd030d60e01ef175ed"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A1d_L.joblib",
+      "bytes": 10233,
+      "sha256": "6925dcf9f1fb4cf9d8c55be2ef8d7edbe8847430a3b113a3077653933ce7431b"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A1c_L.joblib",
+      "bytes": 10233,
+      "sha256": "5558a808fbe5c0e3866ead5e4a52dc3eb8e2d846b3c57916092d85b25762f872"
+    },
+    {
+      "path": "artifacts/B/checkpoints/stage2B/A2c_L.joblib",
+      "bytes": 11518,
+      "sha256": "3fa215fd702503e8ef70799fc97910cf16020f1d57b82d06a0344b978caf1eb1"
+    }
+  ],
+  "recovery": [
+    {
+      "reason": "pandas3 nominal object conversion; ARCH tuple API explicit. Saved numeric feature runs unaffected; no failed outputs trusted.",
+      "old_code": {
+        "src/ebm_research/experiment_b/stage2b.py": "a32880d1f607a7e3f3f656c10e5a1500e773ea39fb619010e218537af182ca8f",
+        "src/ebm_research/experiment_b/ebm_models.py": "e5b13b1fdc3149bc1194129ad52e776f06bf65537c6eac795ad0a5c877dd040a"
+      },
+      "new_code": {
+        "src/ebm_research/experiment_b/stage2b.py": "a32880d1f607a7e3f3f656c10e5a1500e773ea39fb619010e218537af182ca8f",
+        "src/ebm_research/experiment_b/ebm_models.py": "f59d8d9ca62088df27edbee31506da78b07c2264bdd2d7385c67312341cdb09f"
+      },
+      "preserved_runs": 35
+    }
+  ],
+  "failed_attempts": [],
+  "previous_code_identity": {
+    "protocol": "eb0de45412b5952d0012dc44f74e7ca859b2bb4981df49d54377a6caa401169d",
+    "code": {
+      "src/ebm_research/experiment_b/stage2b.py": "a32880d1f607a7e3f3f656c10e5a1500e773ea39fb619010e218537af182ca8f",
+      "src/ebm_research/experiment_b/ebm_models.py": "f59d8d9ca62088df27edbee31506da78b07c2264bdd2d7385c67312341cdb09f"
+    }
+  },
+  "scientific_qualifications": [
+    "Heavy tails/dependence",
+    "training 2021 hyperparameter selection",
+    "validation previously reused in Stage2A",
+    "No certified pointwise contrast intervals",
+    "L support fails"
+  ],
+  "reports": [
+    {
+      "path": "docs/experiment_B_stage2B_methods_and_model_registry.md",
+      "bytes": 6482,
+      "sha256": "ce2eeb5fc3b06ff5154620d2d0f2e64dd8c1019e653c1aab4700389e200acd88"
+    },
+    {
+      "path": "reports/B/stage2B_EBM_ladder_scientific_results.md",
+      "bytes": 23683,
+      "sha256": "847daba4ea2edc8a421b7d671d390366ed7f755b7bd3f1b4731bade79e5c80bc"
+    },
+    {
+      "path": "reports/B/stage2B_theory_applicability_and_implementation.md",
+      "bytes": 7191,
+      "sha256": "225d3c7ffcbd0aa717619004a6b2c97da0db99458a7af8437006e5adf7e4be09"
+    }
+  ],
+  "new_product_bytes": 48778307,
+  "checkpoint": {
+    "original": "logs/stage2B_checkpoint.json",
+    "original_bytes": 130385592,
+    "original_content_sha256": "50d88c62f79d0d32ebe3fd16788aa8ac5e9dc4f6e56724a2eed88014100e837c",
+    "retained": {
+      "path": "logs/stage2B_checkpoint.json.gz",
+      "bytes": 16956015,
+      "sha256": "fe5f3a7f755d429560af67cb1970b71895793f80f54030d73f76a9945ecad78f"
+    },
+    "verified_decompressed_hash": true,
+    "successful_runs": 562,
+    "seconds": 11.699674832983874,
+    "recovery": "gzip.decompress or gzip.open restores original JSON; publish CLI reads .json.gz directly; raw checkpoint is a generated recomputable intermediate"
+  },
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests -v",
+    "passed": 22,
+    "failed": 0,
+    "seconds": 3.017,
+    "log": "logs/stage2B_tests_final.log",
+    "source": {
+      "path": "tests/test_b_stage2b.py",
+      "bytes": 4707,
+      "sha256": "6c7056462452edb1ac21b0ea6cf3a924fce2414a77cca02abbb4d4d38927e683"
+    }
+  },
+  "environment_lock": {
+    "path": "requirements-stage2B.lock.txt",
+    "bytes": 561,
+    "sha256": "01062eda05855917e44b82354d7508e81901607800c80140ca615def26509ac8"
+  },
+  "final_qa": {
+    "path": "registry/B_stage2B_ebm_final_qa.json",
+    "bytes": 913,
+    "sha256": "6c6233337cb63c7349bb28205e0e998f012ab5b86bf08a15e51fddda691f3567"
+  },
+  "audit_script": {
+    "path": "logs/stage2B_real_audit.py",
+    "bytes": 6775,
+    "sha256": "d53b3ea8dcdd731aa8457c773d1dda7d3df84bfde74980b88ed25005760c900a"
+  },
+  "session_report": "reports/sessions/20261016_1820_B_stage2B_ebm_models.md",
+  "visual_qa": {
+    "figures": 12,
+    "status": "PASS",
+    "method": "12-figure contact sheet; final02/10 full-resolution visual inspection; explicit blank-slice ABSTAIN and visible sensitivity values"
+  },
+  "project_metadata": {
+    "path": "pyproject.toml",
+    "bytes": 576,
+    "sha256": "9c99a9a1613abb93b54695da47b45c7935cb3accae8c417912bfddd8e5a9c577"
+  }
+}

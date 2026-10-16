@@ -1,0 +1,1177 @@
+{
+  "stage": "B_STAGE2B_EBM_LADDER_SHAPE_FIDELITY_AND_INFERENCE_V1",
+  "version": 1,
+  "frozen_at_utc": "2026-10-16T22:22:54.868150+00:00",
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "counts": {
+    "rows": 2680,
+    "eligible": 2675,
+    "train": 1495,
+    "validation": 497,
+    "sealed_test": 683
+  },
+  "train": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "validation": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "sealed": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "symbol": "SPY",
+  "timezone": "America/New_York",
+  "adjustment": "Alpaca split-only; patch native locally aligned, no scaling/dividend adjustment",
+  "X": "preceding scheduled full close to 10:00 simple return bp; includes overnight",
+  "W": "15:00\u201315:30 simple return bp, L only",
+  "Y": "15:30\u201316:00 signed simple return bp",
+  "Z": "log(opening 30 one-minute RV + 1e-8)",
+  "cutoffs_raw": [
+    0.001558374721607106,
+    0.0024281183976187152
+  ],
+  "z_representatives": [
+    -6.673927481801225,
+    -6.256791269350911,
+    -5.709473991823623
+  ],
+  "categorical_ties": "lower",
+  "categorical_validation": "Original 2016\u20132021 thresholds fixed for all variants/refits",
+  "models": [
+    {
+      "model_id": "SB_E",
+      "family": "SB",
+      "info": "E",
+      "features": [
+        "X"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A0c_E",
+      "family": "A0c",
+      "info": "E",
+      "features": [
+        "X",
+        "Z"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A0d_E",
+      "family": "A0d",
+      "info": "E",
+      "features": [
+        "X",
+        "S"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A1d_E",
+      "family": "A1d",
+      "info": "E",
+      "features": [
+        "X",
+        "S"
+      ],
+      "edges": [
+        [
+          "X",
+          "S"
+        ]
+      ]
+    },
+    {
+      "model_id": "A1c_E",
+      "family": "A1c",
+      "info": "E",
+      "features": [
+        "X",
+        "Z"
+      ],
+      "edges": [
+        [
+          "X",
+          "Z"
+        ]
+      ]
+    },
+    {
+      "model_id": "SB_L",
+      "family": "SB",
+      "info": "L",
+      "features": [
+        "X",
+        "W"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A0c_L",
+      "family": "A0c",
+      "info": "L",
+      "features": [
+        "X",
+        "W",
+        "Z"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A0d_L",
+      "family": "A0d",
+      "info": "L",
+      "features": [
+        "X",
+        "W",
+        "S"
+      ],
+      "edges": []
+    },
+    {
+      "model_id": "A1d_L",
+      "family": "A1d",
+      "info": "L",
+      "features": [
+        "X",
+        "W",
+        "S"
+      ],
+      "edges": [
+        [
+          "X",
+          "S"
+        ]
+      ]
+    },
+    {
+      "model_id": "A1c_L",
+      "family": "A1c",
+      "info": "L",
+      "features": [
+        "X",
+        "W",
+        "Z"
+      ],
+      "edges": [
+        [
+          "X",
+          "Z"
+        ]
+      ]
+    },
+    {
+      "model_id": "A2c_L",
+      "family": "A2c",
+      "info": "L",
+      "features": [
+        "X",
+        "W",
+        "Z"
+      ],
+      "edges": [
+        [
+          "X",
+          "Z"
+        ],
+        [
+          "W",
+          "Z"
+        ]
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "max_bins": 32,
+      "max_interaction_bins": 8,
+      "min_samples_leaf": 25,
+      "learning_rate": 0.025
+    },
+    {
+      "max_bins": 64,
+      "max_interaction_bins": 16,
+      "min_samples_leaf": 10,
+      "learning_rate": 0.025
+    }
+  ],
+  "selection": {
+    "fit": [
+      "2016-01-05",
+      "2020-12-31"
+    ],
+    "development": [
+      "2021-01-01",
+      "2021-12-31"
+    ],
+    "seed": 42,
+    "bags": 4,
+    "criterion": "minimum 2021 MSE; exact ties lower setting index",
+    "one_setting_per_family": true,
+    "external_validation_not_used": true
+  },
+  "seeds": [
+    42,
+    123,
+    2025,
+    7,
+    314159
+  ],
+  "primary_seed": 42,
+  "effective_base": {
+    "objective": "rmse",
+    "max_rounds": 1000,
+    "early_stopping_rounds": 50,
+    "early_stopping_tolerance": 1e-05,
+    "validation_size": 0.15,
+    "inner_bags": 0,
+    "greedy_ratio": 0.0,
+    "cyclic_progress": true,
+    "smoothing_rounds": 100,
+    "interaction_smoothing_rounds": 50,
+    "max_leaves": 2,
+    "min_hessian": 0.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.0,
+    "max_delta_step": 0.0,
+    "gain_scale": 5.0,
+    "min_cat_samples": 10,
+    "cat_smooth": 10.0,
+    "missing": "separate",
+    "monotone_constraints": null,
+    "exclude": null,
+    "callback": null,
+    "n_jobs": 1
+  },
+  "final_bags": 8,
+  "internal_validation": "Native stochastic training-only bags; not time-series evaluation or scientific CI",
+  "native_binning": "Refit native quantile bins on each actual past training subset; cutoffs/state reps and query grid frozen. Native binning cannot freeze separate main/interaction cuts via public API; deletion sensitivities include learner bin changes.",
+  "quarterly_schedule": [
+    "2022-01-01",
+    "2022-04-01",
+    "2022-07-01",
+    "2022-10-01",
+    "2023-01-01",
+    "2023-04-01",
+    "2023-07-01",
+    "2023-10-01"
+  ],
+  "quarterly_policy": "Use selected training-only setting, same seed, all eligible targets strictly before cutoff; original terciles frozen",
+  "variants": {
+    "DROP_TOP1": [
+      "2020-03-18"
+    ],
+    "DROP_TOP5": [
+      "2020-03-18",
+      "2020-03-13",
+      "2020-02-28",
+      "2020-03-27",
+      "2020-03-24"
+    ],
+    "EXCLUDE_2020": [
+      "2020"
+    ],
+    "MATCHED_SOURCE": [
+      "2019-08-12",
+      "2019-08-13"
+    ]
+  },
+  "sensitivities": "All 11 selected families seed42 only; no repeated sensitivity quarterly fits",
+  "learning_rate_sensitivity": 0.05,
+  "clipping": "none, inputs and Y unchanged",
+  "temporal_periods": {
+    "2016_2019": [
+      "2016-01-05",
+      "2019-12-31"
+    ],
+    "2020": [
+      "2020-01-01",
+      "2020-12-31"
+    ],
+    "2021": [
+      "2021-01-01",
+      "2021-12-31"
+    ]
+  },
+  "leave_year_out": {
+    "models": [
+      "A1c_E",
+      "A1c_L"
+    ],
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
+  },
+  "support": {
+    "a": [
+      10,
+      20,
+      30,
+      50
+    ],
+    "h": [
+      5,
+      10,
+      15
+    ],
+    "constraint": "h<a",
+    "w": [
+      "zero",
+      "training_median"
+    ],
+    "w_halfwidth": [
+      5,
+      10,
+      20
+    ],
+    "state_neighborhood": "whole frozen RV tercile, not a pointwise Z neighborhood",
+    "min_n": 50,
+    "min_blocks": 20,
+    "strong_n": 100,
+    "strong_blocks": 30,
+    "blocks": "distinct nonoverlapping 5 eligible chronological row groups; fixed within each cohort",
+    "candidate_order": "a,h,w,width nested ascending; first passing; if none ABSTAIN"
+  },
+  "sparse_plot": {
+    "x": [
+      -50,
+      -30,
+      -20,
+      -10,
+      0,
+      10,
+      20,
+      30,
+      50
+    ],
+    "x_halfwidth": 10,
+    "z_quantiles": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "z_halfwidth": 0.2,
+    "w_halfwidth": 20,
+    "min_n": 50,
+    "min_blocks": 20
+  },
+  "primary_comparisons": [
+    [
+      "A1c_E",
+      "A0c_E"
+    ],
+    [
+      "A1c_L",
+      "A0c_L"
+    ]
+  ],
+  "paired_inference": {
+    "lags": [
+      5,
+      10,
+      20
+    ],
+    "primary": "quarterly seed42 FULL; Holm across two E/L A1c-A0c HAC5 tests",
+    "bootstrap": {
+      "blocks": [
+        5,
+        20
+      ],
+      "B": 500,
+      "seed": 42
+    },
+    "bootstrap_subset": [
+      [
+        "A1c_E",
+        "A0c_E"
+      ],
+      [
+        "A1c_L",
+        "A0c_L"
+      ],
+      [
+        "A1c_E",
+        "N0"
+      ],
+      [
+        "A1c_L",
+        "N0"
+      ]
+    ],
+    "interpretation": "Developmental, asymptotic fixed-prediction comparisons; no exact selected-model independent confirmation"
+  },
+  "materiality": {
+    "shape_bp": 1.0,
+    "incremental_R2": 0.0025,
+    "rule": "gain interval excludes zero and R2 gain\u2265.0025 vs stronger simple state-aware; additionally compare strongest naive"
+  },
+  "shape_inference": "Whole four-prediction D_F; no bag-SD population CI. Seed/time-window stability only, NOT_CERTIFIED; raw band means distinct from continuous pointwise m.",
+  "conditional_band_bootstrap": {
+    "blocks": [
+      5,
+      20
+    ],
+    "B": 500,
+    "minimum_valid": 450,
+    "seed": 42
+  },
+  "shape_pipeline_bootstrap": "DEFERRED: bounded seed/time-window sensitivity, no certified fitted/raw CIs",
+  "full_pipeline_null": "DEFERRED_TO_STAGE4: 100 shortlisted full-selection+quarter-refit replicates exceed 1h cap; future circular-block destroyed-alignment null, not RV shuffle",
+  "resource": {
+    "max_wall_seconds": 3600,
+    "max_retained_bytes": 100000000,
+    "max_single_fit_seconds": 60,
+    "screened": 22,
+    "selected_full": 55,
+    "additional_quarterly": 385,
+    "sensitivities": 44,
+    "temporal": 33,
+    "leave_year_out": 12,
+    "learning_rate": 11,
+    "total_planned": 662
+  },
+  "environment": {
+    "interpret-core": "0.7.3",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "git_commit": "ebca8fe7c7b0b3ceea36f9fd71942693e42e3cf3",
+  "inputs": {
+    "AGENTS.md": "6727aa17db8369d915d1a85a61b9c1ad1b6b1f9117aef9bc59f807ef72f12455",
+    "README.md": "ec234705d5dd71de7024d35406124b0f6878a5763c165fb78e2036c584fdf140",
+    ".gitignore": "dfdbe4f4d8fb07e0d7e60150402668b2fb1ee332ed6d82446691581189398d24",
+    "docs/specs/experiment_B_intraday_volatility_ebm_research_spec_v1.md": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc",
+    "docs/specs/experiment_B_new_chat_codex_and_diagnostics_instructions_v1.md": "eb3aff5de76184dada05018ac25be50a3c3f84d83f4785bca96570dd8e6f6bc9",
+    "config/B_stage1_dataset_selection.json": "4f8018676e5af418b002dd38caa3000e3fb789a0483913530ff621af963b15e1",
+    "config/B_stage2A_linear_spline_protocol.json": "22b248cfc6f1ed9636b36e272effde0f7d30ff4474773bfab84c89291dd581d0",
+    "reports/B/stage1_replication_benchmarks.md": "ecba35c7a3dd5e477a9bea84815f9ae66bdf5e38d4d3fdcb2a2cd2f57ba820f3",
+    "reports/B/stage1_5_linear_replication_diagnostics.md": "e4c0528f43ae1703e79d18126e379120c22e0558bdb0685b9e5491009029cf01",
+    "reports/B/stage2A_state_linear_and_spline_results.md": "d2ba440e813803386f894b9a3b5f48530586a4e7dc3bfa8f1a08d64904e798c9",
+    "docs/experiment_B_stage2A_methods_and_model_registry.md": "697adc96bbe839d3a27b1b860d359d81881938c96e8c1dfc210a62dbede82cdc"
+  },
+  "stage2A_manifest_sha256": "40ec79b8e2ae484464d7acd14b88e7679500c5a78e2abe570e5636bc823e6c65",
+  "stage2A_predictions": {
+    "path": "derived/B/B_stage2A_validation_predictions.parquet",
+    "bytes": 2076703,
+    "sha256": "b4512e56d4031beaa7849455f4b7b10dc2f9519ee7429ba25ade2fa6f677375a"
+  },
+  "no_sealed_scientific_access": true,
+  "new_market_data_requests": 0,
+  "theory_materials": "Only B spec \u00a7\u00a72,6\u20138 and companion plus AGENTS and current prompt; original theorem/task/consolidation files absent from repository and ResearchSpec",
+  "registry_inputs": {
+    "registry/B_stage2A_coefficients.csv": "21f64281efec613ad1c0e8bf60eafcd494c0184dda36f6e57485c4775bbfdce1",
+    "registry/B_stage2A_validation_metrics.csv": "00ec5031a1006bf2499677f2893467ce16f0ada3d87c4d2efe79dd6784aed007",
+    "registry/B_stage2A_paired_loss_tests.csv": "44c7341cbcd057c4c2983f8e3e1bf596961ad6bd9c5740ea0f35f82e47e35394",
+    "registry/B_stage2A_manifest.json": "40ec79b8e2ae484464d7acd14b88e7679500c5a78e2abe570e5636bc823e6c65",
+    "registry/B_stage2A_support.csv": "659bff205b963e0e190cbc76c3513b1a70fd613ff024a4ed858772d5f73a0fa5",
+    "registry/B_stage2A_models.csv": "2e6ff4d234cd02d4280fc86ed2ed63dfe232685036c194971c1fb5fb47ce266f",
+    "registry/B_stage2A_model_diagnostics.csv": "a56d4c8647128236f2c3995b59b86003bdffe83cc9a6683701c870969974f678",
+    "registry/B_stage2A_inference.csv": "0ab7296a558fcf5b4d5ca22dcdbbe5cefef278ffd902d57b28a07bff87fd147d",
+    "registry/B_stage2A_sensitivity.csv": "3d63356727065423ba5a23e3baee705bfb52af26c59e8f899214ce898bdf51cf"
+  },
+  "contrast_grid": {
+    "E": {
+      "status": "SUPPORTED_BAND_DESIGN",
+      "chosen": {
+        "info": "E",
+        "a": 20.0,
+        "h": 15.0,
+        "w": 0.0,
+        "w_halfwidth": null,
+        "candidate_id": "E_03",
+        "supported": true
+      },
+      "display_candidate": {
+        "info": "E",
+        "a": 20.0,
+        "h": 15.0,
+        "w": 0.0,
+        "w_halfwidth": null,
+        "candidate_id": "E_03",
+        "supported": true
+      },
+      "candidates": [
+        {
+          "info": "E",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_00",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_01",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_02",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_03",
+          "supported": true
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_04",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_05",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_06",
+          "supported": true
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_07",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_08",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_09",
+          "supported": false
+        }
+      ],
+      "z_representatives": [
+        -6.673927481801225,
+        -6.256791269350911,
+        -5.709473991823623
+      ],
+      "scientific_interval_status": "NOT_CERTIFIED_POINTWISE"
+    },
+    "L": {
+      "status": "ABSTAIN",
+      "chosen": null,
+      "display_candidate": {
+        "info": "L",
+        "a": 10.0,
+        "h": 5.0,
+        "w": 0.0,
+        "w_halfwidth": 5.0,
+        "candidate_id": "L_00",
+        "supported": false
+      },
+      "candidates": [
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_00",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_01",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_02",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_03",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_04",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_05",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_06",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_07",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_08",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_09",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_10",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_11",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_12",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_13",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_14",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_15",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_16",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_17",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_18",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_19",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_20",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_21",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_22",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_23",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_24",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_25",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_26",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_27",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_28",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_29",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_30",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_31",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_32",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_33",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_34",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_35",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_36",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_37",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_38",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_39",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_40",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_41",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_42",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_43",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_44",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_45",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_46",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_47",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_48",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_49",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_50",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_51",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_52",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_53",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_54",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_55",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_56",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_57",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_58",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_59",
+          "supported": false
+        }
+      ],
+      "z_representatives": [
+        -6.673927481801225,
+        -6.256791269350911,
+        -5.709473991823623
+      ],
+      "scientific_interval_status": "NOT_CERTIFIED_POINTWISE"
+    }
+  },
+  "outputs": "B_stage2B_ebm_* registries; one predictions parquet; 11 selected primary native model artifacts; 11 PNG; reports and session"
+}

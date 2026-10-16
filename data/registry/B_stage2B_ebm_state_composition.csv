@@ -1,0 +1,9 @@
+cohort,state,n,fraction,Z_mean,Y_mean,Y_SD,note,model_id,composition_term,within_state_term,total
+train,low,499.0,0.3337792642140468,-6.710533531242338,-0.08348484296849712,12.713847450600067,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+train,middle,498.0,0.3331103678929766,-6.252835062679702,-1.1309056279128187,18.63163462916251,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+train,high,498.0,0.3331103678929766,-5.605615774296396,-0.14048530985488572,53.53312625547407,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+validation,low,31.0,0.06237424547283702,-6.691398658509231,0.6882503247210022,13.57914477693934,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+validation,middle,151.0,0.3038229376257545,-6.217753400959366,-2.425245079443919,24.83272447954968,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+validation,high,315.0,0.6338028169014085,-5.542008818342703,0.5121921701244003,33.74122335992055,"Observed composition/response summary, not causal adjustment or invariant conditional law",,,,
+train_to_validation_MSE_decomposition,all,,,,,,"Exact descriptive decomposition; training optimism and conditional drift confounded, not density-ratio correction",A1c_E,751.4578357659695,-890.3166992078002,-138.85886344183064
+train_to_validation_MSE_decomposition,all,,,,,,"Exact descriptive decomposition; training optimism and conditional drift confounded, not density-ratio correction",A1c_L,759.3290822508857,-928.7320479701018,-169.4029657192159

@@ -1,0 +1,685 @@
+{
+  "protocol_sha256": "eb0de45412b5952d0012dc44f74e7ca859b2bb4981df49d54377a6caa401169d",
+  "grid": {
+    "E": {
+      "status": "SUPPORTED_BAND_DESIGN",
+      "chosen": {
+        "info": "E",
+        "a": 20.0,
+        "h": 15.0,
+        "w": 0.0,
+        "w_halfwidth": null,
+        "candidate_id": "E_03",
+        "supported": true
+      },
+      "display_candidate": {
+        "info": "E",
+        "a": 20.0,
+        "h": 15.0,
+        "w": 0.0,
+        "w_halfwidth": null,
+        "candidate_id": "E_03",
+        "supported": true
+      },
+      "candidates": [
+        {
+          "info": "E",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_00",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_01",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_02",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_03",
+          "supported": true
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_04",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_05",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_06",
+          "supported": true
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_07",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_08",
+          "supported": false
+        },
+        {
+          "info": "E",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": null,
+          "candidate_id": "E_09",
+          "supported": false
+        }
+      ],
+      "z_representatives": [
+        -6.673927481801225,
+        -6.256791269350911,
+        -5.709473991823623
+      ],
+      "scientific_interval_status": "NOT_CERTIFIED_POINTWISE"
+    },
+    "L": {
+      "status": "ABSTAIN",
+      "chosen": null,
+      "display_candidate": {
+        "info": "L",
+        "a": 10.0,
+        "h": 5.0,
+        "w": 0.0,
+        "w_halfwidth": 5.0,
+        "candidate_id": "L_00",
+        "supported": false
+      },
+      "candidates": [
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_00",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_01",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_02",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_03",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_04",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 10.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_05",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_06",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_07",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_08",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_09",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_10",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_11",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_12",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_13",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_14",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_15",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_16",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_17",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_18",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_19",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_20",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_21",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_22",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 20.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_23",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_24",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_25",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_26",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_27",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_28",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_29",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_30",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_31",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_32",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_33",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_34",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_35",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_36",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_37",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_38",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_39",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_40",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 30.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_41",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_42",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_43",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_44",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_45",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_46",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 5.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_47",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_48",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_49",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_50",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_51",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_52",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 10.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_53",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_54",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_55",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.0,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_56",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 5.0,
+          "candidate_id": "L_57",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 10.0,
+          "candidate_id": "L_58",
+          "supported": false
+        },
+        {
+          "info": "L",
+          "a": 50.0,
+          "h": 15.0,
+          "w": 0.46032038298671196,
+          "w_halfwidth": 20.0,
+          "candidate_id": "L_59",
+          "supported": false
+        }
+      ],
+      "z_representatives": [
+        -6.673927481801225,
+        -6.256791269350911,
+        -5.709473991823623
+      ],
+      "scientific_interval_status": "NOT_CERTIFIED_POINTWISE"
+    }
+  }
+}

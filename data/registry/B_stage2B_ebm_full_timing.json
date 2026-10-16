@@ -1,0 +1,9 @@
+{
+  "purpose": "Full-train resource timing only; no external validation outcomes; discarded model",
+  "fit_seconds": 0.3147175839985721,
+  "n": 1495,
+  "family": "A2c_L",
+  "projected_native_fit_seconds": 208.34304060705472,
+  "projected_total_with_io_diagnostics_4x": 833.3721624282189,
+  "budget_seconds": 3600
+}
