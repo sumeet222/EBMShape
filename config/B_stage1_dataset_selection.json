@@ -1,0 +1,73 @@
+{
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-16T19:58:29.890232+00:00",
+  "principal": "B_alpaca_sip_SPY_1m_split_D2_v1 UNION B_spy_hf_source1_D2_1c_v1",
+  "repair_manifest": "registry/D2_1c_hf_repair_manifest.json",
+  "sensitivity": "Alpaca-only; matched dates; exclude terminal-dependent current/prior anchors",
+  "input_sha256": {
+    "data/registry/D2_spy_source_manifest.json": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae",
+    "data/registry/D2_1c_hf_repair_manifest.json": "84f24f0a45473a01f8eb5c2923f81564988ff3f6fb3466bf90e6cb88a8529727",
+    "docs/specs/experiment_B_intraday_volatility_ebm_research_spec_v1.md": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc",
+    "docs/specs/experiment_B_new_chat_codex_and_diagnostics_instructions_v1.md": "eb3aff5de76184dada05018ac25be50a3c3f84d83f4785bca96570dd8e6f6bc9"
+  },
+  "symbol": "SPY",
+  "start": "2016-01-04",
+  "end": "2026-09-30",
+  "train": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "validation": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "sealed_test": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "benchmark_cohort": "eligible training only; validation and combined pretest not evaluated in Stage 1",
+  "timezone": "America/New_York",
+  "bar_timestamp": "UTC bar start; close available one minute later",
+  "adjustment": "Alpaca split-only; patch native locally aligned, no scaling/dividend adjustment",
+  "prior_close": "preceding scheduled full session C15:59; skip early closes only; never skip missing full anchor",
+  "anchors": {
+    "P10": "09:59",
+    "P15": "14:59",
+    "P1530": "15:29",
+    "P16": "15:59"
+  },
+  "returns": {
+    "r1": "P10/Pprev-1",
+    "r12": "P1530/P15-1",
+    "r13": "P16/P1530-1",
+    "scale_bp": 10000
+  },
+  "rv": "sqrt(log(C0930/O0930)^2 + sum(log(Cnext/Cprev)^2)); all 30 valid OHLC; Z=log(RV+epsilon)",
+  "rv_epsilon": 1e-08,
+  "zero_rv": "retain legitimate zero with epsilon; diagnose count, no outcome filtering",
+  "required_minutes": "09:30..09:59,14:59,15:00..15:59; all 91 valid plus prior full close",
+  "hac_lags": [
+    5,
+    10,
+    20
+  ],
+  "hac_kernel": "Bartlett",
+  "hac_use_correction": true,
+  "hac_use_t": false,
+  "hac_lag_unit": "successive eligible daily observations; no calendar-gap padding",
+  "rv_groups": "eligible principal training empirical quantiles 1/3,2/3, linear interpolation; lower bin includes boundary; no later-period quantiles",
+  "matched_group_cutoffs": "principal training cutoffs fixed for matched-date and source sensitivities; own-cohort retrospective bins separately disclosed",
+  "terminal_sensitivity": "exclude any day whose current required windows or prior anchor depend on one_sided_terminal_gap rows",
+  "random_seed": null,
+  "models": [
+    "OLS1:y~1+x",
+    "OLS2:y~1+w",
+    "OLS3:y~1+x+w",
+    "pooled RV group intercepts and x slopes, high-minus-low contrast"
+  ],
+  "known_ex_dividend_dates": [
+    "2026-09-18"
+  ],
+  "ex_dividend_coverage": "D1 issuer-verified example only; other dates unknown, not negative event flags"
+}

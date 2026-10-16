@@ -1,0 +1,128 @@
+[
+  {
+    "cohort": "principal",
+    "n": 1495,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "rv_log_cutoffs": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "counts": {
+      "low": 499,
+      "middle": 498,
+      "high": 498
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  },
+  {
+    "cohort": "alpaca_only",
+    "n": 1493,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "rv_log_cutoffs": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "counts": {
+      "low": 499,
+      "middle": 498,
+      "high": 496
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  },
+  {
+    "cohort": "principal_matched",
+    "n": 1493,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "rv_log_cutoffs": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "counts": {
+      "low": 499,
+      "middle": 498,
+      "high": 496
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  },
+  {
+    "cohort": "alpaca_matched",
+    "n": 1493,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "rv_log_cutoffs": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "counts": {
+      "low": 499,
+      "middle": 498,
+      "high": 496
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  },
+  {
+    "cohort": "exclude_terminal_dependency",
+    "n": 1493,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.001558374721607106,
+      0.0024281183976187152
+    ],
+    "rv_log_cutoffs": [
+      -6.46410542902094,
+      -6.02063452513255
+    ],
+    "counts": {
+      "low": 499,
+      "middle": 498,
+      "high": 496
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  },
+  {
+    "cohort": "alpaca_own_retrospective",
+    "n": 1493,
+    "first": "2016-01-05",
+    "last": "2021-12-31",
+    "rv_raw_cutoffs": [
+      0.0015580242788724508,
+      0.0024263786211815475
+    ],
+    "rv_log_cutoffs": [
+      -6.464330329931939,
+      -6.021351291189776
+    ],
+    "counts": {
+      "low": 498,
+      "middle": 497,
+      "high": 498
+    },
+    "units": "RV: dimensionless sqrt(sum log minute return squared); Z: natural log(RV+1e-8)",
+    "convention": "linear empirical quantiles; boundary equality assigned lower group; pooled full-cohort HAC contrast conditional on cutoffs"
+  }
+]

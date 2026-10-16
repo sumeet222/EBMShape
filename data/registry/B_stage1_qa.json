@@ -1,0 +1,99 @@
+{
+  "principal_rows": 2680,
+  "principal_eligible": 2675,
+  "original_eligible": 2673,
+  "calendar_sessions": 2701,
+  "early_close_sessions": 21,
+  "full_days_after_early": 21,
+  "gained_dates": [
+    "2019-08-12",
+    "2019-08-13"
+  ],
+  "exclusions": [
+    {
+      "session_et": "2016-01-04",
+      "eligibility_reason": "MISSING_PRIOR_FULL_ANCHOR"
+    },
+    {
+      "session_et": "2020-03-09",
+      "eligibility_reason": "INCOMPLETE_OPENING_30;INCOMPLETE_REQUIRED_91"
+    },
+    {
+      "session_et": "2020-03-12",
+      "eligibility_reason": "INCOMPLETE_OPENING_30;INCOMPLETE_REQUIRED_91"
+    },
+    {
+      "session_et": "2020-03-16",
+      "eligibility_reason": "INCOMPLETE_OPENING_30;INCOMPLETE_REQUIRED_91"
+    },
+    {
+      "session_et": "2023-06-05",
+      "eligibility_reason": "INCOMPLETE_OPENING_30;INCOMPLETE_REQUIRED_91"
+    }
+  ],
+  "view_checks": [
+    {
+      "view": "principal",
+      "missing_P10": 0,
+      "missing_P15": 0,
+      "missing_P1530": 0,
+      "missing_P16": 0,
+      "missing_Pprev": 1,
+      "missing_opening_bars": 46,
+      "incomplete_opening_days": 4,
+      "invalid_ohlc_rows": 0,
+      "zero_rv": 0,
+      "negative_rv": 0,
+      "near_zero_rv": 0,
+      "invalid_rv_complete": 0
+    },
+    {
+      "view": "alpaca_only",
+      "missing_P10": 0,
+      "missing_P15": 0,
+      "missing_P1530": 1,
+      "missing_P16": 1,
+      "missing_Pprev": 2,
+      "missing_opening_bars": 46,
+      "incomplete_opening_days": 4,
+      "invalid_ohlc_rows": 0,
+      "zero_rv": 0,
+      "negative_rv": 0,
+      "near_zero_rv": 0,
+      "invalid_rv_complete": 0
+    }
+  ],
+  "repair_use": {
+    "repaired_minutes_session": 39,
+    "repaired_opening": 0,
+    "repaired_late": 1,
+    "repaired_target": 29,
+    "repaired_1459": 0,
+    "repaired_other": 9,
+    "prior_anchor_repaired": 1,
+    "terminal_repair_dependency": 2
+  },
+  "matched_training_n": 1493,
+  "matched_scientific_values_identical": true,
+  "terminal_excluded_training_dates": [
+    "2019-08-12",
+    "2019-08-13"
+  ],
+  "otherwise_eligible": 2679,
+  "rv_loss_otherwise_eligible": 4,
+  "duplicate_daily_keys": 0,
+  "original_missing_minutes": 104,
+  "patch_minutes": 39,
+  "remaining_minutes": 65,
+  "chronology": "All source minutes checked against XNYS/ET; availability bounded by E10:00/L15:30/target16:00; DST aware; no future inputs",
+  "dst_examples": {
+    "2024-03-08": "2024-03-08T14:59:00+00:00",
+    "2024-03-11": "2024-03-11T13:59:00+00:00"
+  },
+  "early_skip_example": "2024-11-27",
+  "manual_check": "independent scalar log loop on 2016-01-05, private source anchors hashed; all match",
+  "sealed_policy": "schema/integrity/counts only; no outcome aggregates, RV distributions or coefficients",
+  "daily_count_flags_all_available_ge500": true,
+  "ex_dividend_register": "Only D1 verified 2026-09-18 example; all other dates UNKNOWN",
+  "daily_close_reconciliation": "D2 daily prices discarded; D1 observed discrepancies retained in historical report; no new comparison"
+}

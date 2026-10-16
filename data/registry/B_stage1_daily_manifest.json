@@ -1,0 +1,162 @@
+{
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "schema_version": 1,
+  "created_at_utc": "2026-10-16T20:04:31.140500+00:00",
+  "config": {
+    "path": "config/B_stage1_dataset_selection.json",
+    "sha256": "4f8018676e5af418b002dd38caa3000e3fb789a0483913530ff621af963b15e1"
+  },
+  "inputs": {
+    "data/registry/D2_spy_source_manifest.json": "54b450c1e67442a94f5497b50640a96aed155221779a256239cf727354d02fae",
+    "data/registry/D2_1c_hf_repair_manifest.json": "84f24f0a45473a01f8eb5c2923f81564988ff3f6fb3466bf90e6cb88a8529727",
+    "docs/specs/experiment_B_intraday_volatility_ebm_research_spec_v1.md": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc",
+    "docs/specs/experiment_B_new_chat_codex_and_diagnostics_instructions_v1.md": "eb3aff5de76184dada05018ac25be50a3c3f84d83f4785bca96570dd8e6f6bc9"
+  },
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "rows": 2680,
+  "columns": 60,
+  "schema": {
+    "symbol": "str",
+    "session_et": "object",
+    "split": "str",
+    "prior_full_session": "object",
+    "prior_elapsed_calendar_days": "int64",
+    "skipped_early_sessions": "int64",
+    "preceding_session_was_early_close": "bool",
+    "P10": "float64",
+    "P15": "float64",
+    "P1530": "float64",
+    "P16": "float64",
+    "Pprev": "float64",
+    "r1": "float64",
+    "r12": "float64",
+    "r13": "float64",
+    "x_open_bp": "float64",
+    "w_preclose_bp": "float64",
+    "y_last30_bp": "float64",
+    "rv_open_raw": "float64",
+    "rv_open_log": "float64",
+    "n_open_minute_bars": "int64",
+    "n_required_valid": "int64",
+    "invalid_ohlc_rows": "int64",
+    "eligible_primary": "bool",
+    "eligibility_reason": "str",
+    "prior_anchor_complete": "bool",
+    "return_anchors_complete": "bool",
+    "source_available_at": "datetime64[us, UTC]",
+    "early_features_available_at": "datetime64[us, UTC]",
+    "late_features_available_at": "datetime64[us, UTC]",
+    "target_available_at": "datetime64[us, UTC]",
+    "information_time_note": "str",
+    "daily_trade_count_available": "bool",
+    "daily_ge500": "bool",
+    "daily_count_basis": "str",
+    "daily_close_comparison_available": "bool",
+    "price_basis": "str",
+    "known_ex_dividend_example": "bool",
+    "ex_dividend_status": "str",
+    "repaired_minutes_session": "int64",
+    "repaired_opening": "int64",
+    "repaired_late": "int64",
+    "repaired_target": "int64",
+    "repaired_1459": "int64",
+    "prior_anchor_repaired": "bool",
+    "terminal_repair_dependency": "bool",
+    "source_view": "str",
+    "P10_complete": "bool",
+    "P10_repaired": "bool",
+    "P15_complete": "bool",
+    "P15_repaired": "bool",
+    "P1530_complete": "bool",
+    "P1530_repaired": "bool",
+    "P16_complete": "bool",
+    "P16_repaired": "bool",
+    "repaired_other": "int64",
+    "volume_open_30": "float64",
+    "trades_open_30": "float64",
+    "r_open_intraday_only": "float64",
+    "open_overnight_part": "float64"
+  },
+  "manual_check": {
+    "path": "derived/B/stage1_manual_check.json",
+    "bytes": 410,
+    "sha256": "fd5939077e65d5af85ff991952622a7c6ad9d3f1cfd1e5c2d05b42a93588d121"
+  },
+  "products": [
+    {
+      "path": "registry/B_stage1_coefficients.csv",
+      "bytes": 68415,
+      "sha256": "7854f9e0e70fb97d3029667421e159051cc79573ce2afa404b88125541ecaf54"
+    },
+    {
+      "path": "registry/B_stage1_coverage.csv",
+      "bytes": 1605,
+      "sha256": "1a40f0ee0505f703a08ec4239c460b13e2e87fde03bc08ddcfa2a0d794213425"
+    },
+    {
+      "path": "registry/B_stage1_source_use.csv",
+      "bytes": 277,
+      "sha256": "6537b0676fc249188787ae4ff8a2dbef239b22fa858575395c6db32522bc4b2c"
+    },
+    {
+      "path": "registry/B_stage1_state_metadata.json",
+      "bytes": 3588,
+      "sha256": "b4dd56c5fee95239d2a429fa63361e83524ab5615375dc94443ae3d41391deea"
+    },
+    {
+      "path": "registry/B_stage1_qa.json",
+      "bytes": 2981,
+      "sha256": "8c50ef0a88a4ac283b69adcb2e7b85c819dcd3ec222005e8fd41ef5857c07c83"
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "exchange-calendars": "4.13.2",
+    "statsmodels": "0.15.0",
+    "scipy": "1.18.1",
+    "patsy": "1.0.3",
+    "formulaic": "1.2.2"
+  },
+  "python": "3.14.6",
+  "code": [
+    {
+      "path": "src/ebm_research/experiment_b/daily.py",
+      "sha256": "88bb242af691378985b07e827a4e8d2ca9c6d48e968070b117465574bbb1f428"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/benchmarks.py",
+      "sha256": "bf96daa22208ce069ee4f937ed8880c8a047abe42dc7776d29f0202b7563e1e5"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/stage1.py",
+      "sha256": "d268b0d05f6ce37dc99ad6f89ead5375189eece518d6db5b9efdc375db180796"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/repair.py",
+      "sha256": "4c259c75c8b16c191bba89d8a4fe62436e080fbd1e1bf84f9894576fb0b5da58"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/pilot.py",
+      "sha256": "91d2acf233c4ab897e8e0595e425148f95735ad383642d825e195ca50ffbe67a"
+    },
+    {
+      "path": "src/ebm_research/experiment_b/acquisition.py",
+      "sha256": "9f486f96082e15d1f82ebea945307b05152cbea03c80f201e08ff5d46522dd15"
+    }
+  ],
+  "git_commit": "8f3a464c349e82d797ac77f8d4b1aa6ab648fdc2",
+  "source_qualifications": "Undeclared/unverified source1 license and upstream rights; explicit user-directed private use, no raw publication or exact source-fidelity claim",
+  "storage_policy": "One daily Parquet; no minute replica, no sensitivity/fold/seed copy",
+  "retained_data_bytes": 468869,
+  "market_data_http_calls": 0,
+  "wall_seconds": 26.113148457952775,
+  "cpu_seconds": 24.856991,
+  "free_disk_before": 64716800000,
+  "free_disk_after": 63488000000
+}

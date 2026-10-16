@@ -9,5 +9,8 @@ description = "Small, auditable state-dependent EBM research utilities"
 requires-python = ">=3.10"
 dependencies = ["exchange-calendars==4.13.2", "pyarrow==23.0.1"]
 
+[project.optional-dependencies]
+stage1 = ["statsmodels==0.15.0"]
+
 [tool.setuptools.packages.find]
 where = ["src"]

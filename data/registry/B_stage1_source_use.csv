@@ -1,0 +1,4 @@
+session_et,eligible_primary,repaired_minutes_session,repaired_opening,repaired_late,repaired_target,repaired_other,prior_anchor_repaired,terminal_repair_dependency
+2016-02-02,True,9,0,0,0,9,False,False
+2019-08-12,True,30,0,1,29,0,False,True
+2019-08-13,True,0,0,0,0,0,True,True

@@ -10,6 +10,24 @@ Git contains instructions and hashed manifests, not licensed input rows. **D2 no
 - `canonical/spy_minute/`: reserved for B's SPY minute store with explicit feed, split policy, UTC bar starts and ET sessions.
 - Future `derived/A/` and `derived/B/`: one reusable model table each. Folds store row keys/date masks, not input copies.
 
+## B Stage 1 daily table and offline benchmarks
+
+The single Stage 1 table is `derived/B/B_SPY_daily_split_source1_stage1_v1.parquet` below the configured data root, selected by `config/B_stage1_dataset_selection.json`. Its principal view is immutable Alpaca D2 plus exactly the D2.1c native-price source1 patch. `registry/B_stage1_daily_manifest.json` records schema, source/config/code hashes, output hash and compact coverage/source-use QA. Original-only and terminal-repair sensitivities are calculated in memory, without alternative daily or minute copies. All scheduled full sessions remain in the table with explicit eligibility reasons; folds must select date keys/masks. The private `derived/B/stage1_manual_check.json` is a tiny independent price-anchor audit, not another daily dataset.
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-stage1.lock.txt
+.venv/bin/python -m pip install -e '.[stage1]'
+.venv/bin/python -B -m unittest discover -s tests -v
+.venv/bin/python -B -m ebm_research.experiment_b.stage1
+# Optional authorized external source root:
+.venv/bin/python -B -m ebm_research.experiment_b.stage1 --data-root PATH
+```
+
+On Windows use `.venv/Scripts/python`. No secrets or network calls are needed for Stage 1 **after restoring authorized matching source files**. A public clone omits the 11 original Parquets and the repair delta. Restore the exact paths/hashes registered by D2 and D2.1c from an authorized private backup; metadata alone are insufficient. Changed source identities block execution. A fresh vendor retrieval may produce a different source version and is a separate acquisition task, not an automatic Stage 1 repair. Community source provenance/license are unverified; raw publication is not authorized.
+
+Regression/state routines slice eligible training dates before accessing outcomes and reject later dates. Validation 2022–2023 is reserved for Stage 2; sealed 2024–2026 rows receive schema/integrity checks only. An existing daily file must exactly match a rebuilt frame and is reused; a conflicting file is preserved and raises an error. Recover interrupted writes by inspecting the stage-created `.parquet.tmp` before removing/rebuilding it; never delete or overwrite original vendor data. Read [Stage 1 report](../reports/B/stage1_replication_benchmarks.md) and [method crosswalk](../docs/experiment_B_source_method_crosswalk.md) before using the table.
+
 ## Reproduce only the bounded diagnostics
 
 Python 3.14.6 was used; standard library only, no package installation. Python >=3.10 with IANA timezone data is required. On systems without timezone data install `tzdata`. Copy `.env.example` to local `.env` and privately populate the three provider keys, or export them. Never overwrite an existing `.env`.
