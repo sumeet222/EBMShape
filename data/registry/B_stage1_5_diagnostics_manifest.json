@@ -1,0 +1,161 @@
+{
+  "stage": "B_stage1_5",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "created_at_utc": "2026-10-16T20:39:59.837604+00:00",
+  "config_sha256": "577bed8bd45d7a8f478c55a766489a22e07480bc78b1db8765022bac06a6ca3b",
+  "inputs": {
+    "config/B_stage1_dataset_selection.json": "4f8018676e5af418b002dd38caa3000e3fb789a0483913530ff621af963b15e1",
+    "data/registry/B_stage1_daily_manifest.json": "960b4c812816a9f26f332120465e91acbd12fb299e1e7f5c61be1f566746f16f",
+    "data/registry/B_stage1_coefficients.csv": "7854f9e0e70fb97d3029667421e159051cc79573ce2afa404b88125541ecaf54",
+    "data/registry/B_stage1_state_metadata.json": "b4dd56c5fee95239d2a429fa63361e83524ab5615375dc94443ae3d41391deea",
+    "data/registry/B_stage1_qa.json": "8c50ef0a88a4ac283b69adcb2e7b85c819dcd3ec222005e8fd41ef5857c07c83",
+    "data/registry/B_stage1_coverage.csv": "1a40f0ee0505f703a08ec4239c460b13e2e87fde03bc08ddcfa2a0d794213425",
+    "docs/experiment_B_source_method_crosswalk.md": "6bc618284c0a29678af02321f26312773d14b3eed385e012ed29b889056f6baa"
+  },
+  "dataset_id": "B_SPY_daily_split_source1_stage1_v1",
+  "daily": {
+    "path": "derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+    "bytes": 468459,
+    "sha256": "2aa3e2df1cab897abd679ed9cbeff8f6fcb004ecc01a7b32c5938aa6c23b5c2f"
+  },
+  "training_n": 1495,
+  "first": "2016-01-05",
+  "last": "2021-12-31",
+  "baseline_verification": {
+    "status": "PASS",
+    "coefficient_lag_rows": 57,
+    "max_absolute_difference": 4.440892098500626e-16,
+    "atol": 1e-10,
+    "rtol": 1e-09
+  },
+  "source_spot_checks": [
+    {
+      "session_et": "2016-01-05",
+      "prior_full_session": "2016-01-04",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2016-01-05T15:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": false
+    },
+    {
+      "session_et": "2019-03-08",
+      "prior_full_session": "2019-03-07",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2019-03-08T15:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": false
+    },
+    {
+      "session_et": "2019-03-11",
+      "prior_full_session": "2019-03-08",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2019-03-11T14:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": false
+    },
+    {
+      "session_et": "2019-08-12",
+      "prior_full_session": "2019-08-09",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2019-08-12T14:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": true
+    },
+    {
+      "session_et": "2019-08-13",
+      "prior_full_session": "2019-08-12",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2019-08-13T14:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": true
+    },
+    {
+      "session_et": "2019-12-02",
+      "prior_full_session": "2019-11-27",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2019-12-02T15:00:00+00:00",
+      "skipped_early_sessions": 1,
+      "terminal_repair_dependency": false
+    },
+    {
+      "session_et": "2020-03-17",
+      "prior_full_session": "2020-03-16",
+      "all_manual_equations_match": true,
+      "opening_bar_count": 30,
+      "early_available_utc": "2020-03-17T14:00:00+00:00",
+      "skipped_early_sessions": 0,
+      "terminal_repair_dependency": false
+    }
+  ],
+  "source_sensitivity": "Established Stage1 matched-value identity plus verified original-only equivalent exclusion",
+  "outputs": [
+    {
+      "path": "registry/B_stage1_5_linear_diagnostics_summary.csv",
+      "bytes": 187324,
+      "sha256": "eab295b96288623983584c0793f25b95b21ce8521e0340b2a223bc8ef5d08bfe"
+    },
+    {
+      "path": "registry/B_stage1_5_influence.csv",
+      "bytes": 2940,
+      "sha256": "719de5cd665abe65fdb7760654e38bee62ee4299a8f6bf7aa796fb6d3cd331d6"
+    },
+    {
+      "path": "registry/B_stage1_5_cohort_support.csv",
+      "bytes": 367,
+      "sha256": "953bd5a6705fc3a084acc55cc88367fe11bac48e3ed54232d5d5abe93912405d"
+    }
+  ],
+  "figures": [
+    {
+      "path": "artifacts/B/stage1_5/scatter_reference.png",
+      "bytes": 127365,
+      "sha256": "0de8501405ff7f01a08273eb914863dd354e4cc00564ea733be6cbd8bbb7faa7"
+    },
+    {
+      "path": "artifacts/B/stage1_5/residual_relationships.png",
+      "bytes": 228644,
+      "sha256": "37dd7b399eac8a502a056c6e28436b0a61da501113fba9d8b2504b13461a8b49"
+    },
+    {
+      "path": "artifacts/B/stage1_5/residual_qq.png",
+      "bytes": 60052,
+      "sha256": "dbe876e4c4a9857582fd1c1163e163f7b22bcb0bb3d7120c991800bf4f607ca8"
+    },
+    {
+      "path": "artifacts/B/stage1_5/temporal_and_variance.png",
+      "bytes": 241538,
+      "sha256": "e12ec4464964c1154fd6b6e33f7e98cd7590b97e49b4fea06ed27ca5ba1df2c3"
+    }
+  ],
+  "code": {
+    "path": "src/ebm_research/experiment_b/linear_diagnostics.py",
+    "sha256": "6693480e394def8d5d71b7f0138e263bc4edde98a0829fef2c72d89be02fbeb0"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.14.6",
+  "git_commit": "52ce16f16f39c3e264add10c2374f6ea4cea842e",
+  "market_data_http_calls": 0,
+  "validation_test_scientific_rows_exposed": 0,
+  "free_before": 63488000000,
+  "free_after": 63488000000,
+  "wall_seconds": 3.2474134999793023,
+  "cpu_seconds": 3.0488589999999998,
+  "report": {
+    "path": "reports/B/stage1_5_linear_replication_diagnostics.md",
+    "bytes": 32373,
+    "sha256": "e4c0528f43ae1703e79d18126e379120c22e0558bdb0685b9e5491009029cf01"
+  }
+}

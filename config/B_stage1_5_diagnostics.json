@@ -1,0 +1,107 @@
+{
+  "stage": "B_stage1_5",
+  "frozen_at_utc": "2026-10-16T20:33:51.876741+00:00",
+  "input_sha256": {
+    "config/B_stage1_dataset_selection.json": "4f8018676e5af418b002dd38caa3000e3fb789a0483913530ff621af963b15e1",
+    "data/registry/B_stage1_daily_manifest.json": "960b4c812816a9f26f332120465e91acbd12fb299e1e7f5c61be1f566746f16f",
+    "data/registry/B_stage1_coefficients.csv": "7854f9e0e70fb97d3029667421e159051cc79573ce2afa404b88125541ecaf54",
+    "data/registry/B_stage1_state_metadata.json": "b4dd56c5fee95239d2a429fa63361e83524ab5615375dc94443ae3d41391deea",
+    "data/registry/B_stage1_qa.json": "8c50ef0a88a4ac283b69adcb2e7b85c819dcd3ec222005e8fd41ef5857c07c83",
+    "data/registry/B_stage1_coverage.csv": "1a40f0ee0505f703a08ec4239c460b13e2e87fde03bc08ddcfa2a0d794213425",
+    "docs/experiment_B_source_method_crosswalk.md": "6bc618284c0a29678af02321f26312773d14b3eed385e012ed29b889056f6baa"
+  },
+  "scope": "eligible training only; metadata guard before scientific columns, Arrow date predicate; no validation/sealed statistics",
+  "baseline_atol": 1e-10,
+  "baseline_rtol": 1e-09,
+  "acf_lags": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "ljung_box_lags": [
+    5,
+    10,
+    20
+  ],
+  "ljung_box_model_df": 0,
+  "arch_lags": 5,
+  "arch_ddof": "OLS parameter count",
+  "bp_variant": "Koenker robust=True, auxiliary original model regressors plus intercept; diagnostic IID reference",
+  "white": "original exog with automatic squares and cross-products; diagnostic IID reference",
+  "reset_power": 2,
+  "reset_models": [
+    "OLS1_E",
+    "OLS3_L"
+  ],
+  "reset_covariance": "HAC5, Bartlett, n/(n-k), use_t=False; chi-square Wald",
+  "influence_ranking": "descending Cooks distance per model; date ascending tie break, original training date index retained",
+  "influence_top_k": 5,
+  "deletion_fits": [
+    1,
+    5
+  ],
+  "studentization": "internal studentized residual, explicitly not externally studentized",
+  "robust_fit": "HuberT(t=1.345) RLM, MAD scale, maxiter100,tol1e-8; point estimates only, no HAC claim",
+  "subperiods": {
+    "2016_2019": [
+      "2016-01-05",
+      "2019-12-31"
+    ],
+    "2020": [
+      "2020-01-01",
+      "2020-12-31"
+    ],
+    "2021": [
+      "2021-01-01",
+      "2021-12-31"
+    ]
+  },
+  "period_models": [
+    "OLS1_E",
+    "OLS3_L"
+  ],
+  "leave_one_year_out": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "break_model": "predeclared 2020 dummy and interactions with every original slope (X for OLS1; X,W for OLS3); HAC5 joint slope-difference and X-specific contrast; no breakpoint search",
+  "quantiles": [
+    0,
+    0.001,
+    0.01,
+    0.05,
+    0.5,
+    0.95,
+    0.99,
+    0.999,
+    1
+  ],
+  "residual_bins": 10,
+  "sufficient_bin_count": 20,
+  "source_audit_dates": [
+    "2016-01-05",
+    "2019-03-08",
+    "2019-03-11",
+    "2019-08-12",
+    "2019-08-13",
+    "2019-12-02",
+    "2020-03-17"
+  ],
+  "source_sensitivity": "Reuse established original-matched identity and terminal exclusion; compare to hashed Stage1 Alpaca-only coefficient table; no new minute view",
+  "planning_effect": "(1.96+0.84)*observed HAC5 SE; illustrative fixed-design normal 5%/80% scale only",
+  "rolling_slope": "not run; fixed subperiod and leave-year-out tables suffice",
+  "source_era_magnitude": "Not available in local verified crosswalk/spec; do not invent or search extra history",
+  "random_seed": null,
+  "figures": [
+    "scatter_reference",
+    "residual_relationships",
+    "residual_qq",
+    "temporal_and_variance"
+  ],
+  "plot_dpi": 120
+}
