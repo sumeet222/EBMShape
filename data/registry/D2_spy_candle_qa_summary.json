@@ -1,0 +1,6126 @@
+{
+  "sessions": 2701,
+  "full_sessions": 2680,
+  "early_sessions": 21,
+  "expected": 1049610,
+  "observed_unique": 1049506,
+  "valid_unique": 1049506,
+  "missing": 104,
+  "missing_fraction": 9.908442183287126e-05,
+  "gap_clusters": 9,
+  "gap_size_distribution": {
+    "9": 1,
+    "2": 1,
+    "28": 1,
+    "14": 4,
+    "5": 1,
+    "4": 1
+  },
+  "max_gap_length": 28,
+  "top_10_gaps": [
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:32:00-04:00",
+      "end_et": "2019-08-12T15:59:00-04:00",
+      "length": 28,
+      "affected_windows": "anchor;final_target",
+      "start_utc": "2019-08-12T19:32:00+00:00",
+      "end_utc": "2019-08-12T19:59:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "start_et": "2020-03-09T09:35:00-04:00",
+      "end_et": "2020-03-09T09:48:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-09T13:35:00+00:00",
+      "end_utc": "2020-03-09T13:48:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "start_et": "2020-03-12T09:36:00-04:00",
+      "end_et": "2020-03-12T09:49:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-12T13:36:00+00:00",
+      "end_utc": "2020-03-12T13:49:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "start_et": "2020-03-16T09:31:00-04:00",
+      "end_et": "2020-03-16T09:44:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-16T13:31:00+00:00",
+      "end_utc": "2020-03-16T13:44:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "start_et": "2020-03-18T12:57:00-04:00",
+      "end_et": "2020-03-18T13:10:00-04:00",
+      "length": 14,
+      "affected_windows": "other",
+      "start_utc": "2020-03-18T16:57:00+00:00",
+      "end_utc": "2020-03-18T17:10:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2016-02-02",
+      "start_et": "2016-02-02T11:19:00-05:00",
+      "end_et": "2016-02-02T11:27:00-05:00",
+      "length": 9,
+      "affected_windows": "other",
+      "start_utc": "2016-02-02T16:19:00+00:00",
+      "end_utc": "2016-02-02T16:27:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "start_et": "2021-05-05T11:27:00-04:00",
+      "end_et": "2021-05-05T11:31:00-04:00",
+      "length": 5,
+      "affected_windows": "other",
+      "start_utc": "2021-05-05T15:27:00+00:00",
+      "end_utc": "2021-05-05T15:31:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "start_et": "2023-06-05T09:52:00-04:00",
+      "end_et": "2023-06-05T09:55:00-04:00",
+      "length": 4,
+      "affected_windows": "opening_rv",
+      "start_utc": "2023-06-05T13:52:00+00:00",
+      "end_utc": "2023-06-05T13:55:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:29:00-04:00",
+      "end_et": "2019-08-12T15:30:00-04:00",
+      "length": 2,
+      "affected_windows": "anchor;final_target;late_predictor",
+      "start_utc": "2019-08-12T19:29:00+00:00",
+      "end_utc": "2019-08-12T19:30:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    }
+  ],
+  "affected_sessions": 8,
+  "incomplete_full_sessions": 8,
+  "affected_opening_full_sessions": 4,
+  "affected_label_full_sessions": 1,
+  "complete_full_day_rate": 0.9970149253731343,
+  "complete_required_window_rate_full": 0.9981343283582089,
+  "eligible_day_clusters": 2673,
+  "eligible_contiguous_runs": [
+    {
+      "start": "2016-01-05",
+      "end": "2016-11-23",
+      "length": 226
+    },
+    {
+      "start": "2016-11-28",
+      "end": "2017-06-30",
+      "length": 149
+    },
+    {
+      "start": "2017-07-05",
+      "end": "2017-11-22",
+      "length": 100
+    },
+    {
+      "start": "2017-11-27",
+      "end": "2018-07-02",
+      "length": 150
+    },
+    {
+      "start": "2018-07-05",
+      "end": "2018-11-21",
+      "length": 99
+    },
+    {
+      "start": "2018-11-26",
+      "end": "2018-12-21",
+      "length": 19
+    },
+    {
+      "start": "2018-12-26",
+      "end": "2019-07-02",
+      "length": 130
+    },
+    {
+      "start": "2019-07-05",
+      "end": "2019-08-09",
+      "length": 26
+    },
+    {
+      "start": "2019-08-14",
+      "end": "2019-11-27",
+      "length": 75
+    },
+    {
+      "start": "2019-12-02",
+      "end": "2019-12-23",
+      "length": 16
+    },
+    {
+      "start": "2019-12-26",
+      "end": "2020-03-06",
+      "length": 49
+    },
+    {
+      "start": "2020-03-10",
+      "end": "2020-03-11",
+      "length": 2
+    },
+    {
+      "start": "2020-03-13",
+      "end": "2020-03-13",
+      "length": 1
+    },
+    {
+      "start": "2020-03-17",
+      "end": "2020-11-25",
+      "length": 178
+    },
+    {
+      "start": "2020-11-30",
+      "end": "2020-12-23",
+      "length": 18
+    },
+    {
+      "start": "2020-12-28",
+      "end": "2021-11-24",
+      "length": 231
+    },
+    {
+      "start": "2021-11-29",
+      "end": "2022-11-23",
+      "length": 250
+    },
+    {
+      "start": "2022-11-28",
+      "end": "2023-06-02",
+      "length": 129
+    },
+    {
+      "start": "2023-06-06",
+      "end": "2023-06-30",
+      "length": 18
+    },
+    {
+      "start": "2023-07-05",
+      "end": "2023-11-22",
+      "length": 100
+    },
+    {
+      "start": "2023-11-27",
+      "end": "2024-07-02",
+      "length": 150
+    },
+    {
+      "start": "2024-07-05",
+      "end": "2024-11-27",
+      "length": 103
+    },
+    {
+      "start": "2024-12-02",
+      "end": "2024-12-23",
+      "length": 16
+    },
+    {
+      "start": "2024-12-26",
+      "end": "2025-07-02",
+      "length": 128
+    },
+    {
+      "start": "2025-07-07",
+      "end": "2025-11-26",
+      "length": 102
+    },
+    {
+      "start": "2025-12-01",
+      "end": "2025-12-23",
+      "length": 17
+    },
+    {
+      "start": "2025-12-26",
+      "end": "2026-09-30",
+      "length": 191
+    }
+  ],
+  "missingness_session_runs": [
+    {
+      "start": "2016-02-02",
+      "end": "2016-02-02",
+      "length": 1
+    },
+    {
+      "start": "2019-08-12",
+      "end": "2019-08-12",
+      "length": 1
+    },
+    {
+      "start": "2020-03-09",
+      "end": "2020-03-09",
+      "length": 1
+    },
+    {
+      "start": "2020-03-12",
+      "end": "2020-03-12",
+      "length": 1
+    },
+    {
+      "start": "2020-03-16",
+      "end": "2020-03-16",
+      "length": 1
+    },
+    {
+      "start": "2020-03-18",
+      "end": "2020-03-18",
+      "length": 1
+    },
+    {
+      "start": "2021-05-05",
+      "end": "2021-05-05",
+      "length": 1
+    },
+    {
+      "start": "2023-06-05",
+      "end": "2023-06-05",
+      "length": 1
+    }
+  ],
+  "strata": {
+    "year": {
+      "2016": {
+        "sessions": 252,
+        "expected": 98100,
+        "missing": 9,
+        "missing_fraction": 9.174311926605505e-05
+      },
+      "2017": {
+        "sessions": 251,
+        "expected": 97530,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018": {
+        "sessions": 251,
+        "expected": 97350,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019": {
+        "sessions": 252,
+        "expected": 97740,
+        "missing": 30,
+        "missing_fraction": 0.0003069367710251688
+      },
+      "2020": {
+        "sessions": 253,
+        "expected": 98310,
+        "missing": 56,
+        "missing_fraction": 0.0005696266910792391
+      },
+      "2021": {
+        "sessions": 252,
+        "expected": 98100,
+        "missing": 5,
+        "missing_fraction": 5.0968399592252805e-05
+      },
+      "2022": {
+        "sessions": 251,
+        "expected": 97710,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023": {
+        "sessions": 250,
+        "expected": 97140,
+        "missing": 4,
+        "missing_fraction": 4.117768169652048e-05
+      },
+      "2024": {
+        "sessions": 252,
+        "expected": 97740,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025": {
+        "sessions": 250,
+        "expected": 96960,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026": {
+        "sessions": 187,
+        "expected": 72930,
+        "missing": 0,
+        "missing_fraction": 0.0
+      }
+    },
+    "month": {
+      "2016-01": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-02": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 9,
+        "missing_fraction": 0.001153846153846154
+      },
+      "2016-03": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-05": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-06": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-07": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-08": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-10": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2016-12": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-01": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-03": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-04": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-05": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-06": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-07": {
+        "sessions": 20,
+        "expected": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-08": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-09": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-10": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2017-12": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-01": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-03": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-05": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-06": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-07": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-08": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-09": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-10": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2018-12": {
+        "sessions": 19,
+        "expected": 7230,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-01": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-03": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-05": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-06": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-07": {
+        "sessions": 22,
+        "expected": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-08": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 30,
+        "missing_fraction": 0.0034965034965034965
+      },
+      "2019-09": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-10": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-11": {
+        "sessions": 20,
+        "expected": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2019-12": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-01": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-03": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 56,
+        "missing_fraction": 0.006526806526806527
+      },
+      "2020-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-05": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-06": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-07": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-08": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-10": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-11": {
+        "sessions": 20,
+        "expected": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2020-12": {
+        "sessions": 22,
+        "expected": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-01": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-03": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-05": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 5,
+        "missing_fraction": 0.000641025641025641
+      },
+      "2021-06": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-07": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-08": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-10": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2021-12": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-01": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-03": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-04": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-05": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-06": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-07": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-08": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-10": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2022-12": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-01": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-03": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-04": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-05": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-06": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 4,
+        "missing_fraction": 0.0004884004884004884
+      },
+      "2023-07": {
+        "sessions": 20,
+        "expected": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-08": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-09": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-10": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-11": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2023-12": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-01": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-02": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-03": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-04": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-05": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-06": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-07": {
+        "sessions": 22,
+        "expected": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-08": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-09": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-10": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-11": {
+        "sessions": 20,
+        "expected": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2024-12": {
+        "sessions": 21,
+        "expected": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-01": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-03": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-05": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-06": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-07": {
+        "sessions": 22,
+        "expected": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-08": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-10": {
+        "sessions": 23,
+        "expected": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-11": {
+        "sessions": 19,
+        "expected": 7230,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2025-12": {
+        "sessions": 22,
+        "expected": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-01": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-02": {
+        "sessions": 19,
+        "expected": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-03": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-04": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-05": {
+        "sessions": 20,
+        "expected": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-06": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-07": {
+        "sessions": 22,
+        "expected": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-08": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "2026-09": {
+        "sessions": 21,
+        "expected": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0
+      }
+    },
+    "session_type": {
+      "early_close": {
+        "sessions": 21,
+        "expected": 4410,
+        "missing": 0,
+        "missing_fraction": 0.0
+      },
+      "full": {
+        "sessions": 2680,
+        "expected": 1045200,
+        "missing": 104,
+        "missing_fraction": 9.950248756218905e-05
+      }
+    }
+  },
+  "windows": {
+    "opening_rv": {
+      "expected": 81030,
+      "missing": 46,
+      "fraction": 0.0005676909786498827,
+      "overlapping": true
+    },
+    "anchor": {
+      "expected": 10741,
+      "missing": 2,
+      "fraction": 0.00018620240201098595,
+      "overlapping": true
+    },
+    "late_predictor": {
+      "expected": 80400,
+      "missing": 1,
+      "fraction": 1.2437810945273631e-05,
+      "overlapping": true
+    },
+    "final_target": {
+      "expected": 80400,
+      "missing": 29,
+      "fraction": 0.00036069651741293534,
+      "overlapping": true
+    },
+    "other": {
+      "expected": 805100,
+      "missing": 28,
+      "fraction": 3.477828841137747e-05,
+      "overlapping": true
+    }
+  },
+  "time_of_day": {
+    "09:30": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:31": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:32": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:33": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:34": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:35": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "09:36": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:37": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:38": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:39": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:40": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:41": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:42": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:43": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:44": {
+      "expected": 2701,
+      "missing": 3,
+      "fraction": 0.0011106997408367272
+    },
+    "09:45": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "09:46": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "09:47": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "09:48": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "09:49": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:50": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:51": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:52": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:53": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:54": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:55": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "09:56": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:57": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:58": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "09:59": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:00": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:01": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:02": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:03": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:04": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:05": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:06": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:07": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:08": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:09": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:10": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:11": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:12": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:13": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:14": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:15": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:16": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:17": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:18": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:19": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:20": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:21": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:22": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:23": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:24": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:25": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:26": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:27": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:28": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:29": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:30": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:31": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:32": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:33": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:34": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:35": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:36": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:37": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:38": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:39": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:40": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:41": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:42": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:43": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:44": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:45": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:46": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:47": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:48": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:49": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:50": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:51": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:52": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:53": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:54": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:55": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:56": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:57": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:58": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "10:59": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:00": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:01": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:02": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:03": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:04": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:05": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:06": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:07": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:08": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:09": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:10": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:11": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:12": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:13": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:14": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:15": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:16": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:17": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:18": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:19": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:20": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:21": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:22": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:23": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:24": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:25": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:26": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:27": {
+      "expected": 2701,
+      "missing": 2,
+      "fraction": 0.0007404664938911515
+    },
+    "11:28": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:29": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:30": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:31": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "11:32": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:33": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:34": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:35": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:36": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:37": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:38": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:39": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:40": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:41": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:42": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:43": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:44": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:45": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:46": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:47": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:48": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:49": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:50": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:51": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:52": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:53": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:54": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:55": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:56": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:57": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:58": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "11:59": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:00": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:01": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:02": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:03": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:04": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:05": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:06": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:07": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:08": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:09": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:10": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:11": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:12": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:13": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:14": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:15": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:16": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:17": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:18": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:19": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:20": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:21": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:22": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:23": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:24": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:25": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:26": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:27": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:28": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:29": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:30": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:31": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:32": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:33": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:34": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:35": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:36": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:37": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:38": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:39": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:40": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:41": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:42": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:43": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:44": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:45": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:46": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:47": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:48": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:49": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:50": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:51": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:52": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:53": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:54": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:55": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:56": {
+      "expected": 2701,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "12:57": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "12:58": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "12:59": {
+      "expected": 2701,
+      "missing": 1,
+      "fraction": 0.00037023324694557573
+    },
+    "13:00": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:01": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:02": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:03": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:04": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:05": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:06": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:07": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:08": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:09": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:10": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "13:11": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:12": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:13": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:14": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:15": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:16": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:17": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:18": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:19": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:20": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:21": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:22": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:23": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:24": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:25": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:26": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:27": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:28": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:29": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:30": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:31": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:32": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:33": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:34": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:35": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:36": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:37": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:38": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:39": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:40": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:41": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:42": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:43": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:44": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:45": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:46": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:47": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:48": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:49": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:50": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:51": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:52": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:53": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:54": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:55": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:56": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:57": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:58": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "13:59": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:00": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:01": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:02": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:03": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:04": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:05": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:06": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:07": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:08": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:09": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:10": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:11": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:12": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:13": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:14": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:15": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:16": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:17": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:18": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:19": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:20": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:21": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:22": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:23": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:24": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:25": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:26": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:27": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:28": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:29": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:30": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:31": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:32": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:33": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:34": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:35": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:36": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:37": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:38": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:39": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:40": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:41": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:42": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:43": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:44": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:45": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:46": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:47": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:48": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:49": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:50": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:51": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:52": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:53": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:54": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:55": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:56": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:57": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:58": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "14:59": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:00": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:01": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:02": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:03": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:04": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:05": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:06": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:07": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:08": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:09": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:10": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:11": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:12": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:13": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:14": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:15": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:16": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:17": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:18": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:19": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:20": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:21": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:22": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:23": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:24": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:25": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:26": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:27": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:28": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:29": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:30": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:31": {
+      "expected": 2680,
+      "missing": 0,
+      "fraction": 0.0
+    },
+    "15:32": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:33": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:34": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:35": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:36": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:37": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:38": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:39": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:40": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:41": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:42": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:43": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:44": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:45": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:46": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:47": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:48": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:49": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:50": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:51": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:52": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:53": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:54": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:55": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:56": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:57": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:58": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    },
+    "15:59": {
+      "expected": 2680,
+      "missing": 1,
+      "fraction": 0.00037313432835820896
+    }
+  },
+  "integrity_totals": {
+    "duplicates": 0,
+    "conflicting_timestamps": 0,
+    "raw_ordering_violations": 0,
+    "parse_errors": 0,
+    "invalid_ohlcv_rows": 0,
+    "zero_volume_rows": 0,
+    "zero_trade_rows": 0,
+    "outside_session_count": 0,
+    "extreme_review_rows": 0
+  },
+  "requested_session_count": 2701,
+  "audited_session_count": 2701,
+  "unknown_session_count": 0,
+  "retrieval_complete": true,
+  "unknown_dates": [],
+  "largest_gap_ties": [
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:32:00-04:00",
+      "end_et": "2019-08-12T15:59:00-04:00",
+      "length": 28,
+      "affected_windows": "anchor;final_target",
+      "start_utc": "2019-08-12T19:32:00+00:00",
+      "end_utc": "2019-08-12T19:59:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    }
+  ],
+  "gap_length_mean": 11.555555555555555,
+  "gap_length_median": 14,
+  "gap_length_p95": 22.399999999999995,
+  "gap_size_bins": {
+    "1": 0,
+    "2_4": 2,
+    "5_9": 2,
+    "10_29": 5,
+    "30_plus": 0
+  },
+  "top_20_gaps": [
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:32:00-04:00",
+      "end_et": "2019-08-12T15:59:00-04:00",
+      "length": 28,
+      "affected_windows": "anchor;final_target",
+      "start_utc": "2019-08-12T19:32:00+00:00",
+      "end_utc": "2019-08-12T19:59:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-09",
+      "start_et": "2020-03-09T09:35:00-04:00",
+      "end_et": "2020-03-09T09:48:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-09T13:35:00+00:00",
+      "end_utc": "2020-03-09T13:48:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-12",
+      "start_et": "2020-03-12T09:36:00-04:00",
+      "end_et": "2020-03-12T09:49:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-12T13:36:00+00:00",
+      "end_utc": "2020-03-12T13:49:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-16",
+      "start_et": "2020-03-16T09:31:00-04:00",
+      "end_et": "2020-03-16T09:44:00-04:00",
+      "length": 14,
+      "affected_windows": "opening_rv",
+      "start_utc": "2020-03-16T13:31:00+00:00",
+      "end_utc": "2020-03-16T13:44:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2020-03-18",
+      "start_et": "2020-03-18T12:57:00-04:00",
+      "end_et": "2020-03-18T13:10:00-04:00",
+      "length": 14,
+      "affected_windows": "other",
+      "start_utc": "2020-03-18T16:57:00+00:00",
+      "end_utc": "2020-03-18T17:10:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2016-02-02",
+      "start_et": "2016-02-02T11:19:00-05:00",
+      "end_et": "2016-02-02T11:27:00-05:00",
+      "length": 9,
+      "affected_windows": "other",
+      "start_utc": "2016-02-02T16:19:00+00:00",
+      "end_utc": "2016-02-02T16:27:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2021-05-05",
+      "start_et": "2021-05-05T11:27:00-04:00",
+      "end_et": "2021-05-05T11:31:00-04:00",
+      "length": 5,
+      "affected_windows": "other",
+      "start_utc": "2021-05-05T15:27:00+00:00",
+      "end_utc": "2021-05-05T15:31:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2023-06-05",
+      "start_et": "2023-06-05T09:52:00-04:00",
+      "end_et": "2023-06-05T09:55:00-04:00",
+      "length": 4,
+      "affected_windows": "opening_rv",
+      "start_utc": "2023-06-05T13:52:00+00:00",
+      "end_utc": "2023-06-05T13:55:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    },
+    {
+      "session_et": "2019-08-12",
+      "start_et": "2019-08-12T15:29:00-04:00",
+      "end_et": "2019-08-12T15:30:00-04:00",
+      "length": 2,
+      "affected_windows": "anchor;final_target;late_predictor",
+      "start_utc": "2019-08-12T19:29:00+00:00",
+      "end_utc": "2019-08-12T19:30:00+00:00",
+      "reason": "UNKNOWN_NO_QUALIFYING_BAR_OR_VENDOR_GAP"
+    }
+  ],
+  "maximum_affected_day_run": 1,
+  "longest_affected_day_runs": [
+    {
+      "start": "2016-02-02",
+      "end": "2016-02-02",
+      "length": 1
+    },
+    {
+      "start": "2019-08-12",
+      "end": "2019-08-12",
+      "length": 1
+    },
+    {
+      "start": "2020-03-09",
+      "end": "2020-03-09",
+      "length": 1
+    },
+    {
+      "start": "2020-03-12",
+      "end": "2020-03-12",
+      "length": 1
+    },
+    {
+      "start": "2020-03-16",
+      "end": "2020-03-16",
+      "length": 1
+    },
+    {
+      "start": "2020-03-18",
+      "end": "2020-03-18",
+      "length": 1
+    },
+    {
+      "start": "2021-05-05",
+      "end": "2021-05-05",
+      "length": 1
+    },
+    {
+      "start": "2023-06-05",
+      "end": "2023-06-05",
+      "length": 1
+    }
+  ],
+  "maximum_eligible_day_run": 250,
+  "zero_returned_sessions": [],
+  "exclusion_reason_counts": {
+    "MISSING_PRIOR_FULL_ANCHOR": 2,
+    "HALF_DAY": 21,
+    "MISSING_OR_INVALID_CRITICAL_CANDLE": 1,
+    "INCOMPLETE_OPENING_30": 4
+  },
+  "daily_trade_count_available_sessions": 2701,
+  "daily_ge500_sessions": 2701,
+  "full_sessions_after_early_close": 21,
+  "disjoint_window_missing": {
+    "opening_rv": 46,
+    "anchor": 0,
+    "late_predictor": 1,
+    "final_target": 29,
+    "other": 28
+  },
+  "cluster_distribution": {
+    "year": [
+      {
+        "period": "2016",
+        "sessions_retrieved": 252,
+        "full_sessions": 251,
+        "expected": 98100,
+        "observed_unique": 98091,
+        "valid_unique": 98091,
+        "missing": 9,
+        "missing_fraction": 9.174311926605505e-05,
+        "affected_sessions": 1,
+        "eligible_full_days": 250,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.08653846153846154,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2017",
+        "sessions_retrieved": 251,
+        "full_sessions": 249,
+        "expected": 97530,
+        "observed_unique": 97530,
+        "valid_unique": 97530,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 249,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018",
+        "sessions_retrieved": 251,
+        "full_sessions": 248,
+        "expected": 97350,
+        "observed_unique": 97350,
+        "valid_unique": 97350,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 248,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019",
+        "sessions_retrieved": 252,
+        "full_sessions": 249,
+        "expected": 97740,
+        "observed_unique": 97710,
+        "valid_unique": 97710,
+        "missing": 30,
+        "missing_fraction": 0.0003069367710251688,
+        "affected_sessions": 1,
+        "eligible_full_days": 247,
+        "clusters": 2,
+        "proportion_of_all_missing_bars": 0.28846153846153844,
+        "proportion_of_all_clusters": 0.2222222222222222
+      },
+      {
+        "period": "2020",
+        "sessions_retrieved": 253,
+        "full_sessions": 251,
+        "expected": 98310,
+        "observed_unique": 98254,
+        "valid_unique": 98254,
+        "missing": 56,
+        "missing_fraction": 0.0005696266910792391,
+        "affected_sessions": 4,
+        "eligible_full_days": 248,
+        "clusters": 4,
+        "proportion_of_all_missing_bars": 0.5384615384615384,
+        "proportion_of_all_clusters": 0.4444444444444444
+      },
+      {
+        "period": "2021",
+        "sessions_retrieved": 252,
+        "full_sessions": 251,
+        "expected": 98100,
+        "observed_unique": 98095,
+        "valid_unique": 98095,
+        "missing": 5,
+        "missing_fraction": 5.0968399592252805e-05,
+        "affected_sessions": 1,
+        "eligible_full_days": 251,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.04807692307692308,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2022",
+        "sessions_retrieved": 251,
+        "full_sessions": 250,
+        "expected": 97710,
+        "observed_unique": 97710,
+        "valid_unique": 97710,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 250,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023",
+        "sessions_retrieved": 250,
+        "full_sessions": 248,
+        "expected": 97140,
+        "observed_unique": 97136,
+        "valid_unique": 97136,
+        "missing": 4,
+        "missing_fraction": 4.117768169652048e-05,
+        "affected_sessions": 1,
+        "eligible_full_days": 247,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.038461538461538464,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2024",
+        "sessions_retrieved": 252,
+        "full_sessions": 249,
+        "expected": 97740,
+        "observed_unique": 97740,
+        "valid_unique": 97740,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 249,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025",
+        "sessions_retrieved": 250,
+        "full_sessions": 247,
+        "expected": 96960,
+        "observed_unique": 96960,
+        "valid_unique": 96960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 247,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026",
+        "sessions_retrieved": 187,
+        "full_sessions": 187,
+        "expected": 72930,
+        "observed_unique": 72930,
+        "valid_unique": 72930,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 187,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      }
+    ],
+    "month": [
+      {
+        "period": "2016-01",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 18,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-02",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7791,
+        "valid_unique": 7791,
+        "missing": 9,
+        "missing_fraction": 0.001153846153846154,
+        "affected_sessions": 1,
+        "eligible_full_days": 20,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.08653846153846154,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2016-03",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-05",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-06",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-07",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-08",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-10",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-12",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-01",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-03",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-04",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-05",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-06",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-07",
+        "sessions_retrieved": 20,
+        "full_sessions": 19,
+        "expected": 7620,
+        "observed_unique": 7620,
+        "valid_unique": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-08",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-09",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-10",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-12",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-01",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-03",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-05",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-06",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-07",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-08",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-09",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-10",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-12",
+        "sessions_retrieved": 19,
+        "full_sessions": 18,
+        "expected": 7230,
+        "observed_unique": 7230,
+        "valid_unique": 7230,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 18,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-01",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-03",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-05",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-06",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-07",
+        "sessions_retrieved": 22,
+        "full_sessions": 21,
+        "expected": 8400,
+        "observed_unique": 8400,
+        "valid_unique": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-08",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8550,
+        "valid_unique": 8550,
+        "missing": 30,
+        "missing_fraction": 0.0034965034965034965,
+        "affected_sessions": 1,
+        "eligible_full_days": 20,
+        "clusters": 2,
+        "proportion_of_all_missing_bars": 0.28846153846153844,
+        "proportion_of_all_clusters": 0.2222222222222222
+      },
+      {
+        "period": "2019-09",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-10",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-11",
+        "sessions_retrieved": 20,
+        "full_sessions": 19,
+        "expected": 7620,
+        "observed_unique": 7620,
+        "valid_unique": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-12",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-01",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-03",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8524,
+        "valid_unique": 8524,
+        "missing": 56,
+        "missing_fraction": 0.006526806526806527,
+        "affected_sessions": 4,
+        "eligible_full_days": 19,
+        "clusters": 4,
+        "proportion_of_all_missing_bars": 0.5384615384615384,
+        "proportion_of_all_clusters": 0.4444444444444444
+      },
+      {
+        "period": "2020-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-05",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-06",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-07",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-08",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-10",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-11",
+        "sessions_retrieved": 20,
+        "full_sessions": 19,
+        "expected": 7620,
+        "observed_unique": 7620,
+        "valid_unique": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-12",
+        "sessions_retrieved": 22,
+        "full_sessions": 21,
+        "expected": 8400,
+        "observed_unique": 8400,
+        "valid_unique": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-01",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-03",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-05",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7795,
+        "valid_unique": 7795,
+        "missing": 5,
+        "missing_fraction": 0.000641025641025641,
+        "affected_sessions": 1,
+        "eligible_full_days": 20,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.04807692307692308,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2021-06",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-07",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-08",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-10",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-12",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-01",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-03",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-04",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-05",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-06",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-07",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-08",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-10",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-12",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-01",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-03",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-04",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-05",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-06",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8186,
+        "valid_unique": 8186,
+        "missing": 4,
+        "missing_fraction": 0.0004884004884004884,
+        "affected_sessions": 1,
+        "eligible_full_days": 20,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.038461538461538464,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2023-07",
+        "sessions_retrieved": 20,
+        "full_sessions": 19,
+        "expected": 7620,
+        "observed_unique": 7620,
+        "valid_unique": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-08",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-09",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-10",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-11",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-12",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-01",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-02",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-03",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-04",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-05",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-06",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-07",
+        "sessions_retrieved": 22,
+        "full_sessions": 21,
+        "expected": 8400,
+        "observed_unique": 8400,
+        "valid_unique": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-08",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-09",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-10",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-11",
+        "sessions_retrieved": 20,
+        "full_sessions": 19,
+        "expected": 7620,
+        "observed_unique": 7620,
+        "valid_unique": 7620,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-12",
+        "sessions_retrieved": 21,
+        "full_sessions": 20,
+        "expected": 8010,
+        "observed_unique": 8010,
+        "valid_unique": 8010,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-01",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-03",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-05",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-06",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-07",
+        "sessions_retrieved": 22,
+        "full_sessions": 21,
+        "expected": 8400,
+        "observed_unique": 8400,
+        "valid_unique": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-08",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-10",
+        "sessions_retrieved": 23,
+        "full_sessions": 23,
+        "expected": 8970,
+        "observed_unique": 8970,
+        "valid_unique": 8970,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 23,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-11",
+        "sessions_retrieved": 19,
+        "full_sessions": 18,
+        "expected": 7230,
+        "observed_unique": 7230,
+        "valid_unique": 7230,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 18,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-12",
+        "sessions_retrieved": 22,
+        "full_sessions": 21,
+        "expected": 8400,
+        "observed_unique": 8400,
+        "valid_unique": 8400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-01",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-02",
+        "sessions_retrieved": 19,
+        "full_sessions": 19,
+        "expected": 7410,
+        "observed_unique": 7410,
+        "valid_unique": 7410,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 19,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-03",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-04",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-05",
+        "sessions_retrieved": 20,
+        "full_sessions": 20,
+        "expected": 7800,
+        "observed_unique": 7800,
+        "valid_unique": 7800,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 20,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-06",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-07",
+        "sessions_retrieved": 22,
+        "full_sessions": 22,
+        "expected": 8580,
+        "observed_unique": 8580,
+        "valid_unique": 8580,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 22,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-08",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-09",
+        "sessions_retrieved": 21,
+        "full_sessions": 21,
+        "expected": 8190,
+        "observed_unique": 8190,
+        "valid_unique": 8190,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 21,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      }
+    ],
+    "quarter": [
+      {
+        "period": "2016-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23781,
+        "valid_unique": 23781,
+        "missing": 9,
+        "missing_fraction": 0.00037831021437578815,
+        "affected_sessions": 1,
+        "eligible_full_days": 60,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.08653846153846154,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2016-Q2",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2016-Q4",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-Q1",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-Q2",
+        "sessions_retrieved": 63,
+        "full_sessions": 63,
+        "expected": 24570,
+        "observed_unique": 24570,
+        "valid_unique": 24570,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-Q3",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2017-Q4",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23790,
+        "valid_unique": 23790,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-Q2",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-Q3",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2018-Q4",
+        "sessions_retrieved": 63,
+        "full_sessions": 61,
+        "expected": 24210,
+        "observed_unique": 24210,
+        "valid_unique": 24210,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23790,
+        "valid_unique": 23790,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-Q2",
+        "sessions_retrieved": 63,
+        "full_sessions": 63,
+        "expected": 24570,
+        "observed_unique": 24570,
+        "valid_unique": 24570,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2019-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 63,
+        "expected": 24780,
+        "observed_unique": 24750,
+        "valid_unique": 24750,
+        "missing": 30,
+        "missing_fraction": 0.0012106537530266344,
+        "affected_sessions": 1,
+        "eligible_full_days": 61,
+        "clusters": 2,
+        "proportion_of_all_missing_bars": 0.28846153846153844,
+        "proportion_of_all_clusters": 0.2222222222222222
+      },
+      {
+        "period": "2019-Q4",
+        "sessions_retrieved": 64,
+        "full_sessions": 62,
+        "expected": 24600,
+        "observed_unique": 24600,
+        "valid_unique": 24600,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-Q1",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24124,
+        "valid_unique": 24124,
+        "missing": 56,
+        "missing_fraction": 0.002315963606286187,
+        "affected_sessions": 4,
+        "eligible_full_days": 59,
+        "clusters": 4,
+        "proportion_of_all_missing_bars": 0.5384615384615384,
+        "proportion_of_all_clusters": 0.4444444444444444
+      },
+      {
+        "period": "2020-Q2",
+        "sessions_retrieved": 63,
+        "full_sessions": 63,
+        "expected": 24570,
+        "observed_unique": 24570,
+        "valid_unique": 24570,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2020-Q4",
+        "sessions_retrieved": 64,
+        "full_sessions": 62,
+        "expected": 24600,
+        "observed_unique": 24600,
+        "valid_unique": 24600,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23790,
+        "valid_unique": 23790,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-Q2",
+        "sessions_retrieved": 63,
+        "full_sessions": 63,
+        "expected": 24570,
+        "observed_unique": 24565,
+        "valid_unique": 24565,
+        "missing": 5,
+        "missing_fraction": 0.0002035002035002035,
+        "affected_sessions": 1,
+        "eligible_full_days": 63,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.04807692307692308,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2021-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2021-Q4",
+        "sessions_retrieved": 64,
+        "full_sessions": 63,
+        "expected": 24780,
+        "observed_unique": 24780,
+        "valid_unique": 24780,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-Q1",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-Q2",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2022-Q4",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-Q1",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-Q2",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24176,
+        "valid_unique": 24176,
+        "missing": 4,
+        "missing_fraction": 0.00016542597187758478,
+        "affected_sessions": 1,
+        "eligible_full_days": 61,
+        "clusters": 1,
+        "proportion_of_all_missing_bars": 0.038461538461538464,
+        "proportion_of_all_clusters": 0.1111111111111111
+      },
+      {
+        "period": "2023-Q3",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2023-Q4",
+        "sessions_retrieved": 63,
+        "full_sessions": 62,
+        "expected": 24390,
+        "observed_unique": 24390,
+        "valid_unique": 24390,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23790,
+        "valid_unique": 23790,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-Q2",
+        "sessions_retrieved": 63,
+        "full_sessions": 63,
+        "expected": 24570,
+        "observed_unique": 24570,
+        "valid_unique": 24570,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 63,
+        "expected": 24780,
+        "observed_unique": 24780,
+        "valid_unique": 24780,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2024-Q4",
+        "sessions_retrieved": 64,
+        "full_sessions": 62,
+        "expected": 24600,
+        "observed_unique": 24600,
+        "valid_unique": 24600,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-Q1",
+        "sessions_retrieved": 60,
+        "full_sessions": 60,
+        "expected": 23400,
+        "observed_unique": 23400,
+        "valid_unique": 23400,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 60,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-Q2",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 63,
+        "expected": 24780,
+        "observed_unique": 24780,
+        "valid_unique": 24780,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 63,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2025-Q4",
+        "sessions_retrieved": 64,
+        "full_sessions": 62,
+        "expected": 24600,
+        "observed_unique": 24600,
+        "valid_unique": 24600,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-Q1",
+        "sessions_retrieved": 61,
+        "full_sessions": 61,
+        "expected": 23790,
+        "observed_unique": 23790,
+        "valid_unique": 23790,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 61,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-Q2",
+        "sessions_retrieved": 62,
+        "full_sessions": 62,
+        "expected": 24180,
+        "observed_unique": 24180,
+        "valid_unique": 24180,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 62,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      },
+      {
+        "period": "2026-Q3",
+        "sessions_retrieved": 64,
+        "full_sessions": 64,
+        "expected": 24960,
+        "observed_unique": 24960,
+        "valid_unique": 24960,
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "affected_sessions": 0,
+        "eligible_full_days": 64,
+        "clusters": 0,
+        "proportion_of_all_missing_bars": 0.0,
+        "proportion_of_all_clusters": 0.0
+      }
+    ]
+  },
+  "splits": {
+    "train": {
+      "full_days": 1499,
+      "eligible_full_days": 1493,
+      "ineligible_full_days": 6,
+      "opening_rv_loss_full_days": 3,
+      "otherwise_eligible_denominator": 1496,
+      "opening_rv_loss_otherwise": 3,
+      "opening_rv_loss_fraction_otherwise": 0.002005347593582888
+    },
+    "validation": {
+      "full_days": 498,
+      "eligible_full_days": 497,
+      "ineligible_full_days": 1,
+      "opening_rv_loss_full_days": 1,
+      "otherwise_eligible_denominator": 498,
+      "opening_rv_loss_otherwise": 1,
+      "opening_rv_loss_fraction_otherwise": 0.002008032128514056
+    },
+    "sealed_test": {
+      "full_days": 683,
+      "eligible_full_days": 683,
+      "ineligible_full_days": 0,
+      "opening_rv_loss_full_days": 0,
+      "otherwise_eligible_denominator": 683,
+      "opening_rv_loss_otherwise": 0,
+      "opening_rv_loss_fraction_otherwise": 0.0
+    }
+  },
+  "fully_eligible_complete_calendar_years": [
+    "2017",
+    "2018",
+    "2021",
+    "2022",
+    "2024",
+    "2025"
+  ],
+  "stage1_permitted": true,
+  "status": "PASS WITH QUALIFICATIONS",
+  "eligible_year_screen_note": "Literal complete-calendar-year coverage with every scheduled full session eligible; shortened sessions excluded by protocol; no nonlinear power claim"
+}

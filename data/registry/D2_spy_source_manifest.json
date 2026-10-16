@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "config_sha256": "848a8068ea146a4c45edd92e15e3aa57ff7df736815463145015dff6edc14c0c",
+    "dataset_id": "B_alpaca_sip_SPY_1m_split_D2_v1",
+    "scientific_spec_sha256": "0e3f0946f4b6c9696c888f86e42669bff709fa56599b6069391e3b5af3e4acfc"
+  },
+  "source": {
+    "symbol": "SPY",
+    "feed": "sip",
+    "adjustment": "split",
+    "timeframe": "1Min",
+    "start": "2016-01-04",
+    "end": "2026-09-30",
+    "calendar": "XNYS",
+    "timezone": "America/New_York",
+    "storage_timezone": "UTC",
+    "bar_label": "start, left-inclusive/right-exclusive",
+    "retention": {
+      "full_session": [
+        "09:30-09:59",
+        "14:59",
+        "15:00-15:59"
+      ],
+      "early_close": "none; whole session audited, primary target unavailable",
+      "initial_prior_full_anchor": "15:59 exactly once, if available"
+    },
+    "source_revision": "Provider snapshot at request timestamps; Alpaca does not supply an immutable release ID"
+  },
+  "blocks": {
+    "2016": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+        "bytes": 785927,
+        "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2016.json",
+        "bytes": 666350,
+        "sha256": "2c593de301f7808bac2a2ed0f05ce3bc1e9844a29bc7b3dd01e00eaf73098628"
+      },
+      "rows": 22841,
+      "sessions": 252,
+      "last_full_session": "2016-12-30",
+      "completed_at_utc": "2026-10-16T17:44:19.916030+00:00"
+    },
+    "2017": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+        "bytes": 774109,
+        "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2017.json",
+        "bytes": 661127,
+        "sha256": "da6573e788489398886a215a7bbbbdf272b960358d1dd0af94ed71e2304e1b58"
+      },
+      "rows": 22659,
+      "sessions": 251,
+      "last_full_session": "2017-12-29",
+      "completed_at_utc": "2026-10-16T17:49:36.303134+00:00"
+    },
+    "2018": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+        "bytes": 782288,
+        "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2018.json",
+        "bytes": 661149,
+        "sha256": "992869b4e76d73854bdff7659e63adfa73e9d8e4e188563f030623434a79a4de"
+      },
+      "rows": 22568,
+      "sessions": 251,
+      "last_full_session": "2018-12-31",
+      "completed_at_utc": "2026-10-16T17:50:24.319515+00:00"
+    },
+    "2019": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+        "bytes": 797568,
+        "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2019.json",
+        "bytes": 672158,
+        "sha256": "573e3b6cf585d9ddae21d277b6aeb3ab2e1ee422302df4da643d521485169a2c"
+      },
+      "rows": 22629,
+      "sessions": 252,
+      "last_full_session": "2019-12-31",
+      "completed_at_utc": "2026-10-16T17:51:20.091395+00:00"
+    },
+    "2020": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+        "bytes": 869578,
+        "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2020.json",
+        "bytes": 681937,
+        "sha256": "a671a9c952fd06c31f911b42436a0eb32e844391b21631c60e829d69f74af912"
+      },
+      "rows": 22799,
+      "sessions": 253,
+      "last_full_session": "2020-12-31",
+      "completed_at_utc": "2026-10-16T17:52:12.545978+00:00"
+    },
+    "2021": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+        "bytes": 857427,
+        "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2021.json",
+        "bytes": 665349,
+        "sha256": "b0e299def2dd4fa48afbdc691ac082b420815e0579191447ef3975612a3e4ac9"
+      },
+      "rows": 22841,
+      "sessions": 252,
+      "last_full_session": "2021-12-31",
+      "completed_at_utc": "2026-10-16T17:53:03.346967+00:00"
+    },
+    "2022": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+        "bytes": 869271,
+        "sha256": "d57c36d075dbad05994283d83cd4a54b6ffc6ca8cdd4db7e53f15bb9f7161d0e"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2022.json",
+        "bytes": 661106,
+        "sha256": "d59d0c02528439fb618a1090540c332e23f612feb9407304c26795b6f0db9bb7"
+      },
+      "rows": 22750,
+      "sessions": 251,
+      "last_full_session": "2022-12-30",
+      "completed_at_utc": "2026-10-16T17:53:57.887500+00:00"
+    },
+    "2023": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+        "bytes": 849491,
+        "sha256": "a109bcd04430e0b2ccc9cf351f0acb9ec510aaa797efd2c76844e5ca34e2d8e3"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2023.json",
+        "bytes": 659944,
+        "sha256": "d4cedcd3aa3787702d1d451d031aba54f60d0a3895f75dd58534a0889783731e"
+      },
+      "rows": 22564,
+      "sessions": 250,
+      "last_full_session": "2023-12-29",
+      "completed_at_utc": "2026-10-16T17:54:56.558179+00:00"
+    },
+    "2024": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+        "bytes": 865357,
+        "sha256": "9f6fdeaa057251ee6cfa106baafca09a8476decac31f16e183fcd7ac61e857bd"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2024.json",
+        "bytes": 663767,
+        "sha256": "9798099a54b5932fecfe6d44e8ad77da5313fda4eadacf08b95cfe116d82e989"
+      },
+      "rows": 22659,
+      "sessions": 252,
+      "last_full_session": "2024-12-31",
+      "completed_at_utc": "2026-10-16T17:55:49.859617+00:00"
+    },
+    "2025": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+        "bytes": 871110,
+        "sha256": "c4fb5b516ae19610fd53a6851709cf4b20f7b137f0ff572610ffdebef7c224e6"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2025.json",
+        "bytes": 658533,
+        "sha256": "8cddce286e4ce7c69ebe1ba3d7bf3d47f1bffa861beeca10962a0f5f02910e3b"
+      },
+      "rows": 22477,
+      "sessions": 250,
+      "last_full_session": "2025-12-31",
+      "completed_at_utc": "2026-10-16T17:56:44.483601+00:00"
+    },
+    "2026": {
+      "canonical": {
+        "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+        "bytes": 653037,
+        "sha256": "95e458decd2e31070a4ce5d89fbe73f467d7d054559e2e970f32a412ebca55fd"
+      },
+      "qa": {
+        "path": "registry/D2_blocks/2026.json",
+        "bytes": 492582,
+        "sha256": "61a49cee6b3a455d1331781c38cac335f508eb830cb3a06e0724f142e8ba8f49"
+      },
+      "rows": 17017,
+      "sessions": 187,
+      "last_full_session": "2026-09-30",
+      "completed_at_utc": "2026-10-16T17:57:26.228458+00:00"
+    }
+  },
+  "status": "PASS WITH QUALIFICATIONS",
+  "started_at_utc": "2026-10-16T17:42:54.092712+00:00",
+  "initial_anchor": {
+    "session_et": "2015-12-31",
+    "available": false,
+    "returned_rows": 0,
+    "purpose": "optional leading r1 anchor only"
+  },
+  "active_year": null,
+  "d1_reuse_decision": "D1 preserved as immutable diagnostic; overlapping 11 sessions reacquired in D2 contiguous requests for consistent extraction lineage; no data copied",
+  "code_sha256": {
+    "src/ebm_research/experiment_b/acquisition.py": "27740ea03253176da47330d6d46cf7c7b61a3290ab83b763ea91759a6328602e",
+    "src/ebm_research/experiment_b/pilot.py": "91d2acf233c4ab897e8e0595e425148f95735ad383642d825e195ca50ffbe67a"
+  },
+  "versions": {
+    "exchange-calendars": "4.13.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "pyarrow": "23.0.1",
+    "tzdata": "2026.5"
+  },
+  "python": "3.14.6",
+  "code_commit_at_invocation": "79a7099573c595adfd93d0b0a34c230259ab6b01",
+  "first_batch_measurement": {
+    "month": "2016-01",
+    "retained_rows": 1729,
+    "compressed_bytes_in_memory": 61429,
+    "source_transfer_bytes": 1686271,
+    "projected_canonical_bytes": 8664758
+  },
+  "retrieval_complete": true,
+  "last_invocation_wall_seconds": 559.3,
+  "requests_total": 271,
+  "successful_requests_total": 271,
+  "response_bytes_total": 222454942,
+  "retry_count_this_invocation": 0,
+  "request_ledger": {
+    "path": "raw/alpaca/B_alpaca_sip_SPY_1m_split_D2_v1/requests.json",
+    "bytes": 162322,
+    "sha256": "8f3b27e495cc8222a8ec4908f0ed5c3693d1cc15d0ab46f6b6506e55e6b53d63"
+  },
+  "frozen_at_utc": "2026-10-16T17:58:00.521428+00:00",
+  "execution_history": [
+    {
+      "code_sha256": {
+        "src/ebm_research/experiment_b/acquisition.py": "5ccfae605e1a0965ae3db18f67ab5cb2135f2d514e6a09940ede88c79ce2466b",
+        "src/ebm_research/experiment_b/pilot.py": "91d2acf233c4ab897e8e0595e425148f95735ad383642d825e195ca50ffbe67a"
+      },
+      "completed_years_at_end": [
+        "2016"
+      ],
+      "wall_seconds": 88.888,
+      "note": "First measured annual invocation; preserved before summary-only additions"
+    },
+    {
+      "started_at_utc": "2026-10-16T17:48:41.236073+00:00",
+      "code_sha256": {
+        "src/ebm_research/experiment_b/acquisition.py": "27740ea03253176da47330d6d46cf7c7b61a3290ab83b763ea91759a6328602e",
+        "src/ebm_research/experiment_b/pilot.py": "91d2acf233c4ab897e8e0595e425148f95735ad383642d825e195ca50ffbe67a"
+      },
+      "completed_years_at_start": [
+        "2016"
+      ],
+      "max_years": null,
+      "wall_seconds": 559.3,
+      "completed_years_at_end": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    }
+  ],
+  "post_freeze_maintenance": {
+    "code_sha256": {
+      "src/ebm_research/experiment_b/acquisition.py": "9f486f96082e15d1f82ebea945307b05152cbea03c80f201e08ff5d46522dd15",
+      "tests/test_d2_acquisition.py": "5a9257faca345b2ca68857553672e4e32f5493e3988beb62c722070ec4926e50"
+    },
+    "purpose": "Resume-only append-ledger fix, source/audit data unchanged; acquisition execution hashes retained in execution_history; explicit schema/primary-key/split metadata registered without re-auditing candles",
+    "tests": "4/4 PASS including LF/CRLF committed-ledger prefix; verify-only all 11 years, zero network calls",
+    "verified_at_utc": "2026-10-16T18:05:28.556715+00:00"
+  },
+  "canonical_totals": {
+    "rows": 243804,
+    "bytes": 8975163,
+    "expected_required_full_session_minutes": 243880,
+    "retained_missing_required_minutes": 76,
+    "requested_first": "2016-01-04",
+    "requested_last": "2026-09-30",
+    "first_retained_timestamp_utc": "2016-01-04 14:30:00+00:00",
+    "last_retained_timestamp_utc": "2026-09-30 19:59:00+00:00"
+  },
+  "schema_version": 1,
+  "canonical_schema": {
+    "symbol": "string",
+    "timestamp_utc": "timestamp[us, tz=UTC]",
+    "session_et": "date32[day]",
+    "open": "double",
+    "high": "double",
+    "low": "double",
+    "close": "double",
+    "volume": "double",
+    "trade_count": "double",
+    "vwap": "double",
+    "source_batch": "string",
+    "role": "string"
+  },
+  "primary_key": [
+    "symbol",
+    "timestamp_utc"
+  ],
+  "splits": {
+    "train": [
+      "2016-01-04",
+      "2021-12-31"
+    ],
+    "validation": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "sealed_test": [
+      "2024-01-01",
+      "2026-09-30"
+    ]
+  },
+  "license_caveat": "Personal/noncommercial research; account and exchange agreements apply; no redistribution of licensed candles",
+  "published_quality_files": [
+    {
+      "path": "registry/D2_spy_candle_gap_clusters.csv",
+      "bytes": 1611,
+      "sha256": "f44384c02608ab3378c0c0479fcce7b46cbd5a3cff1cdbb7225eb01c2e97f7be"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_sessions.csv",
+      "bytes": 1056070,
+      "sha256": "499cf960c8d4a94b62e0cf8fb11869f4a60bbddfd5d36f0b7fe92f9a63ded337"
+    },
+    {
+      "path": "registry/D2_spy_candle_qa_summary.json",
+      "bytes": 149231,
+      "sha256": "35d1acb238ee6daeadd433ced284e211017922c3f650ecd6cd47a4b2feffcb2a"
+    },
+    {
+      "path": "registry/D2_spy_coverage_month.csv",
+      "bytes": 5389,
+      "sha256": "a0625db3d0c848dafdfeb0bf242e9e63afe95ac2af3b1b14e5487a6ea4b1616e"
+    },
+    {
+      "path": "registry/D2_spy_coverage_quarter.csv",
+      "bytes": 2082,
+      "sha256": "ae8718ab01710c104a62fa673e20379f78269202e8e8d8ef18f48b169731ab1d"
+    },
+    {
+      "path": "registry/D2_spy_coverage_year.csv",
+      "bytes": 706,
+      "sha256": "47b749795c8210c782a7340596e200c28aa687edc7735c8ac886c5726c6d2ecd"
+    },
+    {
+      "path": "registry/D2_spy_exception_log.json",
+      "bytes": 706,
+      "sha256": "b278c637e26a8d0e41da33ce99654357e566aad3e73113c4645d43d64f04a165"
+    },
+    {
+      "path": "registry/D2_spy_invalid_candles.csv",
+      "bytes": 32,
+      "sha256": "7aaa72378824dcf99f731fddd9836cbd72104bed25729bfbfbd71c216ba9d117"
+    },
+    {
+      "path": "registry/D2_spy_missing_candles.csv",
+      "bytes": 11854,
+      "sha256": "ffb61747d338692fbbd77c8ac047c9d4280167ff4942d54c32c6d3daad578e2a"
+    }
+  ],
+  "provider": "Alpaca"
+}

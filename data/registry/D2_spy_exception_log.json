@@ -1,0 +1,15 @@
+[
+  {
+    "type": "OPERATIONAL_FIX",
+    "when_utc": "2026-10-16T17:59:23.355158+00:00",
+    "operation": "Interrupted-run request ledger validation",
+    "cause": "Whole-file hash of an actively growing ledger could reject legitimate appended requests after interruption; immutable canonical/QA block checks were correct",
+    "fix": "Verify the committed JSON-record prefix against the saved ledger hash; appended uncommitted records allowed, mutation rejected",
+    "actual_data_affected": false,
+    "tests": "Extended existing D2 resume/pagination regression; total suite 4/4 PASS",
+    "files": [
+      "src/ebm_research/experiment_b/acquisition.py",
+      "tests/test_d2_acquisition.py"
+    ]
+  }
+]

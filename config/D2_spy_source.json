@@ -1,0 +1,39 @@
+{
+  "task_id": "B_D2_FULL_ALPACA_SIP_HISTORY_AND_CANDLE_QA",
+  "dataset_id": "B_alpaca_sip_SPY_1m_split_D2_v1",
+  "symbol": "SPY",
+  "feed": "sip",
+  "adjustment": "split",
+  "timeframe": "1Min",
+  "start": "2016-01-04",
+  "end": "2026-09-30",
+  "calendar": "XNYS",
+  "timezone": "America/New_York",
+  "storage_timezone": "UTC",
+  "bar_label": "start, left-inclusive/right-exclusive",
+  "batch": "calendar_month",
+  "checkpoint": "calendar_year",
+  "retention": {
+    "full_session": ["09:30-09:59", "14:59", "15:00-15:59"],
+    "early_close": "none; whole session audited, primary target unavailable",
+    "initial_prior_full_anchor": "15:59 exactly once, if available"
+  },
+  "max_pages_per_request": 8,
+  "request_spacing_seconds": 0.5,
+  "retry_backoff_seconds": [5, 15],
+  "max_transient_retries_total": 6,
+  "stop_retained_bytes": 2000000000,
+  "warn_retained_bytes": 1000000000,
+  "manual_extreme_range_fraction": 0.05,
+  "manual_extreme_close_jump_fraction": 0.05,
+  "opening_rv_loss_stop_fraction": 0.02,
+  "splits": {
+    "train": ["2016-01-04", "2021-12-31"],
+    "validation": ["2022-01-01", "2023-12-31"],
+    "sealed_test": ["2024-01-01", "2026-09-30"]
+  },
+  "source_revision": "Provider snapshot at request timestamps; Alpaca does not supply an immutable release ID",
+  "scientific_spec": "docs/specs/experiment_B_intraday_volatility_ebm_research_spec_v1.md",
+  "precedent": "data/registry/D1_spy_source_manifest.json",
+  "license_url": "https://files.alpaca.markets/disclosures/library/TermsAndConditions.pdf"
+}
