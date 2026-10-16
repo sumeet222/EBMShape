@@ -1,0 +1,20 @@
+{
+  "observed_at_utc": "2026-10-16T16:02:19.658569+00:00",
+  "python": "3.14.6",
+  "provider": "massive",
+  "requests": [
+    {
+      "day": "2026-09-15",
+      "adjusted": false,
+      "status": 200,
+      "bytes": 89758,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_massive_response_0.json",
+        "bytes": 89738,
+        "sha256": "de273fd7d8fbb3db44c3f2d3f51464abe740705d05820ec7b80982642a712eae"
+      }
+    }
+  ],
+  "credentials_present": true,
+  "wall_seconds": 0.167
+}

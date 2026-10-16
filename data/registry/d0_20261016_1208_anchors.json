@@ -1,0 +1,98 @@
+{
+  "observed_at_utc": "2026-10-16T16:03:14.326202+00:00",
+  "python": "3.14.6",
+  "provider": "anchors",
+  "requests": [
+    {
+      "day": "2016-01-04",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2016-01-04T15:59:00-05:00",
+        "end": "2016-01-04T16:00:59-05:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 264,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1208_anchors_response_0.json",
+        "bytes": 264,
+        "sha256": "620a7d93e34f2526809624f3cecf5834fc6bedda48b00cbe3d7cb113e770255f"
+      }
+    },
+    {
+      "day": "2019-07-12",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2019-07-12T15:59:00-04:00",
+        "end": "2019-07-12T16:00:59-04:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 268,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1208_anchors_response_1.json",
+        "bytes": 268,
+        "sha256": "03bbfd431449426f1aa80331feab78016dee895afe69267c1cce9cfc5b3d62f2"
+      }
+    },
+    {
+      "day": "2023-07-14",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2023-07-14T15:59:00-04:00",
+        "end": "2023-07-14T16:00:59-04:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 267,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1208_anchors_response_2.json",
+        "bytes": 267,
+        "sha256": "e137174190dc5049b3da17f48fc4a78cea1e095d676f7fa075d7056d7ffe638f"
+      }
+    },
+    {
+      "day": "2024-07-12",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-12T15:59:00-04:00",
+        "end": "2024-07-12T16:00:59-04:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 268,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1208_anchors_response_3.json",
+        "bytes": 268,
+        "sha256": "4b4d85f33582402b1b74917abd93b4fb49bb77e046af8c42ddcced3adad6cdf1"
+      }
+    },
+    {
+      "day": "2026-09-14",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2026-09-14T15:59:00-04:00",
+        "end": "2026-09-14T16:00:59-04:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 266,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1208_anchors_response_4.json",
+        "bytes": 266,
+        "sha256": "a797a1a2c2f6eac9ac6e19ba5f4b3eba89739ec4f403b6eded54462a5a9fd7f6"
+      }
+    }
+  ],
+  "wall_seconds": 0.735
+}

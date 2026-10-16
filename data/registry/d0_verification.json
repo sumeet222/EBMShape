@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "scope": "diagnostic samples only; no continuous-coverage or research-ready claim",
+  "sample_files_verified": 15,
+  "alpaca_audits": [
+    {
+      "day": "2016-01-05",
+      "rows": 390,
+      "unique_timestamps": 390,
+      "first_et": "2016-01-05T09:30:00-05:00",
+      "last_et": "2016-01-05T15:59:00-05:00",
+      "missing_minutes": 0,
+      "unexpected_minutes": 0,
+      "sorted": true,
+      "opening_rows": 30,
+      "bad_ohlcv": 0,
+      "fields": [
+        "c",
+        "h",
+        "l",
+        "n",
+        "o",
+        "t",
+        "v",
+        "vw"
+      ]
+    },
+    {
+      "day": "2019-07-15",
+      "rows": 390,
+      "unique_timestamps": 390,
+      "first_et": "2019-07-15T09:30:00-04:00",
+      "last_et": "2019-07-15T15:59:00-04:00",
+      "missing_minutes": 0,
+      "unexpected_minutes": 0,
+      "sorted": true,
+      "opening_rows": 30,
+      "bad_ohlcv": 0,
+      "fields": [
+        "c",
+        "h",
+        "l",
+        "n",
+        "o",
+        "t",
+        "v",
+        "vw"
+      ]
+    },
+    {
+      "day": "2023-07-17",
+      "rows": 390,
+      "unique_timestamps": 390,
+      "first_et": "2023-07-17T09:30:00-04:00",
+      "last_et": "2023-07-17T15:59:00-04:00",
+      "missing_minutes": 0,
+      "unexpected_minutes": 0,
+      "sorted": true,
+      "opening_rows": 30,
+      "bad_ohlcv": 0,
+      "fields": [
+        "c",
+        "h",
+        "l",
+        "n",
+        "o",
+        "t",
+        "v",
+        "vw"
+      ]
+    },
+    {
+      "day": "2024-07-15",
+      "rows": 390,
+      "unique_timestamps": 390,
+      "first_et": "2024-07-15T09:30:00-04:00",
+      "last_et": "2024-07-15T15:59:00-04:00",
+      "missing_minutes": 0,
+      "unexpected_minutes": 0,
+      "sorted": true,
+      "opening_rows": 30,
+      "bad_ohlcv": 0,
+      "fields": [
+        "c",
+        "h",
+        "l",
+        "n",
+        "o",
+        "t",
+        "v",
+        "vw"
+      ]
+    },
+    {
+      "day": "2026-09-15",
+      "rows": 390,
+      "unique_timestamps": 390,
+      "first_et": "2026-09-15T09:30:00-04:00",
+      "last_et": "2026-09-15T15:59:00-04:00",
+      "missing_minutes": 0,
+      "unexpected_minutes": 0,
+      "sorted": true,
+      "opening_rows": 30,
+      "bad_ohlcv": 0,
+      "fields": [
+        "c",
+        "h",
+        "l",
+        "n",
+        "o",
+        "t",
+        "v",
+        "vw"
+      ]
+    }
+  ],
+  "massive_audit": {
+    "rows": 390,
+    "unique_timestamps": 390,
+    "first_et": "2026-09-15T09:30:00-04:00",
+    "last_et": "2026-09-15T15:59:00-04:00",
+    "missing_minutes": 0,
+    "unexpected_minutes": 0,
+    "sorted": true,
+    "opening_rows": 30,
+    "bad_ohlcv": 0,
+    "fields": [
+      "c",
+      "h",
+      "l",
+      "n",
+      "o",
+      "t",
+      "v",
+      "vw"
+    ]
+  },
+  "massive_total_rows": 882,
+  "overlap_rows": 390,
+  "max_abs_close_difference": 0.0,
+  "prior_close_pairs_verified": 5,
+  "wrong_date_regression": "PASS",
+  "io_smoke": "PASS"
+}

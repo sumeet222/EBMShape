@@ -1,0 +1,291 @@
+{
+  "observed_at_utc": "2026-10-16T16:02:15.167618+00:00",
+  "python": "3.14.6",
+  "provider": "alpaca",
+  "requests": [
+    {
+      "day": "2016-01-05",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2016-01-05T09:30:00-05:00",
+        "end": "2016-01-05T15:59:59-05:00",
+        "limit": 10000,
+        "feed": "sip",
+        "adjustment": "raw",
+        "sort": "asc"
+      },
+      "status": 200,
+      "bytes": 42413,
+      "error": null,
+      "audit": {
+        "rows": 390,
+        "unique_timestamps": 390,
+        "first_et": "2016-01-05T09:30:00-05:00",
+        "last_et": "2016-01-05T15:59:00-05:00",
+        "missing_minutes": 0,
+        "unexpected_minutes": 0,
+        "sorted": true,
+        "opening_rows": 30,
+        "bad_ohlcv": 0,
+        "fields": [
+          "c",
+          "h",
+          "l",
+          "n",
+          "o",
+          "t",
+          "v",
+          "vw"
+        ]
+      },
+      "next_page_token_present": false,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_SPY_2016-01-05_sip_raw.json",
+        "bytes": 42413,
+        "sha256": "3bae70aab4681a9c8f4f585e8956cf448b28c899ee854f491734bff551d2de60"
+      }
+    },
+    {
+      "day": "2019-07-15",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2019-07-15T09:30:00-04:00",
+        "end": "2019-07-15T15:59:59-04:00",
+        "limit": 10000,
+        "feed": "sip",
+        "adjustment": "raw",
+        "sort": "asc"
+      },
+      "status": 200,
+      "bytes": 42118,
+      "error": null,
+      "audit": {
+        "rows": 390,
+        "unique_timestamps": 390,
+        "first_et": "2019-07-15T09:30:00-04:00",
+        "last_et": "2019-07-15T15:59:00-04:00",
+        "missing_minutes": 0,
+        "unexpected_minutes": 0,
+        "sorted": true,
+        "opening_rows": 30,
+        "bad_ohlcv": 0,
+        "fields": [
+          "c",
+          "h",
+          "l",
+          "n",
+          "o",
+          "t",
+          "v",
+          "vw"
+        ]
+      },
+      "next_page_token_present": false,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_SPY_2019-07-15_sip_raw.json",
+        "bytes": 42118,
+        "sha256": "61137d99ead97bf9f11ef179be6382f6e2fecdace40b08e5868254ee0c148671"
+      }
+    },
+    {
+      "day": "2023-07-17",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2023-07-17T09:30:00-04:00",
+        "end": "2023-07-17T15:59:59-04:00",
+        "limit": 10000,
+        "feed": "sip",
+        "adjustment": "raw",
+        "sort": "asc"
+      },
+      "status": 200,
+      "bytes": 42470,
+      "error": null,
+      "audit": {
+        "rows": 390,
+        "unique_timestamps": 390,
+        "first_et": "2023-07-17T09:30:00-04:00",
+        "last_et": "2023-07-17T15:59:00-04:00",
+        "missing_minutes": 0,
+        "unexpected_minutes": 0,
+        "sorted": true,
+        "opening_rows": 30,
+        "bad_ohlcv": 0,
+        "fields": [
+          "c",
+          "h",
+          "l",
+          "n",
+          "o",
+          "t",
+          "v",
+          "vw"
+        ]
+      },
+      "next_page_token_present": false,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_SPY_2023-07-17_sip_raw.json",
+        "bytes": 42470,
+        "sha256": "2d69386b693545a312dfb7e23e83028593c0579b3917e01c07587f5ab388fc28"
+      }
+    },
+    {
+      "day": "2024-07-15",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-15T09:30:00-04:00",
+        "end": "2024-07-15T15:59:59-04:00",
+        "limit": 10000,
+        "feed": "sip",
+        "adjustment": "raw",
+        "sort": "asc"
+      },
+      "status": 200,
+      "bytes": 42289,
+      "error": null,
+      "audit": {
+        "rows": 390,
+        "unique_timestamps": 390,
+        "first_et": "2024-07-15T09:30:00-04:00",
+        "last_et": "2024-07-15T15:59:00-04:00",
+        "missing_minutes": 0,
+        "unexpected_minutes": 0,
+        "sorted": true,
+        "opening_rows": 30,
+        "bad_ohlcv": 0,
+        "fields": [
+          "c",
+          "h",
+          "l",
+          "n",
+          "o",
+          "t",
+          "v",
+          "vw"
+        ]
+      },
+      "next_page_token_present": false,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_SPY_2024-07-15_sip_raw.json",
+        "bytes": 42289,
+        "sha256": "d11d7653d01890b8ef4ee6951fdae8ce5d95f7512f3759be0e8d05803234ce99"
+      }
+    },
+    {
+      "day": "2026-09-15",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2026-09-15T09:30:00-04:00",
+        "end": "2026-09-15T15:59:59-04:00",
+        "limit": 10000,
+        "feed": "sip",
+        "adjustment": "raw",
+        "sort": "asc"
+      },
+      "status": 200,
+      "bytes": 42257,
+      "error": null,
+      "audit": {
+        "rows": 390,
+        "unique_timestamps": 390,
+        "first_et": "2026-09-15T09:30:00-04:00",
+        "last_et": "2026-09-15T15:59:00-04:00",
+        "missing_minutes": 0,
+        "unexpected_minutes": 0,
+        "sorted": true,
+        "opening_rows": 30,
+        "bad_ohlcv": 0,
+        "fields": [
+          "c",
+          "h",
+          "l",
+          "n",
+          "o",
+          "t",
+          "v",
+          "vw"
+        ]
+      },
+      "next_page_token_present": false,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_SPY_2026-09-15_sip_raw.json",
+        "bytes": 42257,
+        "sha256": "3085a2f6e9b3eb2a2f3eaf222f5dff83f86160e881aa8fceaacc555d1997adad"
+      }
+    },
+    {
+      "kind": "adjustment_diagnostic",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-15T09:30:00-04:00",
+        "end": "2024-07-15T09:34:59-04:00",
+        "feed": "sip",
+        "adjustment": "raw",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 596,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_response_5.json",
+        "bytes": 596,
+        "sha256": "f5c8879eed929e0a18b1b99cdcea2a63ee6bb0083bde0faa4dc29efeba4f5d30"
+      }
+    },
+    {
+      "kind": "adjustment_diagnostic",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-15T09:30:00-04:00",
+        "end": "2024-07-15T09:34:59-04:00",
+        "feed": "sip",
+        "adjustment": "split",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 596,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_response_6.json",
+        "bytes": 596,
+        "sha256": "f5c8879eed929e0a18b1b99cdcea2a63ee6bb0083bde0faa4dc29efeba4f5d30"
+      }
+    },
+    {
+      "kind": "adjustment_diagnostic",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-15T09:30:00-04:00",
+        "end": "2024-07-15T09:34:59-04:00",
+        "feed": "sip",
+        "adjustment": "dividend",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 571,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_response_7.json",
+        "bytes": 571,
+        "sha256": "d0939352afb13e628ac1db8efacb3d5a6bf9d43702c9e9c9f06b2d0bc9c720d8"
+      }
+    },
+    {
+      "kind": "adjustment_diagnostic",
+      "params": {
+        "timeframe": "1Min",
+        "start": "2024-07-15T09:30:00-04:00",
+        "end": "2024-07-15T09:34:59-04:00",
+        "feed": "sip",
+        "adjustment": "all",
+        "limit": 10
+      },
+      "status": 200,
+      "bytes": 571,
+      "sample": {
+        "path": "data/raw/diagnostics/d0_20261016_1201_alpaca_response_8.json",
+        "bytes": 571,
+        "sha256": "d0939352afb13e628ac1db8efacb3d5a6bf9d43702c9e9c9f06b2d0bc9c720d8"
+      }
+    }
+  ],
+  "credentials_present": true,
+  "wall_seconds": 1.599
+}
