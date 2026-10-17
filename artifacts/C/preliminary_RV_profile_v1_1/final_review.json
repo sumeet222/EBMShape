@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "unit_tests": 8,
+  "unit_failures": 0,
+  "unit_log": "final_tests.log",
+  "independent_numeric_QA": "qa_results.json",
+  "source_manifest_unchanged_by_cache_reuse": true,
+  "transfer_bytes": 119675359,
+  "request_attempts": 147,
+  "http200_requests": 144,
+  "failed_attempts": 3,
+  "failed_body_bytes": 0,
+  "previous_session_alignment_rows": 1472,
+  "markdown_links_resolve": true,
+  "new_code_whitespace_clean": true,
+  "no_credential_values_in_new_code_or_reports": true,
+  "visual_review": "Contact sheet displayed and inspected: 12 nonblank panels, ordered clocks/common scales, readable legends; no collisions/clipping. Box plots keep full 0-1 scale and all outliers.",
+  "no_2022_2026_scientific_reads": true,
+  "no_models_or_VIX_or_trading": true,
+  "completed_utc": "2026-10-17T16:19:34.042671+00:00"
+}

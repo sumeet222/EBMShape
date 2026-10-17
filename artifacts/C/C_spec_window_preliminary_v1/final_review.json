@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "focused_unit_tests_passed": 8,
+  "focused_unit_test_seconds": 0.475,
+  "numerical_rows_verified": 120,
+  "original_profile_series_reconciled": 6,
+  "tolerance": 1e-10,
+  "prior_P0_files_unchanged": 120,
+  "prior_B_shared_files_unchanged": 334,
+  "all_report_links_resolve": true,
+  "new_text_whitespace_clean": true,
+  "visual_contact_sheet_review": "Displayed and inspected seven C-SPEC SUPPLEMENTARY charts: all populated, readable, comparable branch scales, full boxplot outliers, no label/title collisions.",
+  "input_CI_policy": "Saved 5/10-session block intervals already independently reconstructed by P0; input file hashes preserved. No bootstrap rerun or new independent sample.",
+  "new_download_bytes": 0,
+  "new_minute_or_daily_copies": 0,
+  "free_disk_bytes": 66355200000,
+  "utc": "2026-10-17T16:27:17.442320+00:00"
+}

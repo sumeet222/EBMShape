@@ -1,0 +1,135 @@
+{
+  "dataset_id": "C_spy_1m_p0_v1_1_missing_keys",
+  "provider": "Alpaca",
+  "symbol": "SPY",
+  "frequency": "one minute",
+  "feed": "sip",
+  "adjustment": "split only",
+  "timestamp": "UTC bar start",
+  "session_timezone": "America/New_York",
+  "schema_version": 1,
+  "source_range": [
+    "2016-01-04",
+    "2021-12-31"
+  ],
+  "analysis_range": [
+    "2016-01-05",
+    "2021-12-31"
+  ],
+  "source_manifest": "artifacts/C/preliminary_RV_profile_v1_1/source_manifest.json",
+  "source_manifest_sha256": "a63fe1d6314054240d8b2ac488922a8021f85d55434bfd49001298f5d5e4ff99",
+  "protocol_sha256": "b8021e9235b75733c6d53c46963b5879a49d689174bcc31e0b2cbb1f73f6a57f",
+  "base_sources": [
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    }
+  ],
+  "supplement_directory": "source_cache/C_spy_1m_p0_v1_1",
+  "supplement_partitions": 72,
+  "supplement_rows": 448173,
+  "reused_rows": 136337,
+  "fetched_regular_rows": 584510,
+  "missing_full_session_minutes": 100,
+  "canonical_identity": "Union existing D2 training-year keys with disjoint supplemental keys in memory; no materialized minute duplicate; no HF patch",
+  "minute_columns": {
+    "symbol": "str SPY",
+    "timestamp_utc": "aware datetime UTC",
+    "session_et": "date",
+    "open": "float64 USD",
+    "high": "float64 USD",
+    "low": "float64 USD",
+    "close": "float64 USD",
+    "volume": "float64 shares (unused in RV)"
+  },
+  "daily_product": "artifacts/C/preliminary_RV_profile_v1_1/daily_profiles.npz",
+  "daily_arrays": {
+    "dates": {
+      "shape": [
+        1511
+      ],
+      "dtype": "<U10"
+    },
+    "rv": {
+      "shape": [
+        1511,
+        78
+      ],
+      "dtype": "float64"
+    },
+    "q": {
+      "shape": [
+        1511,
+        78
+      ],
+      "dtype": "float64"
+    },
+    "remaining": {
+      "shape": [
+        1511,
+        72
+      ],
+      "dtype": "float64"
+    },
+    "RV_day": {
+      "shape": [
+        1511
+      ],
+      "dtype": "float64"
+    },
+    "RV_open": {
+      "shape": [
+        1511
+      ],
+      "dtype": "float64"
+    },
+    "RV_prev": {
+      "shape": [
+        1511
+      ],
+      "dtype": "float64"
+    },
+    "open_labels": {
+      "shape": [
+        1511
+      ],
+      "dtype": "int64"
+    },
+    "prev_labels": {
+      "shape": [
+        1511
+      ],
+      "dtype": "int64"
+    }
+  },
+  "units": "rv/RV variables squared dimensionless log returns; q/remaining fractions; labels -1 excluded,0 low,1 middle,2 high",
+  "license": "Authenticated account/vendor terms apply; not a redistribution license. Raw response bodies not retained.",
+  "transfer_bytes": 119675359,
+  "retained_supplement_bytes": 10318012
+}

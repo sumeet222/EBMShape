@@ -1,0 +1,29 @@
+{
+  "status": "RESOLVED",
+  "reason": "P0 MID12:00\u201313:00/CLOSE15:30\u201316:00 versus Cspec MID11:30\u201313:30/CLOSE15:00\u201316:00",
+  "request": "Window choice pending through asynchronous user question; no approval inferred from silence",
+  "network_response_bytes": 0,
+  "transfer_cap": 1000000000,
+  "acquisition_started": false,
+  "scientific_profiles_computed": false,
+  "tests_passed": 6,
+  "spec_appearance": "Absent at initial recursive search; appeared before freeze, which correctly rejected fallback",
+  "specs": [
+    {
+      "path": "docs/specs/experiment_C_state_dependent_intraday_volatility_profiles_research_spec_v1.md",
+      "sha256": "5fa9fc0dba2d4dd31c6be6fa7ce226b27ffedf395f252a7116a30bf0fce3fd3e"
+    },
+    {
+      "path": "docs/specs/experiment_C_transition_prompt_for_experiment_B_chat_v1.md",
+      "sha256": "e98730560285366baa31a0223f559167fc66a46e59eb65148d085ea14212543a"
+    }
+  ],
+  "branch": "main",
+  "commit": "8683ee30ff3edb62f89f9c58e8a68496e61431f3",
+  "checkpoint_time": "2026-10-17T12:06:03.366958-04:00",
+  "historical_block_status": "BLOCKED_SCIENTIFIC_DECISION",
+  "resolution": "2026-10-17: P0 windows primary; add C-spec windows as labeled supplementary summaries (Recommended)",
+  "protocol_sha256": "b8021e9235b75733c6d53c46963b5879a49d689174bcc31e0b2cbb1f73f6a57f",
+  "current_transfer_bytes": 119675359,
+  "note": "Initial zero-byte blocked checkpoint preserved; final QA/scientific verdict are separate files."
+}

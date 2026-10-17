@@ -1,0 +1,29 @@
+{
+  "scope": "C_SPEC_SUPPLEMENTARY",
+  "summary": "C-spec supplementary review: promising narrowly for PREV-state closing-hour allocation; OPEN-state wider windows and both midday comparisons remain weak/inconclusive. P0 primary remains WEAK/INCONCLUSIVE.",
+  "by_branch_window": [
+    {
+      "branch": "OPEN",
+      "window": "C_SPEC_MID",
+      "verdict": "WEAK"
+    },
+    {
+      "branch": "OPEN",
+      "window": "C_SPEC_CLOSE",
+      "verdict": "WEAK"
+    },
+    {
+      "branch": "PREV",
+      "window": "C_SPEC_MID",
+      "verdict": "WEAK"
+    },
+    {
+      "branch": "PREV",
+      "window": "C_SPEC_CLOSE",
+      "verdict": "GO/PROMISING (descriptive feasibility only)"
+    }
+  ],
+  "P0_primary_verdict": "WEAK (unchanged)",
+  "not_a_new_blind_test": true,
+  "no_full_C_claim": true
+}

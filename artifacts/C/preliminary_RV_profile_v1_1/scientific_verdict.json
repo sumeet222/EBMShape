@@ -1,0 +1,13 @@
+{
+  "verdict": "WEAK",
+  "interpretation": "Primary P0 evidence is mixed, so the overall recommendation is WEAK/INCONCLUSIVE. The OPEN-state whole-day closing-half-hour contrast is -1.196 percentage points (block5 interval -2.131 to -0.294); after post-10:00 renormalization it is -1.160pp, but the block10 interval crosses zero (-2.355 to +0.053pp). PREV primary closing-half-hour and midday contrasts are uncertain. A promising, separately labeled supplementary PREV closing-hour contrast is +2.005pp (block10 +0.839 to +3.206pp), with positive remaining-day, drop-top1 and median contrasts; it is not promoted to the primary window. Remaining-day profile TV is0.0361 OPEN and0.0444 PREV, below the C-spec reporting tolerance0.05 as point estimates only, with no equivalence inference. These signals warrant design-thread review, not a claim that the RV-state extension has been confirmed or ruled out.",
+  "qa_sha256": "f84cce7c3c817fcc7e40c21f8b682b7dce2dda5010725b3a11a76b31ecea48ff",
+  "protocol_sha256": "b8021e9235b75733c6d53c46963b5879a49d689174bcc31e0b2cbb1f73f6a57f",
+  "rubric": {
+    "GO": "Reproducible interpretable nonopening normalized differences, relative to within-group dispersion, broadly robust to top1/median and both block lengths. Exploratory only.",
+    "NO_GO": "Almost indistinguishable nonopening profiles under robust comparisons in this SPY proxy/date span; not an equivalence proof.",
+    "WEAK": "Minor/uncertain or mechanically dominated opening contrast, fragile or discordant evidence; no numerical threshold selected from results."
+  },
+  "no_models": true,
+  "no_heldout_claim": true
+}

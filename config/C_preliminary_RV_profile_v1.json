@@ -1,0 +1,116 @@
+{
+  "task_id": "C-P0-RV-PROFILE-v1.1",
+  "spec_status": "READ_WITH_EXPLICIT_P0_WINDOW_EXCEPTION",
+  "spec_path": "docs/specs/experiment_C_state_dependent_intraday_volatility_profiles_research_spec_v1.md",
+  "spec_sha256": "5fa9fc0dba2d4dd31c6be6fa7ce226b27ffedf395f252a7116a30bf0fce3fd3e",
+  "handoff_sha256": "78e941c0e6fb42480e77a7f32f20f58164698f63393a9d755b5deca69f68261c",
+  "user_decision": "2026-10-17: P0 windows primary; add C-spec windows as labeled supplementary summaries (Recommended)",
+  "start": "2016-01-05",
+  "end": "2021-12-31",
+  "source_start": "2016-01-04",
+  "period_status": "PROVISIONAL_DESCRIPTIVE_DEVELOPMENT",
+  "symbol": "SPY",
+  "feed": "sip",
+  "adjustment": "split",
+  "bar_label": "UTC start, available one minute later",
+  "timezone": "America/New_York",
+  "base_refs": [
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "bytes": 785927,
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "bytes": 774109,
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "bytes": 782288,
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "bytes": 797568,
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578,
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae"
+    },
+    {
+      "path": "canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427,
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06"
+    }
+  ],
+  "cache": "source_cache/C_spy_1m_p0_v1_1",
+  "source_policy": "First usable Alpaca SIP split source; reuse immutable D2 keys and retain only newly missing RTH keys. Require all overlapping OHLC agree within relative1e-10 per retained date; exclude a date on price revision rather than stitch incompatible snapshots. Never use HF patch.",
+  "min_days": 300,
+  "min_years": 2,
+  "transfer_cap": 1000000000,
+  "max_response_bytes": 8000000,
+  "limit": 10000,
+  "max_pages_month": 12,
+  "retries": 2,
+  "timeout_seconds": 30,
+  "request_spacing_seconds": 0.2,
+  "increments": "390 terms: first log(C0930/O0930), then389 adjacent closes; variance=sum squared logs, not sqrt/log state",
+  "q": "78 disjoint five-term variances / whole390-term variance",
+  "windows": {
+    "OPEN": [
+      0,
+      6
+    ],
+    "MID": [
+      30,
+      42
+    ],
+    "CLOSE": [
+      72,
+      78
+    ]
+  },
+  "supplementary_windows": {
+    "C_SPEC_MID": [
+      24,
+      48
+    ],
+    "C_SPEC_CLOSE": [
+      66,
+      78
+    ]
+  },
+  "predecessor": "immediately prior scheduled XNYS session; half/missing/invalid prior makes PREV ineligible; never skip it",
+  "terciles": "independent branch cohorts, stable order(value,date), label=floor(3*rank/N); rank starts0; ties may split, report explicitly",
+  "bootstrap": {
+    "seed": 42,
+    "B": 1000,
+    "lengths": [
+      5,
+      10
+    ],
+    "policy": "joint circular blocks over original scheduled trading-date slots, including ineligible/half-day slots with label-1. Invalid slots excluded from means, never filled. Only wrap at source-cohort ends; no leap across missing dates. Fixed original labels/cuts in all draws.",
+    "max_attempts": 1100,
+    "percentiles": [
+      2.5,
+      97.5
+    ]
+  },
+  "top_fraction": 0.01,
+  "fragility": "ceil(.01*N) largest RV_day by branch, date ascending ties; preserve labels; original FULL primary",
+  "source_qualifications": "SOURCE_PRELIMINARY; vendor SIP qualifying bars, not TAQ/VIX replication; source snapshots may have corrections; split-only not dividend adjustment; license/account restrictions remain",
+  "rubric": {
+    "GO": "Reproducible interpretable nonopening normalized differences, relative to within-group dispersion, broadly robust to top1/median and both block lengths. Exploratory only.",
+    "NO_GO": "Almost indistinguishable nonopening profiles under robust comparisons in this SPY proxy/date span; not an equivalence proof.",
+    "WEAK": "Minor/uncertain or mechanically dominated opening contrast, fragile or discordant evidence; no numerical threshold selected from results."
+  },
+  "c_spec_reporting_tolerances": {
+    "closing_hour_share": 0.02,
+    "opening_half_hour_share": 0.02,
+    "profile_TV": 0.05
+  },
+  "evaluation": "P0 descriptive only, no fitted models or held-out claims. Full C 60/20/20 split not executed; 2022-2026 excluded."
+}

@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "b8021e9235b75733c6d53c46963b5879a49d689174bcc31e0b2cbb1f73f6a57f",
+  "source_manifest_sha256": "a63fe1d6314054240d8b2ac488922a8021f85d55434bfd49001298f5d5e4ff99",
+  "OPEN": {
+    "n": 1491,
+    "counts": [
+      497,
+      497,
+      497
+    ],
+    "boundaries": [
+      {
+        "lower_group_max": 2.4240058767852755e-06,
+        "upper_group_min": 2.4268936859696e-06,
+        "tie_split": false
+      },
+      {
+        "lower_group_max": 5.87432083963739e-06,
+        "upper_group_min": 5.893814782135056e-06,
+        "tie_split": false
+      }
+    ],
+    "unique_values": 1491,
+    "tied_rows": 0
+  },
+  "PREV": {
+    "n": 1472,
+    "counts": [
+      491,
+      491,
+      490
+    ],
+    "boundaries": [
+      {
+        "lower_group_max": 1.594454268225785e-05,
+        "upper_group_min": 1.5981230788703634e-05,
+        "tie_split": false
+      },
+      {
+        "lower_group_max": 4.0351235743971525e-05,
+        "upper_group_min": 4.036774070495583e-05,
+        "tie_split": false
+      }
+    ],
+    "unique_values": 1472,
+    "tied_rows": 0
+  },
+  "first": "2016-01-05",
+  "last": "2021-12-31",
+  "scheduled_source_slots": 1511,
+  "matched_dates": 1472,
+  "cross_state_counts": [
+    [
+      348,
+      129,
+      14
+    ],
+    [
+      137,
+      247,
+      111
+    ],
+    [
+      6,
+      115,
+      365
+    ]
+  ],
+  "exclusion_counts": {
+    "ELIGIBLE": 1491,
+    "EARLY_CLOSE": 12,
+    "INCOMPLETE_OR_WRONG_RTH_GRID": 7
+  },
+  "predecessor_exclusions": {
+    "ELIGIBLE": 1472,
+    "PREDECESSOR_INCOMPLETE_OR_EARLY": 19
+  },
+  "source_scalar_crosschecks": [
+    {
+      "year": 2016,
+      "day": "2016-01-04",
+      "max_error": 0.0
+    },
+    {
+      "year": 2017,
+      "day": "2017-01-03",
+      "max_error": 0.0
+    },
+    {
+      "year": 2018,
+      "day": "2018-01-02",
+      "max_error": 0.0
+    },
+    {
+      "year": 2019,
+      "day": "2019-01-02",
+      "max_error": 0.0
+    },
+    {
+      "year": 2020,
+      "day": "2020-01-02",
+      "max_error": 1.3234889800848443e-23
+    },
+    {
+      "year": 2021,
+      "day": "2021-01-04",
+      "max_error": 0.0
+    }
+  ],
+  "share_ymax": 0.20707309571741528,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "exchange-calendars": "4.13.2",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.14.6",
+  "transfer_bytes": 119675359,
+  "retained_cache_bytes": 10318012,
+  "source_start": "2016-01-04",
+  "source_end": "2021-12-31",
+  "bootstrap_independent_reconstruction": [
+    {
+      "branch": "OPEN",
+      "block": 5,
+      "status": "PASS",
+      "tolerance": 1e-10,
+      "valid": 1000,
+      "failed": 0,
+      "attempts": 1000,
+      "seed": 42
+    },
+    {
+      "branch": "OPEN",
+      "block": 10,
+      "status": "PASS",
+      "tolerance": 1e-10,
+      "valid": 1000,
+      "failed": 0,
+      "attempts": 1000,
+      "seed": 42
+    },
+    {
+      "branch": "PREV",
+      "block": 5,
+      "status": "PASS",
+      "tolerance": 1e-10,
+      "valid": 1000,
+      "failed": 0,
+      "attempts": 1000,
+      "seed": 42
+    },
+    {
+      "branch": "PREV",
+      "block": 10,
+      "status": "PASS",
+      "tolerance": 1e-10,
+      "valid": 1000,
+      "failed": 0,
+      "attempts": 1000,
+      "seed": 42
+    }
+  ],
+  "plots": {
+    "images": [
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/01_open_three_state_profiles.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "ba25fee8970e8a25afc03b01da20c282eebe1deb22b87273af404255741d796e"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/03_open_high_minus_low_pointwise.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "1b9a198306d5ab4da8b28a7ecff8b44b455c3d3f4fc586a9ed9e1e563149b4ab"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/05_open_window_share_summary.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "8191071bb1013237c71f4d1251b60d37c945755f7872190b3ce61a1fd89de037"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/07_open_window_share_distributions.png",
+        "width": 2080,
+        "height": 960,
+        "sha256": "8e01fc678ebf9f05c00c5aafaef26dcd3ded823264539169ac611912b2534624"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/09_open_nonoverlap_post1000.png",
+        "width": 1920,
+        "height": 1280,
+        "sha256": "43e95ff59b0f515c47155899fa915074a3115a2841d121d17acc83082f398f90"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/02_prev_three_state_profiles.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "e522aa571609d8380637eed7f83e58add4e9ebe965bbc16b318832234b441643"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/04_prev_high_minus_low_pointwise.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "58355dad01272225d3ac408a39dc06b0257fc9ee8b91cbf30b006865444288b2"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/06_prev_window_share_summary.png",
+        "width": 1920,
+        "height": 960,
+        "sha256": "a6a64c73cbb38187393a3c272fda541a08aa61fa4bcfcd820eb697b6e67b92c6"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/08_prev_window_share_distributions.png",
+        "width": 2080,
+        "height": 960,
+        "sha256": "6665620f119747bf3841dd368ab0207bb471af854b0962b9c5a6920412d0e277"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/10_prev_nonoverlap_post1000.png",
+        "width": 1920,
+        "height": 1280,
+        "sha256": "260aabd21b1da5cad894057ff13efdd5d4bfab497e0ffca506ad62dc9a2265ec"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/11_top1pct_and_median_fragility.png",
+        "width": 2080,
+        "height": 960,
+        "sha256": "d46ebb6c6872ab24d5d2bc12c72a336b78519d150ec62c5e475dde493b3badfd"
+      },
+      {
+        "file": "artifacts/C/preliminary_RV_profile_v1_1/figures/12_coverage_and_effect_sizes.png",
+        "width": 2080,
+        "height": 960,
+        "sha256": "247d445534139041d8c15c2a23e87292ca08f07e4f53376099ea3fb1e84b2610"
+      }
+    ],
+    "common_profile_ylim": [
+      0,
+      0.04958846395427005
+    ],
+    "common_contrast_ylim": [
+      -0.015930898804110565,
+      0.015930898804110565
+    ],
+    "ticks": [
+      0,
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      77
+    ],
+    "clock_labels": [
+      "09:30",
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "15:55"
+    ],
+    "legends_three_groups": true,
+    "pointwise_not_simultaneous": true
+  },
+  "preserved_file_count": 334,
+  "B_and_preexisting_files_unchanged": true,
+  "wall_seconds": 165.33904679201078,
+  "completed_utc": "2026-10-17T16:16:14.688024+00:00"
+}

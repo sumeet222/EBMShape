@@ -1,0 +1,5 @@
+branch,length,valid,failed,attempts,seed
+OPEN,5,1000,0,1000,42
+OPEN,10,1000,0,1000,42
+PREV,5,1000,0,1000,42
+PREV,10,1000,0,1000,42

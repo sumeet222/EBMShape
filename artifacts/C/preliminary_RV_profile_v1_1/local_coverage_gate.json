@@ -1,0 +1,10 @@
+{
+  "spec_status": "READ_WITH_EXPLICIT_P0_WINDOW_EXCEPTION",
+  "D2_max_minutes_per_day": 91,
+  "D1_pre2022_rows": 0,
+  "full_local_cohort_available": false,
+  "source_policy": "First usable Alpaca SIP split source; reuse immutable D2 keys and retain only newly missing RTH keys. Require all overlapping OHLC agree within relative1e-10 per retained date; exclude a date on price revision rather than stitch incompatible snapshots. Never use HF patch.",
+  "cache_estimate_bytes": 25000000,
+  "transfer_estimate_bytes": 220000000,
+  "permission": "User-authorized additional SPY data <=1e9 cumulative response bytes, no purchase"
+}
