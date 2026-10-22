@@ -1,0 +1,33 @@
+{
+  "inspected": [
+    "docs/specs/experiment_B_stage2C_supplied_theorem_extracts_v1.md"
+  ],
+  "inspected_sha256": "6b7ad6ee9ff964030df2c5be8118d64d081fe11ec4228b4902424a98315c4e5d",
+  "discovered_related": [
+    "docs/specs/experiment_B_stage2C_supplied_theorem_extracts_v1.md"
+  ],
+  "missing_requested_names": [
+    "state_dependent_ebm_research_task10B_proper_multifeature_theory_results_v0_10B.md",
+    "state_dependent_ebm_research_task11_feasible_raw_point_inference_results_v0_11.md",
+    "state_dependent_ebm_research_task12_adaptive_selection_scientific_inference_results_v0_12.md",
+    "state_dependent_ebm_research_task15_almost_stable_certification_results_v0_15.md",
+    "state_dependent_ebm_research_task16_joint_scientific_adequacy_greedy_certification_results_v0_16.md",
+    "state_dependent_ebm_research_task18_heterogeneous_state_composition_persistent_certification_results_v0_18.md",
+    "state_dependent_ebm_research_task20_scientific_fidelity_capacity_cost_results_v0_20.md",
+    "state_dependent_ebm_research_task22_five_question_theoretical_validation_results_v0_22.md",
+    "state_dependent_ebm_research_task23_changing_support_scientific_fidelity_results_v0_23.md",
+    "state_dependent_ebm_research_task24_information_preserving_continuous_state_discretization_results_v0_24.md",
+    "state_dependent_ebm_research_task25_estimated_moments_scientific_fidelity_results_v0_25.md",
+    "state_dependent_ebm_consolidation_assumptions_and_issues_v1.md"
+  ],
+  "requested_material_not_located": [
+    "Full consolidation verification (exact filename not supplied)",
+    "Full consolidation theorem crosswalk (exact filename not supplied)",
+    "Task6 standalone",
+    "Task17 standalone",
+    "Task19 standalone",
+    "Task21 standalone"
+  ],
+  "existing_excerpt_crosswalk_inspected": "data/registry/B_stage2C_theorem_diagnostic_crosswalk.csv",
+  "note": "Original basenames extracted literally from supplied Source headers; full settings/proofs absent. Existing B excerpt crosswalk is not the full consolidation crosswalk."
+}

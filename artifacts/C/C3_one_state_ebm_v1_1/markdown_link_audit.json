@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "links_checked": 32,
+  "links": [
+    {
+      "document": "reports/C/C3_one_state_EBM_coding_session_20261022.md",
+      "target": "../C/C3_one_state_EBM_scientific_results.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_coding_session_20261022.md",
+      "target": "../C/C3_one_state_EBM_figures_for_human_review.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_coding_session_20261022.md",
+      "target": "../C/C3_one_state_EBM_theory_applicability.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/01_direct_and_simple_reference_profiles.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/02_time_only_ebm_vs_unsmoothed_and_splines.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/03_additive_ebm_continuous_three_state_curves.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/04_additive_ebm_discrete_three_state_curves.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/05_continuous_interaction_ebm_three_state_curves.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/06_discrete_interaction_ebm_three_state_curves.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/07_all_ebms_matched_shapes_overview.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/08_continuous_ebm_total_surface_and_support.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/09_continuous_ebm_five_numeric_state_slices.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/10_native_additive_vs_interaction_contrast.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/11_raw_versus_fitted_scientific_fidelity.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/12_developmental_error_scorecard.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/13_state_support_year_composition_and_drift.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/14_residual_qq_acf_arch_and_calibration.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/15_outlier_regime_seed_stability.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/16_native_software_terms_and_binning.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/17_normalization_coarsening_model_adequacy.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "C3_one_state_EBM_scientific_results.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "C3_one_state_EBM_theory_applicability.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_figures_for_human_review.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/figures/contact_sheet.png"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/profile_predictive_metrics.csv"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/window_prediction_metrics.csv"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/paired_loss_tests.csv"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "../../artifacts/C/C3_one_state_ebm_v1_1/paired_loss_by_year_state.csv"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "C3_one_state_EBM_theory_applicability.md"
+    },
+    {
+      "document": "reports/C/C3_one_state_EBM_scientific_results.md",
+      "target": "C3_one_state_EBM_figures_for_human_review.md"
+    },
+    {
+      "document": "reports/sessions/20261022_1905_C_C3_session.md",
+      "target": "../C/C3_one_state_EBM_scientific_results.md"
+    },
+    {
+      "document": "reports/sessions/20261022_1905_C_C3_session.md",
+      "target": "../C/C3_one_state_EBM_figures_for_human_review.md"
+    },
+    {
+      "document": "reports/sessions/20261022_1905_C_C3_session.md",
+      "target": "../C/C3_one_state_EBM_theory_applicability.md"
+    }
+  ]
+}

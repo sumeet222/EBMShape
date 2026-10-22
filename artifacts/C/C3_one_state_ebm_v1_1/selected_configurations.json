@@ -1,0 +1,120 @@
+{
+  "chosen": {
+    "T0_EBM_TIME_ONLY": "A",
+    "M3c_EBM_ADDITIVE": "B",
+    "M5_EBM_CONT_INTERACT": "B",
+    "M3d_EBM_ADDITIVE": "B",
+    "M6_EBM_DISC_INTERACT": "B"
+  },
+  "criterion": "equal inner-fold mean daily profile MSE; pair combined mean for M3c/M5 and M3d/M6; ties 1e-15 prefer A",
+  "inner_scores": [
+    {
+      "fold": "INNER_2018",
+      "model": "T0_EBM_TIME_ONLY",
+      "config": "A",
+      "MSE": 0.000179029508291089
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M3c_EBM_ADDITIVE",
+      "config": "A",
+      "MSE": 0.000179029508291089
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M3c_EBM_ADDITIVE",
+      "config": "B",
+      "MSE": 0.00018028710574936242
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M3d_EBM_ADDITIVE",
+      "config": "A",
+      "MSE": 0.000179029508291089
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M3d_EBM_ADDITIVE",
+      "config": "B",
+      "MSE": 0.00018028710574936242
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M5_EBM_CONT_INTERACT",
+      "config": "A",
+      "MSE": 0.00017839334394454488
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M5_EBM_CONT_INTERACT",
+      "config": "B",
+      "MSE": 0.00017810709886862202
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M6_EBM_DISC_INTERACT",
+      "config": "A",
+      "MSE": 0.000179314164949925
+    },
+    {
+      "fold": "INNER_2018",
+      "model": "M6_EBM_DISC_INTERACT",
+      "config": "B",
+      "MSE": 0.000179405982119177
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "T0_EBM_TIME_ONLY",
+      "config": "A",
+      "MSE": 0.0003056441778103097
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M3c_EBM_ADDITIVE",
+      "config": "A",
+      "MSE": 0.0003056441778103097
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M3c_EBM_ADDITIVE",
+      "config": "B",
+      "MSE": 0.00030441811386962807
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M3d_EBM_ADDITIVE",
+      "config": "A",
+      "MSE": 0.0003056441778103097
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M3d_EBM_ADDITIVE",
+      "config": "B",
+      "MSE": 0.00030441811386962807
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M5_EBM_CONT_INTERACT",
+      "config": "A",
+      "MSE": 0.0003048788205787015
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M5_EBM_CONT_INTERACT",
+      "config": "B",
+      "MSE": 0.00030474720823509634
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M6_EBM_DISC_INTERACT",
+      "config": "A",
+      "MSE": 0.00030497885210413657
+    },
+    {
+      "fold": "INNER_2019",
+      "model": "M6_EBM_DISC_INTERACT",
+      "config": "B",
+      "MSE": 0.0003047413180633089
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "native_fits": 59,
+  "invocations": [
+    {
+      "wall_seconds": 49.26024362500175,
+      "new_native_fits": 59
+    },
+    {
+      "wall_seconds": 0.21082249999744818,
+      "new_native_fits": 0
+    }
+  ],
+  "current_invocation_seconds": 0.21082549999118783,
+  "network_bytes": 0,
+  "selection": {
+    "T0_EBM_TIME_ONLY": "A",
+    "M3c_EBM_ADDITIVE": "B",
+    "M5_EBM_CONT_INTERACT": "B",
+    "M3d_EBM_ADDITIVE": "B",
+    "M6_EBM_DISC_INTERACT": "B"
+  },
+  "code_hashes": {
+    "src/ebm_research/experiment_c/c3/run.py": "84c8be7bbfab777e0d3d3f4a183f18b10ac43ea1add0cd560bbf3112266af5aa",
+    "src/ebm_research/experiment_c/c3/analysis.py": "1ea217fa3518d500d6fb16a332d097a24999b350ddda89ccf0c9faff98a4c516",
+    "src/ebm_research/experiment_c/c3/models.py": "f4d2eac7e505a927ee7f0bead0a5e279b270f72f7ee6dd01c1cdf7a06654b90d",
+    "src/ebm_research/experiment_c/c3/__init__.py": "6922bf343956cc0f8b0f1f935d411dcd53753d1103695ad783437c568deacb44",
+    "src/ebm_research/experiment_c/c3/m8_softmax.py": "baed0fc355edf1e3fe86149b1ae8f90a6605915bd5d119c0fa71be61cda9085e",
+    "src/ebm_research/experiment_c/c3/reporting.py": "1abd12363cb96a03089d7dfec930ce68c6fc6bd2dfe92834b87745591bf6ed0c"
+  }
+}

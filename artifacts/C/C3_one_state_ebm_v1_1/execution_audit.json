@@ -1,0 +1,70 @@
+{
+  "empirical_C3_native_fits": 59,
+  "empirical_M8_fits": 3,
+  "synthetic_C3_native_fit_calls": 13,
+  "existing_B_synthetic_native_fit_calls": 11,
+  "total_native_calls_including_fixtures": 83,
+  "budget_accounting": "Frozen scientific search/refit budget counts 59 empirical C3 native fits. Tiny required compatibility/unit fixtures are separately disclosed: 13 C3 calls plus 11 existing B test calls. No additional empirical search or refits.",
+  "native_phase_seconds": 49.26024362500175,
+  "native_resume_seconds": 0.21082549999118783,
+  "resume_new_fits": 0,
+  "tests": [
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests -p 'test_c*.py' -q",
+      "phase": "baseline",
+      "passed": 22
+    },
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests -p 'test_c3*.py' -v",
+      "phase": "initial",
+      "passed": 7,
+      "failed": 2,
+      "log": "tests_C3.log",
+      "fixture_fits": 3
+    },
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests -p 'test_c*.py' -v",
+      "phase": "after fixture corrections",
+      "passed": 31,
+      "log": "tests_C_all.log",
+      "fixture_fits": 3
+    },
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "phase": "full repository",
+      "passed": 62,
+      "log": "tests_all.log",
+      "C3_fixture_fits": 3,
+      "B_fixture_fits": 11
+    },
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests -p 'test_c3*.py' -v",
+      "phase": "final targeted",
+      "passed": 10,
+      "log": "tests_C3_final.log",
+      "fixture_fits": 3
+    }
+  ],
+  "commands": [
+    ".venv/bin/python scripts/c3_one_state_ebm.py prepare",
+    ".venv/bin/python -u scripts/c3_one_state_ebm.py fit",
+    ".venv/bin/python -u scripts/c3_one_state_ebm.py diagnose",
+    "MPLCONFIGDIR=<temporary-cache> .venv/bin/python -u scripts/c3_one_state_ebm.py report",
+    ".venv/bin/python -u scripts/c3_one_state_ebm.py fit # zero-fit resume check",
+    ".venv/bin/python -u scripts/c3_one_state_ebm.py verify",
+    ".venv/bin/python -m compileall -q src/ebm_research/experiment_c/c3 scripts/c3_one_state_ebm.py tests/test_c3_one_state_ebm.py",
+    "git diff --check"
+  ],
+  "corrections": [
+    "Two synthetic assertion assumptions corrected, no empirical refit",
+    "Figure02 corrected middle-cell reference to all-date mean",
+    "Unsupported low-2020 curves masked",
+    "Density uses equal-width actual state intervals; native occupancy separate",
+    "Duplicate registry assembly consolidated",
+    "Metadata/theory source availability expanded without statistical refits"
+  ],
+  "diagnostics_executions": 3,
+  "report_render_executions": 5,
+  "network_bytes": 0,
+  "new_source_bytes": 0
+}

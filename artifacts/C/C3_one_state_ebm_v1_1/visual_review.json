@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS_AGENT_VISUAL_REVIEW",
+  "reviewed_local": "2026-10-22T19:01:53.966100-04:00",
+  "contact_sheet_all_topics": 17,
+  "individual_full_resolution_topics": [
+    2,
+    5,
+    7,
+    8,
+    12,
+    16,
+    17
+  ],
+  "checks": [
+    "ET tick order and last-bin placement",
+    "same low/mid/high colors",
+    "under-supported 2020 curves masked with explicit n=15 origin S0",
+    "total response separated from centered native pair term",
+    "same overview axes",
+    "full-cohort raw mean for T0 bias reference",
+    "numeric zero exponent visible for native state main term",
+    "paired loss sign and interval legends",
+    "no clipped titles or unreadable original PNG labels"
+  ],
+  "corrections": [
+    "Figure02 reference changed from middle cell to full cohort before final delivery",
+    "Overview shared y-scale tightened",
+    "Actual equal-width state density separate from quantile-bin occupancy",
+    "Native count annotation given white background"
+  ]
+}

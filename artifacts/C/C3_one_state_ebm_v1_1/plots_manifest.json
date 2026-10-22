@@ -1,0 +1,104 @@
+[
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/01_direct_and_simple_reference_profiles.png",
+    "source": "group_mean_profiles.csv: D_FULL/HISTORICAL_P0; mean,bin,state",
+    "interpretation": "Raw H1 +2.005pp; sharp 14:00 and 15:55 bins persist. P-OLS-Z is a strong simple shape comparator.",
+    "sha256": "d14081dabd67fcedeb8f440711658f3e3b4305b7b654ceaf5be179230c1ddb34"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/02_time_only_ebm_vs_unsmoothed_and_splines.png",
+    "source": "global_mean_profiles.csv: means/bias",
+    "interpretation": "T0 retains all 78 time categories. Its conservative finite-round fit still shrinks sharp time structure; M0 is the exact unsmoothed mean.",
+    "sha256": "11b9413129a5f5e803588a37fa25705b823401966463b38acc07de34648c8686"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/03_additive_ebm_continuous_three_state_curves.png",
+    "source": "group_mean_profiles.csv: TRAIN_S0; profile_predictive_metrics.csv: sum_defect_max",
+    "interpretation": "Additive state effects collapse to numerical zero on balanced normalized targets; native interactions redistribute allocation but do not enforce closure. Forecast curves are fixed at the origin. 2020 low n=15 under past-origin S0 (n=21 under full-S0): ABSTAIN for raw high-low inference.",
+    "sha256": "8d07ee11069bea8990b60e712777e3f628101969a360609527cd008b711ab085"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/04_additive_ebm_discrete_three_state_curves.png",
+    "source": "group_mean_profiles.csv: TRAIN_S0; profile_predictive_metrics.csv: sum_defect_max",
+    "interpretation": "Additive state effects collapse to numerical zero on balanced normalized targets; native interactions redistribute allocation but do not enforce closure. Forecast curves are fixed at the origin. 2020 low n=15 under past-origin S0 (n=21 under full-S0): ABSTAIN for raw high-low inference.",
+    "sha256": "7b3506f017d579e6cc3025930aea05cb29c29a032e089ba056e39263b6aa76f2"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/05_continuous_interaction_ebm_three_state_curves.png",
+    "source": "group_mean_profiles.csv: TRAIN_S0; profile_predictive_metrics.csv: sum_defect_max",
+    "interpretation": "Additive state effects collapse to numerical zero on balanced normalized targets; native interactions redistribute allocation but do not enforce closure. Forecast curves are fixed at the origin. 2020 low n=15 under past-origin S0 (n=21 under full-S0): ABSTAIN for raw high-low inference.",
+    "sha256": "8da58d67f3f1d76a2880827d231dcec27b21996af46bb87bdb6fa16d7e3dd5c7"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/06_discrete_interaction_ebm_three_state_curves.png",
+    "source": "group_mean_profiles.csv: TRAIN_S0; profile_predictive_metrics.csv: sum_defect_max",
+    "interpretation": "Additive state effects collapse to numerical zero on balanced normalized targets; native interactions redistribute allocation but do not enforce closure. Forecast curves are fixed at the origin. 2020 low n=15 under past-origin S0 (n=21 under full-S0): ABSTAIN for raw high-low inference.",
+    "sha256": "304d64871698afbbbc7a2a707857d229f26b0488e11638b1107d98e437a3bc82"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/07_all_ebms_matched_shapes_overview.png",
+    "source": "group_mean_profiles.csv: D_FULL/HISTORICAL_P0; identical rows",
+    "interpretation": "Same state colors and y scale. The additive fits share one shape; M5/M6 retain modest state/time structure; M8 is intrinsically normalized.",
+    "sha256": "ebd1c4dbec91ad1d3a4f004ee958e4063823fa8af9287f1ccca3608f68b27814"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/08_continuous_ebm_total_surface_and_support.png",
+    "source": "continuous_total_surface.csv; checkpoint D_FULL M5 transform.cuts",
+    "interpretation": "Stepwise numeric EBM total prediction, never an isolated interaction term. Bands failing basic date/group support are masked; all D_FULL 16 quantile bins currently pass.",
+    "sha256": "2e60279a8a2684c03a2745f1a6753d04e871905e6a1323e2df09b826a29ae8c1"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/09_continuous_ebm_five_numeric_state_slices.png",
+    "source": "continuous_slices.csv: prediction; neighborhood width and date/group counts",
+    "interpretation": "All models evaluated at identical train-only quantiles. A singleton fitted curve is not an identified population conditional mean; neighborhoods describe support.",
+    "sha256": "241d73fe91bd5b3993fa9d6be1cbb2a9f717c1b017854210e56b7e8aeb8bdf1f"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/10_native_additive_vs_interaction_contrast.png",
+    "source": "model_shapes_and_scientific_contrasts.csv; group_mean_profiles.csv anchored_D",
+    "interpretation": "Raw M3 anchored D is zero to roundoff. M5/M6 whole-model contrasts are nonzero but attenuate raw H1. Invalid-closure half-L1 is explicitly not TV.",
+    "sha256": "5dd25d4c2a0c7adbeaf8fdd163ebba6d4ba4ce74ef0a2398c9ed2b1a93fd01eb"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/11_raw_versus_fitted_scientific_fidelity.png",
+    "source": "group_mean_profiles.csv: matched historical P0 state_difference/anchored_D/raw_anchored_D",
+    "interpretation": "M5 H1\u22481.565pp, M6\u22481.395pp versus raw\u22482.005pp. P-OLS-Z and M8 are stronger H1 fidelity references; no extra EBM fidelity certificate.",
+    "sha256": "6902960319d699135b1d6d9fde56da440d9db360a4a992a4bf45f3439102a48c"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/12_developmental_error_scorecard.png",
+    "source": "profile_predictive_metrics.csv; paired_loss_tests.csv HAC10 and block10",
+    "interpretation": "2020 n=241, 2021 n=248, pooled n=489. Native interaction adds no established profile increment over matched additive/M0. Confidence labels condition on saved selected forecasts.",
+    "sha256": "da873307fc2b27cc2a11d38a4b1a18b385d14d5f5a90c154d49c391cb92df5aa"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/13_state_support_year_composition_and_drift.png",
+    "source": "state_support_and_masks.csv; environment_residual_discrepancy.csv",
+    "interpretation": "Quantile occupancy over full development does not ensure yearly overlap. Basic gates \u226550 dates/20 original groups are operational; absent overlap remains ABSTAIN.",
+    "sha256": "1e118847c14cf0983c739218e89ad07b37d8937a620b3d5936d3bc886f0682dd"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/14_residual_qq_acf_arch_and_calibration.png",
+    "source": "residual_daily_features.csv: POOLED/M5; calibration_quintiles.csv; serial_diagnostics.csv",
+    "interpretation": "Heavy tails and residual dependence persist. ARCH/Ljung\u2013Box references are heuristic; native EBM has no classical OLS Cook/hat inference.",
+    "sha256": "2b0205e9b08879de82ce21c555749902ed5fb9e88c35697c960bbf68e4909c2c"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/15_outlier_regime_seed_stability.png",
+    "source": "stress_refits_and_fixed_scores.csv; native_seed_and_complexity_stability.csv; model_shapes_and_scientific_contrasts.csv",
+    "interpretation": "Ten actual stress refits completed; top5 additive controls and native LOYO deferred. All three seeds are deterministic to roundoff. Last-bin exclusion is exploratory, primary CLOSE_C unchanged.",
+    "sha256": "704ad0316b8659067bf2038c95d1353cbcf8041bb3bb2fc43e8d2ad57ed4c13a"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/16_native_software_terms_and_binning.png",
+    "source": "native_terms_and_bins.json + hash-verified D_FULL M5 checkpoint: term_scores_,bins_,bin_weights_",
+    "interpretation": "Main and pair components depend on centering and software conventions. Scientific contrasts elsewhere use total native predict. Shared category mappings may be stored once and reused at both resolutions.",
+    "sha256": "7591221b65d4156e43ca467e2155785a770fcade16eb590a1261db2a055c2327"
+  },
+  {
+    "path": "artifacts/C/C3_one_state_ebm_v1_1/figures/17_normalization_coarsening_model_adequacy.png",
+    "source": "profile_predictive_metrics.csv; continuous_vs_discrete_coarsening.csv; model_shapes_and_scientific_contrasts.csv",
+    "interpretation": "NORM variants apply the frozen positive-part closure map and have distinct model identities. They cannot inherit native additive interpretation. No model supplies a raw materiality/equivalence certificate.",
+    "sha256": "0b0b90c3b7747aa7f80699032caa798d5eb0150e25dc697aa9a6d871cddf4d0a"
+  }
+]
