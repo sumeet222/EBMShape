@@ -1,0 +1,458 @@
+{
+  "experiment_id": "C",
+  "task_id": "C1R_SOURCE_STATE_PROTOCOL_v1_1",
+  "protocol_version": "1.1-C1R-draft",
+  "status": "DRAFT_PENDING_COVERAGE_AND_RELEASE",
+  "locked": false,
+  "serialization": "JSON syntax, a YAML 1.2 subset; parse with Python json without adding dependencies",
+  "authority": [
+    {
+      "path": "docs/specs/C/experiment_C_revised_complete_research_design_v1_1.md",
+      "sha256": "d402d316e5bf37c43169091cf7377c5bc170a0c74626f51135ac51350cf8c57b"
+    },
+    {
+      "path": "docs/specs/C/experiment_C_revised_transition_and_next_stage_handoff_v1_1.md",
+      "sha256": "072871e0bdacd28324afa4ac4d8d73389b383e2e8c448477059ac94b9dd66ce7"
+    },
+    {
+      "path": "docs/specs/experiment_C_state_dependent_intraday_volatility_profiles_research_spec_v1.md",
+      "sha256": "5fa9fc0dba2d4dd31c6be6fa7ce226b27ffedf395f252a7116a30bf0fce3fd3e"
+    },
+    {
+      "path": "docs/specs/experiment_C_P0_supplied_handoff_v1_1.md",
+      "sha256": "78e941c0e6fb42480e77a7f32f20f58164698f63393a9d755b5deca69f68261c"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "6727aa17db8369d915d1a85a61b9c1ad1b6b1f9117aef9bc59f807ef72f12455"
+    }
+  ],
+  "precedence": [
+    "current C1R user instruction",
+    "C v1.1 explicit changes",
+    "unchanged C v1.0",
+    "P0 execution evidence",
+    "AGENTS.md",
+    "repository conventions"
+  ],
+  "parent": {
+    "dataset_id": "C_spy_1m_p0_v1_1_missing_keys",
+    "Q_product": "artifacts/C/preliminary_RV_profile_v1_1/daily_profiles.npz",
+    "Q_sha256": "2aa2554accde6cfeaadeb5b539b52931f76c1470cdb3a435eefef2e804de0c27",
+    "registry": {
+      "path": "data/registry/C_preliminary_RV_profile_v1_1.json",
+      "sha256": "a31c8c4349acc62222aba210f7fdc1d9134496082ac64000406eb86f1ed67adb"
+    },
+    "source_manifest": {
+      "path": "artifacts/C/preliminary_RV_profile_v1_1/source_manifest.json",
+      "sha256": "a63fe1d6314054240d8b2ac488922a8021f85d55434bfd49001298f5d5e4ff99"
+    },
+    "P0_protocol": {
+      "path": "config/C_preliminary_RV_profile_v1.json",
+      "sha256": "b8021e9235b75733c6d53c46963b5879a49d689174bcc31e0b2cbb1f73f6a57f"
+    },
+    "source_reference_registry": "artifacts/C/C1R/source_identity_qa.json"
+  },
+  "source": {
+    "asset": "SPY",
+    "provider": "Alpaca",
+    "feed": "sip",
+    "timeframe": "1Min",
+    "adjustment": "split only; not dividend total return",
+    "schema_version": 1,
+    "storage_timezone": "UTC",
+    "session_timezone": "America/New_York",
+    "calendar": "XNYS",
+    "bar_timestamp": "minute start; close available one minute later",
+    "composite_unit": [
+      "SPY",
+      "date_et"
+    ],
+    "keys": [
+      "symbol",
+      "timestamp_utc"
+    ],
+    "reuse": "D2 immutable selected-window references + ONE disjoint C supplement; no HF overlay",
+    "license": "Account and exchange rights apply; no public redistribution permission",
+    "source_signature_status": "SHA256_VERIFIED_P0_REFERENCES; no immutable vendor release signature",
+    "future_checksum_status": "DECLARED_MANIFEST_ONLY; no reserved price checksum sweep"
+  },
+  "response": {
+    "id": "Q_78_REALIZED_VARIANCE_ALLOCATION",
+    "minutes": 390,
+    "bins": 78,
+    "minutes_per_bin": 5,
+    "first_return": "log(C_09:30/O_09:30)",
+    "subsequent_returns": "log(C_j/C_(j-1)), j=1..389",
+    "rv_bin": "sum five squared minute log returns",
+    "R": "sum all 78 bin variances",
+    "Q": "rv_bin/R where R>0",
+    "closure_absolute_tolerance": 1e-10,
+    "no_overnight": true,
+    "no_imputation": true,
+    "windows": {
+      "OPEN30": [
+        0,
+        6
+      ],
+      "MID_C": [
+        24,
+        48
+      ],
+      "CLOSE_C": [
+        66,
+        78
+      ],
+      "MID_P0": [
+        30,
+        42
+      ],
+      "CLOSE_P0": [
+        72,
+        78
+      ],
+      "PRE_CLOSE_DIAG": [
+        66,
+        72
+      ]
+    },
+    "window_priority": {
+      "OPEN30": "PRIMARY_H2",
+      "MID_C": "PRIMARY_FULL_C",
+      "CLOSE_C": "PRIMARY_H1",
+      "MID_P0": "SECONDARY_P0",
+      "CLOSE_P0": "SECONDARY_P0",
+      "PRE_CLOSE_DIAG": "POST_P0_EXPLORATORY"
+    },
+    "aggregation": "mean of daily window Q sums; not ratio of group RV totals",
+    "anchor_k0": 30
+  },
+  "eligibility": {
+    "Q_ELIGIBLE": "complete ordinary 390-minute session, valid positive R and all Q; future numeric validity UNVERIFIED",
+    "Z0_ELIGIBLE": "Q_ELIGIBLE AND valid positive R of immediate preceding scheduled complete ordinary session",
+    "predecessor_rule": "never skip an early close, missing or invalid immediate scheduled XNYS session",
+    "P0_main_dates": [
+      "2016-01-05",
+      "2021-12-31"
+    ],
+    "P0_auxiliary_predecessor": "2016-01-04",
+    "P0_counts": {
+      "Q": 1491,
+      "Z0": 1472
+    },
+    "excluded_early_closes": 12,
+    "incomplete_dates": [
+      "2016-02-02",
+      "2019-08-12",
+      "2020-03-09",
+      "2020-03-12",
+      "2020-03-16",
+      "2020-03-18",
+      "2021-05-05"
+    ],
+    "missing_minutes": 100,
+    "exclusion_warning": "four March 2020 crisis sessions missing; selected complete-session population"
+  },
+  "states": {
+    "Z0": {
+      "role": "primary numeric",
+      "formula": "log(R[p(d)])",
+      "information_time": "before date_et 09:30 ET",
+      "mode": "F_ALLOWED",
+      "availability": "AVAILABLE_VERIFIED",
+      "guard": "require R>0 finite; no floor currently needed"
+    },
+    "S0": {
+      "role": "nominal low/mid/high, SAME underlying Z0",
+      "formula": "train-fitted Z0 terciles",
+      "information_time": "before date_et 09:30 ET",
+      "mode": "F_ALLOWED",
+      "availability": "CUTPOINTS_PENDING_OFFICIAL_TRAINING_COHORT",
+      "transform": "readiness.fit_s0 / transform_s0: quantile linear; boundary ties upper; missing -1",
+      "P0_rank_labels": "RETROSPECTIVE_D_ONLY; never reused for F"
+    },
+    "Zret": {
+      "role": "secondary nominal sign plus secondary magnitude",
+      "formula": "sign(C[p(d)]/C[p(p(d))]-1), subject to approved anchor/half-day policy",
+      "information_time": "before open; previous completed closes only",
+      "mode": "F_ALLOWED_WHEN_VERIFIED",
+      "availability": "BLOCKED_DEFINITION",
+      "decision": "previous scheduled closes including half-days versus consecutive complete-full-session anchors; no values built"
+    },
+    "Zchg": {
+      "role": "secondary numeric",
+      "formula": "log(R[p(d)])-log(R[p(p(d))])",
+      "information_time": "before open",
+      "mode": "F_ALLOWED",
+      "availability": "AVAILABLE_VERIFIED_WITH_PER_STATE_MASK",
+      "guard": "both immediate scheduled predecessors must be valid ordinary complete sessions"
+    },
+    "Zvol": {
+      "role": "secondary numeric",
+      "formula": "log((V[p(d)]+eps)/median(20 older eligible complete session volumes + eps))",
+      "information_time": "before open",
+      "mode": "F_ALLOWED_WHEN_VERIFIED",
+      "availability": "BLOCKED_DEFINITION",
+      "lookback_policy": "PENDING_SCIENTIFIC_POLICY: older eligible compression vs strict scheduled chain",
+      "eps": null,
+      "volume_units_status": "share-volume columns exist; P0 audited overlap OHLC, not volume revisions; full totals not prepared"
+    },
+    "ZV": {
+      "role": "optional replacement numeric",
+      "formula": "previous legitimately available VIX daily close",
+      "information_time": "published previous close as-of audit required",
+      "mode": "F_ALLOWED_WHEN_VERIFIED",
+      "availability": "ABSENT"
+    },
+    "Zopen": {
+      "role": "optional source-style state",
+      "formula": "actual timestamped VIX at or before 09:30 ET",
+      "information_time": "no later than 09:30 ET",
+      "mode": "F_ALLOWED_WHEN_VERIFIED",
+      "availability": "ABSENT",
+      "forbid": "no daily-close substitute"
+    },
+    "Zfomc": {
+      "role": "optional scheduled nominal flag",
+      "formula": "authentic historical scheduled FOMC announcement date/time; emergency events separate",
+      "information_time": "known schedule before open",
+      "mode": "F_ALLOWED_WHEN_VERIFIED",
+      "availability": "ABSENT"
+    },
+    "ZopenRV": {
+      "formula": "sum(rv[0:6])",
+      "information_time": "10:00 ET",
+      "mode": "D_ONLY_FOR_FULL_DAY",
+      "availability": "AVAILABLE_VERIFIED_P0"
+    },
+    "Zd": {
+      "formula": "R[d]",
+      "information_time": "after close",
+      "mode": "D_ONLY",
+      "availability": "AVAILABLE_VERIFIED_P0"
+    },
+    "Vsame": {
+      "formula": "sum current RTH share volume",
+      "information_time": "after close",
+      "mode": "D_ONLY",
+      "availability": "PARTIAL_SOURCE_COLUMNS_ONLY"
+    }
+  },
+  "at_open_feature_schema": [
+    "Z0",
+    "S0 representation alternative",
+    "Zret when verified",
+    "Zchg",
+    "Zvol when verified",
+    "optional verified lagged VIX/FOMC"
+  ],
+  "research_modes": [
+    "D",
+    "F"
+  ],
+  "R1_claim": "SOURCE_INSPIRED_PROXY",
+  "R1_exact_replication": false,
+  "R1_differences": [
+    "SPY not E-mini futures",
+    "lagged RV not timestamped opening VIX",
+    "minute-square allocation not latent periodicity estimator",
+    "different era"
+  ],
+  "literature_ledger": "C v1.0 section 1 R1-R6; not independently re-fetched in network-prohibited C1R",
+  "hypotheses": {
+    "H1": "primary directional CLOSE_C high-minus-low; materiality >0.02 separately",
+    "H2": "primary OPEN30 prior-negative minus nonnegative close-to-close return",
+    "H3": "primary whole-profile high/low TV",
+    "H4": "secondary/exploratory held-out added-state profile-score increment unless prospectively confirmed",
+    "H5": "secondary/exploratory fixed-state environmental residual TV unless prospectively confirmed"
+  },
+  "research_questions": {
+    "RQ1": "source-inspired conditional shapes",
+    "RQ2": "continuous profile mapping and coarsening",
+    "RQ3": "added lagged states",
+    "RQ4": "matched-state stability and fidelity",
+    "RQ5": "secondary ex-ante profile forecasting"
+  },
+  "materiality": {
+    "close60": 0.02,
+    "open30": 0.02,
+    "TV": 0.05,
+    "environment_TV": 0.05,
+    "unit": "fraction of daily variance allocation",
+    "rule": "valid lower bound above epsilon for materiality; valid simultaneous set within epsilon for near-invariance; otherwise INCONCLUSIVE"
+  },
+  "split": {
+    "split_fraction": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "integer_rule": "n_train=floor(3*N/5), n_train_plus_validation=floor(4*N/5); remainder evaluation",
+    "ordering": "sorted unique ET session dates; duplicate dates rejected; no shuffle",
+    "split_status": "PENDING_FULL_C_COVERAGE",
+    "split_population_policy": "PENDING_APPROVAL",
+    "options": [
+      "Q_ELIGIBLE then mask missing Z0 within each period",
+      "Z0_ELIGIBLE directly for primary matched F comparisons"
+    ],
+    "recommendation": "Z0_ELIGIBLE; recommendation only",
+    "official_cutoff_dates": null,
+    "full_C_start": null,
+    "full_C_end": null,
+    "metadata_only_feasibility_horizon": [
+      "2016-01-05",
+      "2026-09-30"
+    ],
+    "horizon_basis": "local D2 source horizon; exact full-C dates not explicitly fixed in v1.0/v1.1",
+    "examples": "artifacts/C/C1R/split_candidate_manifest.json; ILLUSTRATIVE_NOT_FULL_C",
+    "evaluation_status": "NOT_AUTHORIZED",
+    "release_gate": "explicit user release plus frozen cohort, shortlist, selection path, tests and source identities"
+  },
+  "exposure_ledger": [
+    {
+      "period": "2016-2021",
+      "status": "P0_ALL_Q_AND_WINDOWS_EXPLORED"
+    },
+    {
+      "period": "2022-2023",
+      "status": "B_RETURN_ANALYSES_PREVIOUSLY_EXPOSED; C1R metadata only"
+    },
+    {
+      "period": "2024-2026-09-30",
+      "status": "B_RESERVED; C1R no C science values; prior v1.0 broad exposure claim superseded by v1.1 and current evidence; no globally virgin claim"
+    }
+  ],
+  "access_gates": {
+    "C1R_bulk_transfer_bytes": 0,
+    "future_download_budget": "NOT_AUTHORIZED",
+    "new_2022_2026_science_values": "NOT_AUTHORIZED",
+    "optional_VIX_FOMC_downloads": "NOT_AUTHORIZED",
+    "B_P0_mutation": "PROHIBITED"
+  },
+  "stages": {
+    "C2R": {
+      "models": [
+        "M0",
+        "M1",
+        "M2",
+        "M4"
+      ],
+      "scope": "development only on explored P0; H2 needs Zret policy; fitting requires next instruction"
+    },
+    "C3": {
+      "models": [
+        "M3",
+        "M5",
+        "M6",
+        "M8"
+      ],
+      "M4_comparator": true,
+      "settings_per_M5_M6_max": 2,
+      "seeds_shortlist_max": 3,
+      "automatic_interaction_search": false
+    },
+    "C4": {
+      "models": [
+        "M7",
+        "M9 conditional",
+        "M10 conditional"
+      ],
+      "state_expansion": "one lagged state at a time; support/approval gates"
+    },
+    "C5": {
+      "scope": "scientific inference, fidelity, environment and exact theorem applicability"
+    },
+    "C6": {
+      "scope": "explicitly released once-only frozen evaluation"
+    }
+  },
+  "model_formulas": {
+    "M0": "train mean Q_78",
+    "M1": "train-defined direct conditional Q_78 means",
+    "M2": "time-only smooth",
+    "M3": "f(k)+g(z), no interaction",
+    "M4": "f(k)+g(z)+h_smooth(k,z)",
+    "M5": "k + numeric Z0 + explicit (k,Z0)",
+    "M6": "k + nominal S0 + explicit (k,S0)",
+    "M7": "time x Z0 plus time x sign/volume; no native three-way",
+    "M8": "structurally normalized 78-vector comparator",
+    "M9": "optional supported explicitly declared true three-way comparator",
+    "M10": "obtainable published domain comparator; source qualification required"
+  },
+  "model_outcomes": "NOT_FITTED",
+  "model_grid": "NOT_FROZEN_YET",
+  "interpret_hyperparameters": null,
+  "support_gates": {
+    "status": "OPERATIONAL_PLANNING_NOT_THEOREM_VALIDITY",
+    "display": {
+      "distinct_days": 30,
+      "five_session_groups": 10
+    },
+    "basic": {
+      "distinct_days": 50,
+      "five_session_groups": 20
+    },
+    "strong": {
+      "distinct_days": 100,
+      "five_session_groups": 30
+    },
+    "unsupported": "ABSTAIN",
+    "continuous_grid_training_quantiles": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ]
+  },
+  "inference_plan": {
+    "sampling_unit": "day; all 78 bins together",
+    "later_block_lengths": [
+      5,
+      10,
+      20
+    ],
+    "later_descriptive_draws_min": 1000,
+    "C1R_executed_intervals": false,
+    "multiplicity": "predeclare family; justified Holm/simultaneous block procedure later",
+    "theorem_scope": "deferred exact assumption crosswalk; native InterpretML diagnostics not raw-population confidence events"
+  },
+  "environments": [
+    "2016-2019",
+    "2020",
+    "2021",
+    "2022-2023 only after permission",
+    "2024-2026 only after permission"
+  ],
+  "normalization_policy": "report native raw defects; any clip/renormalization a separate named frozen postprocessed model; compare M8; no naive log-Q back-transform as mean",
+  "qa": {
+    "seed": 42,
+    "purpose": "synthetic deterministic QA only",
+    "source_Q_tolerance": 1e-10,
+    "source_rv_atol": 1e-18,
+    "source_rv_rtol": 1e-12,
+    "new_retained_target_bytes": 50000000,
+    "source_identity": "artifacts/C/C1R/source_identity_qa.json",
+    "execution": "artifacts/C/C1R/C1R_execution_QA.json"
+  },
+  "outstanding_decisions": [
+    "SPLIT_POPULATION_POLICY",
+    "exact full-C date horizon and adequate source coverage",
+    "Zret immediate/half-day close-anchor policy",
+    "Zvol lookback/exclusions/epsilon and volume provenance",
+    "new bounded source authorization if needed",
+    "explicit C evaluation release and final freeze",
+    "stage-specific models/settings/selection/inference freeze before fitting"
+  ],
+  "audit_outputs": {
+    "numeric_development_states": "EBM_DATA_ROOT/derived/C/c_development_states_v1_1.parquet (ignored; default data/)",
+    "state_availability": "artifacts/C/C1R/development_state_availability.csv",
+    "state_ledger": "artifacts/C/C1R/state_ledger.csv",
+    "coverage": "artifacts/C/C1R/coverage_by_period.csv",
+    "future_calendar": "artifacts/C/C1R/future_session_coverage.csv",
+    "split": "artifacts/C/C1R/split_candidate_manifest.json",
+    "source_identity": "artifacts/C/C1R/source_identity_qa.json",
+    "execution_QA": "artifacts/C/C1R/C1R_execution_QA.json",
+    "report": "reports/C/C1R_protocol_and_coverage.md"
+  }
+}

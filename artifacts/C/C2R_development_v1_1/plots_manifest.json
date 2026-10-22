@@ -1,0 +1,184 @@
+{
+  "figures": [
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/01_direct_three_state_profiles.png",
+      "sha256": "338b07ceed67dd5c69de6a4c413e72408038bdbc9c31e77226e44adf1bbc0d63",
+      "width": 2880,
+      "height": 896,
+      "n_dates": 1472,
+      "data_sources": [
+        "direct_profiles.csv",
+        "P0 NPZ"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/02_closing_share_scatter_and_state_OLS.png",
+      "sha256": "ca838d3399c9e2243b455f386022472337fc5bbe99be7f0de5e5a03fb7b5f460",
+      "width": 1920,
+      "height": 1280,
+      "n_dates": 1472,
+      "data_sources": [
+        "daily_design_index.csv",
+        "model_parameters.json"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/03_OLS_estimates_and_interaction_tests.png",
+      "sha256": "82c81af7a3464b3b5949305e194bf0e510a3046bb7dc8a2ec8758bcd8020bc56",
+      "width": 2560,
+      "height": 1120,
+      "n_dates": 1472,
+      "data_sources": [
+        "scalar_ols_models_and_hac.csv",
+        "scalar_specification_tests.csv"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/04_scalar_OLS_residual_and_QQ.png",
+      "sha256": "b907f5e41046acacdaedd029ac036391f06df42ce54c8daf96ea30098445ea8c",
+      "width": 2080,
+      "height": 1440,
+      "n_dates": 1472,
+      "data_sources": [
+        "scalar_residual_influence.csv"
+      ],
+      "numeric_QA": "same saved residuals; QQ fraction versus pp axis units explicit"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/05_scalar_OLS_residual_time_ACF_and_variance.png",
+      "sha256": "051d9905492f3594ac56773af5ea2763687d9bd2a1da1dd65cbaa3991c35a6aa",
+      "width": 2240,
+      "height": 1440,
+      "n_dates": 1472,
+      "data_sources": [
+        "scalar_residual_influence.csv",
+        "serial_diagnostics.csv",
+        "plot_data.npz"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/06_influence_and_robustness.png",
+      "sha256": "53b78ecf0e8adbf3a3862b50be17d74719651f83155c609bb29066f6419c190f",
+      "width": 2880,
+      "height": 960,
+      "n_dates": 1472,
+      "data_sources": [
+        "scalar_residual_influence.csv",
+        "contrasts_and_materiality.csv"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/07_M0_M1_M2_profile_fit.png",
+      "sha256": "7c94fa12ab73f3d01f1d8c45a1744561fa2249eba63321e23d2a3bdfdfb6c477",
+      "width": 2400,
+      "height": 960,
+      "n_dates": 1472,
+      "data_sources": [
+        "direct_profiles.csv",
+        "descriptive_predictions.npz"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/08_state_dependent_profile_OLS.png",
+      "sha256": "7e80f928d676d94be89ba2baedaa81aaf579bbfdb1abbfc6e6e72e49430e6998",
+      "width": 2880,
+      "height": 960,
+      "n_dates": 1472,
+      "data_sources": [
+        "plot_data.npz",
+        "model_parameters.json",
+        "model_fidelity_by_state_bin.csv"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/09_M4_continuous_state_heatmap.png",
+      "sha256": "f28fb5e139fc9c07be543d0a2a088eba6e52fd1e765e46620b95953962f9de7e",
+      "width": 2240,
+      "height": 1600,
+      "n_dates": 1472,
+      "data_sources": [
+        "plot_data.npz",
+        "support_and_environment.csv"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/10_raw_vs_spline_scientific_fidelity.png",
+      "sha256": "1eb938c083b277b56296b8d36d63d3b5d77fc80ba0ee6093733f9f914dde22d8",
+      "width": 2400,
+      "height": 960,
+      "n_dates": 1472,
+      "data_sources": [
+        "model_fidelity_by_state_bin.csv",
+        "contrasts_and_materiality.csv"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/11_development_chronological_model_scorecard.png",
+      "sha256": "5e9543ea22bbefbd49a1ab25c0668a0987f38ce75948f176f7a9d6166d47a40e",
+      "width": 3040,
+      "height": 1920,
+      "n_dates": 1472,
+      "data_sources": [
+        "model_scores.csv",
+        "paired_loss_sensitivities.csv",
+        "chronological_predictions.npz"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/12_environment_support_and_composition.png",
+      "sha256": "ba1a3d7b53f903e3736e717ac48f0e757bc0fcd64b762b898ca5491692408ae2",
+      "width": 2400,
+      "height": 1600,
+      "n_dates": 1472,
+      "data_sources": [
+        "support_and_environment.csv",
+        "environment_TV.csv",
+        "P0 NPZ"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/13_normalization_residuals_and_last_bin.png",
+      "sha256": "93700b83aeafa64d2f4a94307d97957be97523c769b3e21ca5ffceeac0c2eb38",
+      "width": 2400,
+      "height": 1600,
+      "n_dates": 1472,
+      "data_sources": [
+        "profile_diagnostics.csv",
+        "profile_bin_residuals.csv",
+        "residual_eigenvalues.npz",
+        "plot_data.npz"
+      ],
+      "numeric_QA": "saved arrays/tables independently reconciled; not pixel OCR"
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/14_scalar_calibration_period_means_and_PACF.png",
+      "sha256": "f16d11d450a2f7ec1d3301dd830bf82348ee304aeffc27d6873a694f0d36226f",
+      "width": 2240,
+      "height": 1600,
+      "n_dates": 1472,
+      "data_sources": [
+        "scalar_calibration.csv",
+        "scalar_residual_period_means.csv",
+        "scalar_residual_influence.csv",
+        "serial_diagnostics.csv"
+      ],
+      "numeric_QA": "derived from verified saved scalar coefficients/residuals, no refit"
+    }
+  ],
+  "additional_data": "figure_data_extra.npz",
+  "independent_score_checks": 84,
+  "direct_and_same_cell_reconciliation": "PASS atol1e-10",
+  "image_decode_nonblank": "PASS",
+  "source_Q_not_copied": true
+}

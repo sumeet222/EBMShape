@@ -1,0 +1,500 @@
+{
+  "task_id": "C2R_DEVELOPMENT_v1_1",
+  "stage_decision": "PASS_WITH_QUALIFICATIONS",
+  "created_files": [
+    {
+      "path": "artifacts/C/C2R_development_v1_1/block_intervals.csv",
+      "bytes": 2575,
+      "sha256": "7c4bbff0f0c13fc39bbf3683c4b023aaf32a4cb2f83302d5a7755aa9b03dbf09",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/chronological_predictions.npz",
+      "bytes": 896859,
+      "sha256": "1b39310b73b4905939c4bf8cc09e7e16965b8cef9f663f42d6fab32d6b7eba99",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/cohort_by_year.csv",
+      "bytes": 98,
+      "sha256": "afb05c22016f6121ee63d3bae23e0bd6e5c1cbcb157033ca6742914237b03960",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/completion.log",
+      "bytes": 790,
+      "sha256": "5e9f0fd4431a553bf672a38901f43730d50c3227121ca5df23b242a989cec0cc",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/completion_first.log",
+      "bytes": 1704,
+      "sha256": "2e7ec218bf94d2bfcda142d6794d429850f9663107d78decea80e99cf4b08cce",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/contrasts_and_materiality.csv",
+      "bytes": 118040,
+      "sha256": "41660823ce150765404370a6381e1ec16de82b55c2907d1635d7998403929d2c",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/daily_design_index.csv",
+      "bytes": 135590,
+      "sha256": "cb38912ec986e80c7503913ffd484d6f4df82c4261e525ac54ea28bb827136fe",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/descriptive_predictions.npz",
+      "bytes": 2666487,
+      "sha256": "1f08c7cd0ef969a73b968aa4d780ed06df790968a9cf5e73d98be5f08789176f",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/direct_profiles.csv",
+      "bytes": 171886,
+      "sha256": "a01c2cc33d129cda1ab5bd649da37c811a888a1eb438c34c043ea47a9a8e7cc7",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/direct_window_summaries.csv",
+      "bytes": 1340,
+      "sha256": "b3feadfa00c801635b17aabfc4ebd81301f52c78478a86ee2ed55989a4953164",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/environment_TV.csv",
+      "bytes": 716,
+      "sha256": "dd129d74065c7137f8ae1bf8f0b3960c2d7b73aed17ab6d109d8d8a20c362db8",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/environment_residual_discrepancy.csv",
+      "bytes": 4506,
+      "sha256": "f20e4ac6cf9f64ed6d0b2ce84c5afe555e885538e4ff7dab6837237789b0f452",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/environment_versions.json",
+      "bytes": 822,
+      "sha256": "a2a15d4e6b141b70e183fbf6e76bc5125ec06f0ef34724a0d38a6cd854d8d26f",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/feature_collinearity.csv",
+      "bytes": 6969,
+      "sha256": "bd1fd49c9662470df00b04de076c87a1659f43df54407b1a584b4b414101ba39",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figure_data_extra.npz",
+      "bytes": 520,
+      "sha256": "7a284190f2dc1a1a33c4c460f272c9b3383615d7d310e2a88531f5793c9e3066",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/01_direct_three_state_profiles.png",
+      "bytes": 298786,
+      "sha256": "338b07ceed67dd5c69de6a4c413e72408038bdbc9c31e77226e44adf1bbc0d63",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/02_closing_share_scatter_and_state_OLS.png",
+      "bytes": 213924,
+      "sha256": "ca838d3399c9e2243b455f386022472337fc5bbe99be7f0de5e5a03fb7b5f460",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/03_OLS_estimates_and_interaction_tests.png",
+      "bytes": 146062,
+      "sha256": "82c81af7a3464b3b5949305e194bf0e510a3046bb7dc8a2ec8758bcd8020bc56",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/04_scalar_OLS_residual_and_QQ.png",
+      "bytes": 255511,
+      "sha256": "b907f5e41046acacdaedd029ac036391f06df42ce54c8daf96ea30098445ea8c",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/05_scalar_OLS_residual_time_ACF_and_variance.png",
+      "bytes": 262297,
+      "sha256": "051d9905492f3594ac56773af5ea2763687d9bd2a1da1dd65cbaa3991c35a6aa",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/06_influence_and_robustness.png",
+      "bytes": 208308,
+      "sha256": "53b78ecf0e8adbf3a3862b50be17d74719651f83155c609bb29066f6419c190f",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/07_M0_M1_M2_profile_fit.png",
+      "bytes": 245220,
+      "sha256": "7c94fa12ab73f3d01f1d8c45a1744561fa2249eba63321e23d2a3bdfdfb6c477",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/08_state_dependent_profile_OLS.png",
+      "bytes": 327709,
+      "sha256": "7e80f928d676d94be89ba2baedaa81aaf579bbfdb1abbfc6e6e72e49430e6998",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/09_M4_continuous_state_heatmap.png",
+      "bytes": 245400,
+      "sha256": "f28fb5e139fc9c07be543d0a2a088eba6e52fd1e765e46620b95953962f9de7e",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/10_raw_vs_spline_scientific_fidelity.png",
+      "bytes": 181204,
+      "sha256": "1eb938c083b277b56296b8d36d63d3b5d77fc80ba0ee6093733f9f914dde22d8",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/11_development_chronological_model_scorecard.png",
+      "bytes": 227709,
+      "sha256": "5e9543ea22bbefbd49a1ab25c0668a0987f38ce75948f176f7a9d6166d47a40e",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/12_environment_support_and_composition.png",
+      "bytes": 182584,
+      "sha256": "ba1a3d7b53f903e3736e717ac48f0e757bc0fcd64b762b898ca5491692408ae2",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/13_normalization_residuals_and_last_bin.png",
+      "bytes": 247786,
+      "sha256": "93700b83aeafa64d2f4a94307d97957be97523c769b3e21ca5ffceeac0c2eb38",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/14_scalar_calibration_period_means_and_PACF.png",
+      "bytes": 294257,
+      "sha256": "f16d11d450a2f7ec1d3301dd830bf82348ee304aeffc27d6873a694f0d36226f",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/figures/contact_sheet.png",
+      "bytes": 899455,
+      "sha256": "41f18fd4b780bd5c0d7549a3d491106fcf146b250af73955f567e9e6f054b9e1",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/fit_hashes.csv",
+      "bytes": 17797,
+      "sha256": "fb4219ab3714ab5d6f76f6de4b70ff21c03d917b3d92ef36e523a5f1bf773266",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/model_fidelity_by_state_bin.csv",
+      "bytes": 611321,
+      "sha256": "5bb72538a3471041f2548d8bd7f00b66e5eb18ac3ac96e7fb8a5d35507240fd8",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/model_parameters.json",
+      "bytes": 2409006,
+      "sha256": "5081551c33fe6c8858022477de8eddfbab2e367d210333d537627f2e76657b6a",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/model_registry.csv",
+      "bytes": 52898,
+      "sha256": "64389c8f9caad23e03722b199bd3d03dd1387bcfc2db0f69a152cc38d3a37e7e",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/model_scores.csv",
+      "bytes": 54513,
+      "sha256": "b403aad5474680553d3788aeb5a41a2376d0bbe05276be3b3f87fd2224e5bc32",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/model_train_eval_gaps.csv",
+      "bytes": 1826,
+      "sha256": "269318278c31380b9952b9cea9987a08e0c78d4fe77d46395a989cb51c018582",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/origin_state_inventory.csv",
+      "bytes": 1290,
+      "sha256": "ca586b2ed56ff5dafa5a08c6812f076865539beb988497b4d7a5d89f46005b2e",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/paired_loss_sensitivities.csv",
+      "bytes": 31926,
+      "sha256": "8616edfc1b7b4d8c975f88b73a445dbeeaa9ab373db35688fc110456d33ee273",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/plot_data.npz",
+      "bytes": 78214,
+      "sha256": "3f6c28575e46210edd5933fd8a36dd668a4109f90c4a9f7fcfe8ee20ac83d929",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/plots_manifest.json",
+      "bytes": 6707,
+      "sha256": "d8cfe87b586f06e833fc9e70faec9866a0b7dde6dbd6c6c8f8d3de302079a7be",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/prepare.log",
+      "bytes": 810,
+      "sha256": "40fdcead31f7e8a7ae21be6d70728df2d0f58b61e4fb3d03c4b784544623c3a7",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/profile_bin_residuals.csv",
+      "bytes": 613461,
+      "sha256": "ecbce664fdfb269a2d2cae475de2c1cd2886670c890f969626d74197b2aa3ff8",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/profile_daily_errors.csv",
+      "bytes": 7844028,
+      "sha256": "eefd9fc89f09a01def85422618f8a319021e566dd22b0fcbf41866125fdadaa2",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/profile_diagnostics.csv",
+      "bytes": 45171,
+      "sha256": "b661fa460f1928edd984972b9f5dba2bb0bd67a7a6b33e9ab34ea8126f12e8d3",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/profile_errors_by_state.csv",
+      "bytes": 18224,
+      "sha256": "7c3cbf1dd98b0fd3e1ced7d907e4f4d8dd0a469a964b0c9e9cb47243c6ccf74f",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/protected_input_baseline.json",
+      "bytes": 72701,
+      "sha256": "604982b8ec57fd1247b38c0f7941f9ad3f1d6046627023be19dca3b3b923e06a",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/provenance_and_QA.json",
+      "bytes": 31307,
+      "sha256": "0fffc6d7ad48fd5c6b76744d0c9958b96c1c48632450869fc9188cd56e431f63",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/report.log",
+      "bytes": 1276,
+      "sha256": "73a34588bb6deb9267563f725e697df3781c17c361cd4bf72bca6388545c7eb5",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/residual_covariance.npz",
+      "bytes": 296475,
+      "sha256": "1f4a9b5619d5fd817baf25589faebc0b3e416a8bb72668b5dda382b97d337f83",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/residual_eigenvalues.npz",
+      "bytes": 38929,
+      "sha256": "7527fef60e9f1726bb14b27e7c1a53ba4fd4fdab6577f2684222fd9db804d31f",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/run.log",
+      "bytes": 224919,
+      "sha256": "bd9f9e962d2c4891677955bfe94354396c118ba987ed4d3d7227fc7b03f12ea8",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_calibration.csv",
+      "bytes": 6362,
+      "sha256": "d5795a9c919ff62c61aa87b50839fa182382cfb25b81b00734aa813586ce1e65",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_conditional_means_and_hac.csv",
+      "bytes": 36497,
+      "sha256": "ba5a6400ce9332d528a93223c71ca2f149c6ce25b0d21d5a838091a45b827998",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_contrasts_and_HAC.csv",
+      "bytes": 13383,
+      "sha256": "6a3c441166e46e5ab604367eab4f7e44c09ccc322ca0e1a362be8847fbffa804",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_ols_models_and_hac.csv",
+      "bytes": 44896,
+      "sha256": "82e421d1c7fef99b4d4513ecd426b73bcea892c38c9fcb2a85039f7c7f148797",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_residual_influence.csv",
+      "bytes": 5769910,
+      "sha256": "dc51d2b0a595f3ce312882bf8b71225b925cca377015d5315fe385305e045f42",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_residual_period_means.csv",
+      "bytes": 315614,
+      "sha256": "0300ae1f270b7b571f3cf5a983e6691d6c17ad959a57bf583965cbe792553249",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_specification_tests.csv",
+      "bytes": 7426,
+      "sha256": "a35afe63ec5e72a832deeaef8e0298a7c20ee54da54a5359af3deb1167dbaf44",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/scalar_summary.csv",
+      "bytes": 9735,
+      "sha256": "ada7c836b6c2b9875d2bab9aa06827f28a76e68fd83dec20e36bf4412ebe36c2",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/sensitivity_models.csv",
+      "bytes": 25386,
+      "sha256": "dc0182b94c03420c8139ec9bce5beb57c7b149b02ccaf579d355400711993335",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/serial_diagnostics.csv",
+      "bytes": 132766,
+      "sha256": "73ec818ae712929d19f8d47c203aa503f0e3e443b465e6f9ef71f8ecf2f27b7e",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/session_paths.json",
+      "bytes": 147,
+      "sha256": "fbdd2a893df7e814fd803a73759d99def71b12f61f7b39619159b5ccd09589d6",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/support_and_environment.csv",
+      "bytes": 37166,
+      "sha256": "22716d28c2825dc5effee7447f1c4d16d51059a3ff38ef8c4c994f1c92700285",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/tests.log",
+      "bytes": 3037,
+      "sha256": "4b4a9f3d85182fe90403070dca6fee5976592860fbf1df07728bfa70c87d8f64",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "artifacts/C/C2R_development_v1_1/tests_pre_fit.log",
+      "bytes": 2791,
+      "sha256": "04c78be4814a71ba08cc43dd555ce6d1c87c9b0ef94b464a75d989e5940cfe8f",
+      "ignored_binary_or_log": true
+    },
+    {
+      "path": "config/C_C2R_development_protocol_v1_1.json",
+      "bytes": 52668,
+      "sha256": "24ef4122ce069df7f7e228ecfc1f05b48983005273c1e84da10cfb03cdb14bca",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "reports/C/C2R_OLS_state_dependent_splines_full_diagnostics.md",
+      "bytes": 54775,
+      "sha256": "a3ae282976c870d4acd26c45bab4daed239457c80926de3a8eec1fc634a0f936",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "reports/C/C2R_coding_session_20261022.md",
+      "bytes": 54826,
+      "sha256": "c2f85ccc8a748678fe33e8168bd3a28ab85971813def79eb3110affcf302041b",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "reports/C/C2R_scientific_visual_gallery.md",
+      "bytes": 8244,
+      "sha256": "856859c41d2c6aa696fe00caf7871d065af3c21c526b1a90cee4f061a4d27f88",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "reports/C/C2R_theory_applicability_and_limitations.md",
+      "bytes": 4221,
+      "sha256": "8be21db169ad20c758d55cee5eed7c4e1e1d17f941c9d791ac0d22afac025226",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "reports/sessions/20261022_1750_C_C2R_session.md",
+      "bytes": 54826,
+      "sha256": "c2f85ccc8a748678fe33e8168bd3a28ab85971813def79eb3110affcf302041b",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "scripts/c2r_development_models.py",
+      "bytes": 163,
+      "sha256": "ebfc7185a725239736f674ccee0e47610b6794eed91e4ff7548195ab8abacf95",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "src/ebm_research/experiment_c/c2r_completion.py",
+      "bytes": 16103,
+      "sha256": "a5075690ce2f83e6c127934d8198b9df92d0fa204c3839787608c0458c81be0a",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "src/ebm_research/experiment_c/c2r_development.py",
+      "bytes": 38811,
+      "sha256": "0efd42af06e95e02e2325a9753784165b4d0d940b203ea2a69cca2afb054e4cc",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "src/ebm_research/experiment_c/c2r_diagnostics.py",
+      "bytes": 13976,
+      "sha256": "e06c82c015814f7c702a394d1159839541a2c3aa13d1db1f3b738630116f59c2",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "src/ebm_research/experiment_c/c2r_models.py",
+      "bytes": 10299,
+      "sha256": "d3fd58d63934caf87dc14a315a49489cb8505414b0eb18c5c6bec4e173c59ac3",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "src/ebm_research/experiment_c/c2r_reporting.py",
+      "bytes": 51793,
+      "sha256": "f0ea3585f573f2d98bd645542c854d109814af8be85e3525cf4e35b3a6bfae0b",
+      "ignored_binary_or_log": false
+    },
+    {
+      "path": "tests/test_c2r_models.py",
+      "bytes": 6679,
+      "sha256": "92143050ce5e79b180522a5e1aadf198a0bf873e9396ebfed870033838058de0",
+      "ignored_binary_or_log": false
+    }
+  ],
+  "manifest_path": "artifacts/C/C2R_development_v1_1/files_manifest.json",
+  "self_checksum": "EXCLUDED_TO_AVOID_SELF_REFERENCE",
+  "preexisting_modified_or_deleted": [],
+  "tests_passed": 22,
+  "principal_figures": 14,
+  "network_bytes": 0,
+  "raw_source_bytes": 0,
+  "duplicate_Q_arrays": 0,
+  "figures_bytes": 4236212,
+  "bytes_excluding_this_manifest": 27470413,
+  "temporary_metadata_font_cache": "additional <1MB outside repo; no source data; exact effects in session report",
+  "protected_baseline_files": 417,
+  "source_cache_files": 72,
+  "source_cache_bytes": 10318012,
+  "commit": "f05f23a27e7bd5133b3ba055afd1fae160dfd7c6",
+  "branch": "main",
+  "scientific_limits": [
+    "development exposed in P0",
+    "not certified materiality/near-invariance",
+    "sparse environmental support/missing crisis days",
+    "full-C horizon/split/Zret/Zvol/reserved authority pending",
+    "C3 not started"
+  ],
+  "manifest_bytes": 19209,
+  "total_new_retained_bytes": 27489622,
+  "new_nonfigure_bytes": 23253410
+}

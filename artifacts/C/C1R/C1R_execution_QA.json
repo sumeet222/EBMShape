@@ -1,0 +1,630 @@
+{
+  "task_id": "C1R_SOURCE_STATE_PROTOCOL_v1_1",
+  "stage_verdict": "READY_FOR_C2R_DEV",
+  "implementation": "PASS_WITH_QUALIFICATIONS",
+  "generated_local": "2026-10-22T16:48:06.259942-04:00",
+  "checks": [
+    {
+      "id": "config_root_authority_smoke",
+      "status": "PASS",
+      "scope": "both v1.1 markdown authorities, original/P0 hashes, JSON-compatible YAML 1.2 parsed; paths/root references"
+    },
+    {
+      "id": "fixture_RV_math",
+      "status": "PASS",
+      "scope": "unchanged P0 unit suite: 390 increments/78 bins, first-open anchor, segmentation, invalid prices/grids; synthetic only"
+    },
+    {
+      "id": "strict_prior_sessions",
+      "status": "PASS",
+      "scope": "holiday/DST, missing/early-close/zero RV invalid; two-prior chain; real RV_prev reconciliation"
+    },
+    {
+      "id": "train_only_S0",
+      "status": "PASS",
+      "scope": "synthetic dated training guards, fixed validation transform, boundary ties; no real cutpoints fitted"
+    },
+    {
+      "id": "source_spot_reconciliation",
+      "status": "PASS",
+      "scope": "79 identities, full development key/grid integrity, six scalar source spots and saved arrays; no full price recomputation"
+    },
+    {
+      "id": "metadata_split_dry_run",
+      "status": "PASS",
+      "scope": "integer sizes/order/hash, masks, withheld labels, freeze refusal; synthetic and P0 illustrations only"
+    },
+    {
+      "id": "read_write_firewall",
+      "status": "PASS",
+      "scope": "exact audit ledger plus discovery footer ledger, no future financial values, no network entrypoint; protected inputs rechecked. No packet capture/systemwide filesystem monitor"
+    },
+    {
+      "id": "disk_git_audit",
+      "status": "PASS",
+      "scope": "local sizes/paths, registered development source digests only, no 25GB sweep, no deletions, tracked diff and untracked whitespace checked"
+    },
+    {
+      "id": "optional_state_numeric_preparation",
+      "status": "WARN",
+      "scope": "Zret/Zvol definitions pending; VIX/FOMC absent locally; primary dates preserved"
+    },
+    {
+      "id": "future_eligibility",
+      "status": "WARN",
+      "scope": "later price/state validity UNVERIFIED; limited D1 metadata not admitted as a C source"
+    },
+    {
+      "id": "full_empirical_bootstrap_figures_models",
+      "status": "SKIPPED",
+      "reason": "outside C1R; no P0 rerun, inference, fitting or new figures"
+    },
+    {
+      "id": "future_checksum_rehash",
+      "status": "SKIPPED",
+      "reason": "not required for metadata-only inventory; declared source hashes recorded"
+    }
+  ],
+  "commands": {
+    "audit": ".venv/bin/python -B scripts/c1r_readiness.py audit > artifacts/C/C1R/audit_run.log 2>&1",
+    "tests": ".venv/bin/python -B -m unittest discover -s tests -p 'test_c*.py' -v > artifacts/C/C1R/tests.log 2>&1",
+    "split": ".venv/bin/python -B scripts/c1r_readiness.py split --eligible-manifest /private/tmp/c1r_synthetic_dates.json",
+    "git": "git diff --check"
+  },
+  "tests": {
+    "passed": 12,
+    "failed": 0,
+    "scope": "4 C1R + 8 unchanged P0 synthetic tests",
+    "log": "artifacts/C/C1R/tests.log",
+    "final_wall_seconds": 0.476
+  },
+  "audit_wall_seconds": 99.6065192919923,
+  "baseline_preservation": {
+    "files": 290,
+    "bytes_hashed": 66452288,
+    "changed": [],
+    "baseline_temp": "/private/tmp/c1r_start.json",
+    "status": "PASS",
+    "baseline_manifest": "artifacts/C/C1R/protected_input_baseline.json"
+  },
+  "numeric_state_table": {
+    "path": "data/derived/C/c_development_states_v1_1.parquet",
+    "shape": [
+      1491,
+      12
+    ],
+    "schema": {
+      "date_et": "str",
+      "predecessor_et": "str",
+      "second_predecessor_et": "str",
+      "Z0": "float64",
+      "Zchg": "float64",
+      "Z0_reason": "str",
+      "Zchg_reason": "str",
+      "source_dataset_id": "str",
+      "available_before": "str",
+      "S0_status": "str",
+      "Zret_status": "str",
+      "Zvol_status": "str"
+    },
+    "bytes": 46715,
+    "sha256": "53c00dd9d7b8b499f6b00ebabe0955f34bea95ef009c4e81cd3b995a021b7238",
+    "gitignored": true
+  },
+  "discovery_read_ledger": [
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D1_v1/pilot.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2026.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1b_alpaca_neighbors.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1b_hf_SPY_gap_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1c_source1_2016-02_SPY_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1c_source1_2019-08_SPY_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1c_source1_2020-03_SPY_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1c_source1_2021-05_SPY_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/raw/diagnostics/D2_1c_source1_2023-06_SPY_context.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/derived/B/B_SPY_daily_split_source1_stage1_v1.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/derived/B/B_stage2A_validation_predictions.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    },
+    {
+      "path": "data/derived/B/B_stage2B_ebm_predictions_v1.parquet",
+      "operation": "discovery_footer_only",
+      "fields": [
+        "schema field names",
+        "row count",
+        "file size"
+      ],
+      "science_values_read": false
+    }
+  ],
+  "audit_read_ledger": "artifacts/C/C1R/source_identity_qa.json#read_ledger",
+  "network_bytes": 0,
+  "new_raw_bytes": 0,
+  "new_Q_copies": 0,
+  "duplicate_source_hash_groups": [],
+  "duplicate_scope": "registered P0 source files only; D1/D2 may overlap keys as distinct source snapshots and were not merged",
+  "largest_local_objects_by_size": [
+    {
+      "path": "data/registry/B_stage2B_ebm_diagnostics.csv",
+      "bytes": 32793499
+    },
+    {
+      "path": "artifacts/figures/NINE_EXPERIMENTS_VISUAL_REVIEW.pdf",
+      "bytes": 11294991
+    },
+    {
+      "path": "data/derived/B/B_stage2B_ebm_predictions_v1.parquet",
+      "bytes": 3458354
+    },
+    {
+      "path": "data/registry/B_stage2B_ebm_finite_differences.csv",
+      "bytes": 3025834
+    },
+    {
+      "path": "artifacts/C/preliminary_RV_profile_v1_1/daily_profiles.npz",
+      "bytes": 2615093
+    },
+    {
+      "path": "data/registry/B_stage2B_ebm_validation_metrics.csv",
+      "bytes": 2312634
+    },
+    {
+      "path": "data/registry/B_stage2B_ebm_surfaces.csv",
+      "bytes": 2154538
+    },
+    {
+      "path": "data/registry/B_stage2B_ebm_models.csv",
+      "bytes": 2083783
+    },
+    {
+      "path": "data/derived/B/B_stage2A_validation_predictions.parquet",
+      "bytes": 2076703
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/visual_review_contact_sheet.png",
+      "bytes": 2022226
+    },
+    {
+      "path": "artifacts/B/initial_audit/registries/empirical_bins_and_support.csv",
+      "bytes": 1565635
+    },
+    {
+      "path": "data/registry/D2_1_hf_candidate_3.json",
+      "bytes": 1312993
+    },
+    {
+      "path": "data/registry/D2_spy_candle_qa_sessions.csv",
+      "bytes": 1056070
+    },
+    {
+      "path": "data/registry/B_stage2A_coefficients.csv",
+      "bytes": 990190
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2025.parquet",
+      "bytes": 871110
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "bytes": 869578
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2022.parquet",
+      "bytes": 869271
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2024.parquet",
+      "bytes": 865357
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "bytes": 857427
+    },
+    {
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2023.parquet",
+      "bytes": 849491
+    }
+  ],
+  "new_files_before_session_report": [
+    {
+      "path": "artifacts/C/C1R/coverage_by_period.csv",
+      "bytes": 3690,
+      "sha256": "06fda6126b330c718fc4f537d999f09d2a482390a2212ef850e4aed0fb3d5d5d"
+    },
+    {
+      "path": "artifacts/C/C1R/audit_run.log",
+      "bytes": 836,
+      "sha256": "2677bd7b78abc6e05de7ba97e28835a340917058b929b595455d2bec34ae9a8b"
+    },
+    {
+      "path": "artifacts/C/C1R/split_candidate_manifest.json",
+      "bytes": 2618,
+      "sha256": "3b6246818c61d65273065e299d69238f1b21896e85dba22d0aa2989e33327ce5"
+    },
+    {
+      "path": "artifacts/C/C1R/future_session_coverage.csv",
+      "bytes": 89981,
+      "sha256": "f0847ee78f3e5ecd74183a6bab67e379c38ad7157e40def86488494db8e06fdd"
+    },
+    {
+      "path": "artifacts/C/C1R/tests.log",
+      "bytes": 1717,
+      "sha256": "b8e2d868653fc3ad9e300418df1ae767b9a13658fb7e9b97c3bc07b537e24f05"
+    },
+    {
+      "path": "artifacts/C/C1R/source_identity_qa.json",
+      "bytes": 57393,
+      "sha256": "d62480a297e1d4e971a06070ed90123dcdce27e2a8dd9b7c729222bb4e8febd6"
+    },
+    {
+      "path": "artifacts/C/C1R/state_ledger.csv",
+      "bytes": 1584,
+      "sha256": "8a106667ece98edff1e49220dc26819e0d9943e49dbe329019125b3c90e3fb28"
+    },
+    {
+      "path": "artifacts/C/C1R/development_state_availability.csv",
+      "bytes": 413751,
+      "sha256": "3320ecff3e1a2f85cd8e06d74ebd6348c655d5981ebf512c1b4d59dbecf77639"
+    },
+    {
+      "path": "artifacts/C/C1R/environment_versions.json",
+      "bytes": 930,
+      "sha256": "4e0ce363edcb61835a721176092567d468950d3b381910588b07821089dd39ff"
+    },
+    {
+      "path": "config/C_full_protocol_v1_1.yaml",
+      "bytes": 16136,
+      "sha256": "e9c2e67fc9784b0965fbfe9825c772ee4a2fbfa8eda43fa5dafd0d20afc9f57e"
+    },
+    {
+      "path": "scripts/c1r_readiness.py",
+      "bytes": 174,
+      "sha256": "a97bca05720f7d1eb48287eeb3bdb2a8a1496abc77d61df18c75ca9509c36b3d"
+    },
+    {
+      "path": "src/ebm_research/experiment_c/readiness.py",
+      "bytes": 24465,
+      "sha256": "e42d918bdb8c4972b88f0db232d3061efc3d26edc3b4a0e23b5792f42607a881"
+    },
+    {
+      "path": "tests/test_c1r_readiness.py",
+      "bytes": 4480,
+      "sha256": "79433cbae655c96a80de2369767a2be6933400c447ddc154c20672b70afaedd3"
+    },
+    {
+      "path": "reports/C/C1R_protocol_and_coverage.md",
+      "bytes": 26289,
+      "sha256": "b4d82f4264a796d6be2cc6745001170e176dfeed8529af6497b7a52c1e3bc3ea"
+    },
+    {
+      "path": "data/derived/C/c_development_states_v1_1.parquet",
+      "bytes": 46715,
+      "sha256": "53c00dd9d7b8b499f6b00ebabe0955f34bea95ef009c4e81cd3b995a021b7238"
+    },
+    {
+      "path": "artifacts/C/C1R/protected_input_baseline.json",
+      "bytes": 48994,
+      "sha256": "0bda332bf56116ec4584fb296f3cf6d4b678475aaf24882f3e123e6c7f70759c"
+    }
+  ],
+  "retained_bytes_before_execution_QA_and_session_report": 739753,
+  "errors_recovered": [
+    {
+      "command": "python -m pytest",
+      "cause": "pytest not installed",
+      "fix": "stdlib unittest; no package install"
+    },
+    {
+      "location": "audit string date bounds",
+      "cause": "NumPy 2.5 unicode array min/max has no ufunc loop",
+      "fix": "Python min/max; no output from failed attempt"
+    },
+    {
+      "location": "audit spot calendar lookup",
+      "cause": "pandas rejects numpy.str_ scalar",
+      "fix": "normalize selected date strings before calendar call; no outputs from failed attempt"
+    },
+    {
+      "warning": "PyArrow sysctl CPU capability sandbox warnings",
+      "status": "nonfatal; no escalation needed for successful local reads"
+    }
+  ],
+  "git_branch": "main",
+  "git_commit": "f05f23a27e7bd5133b3ba055afd1fae160dfd7c6",
+  "git_diff_check_exit": 0,
+  "notes": [
+    "No commits/staging/push",
+    "Preexisting docs/specs/C preserved",
+    "source IDs are SHA identities, not signed immutable vendor release IDs",
+    "Full horizon and split/optional-state policies remain pending"
+  ],
+  "final_files_excluding_this_self_referential_QA": [
+    {
+      "path": "artifacts/C/C1R/audit_run.log",
+      "bytes": 836,
+      "sha256": "2677bd7b78abc6e05de7ba97e28835a340917058b929b595455d2bec34ae9a8b"
+    },
+    {
+      "path": "artifacts/C/C1R/coverage_by_period.csv",
+      "bytes": 3690,
+      "sha256": "06fda6126b330c718fc4f537d999f09d2a482390a2212ef850e4aed0fb3d5d5d"
+    },
+    {
+      "path": "artifacts/C/C1R/development_state_availability.csv",
+      "bytes": 413751,
+      "sha256": "3320ecff3e1a2f85cd8e06d74ebd6348c655d5981ebf512c1b4d59dbecf77639"
+    },
+    {
+      "path": "artifacts/C/C1R/environment_versions.json",
+      "bytes": 930,
+      "sha256": "4e0ce363edcb61835a721176092567d468950d3b381910588b07821089dd39ff"
+    },
+    {
+      "path": "artifacts/C/C1R/future_session_coverage.csv",
+      "bytes": 89981,
+      "sha256": "f0847ee78f3e5ecd74183a6bab67e379c38ad7157e40def86488494db8e06fdd"
+    },
+    {
+      "path": "artifacts/C/C1R/protected_input_baseline.json",
+      "bytes": 48994,
+      "sha256": "0bda332bf56116ec4584fb296f3cf6d4b678475aaf24882f3e123e6c7f70759c"
+    },
+    {
+      "path": "artifacts/C/C1R/source_identity_qa.json",
+      "bytes": 57393,
+      "sha256": "d62480a297e1d4e971a06070ed90123dcdce27e2a8dd9b7c729222bb4e8febd6"
+    },
+    {
+      "path": "artifacts/C/C1R/split_candidate_manifest.json",
+      "bytes": 2618,
+      "sha256": "3b6246818c61d65273065e299d69238f1b21896e85dba22d0aa2989e33327ce5"
+    },
+    {
+      "path": "artifacts/C/C1R/state_ledger.csv",
+      "bytes": 1584,
+      "sha256": "8a106667ece98edff1e49220dc26819e0d9943e49dbe329019125b3c90e3fb28"
+    },
+    {
+      "path": "artifacts/C/C1R/tests.log",
+      "bytes": 1717,
+      "sha256": "b8e2d868653fc3ad9e300418df1ae767b9a13658fb7e9b97c3bc07b537e24f05"
+    },
+    {
+      "path": "config/C_full_protocol_v1_1.yaml",
+      "bytes": 16136,
+      "sha256": "e9c2e67fc9784b0965fbfe9825c772ee4a2fbfa8eda43fa5dafd0d20afc9f57e"
+    },
+    {
+      "path": "data/derived/C/c_development_states_v1_1.parquet",
+      "bytes": 46715,
+      "sha256": "53c00dd9d7b8b499f6b00ebabe0955f34bea95ef009c4e81cd3b995a021b7238"
+    },
+    {
+      "path": "reports/C/C1R_protocol_and_coverage.md",
+      "bytes": 26289,
+      "sha256": "b4d82f4264a796d6be2cc6745001170e176dfeed8529af6497b7a52c1e3bc3ea"
+    },
+    {
+      "path": "reports/sessions/20261022_1652_C_C1R_session.md",
+      "bytes": 39913,
+      "sha256": "300c5be5c032c75cd1ac13b657979231a231244ae2a0fd5c10c478c0cde34aa8"
+    },
+    {
+      "path": "scripts/c1r_readiness.py",
+      "bytes": 174,
+      "sha256": "a97bca05720f7d1eb48287eeb3bdb2a8a1496abc77d61df18c75ca9509c36b3d"
+    },
+    {
+      "path": "src/ebm_research/experiment_c/readiness.py",
+      "bytes": 24465,
+      "sha256": "e42d918bdb8c4972b88f0db232d3061efc3d26edc3b4a0e23b5792f42607a881"
+    },
+    {
+      "path": "tests/test_c1r_readiness.py",
+      "bytes": 4480,
+      "sha256": "79433cbae655c96a80de2369767a2be6933400c447ddc154c20672b70afaedd3"
+    }
+  ],
+  "session_report": "reports/sessions/20261022_1652_C_C1R_session.md",
+  "git_status_final": "?? artifacts/C/C1R/\n?? config/C_full_protocol_v1_1.yaml\n?? docs/specs/C/\n?? reports/C/C1R_protocol_and_coverage.md\n?? reports/sessions/20261022_1652_C_C1R_session.md\n?? scripts/c1r_readiness.py\n?? src/ebm_research/experiment_c/readiness.py\n?? tests/test_c1r_readiness.py\n",
+  "git_diff_stat": "",
+  "final_baseline_recheck": "PASS",
+  "completed_local": "2026-10-22T16:52:41.049649-04:00",
+  "total_new_retained_bytes": 799889
+}

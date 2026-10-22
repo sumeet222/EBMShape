@@ -1,0 +1,12 @@
+state,availability,prepared_valid_dates,information_time,mode,minimum_needed
+Z0,AVAILABLE_VERIFIED,1472,before date_et 09:30 ET,F_ALLOWED,Existing P0 RV_prev with strict calendar mapping; log stored once here
+S0,PARTIAL_TRANSFORM_VERIFIED_CUTS_UNFITTED,0,before date_et 09:30 ET,F_ALLOWED,"Approved training date cohort, then fit two Z0 quantiles; no new source"
+Zret,BLOCKED_DEFINITION,0,before open; previous completed closes only,F_ALLOWED_WHEN_VERIFIED,Approved previous-two-close anchor and early-close/missing policy; matching existing split-only closes
+Zchg,AVAILABLE_VERIFIED_WITH_PER_STATE_MASK,1454,before open,F_ALLOWED,Two immediate prior valid ordinary P0 RV values
+Zvol,BLOCKED_DEFINITION,0,before open,F_ALLOWED_WHEN_VERIFIED,"Approved older-eligible vs strict-chain policy, epsilon, split-volume units/revisions and complete historical volume totals"
+ZV,ABSENT,0,published previous close as-of audit required,F_ALLOWED_WHEN_VERIFIED,"Authorized daily VIX source, previous-close as-of timestamps/calendar"
+Zopen,ABSENT,0,no later than 09:30 ET,F_ALLOWED_WHEN_VERIFIED,Authorized timestamped VIX observations available by 09:30 ET
+Zfomc,ABSENT,0,known schedule before open,F_ALLOWED_WHEN_VERIFIED,Authentic dated historical announcement schedule with release time and emergency flags
+ZopenRV,AVAILABLE_VERIFIED_P0,1491,10:00 ET,D_ONLY_FOR_FULL_DAY,Existing P0 RV_open; D only for full-day profile
+Zd,AVAILABLE_VERIFIED_P0,1491,after close,D_ONLY,Existing P0 RV_day; D only
+Vsame,PARTIAL_SOURCE_COLUMNS_ONLY,0,after close,D_ONLY,Source volume totals not prepared; D only

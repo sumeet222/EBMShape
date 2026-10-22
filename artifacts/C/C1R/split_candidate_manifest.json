@@ -1,0 +1,107 @@
+{
+  "status": "DRAFT_PENDING_COVERAGE_AND_RELEASE",
+  "split_population_policy": "PENDING_APPROVAL",
+  "recommended_population": "Z0_ELIGIBLE for primary F matched comparisons",
+  "full_C_horizon": "NOT_EXACTLY_FIXED_BY_C_SPEC; local-source feasibility 2016-01-05..2026-09-30",
+  "rule": "sorted unique ET dates; floor(0.6*N), floor(0.8*N), final remainder",
+  "official_cutoffs": null,
+  "evaluation_status": "NOT_AUTHORIZED",
+  "locked": false,
+  "examples": [
+    {
+      "status": "ILLUSTRATIVE_NOT_FULL_C",
+      "cohort": "Q_ELIGIBLE_THEN_MASK_Z0",
+      "n": 1491,
+      "date_manifest_sha256": "7b812e58a238ff7cad329e4d7e8f56a6b26a35866f10650cf56a102695371045",
+      "indices": [
+        894,
+        1192
+      ],
+      "sizes": [
+        894,
+        298,
+        299
+      ],
+      "ranges": [
+        [
+          "2016-01-05",
+          "2019-08-05"
+        ],
+        [
+          "2019-08-06",
+          "2020-10-19"
+        ],
+        [
+          "2020-10-20",
+          "2021-12-31"
+        ]
+      ],
+      "complete_metadata": false,
+      "official_cutoffs": null,
+      "evaluation_status": "NOT_AUTHORIZED",
+      "locked": false,
+      "prior_exposure": "ALL_P0_DATES_EXPLORED",
+      "withheld_status": "ILLUSTRATIVE_EVALUATION_WITHHELD_NOT_A_BLIND_TEST",
+      "Z0_matched_sizes": [
+        886,
+        291,
+        295
+      ]
+    },
+    {
+      "status": "ILLUSTRATIVE_NOT_FULL_C",
+      "cohort": "Z0_ELIGIBLE",
+      "n": 1472,
+      "date_manifest_sha256": "fa77ccc529bc6d06b9459397f0b2e111ca2525b191d10ee9f37e42e4b52fb95f",
+      "indices": [
+        883,
+        1177
+      ],
+      "sizes": [
+        883,
+        294,
+        295
+      ],
+      "ranges": [
+        [
+          "2016-01-05",
+          "2019-07-31"
+        ],
+        [
+          "2019-08-01",
+          "2020-10-19"
+        ],
+        [
+          "2020-10-20",
+          "2021-12-31"
+        ]
+      ],
+      "complete_metadata": false,
+      "official_cutoffs": null,
+      "evaluation_status": "NOT_AUTHORIZED",
+      "locked": false,
+      "prior_exposure": "ALL_P0_DATES_EXPLORED",
+      "withheld_status": "ILLUSTRATIVE_EVALUATION_WITHHELD_NOT_A_BLIND_TEST",
+      "Z0_matched_sizes": [
+        883,
+        294,
+        295
+      ]
+    }
+  ],
+  "future_target_and_predecessor_validity": "UNVERIFIED",
+  "exposure": [
+    {
+      "dates": "2016..2021",
+      "status": "ALL_P0_Q_AND_WINDOWS_EXPLORED"
+    },
+    {
+      "dates": "2022..2023",
+      "status": "B_RETURN_RELATED_WORK_PREVIOUSLY_EXPOSED"
+    },
+    {
+      "dates": "2024..2026-09-30",
+      "status": "B_RESERVED_C_VALUES_NOT_ACCESSED"
+    }
+  ]
+}
