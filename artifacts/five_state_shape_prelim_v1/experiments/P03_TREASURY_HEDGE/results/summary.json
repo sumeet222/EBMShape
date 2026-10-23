@@ -1,0 +1,156 @@
+{
+  "experiment_id": "P03_TREASURY_HEDGE",
+  "config_sha256": "fe4a1b73a08bc527b80297ddd0e269375ef290494b75ac5df37c868e0ef9a13b",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "IEF_same_day_open_close_log_return_bp",
+  "predictor": "SPY_same_day_open_close_log_return_bp",
+  "state": "prior_available_DGS10_minus_DGS2_terciles",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2021-05-12",
+    "2023-12-29"
+  ],
+  "n_rows": 664,
+  "n_independent_days": 664,
+  "first": "2021-05-12",
+  "last": "2023-12-29",
+  "columns": [
+    "intercept:low",
+    "intercept:middle",
+    "intercept:high",
+    "slope:low",
+    "slope:middle",
+    "slope:high"
+  ],
+  "coefficients": [
+    -0.7752079691174245,
+    -4.345175068837469,
+    3.5630871426350983,
+    0.029740362134629272,
+    -0.029999908003677123,
+    -0.014573120561545387
+  ],
+  "state_slopes": {
+    "low": 0.029740362134629272,
+    "middle": -0.029999908003677123,
+    "high": -0.014573120561545387
+  },
+  "slope_intervals": {
+    "low": [
+      -0.021601994621858977,
+      0.0820608687778034
+    ],
+    "middle": [
+      -0.13178221675854848,
+      0.062007217572440154
+    ],
+    "high": [
+      -0.07142654183181482,
+      0.045334383375060246
+    ]
+  },
+  "contrast": -0.04431348269617466,
+  "contrast_lo": -0.12622615688884187,
+  "contrast_hi": 0.03449000198616642,
+  "bootstrap_valid": 500,
+  "B": 500,
+  "mean_squared_residual": 1319.671000993919,
+  "residual_sd": 36.49252629192882,
+  "residual_skew": 0.13587147860207896,
+  "residual_excess_kurtosis": 2.0451906132356816,
+  "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+  "controls": [],
+  "asset_fixed_effects": false,
+  "coefficient_intervals": {
+    "intercept:low": [
+      -4.055092498203561,
+      2.6756528697982316
+    ],
+    "intercept:middle": [
+      -9.622579789082433,
+      1.51292195861119
+    ],
+    "intercept:high": [
+      -0.266936147019546,
+      7.190549033188118
+    ],
+    "slope:low": [
+      -0.021601994621858977,
+      0.0820608687778034
+    ],
+    "slope:middle": [
+      -0.13178221675854848,
+      0.062007217572440154
+    ],
+    "slope:high": [
+      -0.07142654183181482,
+      0.045334383375060246
+    ]
+  },
+  "extra_contrasts": {},
+  "label": "POOLED",
+  "common_support": {
+    "status": "SUPPORTED_GRID",
+    "edges": [
+      -102.82375815142103,
+      -76.81798572798834,
+      -50.812213304555655,
+      -24.806440881122967,
+      1.1993315423097215,
+      27.20510396574241,
+      53.2108763891751,
+      79.21664881260779
+    ],
+    "anchor_support": true,
+    "excluded_x_rows": 199,
+    "bin_mean_estimand": "finite interval conditional means, x coordinate fixed midpoint; not raw singleton m"
+  },
+  "state_support": [
+    {
+      "state": "high",
+      "n_rows": 96,
+      "n_independent_days": 96,
+      "x_min": -159.04907839664466,
+      "x_max": 130.300280168394
+    },
+    {
+      "state": "low",
+      "n_rows": 473,
+      "n_independent_days": 473,
+      "x_min": -341.4906818592609,
+      "x_max": 469.0653886330881
+    },
+    {
+      "state": "middle",
+      "n_rows": 95,
+      "n_independent_days": 95,
+      "x_min": -244.27289503811463,
+      "x_max": 211.98328744868135
+    }
+  ],
+  "top1percent_dates_excluded": [
+    "2022-10-13",
+    "2022-02-24",
+    "2022-08-26",
+    "2022-11-30",
+    "2022-10-14",
+    "2022-05-18",
+    "2022-03-07"
+  ],
+  "contrast_without_top1percent": -0.03647130508527463,
+  "contrast_reference_period": 0.03651114832232777,
+  "contrast_later_period": null,
+  "jointly_supported_bins": 4,
+  "status": "WEAK",
+  "temporal_and_top1_sign_stable": false,
+  "materiality_slope": 0.1,
+  "curvature": "NOT_TESTED; linear state slope changes suffice",
+  "support_status": "ADEQUATE_OPERATIONAL_COUNTS",
+  "uncertainty": "EXPLORATORY_FIXED_DESIGN_BLOCK_SENSITIVITY; not untouched confirmation",
+  "state_cutpoints_pp": [
+    0.5899999999999997,
+    1.0866666666666664
+  ],
+  "availability_qualification": "Next federal-business-day17:00ET conservative release assumption; current FRED vintage, no ALFRED historical revision reconstruction"
+}

@@ -1,0 +1,252 @@
+{
+  "experiment_id": "P04_VOLUME_REVERSAL",
+  "config_sha256": "b12c6d0c70a4dbb13d4de5db64716ca690739c9458e1a817b0716903d187cd37",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "same_stock_next_session_close_close_log_return_bp",
+  "predictor": "same_stock_current_close_close_log_return_bp",
+  "state": "own_log_volume_minus_prior20_mean_log_volume",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2024-09-26",
+    "2025-09-25"
+  ],
+  "n_rows": 2200,
+  "n_independent_days": 220,
+  "first": "2024-10-24",
+  "last": "2025-09-24",
+  "columns": [
+    "intercept:low",
+    "intercept:middle",
+    "intercept:high",
+    "slope:low",
+    "slope:middle",
+    "slope:high",
+    "spy_oc_bp",
+    "asset:DHR",
+    "asset:HCA",
+    "asset:HON",
+    "asset:IP",
+    "asset:KLAC",
+    "asset:KO",
+    "asset:LOW",
+    "asset:ORCL",
+    "asset:SLB"
+  ],
+  "coefficients": [
+    7.8987261206305694,
+    16.60505912726445,
+    11.076365196508974,
+    0.03814929491809217,
+    0.0260026050198436,
+    0.05215753402677014,
+    -0.36922125124533106,
+    -23.909079930575903,
+    -8.44877969131742,
+    -10.734397356538146,
+    -14.43556905170985,
+    7.963080944566355,
+    -10.397717290171991,
+    -12.835848042701528,
+    10.34334601550578,
+    -19.64527698976732
+  ],
+  "state_slopes": {
+    "low": 0.03814929491809217,
+    "middle": 0.0260026050198436,
+    "high": 0.05215753402677014
+  },
+  "slope_intervals": {
+    "low": [
+      -0.07929514770675858,
+      0.1320540804412665
+    ],
+    "middle": [
+      -0.09994448507985668,
+      0.12481090162060694
+    ],
+    "high": [
+      -0.06287061830718538,
+      0.20589712962200396
+    ]
+  },
+  "contrast": 0.014008239108677968,
+  "contrast_lo": -0.1267405926464479,
+  "contrast_hi": 0.25061148112281223,
+  "bootstrap_valid": 500,
+  "B": 500,
+  "mean_squared_residual": 47328.025329226235,
+  "residual_sd": 218.34548493045054,
+  "residual_skew": 0.8667063645987383,
+  "residual_excess_kurtosis": 23.130828597076768,
+  "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+  "controls": [
+    "spy_oc_bp"
+  ],
+  "asset_fixed_effects": true,
+  "coefficient_intervals": {
+    "intercept:low": [
+      -16.001496758224476,
+      31.896482121869774
+    ],
+    "intercept:middle": [
+      -13.405300840695045,
+      44.90702099372511
+    ],
+    "intercept:high": [
+      -24.719451383534103,
+      47.63037412422992
+    ],
+    "slope:low": [
+      -0.07929514770675858,
+      0.1320540804412665
+    ],
+    "slope:middle": [
+      -0.09994448507985668,
+      0.12481090162060694
+    ],
+    "slope:high": [
+      -0.06287061830718538,
+      0.20589712962200396
+    ],
+    "spy_oc_bp": [
+      -0.5428996393494603,
+      0.0625580118707973
+    ],
+    "asset:DHR": [
+      -51.88569416063638,
+      0.8692930223734886
+    ],
+    "asset:HCA": [
+      -38.966964177607004,
+      26.097693773487016
+    ],
+    "asset:HON": [
+      -30.39785034372991,
+      11.493962808612666
+    ],
+    "asset:IP": [
+      -40.3239350299268,
+      14.78350876140347
+    ],
+    "asset:KLAC": [
+      -22.164737395765204,
+      38.24717054072708
+    ],
+    "asset:KO": [
+      -38.92543480936908,
+      19.318276252534027
+    ],
+    "asset:LOW": [
+      -33.81013773528246,
+      10.151617176272747
+    ],
+    "asset:ORCL": [
+      -29.035537501906592,
+      53.55474604390974
+    ],
+    "asset:SLB": [
+      -39.47105379744018,
+      6.2867203081331455
+    ]
+  },
+  "extra_contrasts": {},
+  "label": "POOLED",
+  "common_support": {
+    "status": "SUPPORTED_GRID",
+    "edges": [
+      -172.4332893166719,
+      -118.90931363788727,
+      -65.38533795910261,
+      -11.861362280317962,
+      41.662613398466675,
+      95.18658907725131,
+      148.71056475603598,
+      202.23454043482056
+    ],
+    "anchor_support": true,
+    "excluded_x_rows": 523,
+    "bin_mean_estimand": "finite interval conditional means, x coordinate fixed midpoint; not raw singleton m"
+  },
+  "state_support": [
+    {
+      "state": "high",
+      "n_rows": 702,
+      "n_independent_days": 202,
+      "x_min": -1489.9281080362223,
+      "x_max": 3069.4654230322526
+    },
+    {
+      "state": "low",
+      "n_rows": 813,
+      "n_independent_days": 194,
+      "x_min": -386.13241230175976,
+      "x_max": 458.31125603304383
+    },
+    {
+      "state": "middle",
+      "n_rows": 685,
+      "n_independent_days": 209,
+      "x_min": -748.7318425915105,
+      "x_max": 466.77394335584313
+    }
+  ],
+  "top1percent_dates_excluded": [
+    "2025-09-10",
+    "2025-04-09",
+    "2025-01-27"
+  ],
+  "contrast_without_top1percent": 0.10756182742552894,
+  "contrast_reference_period": -0.0427214781783058,
+  "contrast_later_period": 0.11194880234651447,
+  "jointly_supported_bins": 7,
+  "status": "WEAK",
+  "temporal_and_top1_sign_stable": false,
+  "materiality_slope": 0.02,
+  "curvature": "NOT_TESTED; linear state slope changes suffice",
+  "support_status": "ADEQUATE_OPERATIONAL_COUNTS",
+  "uncertainty": "EXPLORATORY_FIXED_DESIGN_BLOCK_SENSITIVITY; not untouched confirmation",
+  "per_stock_state_cutpoints": {
+    "BAC": [
+      -0.15632236806526253,
+      0.12060909075741338
+    ],
+    "DHR": [
+      -0.14308058438847485,
+      0.15229870365364193
+    ],
+    "HCA": [
+      -0.16171412124700119,
+      0.1636136882706171
+    ],
+    "HON": [
+      -0.1821405246689434,
+      0.20051160992906236
+    ],
+    "IP": [
+      -0.20637490563230426,
+      0.19522894292848764
+    ],
+    "KLAC": [
+      -0.12691763622799546,
+      0.15867423374932396
+    ],
+    "KO": [
+      -0.0661072934900601,
+      0.19941031760277986
+    ],
+    "LOW": [
+      -0.09951642442891706,
+      0.10409213182926003
+    ],
+    "ORCL": [
+      -0.16538365299876887,
+      0.21142990469407683
+    ],
+    "SLB": [
+      -0.12448642366614258,
+      0.11891421891181975
+    ]
+  },
+  "adjustment_qualification": "Massive split-only close-to-close price returns, not dividend-adjusted total returns; observed source volume"
+}

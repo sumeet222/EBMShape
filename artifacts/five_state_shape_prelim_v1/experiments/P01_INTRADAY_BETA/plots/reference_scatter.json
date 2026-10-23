@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P01_INTRADAY_BETA_scatter.png",
+  "figure_sha256": "27a899588fcaedcff379b8938eab77fe19879439d427ea1b09eed0347c0a6f47",
+  "sidecar": "reports/figures/P01_INTRADAY_BETA_scatter.meta.json",
+  "plot_data": "reports/figure_data/P01_INTRADAY_BETA_scatter.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

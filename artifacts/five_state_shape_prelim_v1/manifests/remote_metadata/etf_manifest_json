@@ -1,0 +1,23 @@
+{
+  "dataset_name": "skfolio Masterclass ETF Teaching Data",
+  "dataset_repo_id": "thecharttruth/etf-data",
+  "processed_at_utc": "2026-06-12T20:32:08+00:00",
+  "published_files": [
+    "etf_daily_prices.parquet",
+    "instrument_metadata.parquet",
+    "etf_liquidity_365d.parquet",
+    "index_daily_prices.parquet",
+    "manifest.json"
+  ],
+  "mode": "incremental",
+  "update_start_date": "2026-06-04",
+  "etf_daily_prices_rows": 119954,
+  "etf_daily_returns_rows": 119859,
+  "etf_metadata_rows": 98,
+  "etf_liquidity_rows": 95,
+  "index_daily_prices_rows": 3848,
+  "new_etf_daily_price_rows": 95,
+  "new_index_daily_price_rows": 3,
+  "public_sanitized": true,
+  "public_files_note": "Public Parquet files omit internal run labels and nonessential helper fields."
+}

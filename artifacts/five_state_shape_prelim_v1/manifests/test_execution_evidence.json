@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-23T02:50:14.151953+00:00",
+  "suites": [
+    {
+      "command": ".venv/bin/python -B -m unittest discover -s tests -p 'test_five_prelim.py' -v",
+      "exit_status": 0,
+      "tests": 19,
+      "seconds": 2.938,
+      "status": "PASS",
+      "log": "logs/tests_final.log",
+      "sha256": "5d70761cca36c5b3ae9c02b6e83c6c98028d18af853100ede4c51e23b96d903d",
+      "test_names": [
+        "test_OLS_hand_calculation_and_trusted_regression",
+        "test_actual_ETF_identity_and_same_OC_return_window",
+        "test_calendar_next_target_does_not_skip_missing_session",
+        "test_duplicates_conflicts_no_silent_preference",
+        "test_extended_hours_do_not_invalidate_RTH_cached_fixture",
+        "test_fed_raw_shock_sign_bp_and_official_event_join",
+        "test_fred_prior_availability_not_future",
+        "test_hash_tamper_and_atomic_json",
+        "test_microsecond_calendar_regression_and_5m_alignment",
+        "test_month_checkpoint_verified_resume_and_tamper",
+        "test_semivariance_closure_zero_returns_and_missing_minutes",
+        "test_sidecar_wrong_ID_target_and_broken_image_link",
+        "test_source_hash_and_allowed_readonly_shared_reference",
+        "test_stale_frozen_config_rejected_before_source_access",
+        "test_storage_cap_prevents_next_write",
+        "test_timezone_DST_and_half_day",
+        "test_treasury_identity_and_wrong_sources_targets_rejected",
+        "test_volume20_excludes_current_and_future"
+      ]
+    },
+    {
+      "command": ".venv/bin/python -B -c 'import unittest; loader=unittest.TestLoader(); suite=unittest.TestSuite(loader.discover(\"tests\",pattern=p) for p in [\"test_c1r_readiness.py\",\"test_c2r_models.py\"]); result=unittest.TextTestRunner(verbosity=2).run(suite); raise SystemExit(not result.wasSuccessful())'",
+      "exit_status": 0,
+      "tests": 14,
+      "seconds": 0.234,
+      "status": "PASS",
+      "log": "logs/tests_existing_scoped.log",
+      "sha256": "b7723539c918c1ebe5c6a11577398505fce7a89cf0b5e05d6fb47710082044e3",
+      "test_names": [
+        "test_source_path_firewall_and_windows",
+        "test_split_integer_chronology_withheld_and_temporary_smoke",
+        "test_strict_two_predecessors_and_positive_guard",
+        "test_train_only_cutpoints_and_fixed_validation",
+        "test_analytic_influence_against_trusted_deletions",
+        "test_basis_partition_endpoints_and_linear_extrapolation",
+        "test_calibration_constant_fit_marks_empty_bins",
+        "test_hac_against_statsmodels_and_calendar_gaps",
+        "test_joint_date_block_weights_and_temporary_predictions",
+        "test_multivariate_OLS_coefficients_and_closure",
+        "test_numeric_block_keys_are_chronological",
+        "test_rank_failure_and_invalid_TV",
+        "test_tensor_fit_matches_explicit_small_design",
+        "test_training_transform_unaffected_by_targets_and_future_extremes"
+      ]
+    }
+  ],
+  "total_passed": 33,
+  "failed": 0,
+  "skipped": "Full-suite discovery deliberately excluded B-stage2B/C3 EBM-training tests; no EBM/ML authorized. Synthetic fixtures and scoped C1R/C2R OLS tests do not certify all data."
+}

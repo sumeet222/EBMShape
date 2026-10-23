@@ -1,0 +1,585 @@
+{
+  "20160127": {
+    "date_et": "2016-01-27",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160127.html",
+      "sha256": "54e2736f0cd9b66b50ec7cf98209c43ee55dfdfbd0ef2da7e12b00e508103830",
+      "bytes": 83480
+    }
+  },
+  "20160316": {
+    "date_et": "2016-03-16",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160316.html",
+      "sha256": "cf60b3edcca8c9f047673757e67caa1ef1c042be391034e0b942ef3116f49104",
+      "bytes": 83538
+    }
+  },
+  "20160427": {
+    "date_et": "2016-04-27",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160427.html",
+      "sha256": "fa80143936e4c8a5505704446fc11a69a96a5782b5d32d032bb3a98730196a95",
+      "bytes": 83564
+    }
+  },
+  "20160615": {
+    "date_et": "2016-06-15",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160615.html",
+      "sha256": "bf896d7187adb64d6e9fbe13aee1f3873e6de53739c9fc910418e5717b1082fc",
+      "bytes": 83334
+    }
+  },
+  "20160727": {
+    "date_et": "2016-07-27",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160727.html",
+      "sha256": "8632b7f033ccd0b008d2a0442dc64a824c5b884065668de2c2c3280acd60d0b5",
+      "bytes": 83478
+    }
+  },
+  "20160921": {
+    "date_et": "2016-09-21",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160921.html",
+      "sha256": "7ec486229b57c6d20d661435d35a7148262333f787ae8331ab06f3f391221b26",
+      "bytes": 83694
+    }
+  },
+  "20161102": {
+    "date_et": "2016-11-02",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161102.html",
+      "sha256": "37925428072b587cabce5234a5a0669bf311f50903f770bb769571f95cff538c",
+      "bytes": 83666
+    }
+  },
+  "20161214": {
+    "date_et": "2016-12-14",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161214.html",
+      "sha256": "4b70bd5044f5ff706c629e7c2433be28bdd8e94a1b44e379e3920fe42dcb3873",
+      "bytes": 83325
+    }
+  },
+  "20170201": {
+    "date_et": "2017-02-01",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170201.html",
+      "sha256": "9d360fa175794236a51031cd81ead8545c8dce38e8cd19a2a1447e84ad3af78a",
+      "bytes": 83773
+    }
+  },
+  "20170315": {
+    "date_et": "2017-03-15",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170315.html",
+      "sha256": "73815e5f4c9846adb4cbd6e0b83aa260ea2865de168ceebf7b73b0f4765bd20c",
+      "bytes": 83508
+    }
+  },
+  "20170503": {
+    "date_et": "2017-05-03",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170503.html",
+      "sha256": "5ee4750e9ae431158b3a796baa0d66f0158b6ec19e84b1d052e8b2a5f3e68105",
+      "bytes": 83489
+    }
+  },
+  "20170614": {
+    "date_et": "2017-06-14",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170614.html",
+      "sha256": "6e47d4357bc900b4f99b296ed1402418f39aa83bd47b150172b60abe840a6e77",
+      "bytes": 83685
+    }
+  },
+  "20170726": {
+    "date_et": "2017-07-26",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170726.html",
+      "sha256": "5bfcb5a2cdb22344752b2d2ef79fca1c09c2c5ae83a9d1323dec0b33140bef94",
+      "bytes": 83373
+    }
+  },
+  "20170920": {
+    "date_et": "2017-09-20",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170920.html",
+      "sha256": "36e8970e47fe8a0eaffdfd6982d05aa46a5157813864fcf2c3483e49cdf77e12",
+      "bytes": 83549
+    }
+  },
+  "20171101": {
+    "date_et": "2017-11-01",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171101.html",
+      "sha256": "21d2169cdb1257eb0222b24295d24eeeea16d974dcfe724baa924e5866601f86",
+      "bytes": 83429
+    }
+  },
+  "20171213": {
+    "date_et": "2017-12-13",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171213.html",
+      "sha256": "dc816817982cbb11f74072e13f6a5171c718ee35b499e0bff9e5f6f37fd828a7",
+      "bytes": 83208
+    }
+  },
+  "20180131": {
+    "date_et": "2018-01-31",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180131.html",
+      "sha256": "a8a6dba35ea177ef37e53768f6351fcee2afd6646ae7983220aed0bd0b07f92b",
+      "bytes": 82749
+    }
+  },
+  "20180321": {
+    "date_et": "2018-03-21",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180321.html",
+      "sha256": "37152fe6313c2a53dc232944fb52efbb04162af2fe5720a0c82bbb553796617d",
+      "bytes": 82910
+    }
+  },
+  "20180502": {
+    "date_et": "2018-05-02",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180502.html",
+      "sha256": "067db5b132aa6becf334ca648c7ce423ec8cf23b2b36895c4cff3829fccd4b21",
+      "bytes": 82726
+    }
+  },
+  "20180613": {
+    "date_et": "2018-06-13",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180613.html",
+      "sha256": "36c8d68b9cedb851157921f45eae293a402e59911604bf7f82281623f75c5bb9",
+      "bytes": 82088
+    }
+  },
+  "20180801": {
+    "date_et": "2018-08-01",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180801.html",
+      "sha256": "23e0ffa7a2af1caa790d5a43c09a908bad884468c3dc039258630cc8769db1ae",
+      "bytes": 82029
+    }
+  },
+  "20180926": {
+    "date_et": "2018-09-26",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180926.html",
+      "sha256": "ed1e5358f927321ad225a81da2e1396b9e81004d97ef15c532c1d85d3ce09d98",
+      "bytes": 81908
+    }
+  },
+  "20181108": {
+    "date_et": "2018-11-08",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181108.html",
+      "sha256": "941a906798630f20bd6079f0c923600b5da30082d8f5983e063fb0b2e6fc8e3c",
+      "bytes": 81982
+    }
+  },
+  "20181219": {
+    "date_et": "2018-12-19",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181219.html",
+      "sha256": "fb987cb0f3e2b50f0150923871c52df8132c7e94c34b400f3c16dea0e783e29e",
+      "bytes": 82169
+    }
+  },
+  "20190130": {
+    "date_et": "2019-01-30",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190130.html",
+      "sha256": "bd9ed2faf7800114c8e47359690f542be22c680ae17b5531ac8e2e1f3891c888",
+      "bytes": 82155
+    }
+  },
+  "20190320": {
+    "date_et": "2019-03-20",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190320.html",
+      "sha256": "44a38ffc937b7716b0a852a629165eda5fa9d909404abc8b891fcd1ac35d7eba",
+      "bytes": 82248
+    }
+  },
+  "20190501": {
+    "date_et": "2019-05-01",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190501.html",
+      "sha256": "8fecf6a0aadad7963dc8038adf34cee7c8a9b14d729d1fc9a58b99b018467bb8",
+      "bytes": 82078
+    }
+  },
+  "20190619": {
+    "date_et": "2019-06-19",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190619.html",
+      "sha256": "eb1f47553cea06165330ceca3d085aa32c060e578cba1bd9c6833d53ea3a1e48",
+      "bytes": 82320
+    }
+  },
+  "20190731": {
+    "date_et": "2019-07-31",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190731.html",
+      "sha256": "75f4e42526b37739f63d548011ea0f4b5ab09204a512987f8d3dbf71110a8431",
+      "bytes": 82608
+    }
+  },
+  "20190918": {
+    "date_et": "2019-09-18",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190918.html",
+      "sha256": "cd3836bd26f1b96a89ce6baae16fc2a64d94c387841bdbe716056c17ead19194",
+      "bytes": 82504
+    }
+  },
+  "20191011": {
+    "date_et": "2019-10-11",
+    "release_text": "11:00 a.m. EDT",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191011.html",
+      "sha256": "1fde126582bff89a7475ae78287d2f108cf85be105e49ce44174e9ba759cbc66",
+      "bytes": 85772
+    }
+  },
+  "20191030": {
+    "date_et": "2019-10-30",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191030.html",
+      "sha256": "e4d9494cc4e6a7e1264c95473aaa784ede4adfb3b527f680f162677b85ac5c17",
+      "bytes": 82275
+    }
+  },
+  "20191211": {
+    "date_et": "2019-12-11",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191211.html",
+      "sha256": "9cd198d098abfdd32f89fe71df6895d2a0221fc841336248c550850ecf38f0bd",
+      "bytes": 82073
+    }
+  },
+  "20200129": {
+    "date_et": "2020-01-29",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200129.html",
+      "sha256": "83b03a71e9d841295518db0395346bc54e8b759ff4de2337e2e55da1d47bcdbe",
+      "bytes": 82079
+    }
+  },
+  "20200303": {
+    "date_et": "2020-03-03",
+    "release_text": "10:00 a.m. EST",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200303.html",
+      "sha256": "daef2f8627538752588d2fcb97dc20bd0ea36c0bceae3253711db46e40e67cd5",
+      "bytes": 80778
+    }
+  },
+  "20200315": {
+    "date_et": "2020-03-15",
+    "release_text": "5:00 p.m. EDT",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200315.html",
+      "sha256": "1373b2330c6845471c73cd36f0a55845108cd5aea240ca1b51548d0119fc94da",
+      "bytes": 85154
+    }
+  },
+  "20200323": {
+    "date_et": "2020-03-23",
+    "release_text": "8:00 a.m. EDT",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200323.html",
+      "sha256": "d33de38cceb85afa5c699490a8e9ec93dcb985c59d431348fd3d174504c1d776",
+      "bytes": 85027
+    }
+  },
+  "20200331": {
+    "date_et": "2020-03-31",
+    "release_text": "8:30 a.m. EDT",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200331.html",
+      "sha256": "435082082f97551735eab6e019c0ab6d11e57d63dfdd45d11b1643478204f493",
+      "bytes": 82569
+    }
+  },
+  "20200429": {
+    "date_et": "2020-04-29",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200429.html",
+      "sha256": "de0a11751819f6816ab1df267e74844d3fdf7fef558a4f2e71b6e6e01099c960",
+      "bytes": 82800
+    }
+  },
+  "20200610": {
+    "date_et": "2020-06-10",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200610.html",
+      "sha256": "267db82596ca4c760ba8f0f243a32274e7a351ab6f66e685af33b6756644b383",
+      "bytes": 82796
+    }
+  },
+  "20200729": {
+    "date_et": "2020-07-29",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200729.html",
+      "sha256": "b66a6581510f69af23affe226ed4add367a7a750788e15e56904254fdb369760",
+      "bytes": 82936
+    }
+  },
+  "20200827": {
+    "date_et": "2020-08-27",
+    "release_text": "9:10 a.m. EDT",
+    "standard_1400": false,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200827.html",
+      "sha256": "3acc76c7961c8293553829aa4f21ccab70584fa4c9a6c4f8c98e4d9ac411fa34",
+      "bytes": 85930
+    }
+  },
+  "20200916": {
+    "date_et": "2020-09-16",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200916.html",
+      "sha256": "a8fba21bc315cc3ac58904d0124d322d4b4daa205115af310507f67263e9cab3",
+      "bytes": 83554
+    }
+  },
+  "20201105": {
+    "date_et": "2020-11-05",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201105.html",
+      "sha256": "eb4a0127ba43df684af5f25a2ae6d1d839d4f3aecd81fda93b975e42f032edf6",
+      "bytes": 83013
+    }
+  },
+  "20201216": {
+    "date_et": "2020-12-16",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201216.html",
+      "sha256": "2dc5ae49012f9f65723350d35096cdb2cdd07144e9d47a91b81d58d96d8012cd",
+      "bytes": 83124
+    }
+  },
+  "20210127": {
+    "date_et": "2021-01-27",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210127.html",
+      "sha256": "c4d59ff72a9345e965a1ba1a2e675eac977450add5dbe20bc991629680bab98a",
+      "bytes": 83195
+    }
+  },
+  "20210317": {
+    "date_et": "2021-03-17",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210317.html",
+      "sha256": "33296256eab5a50e5374126ec96639aece55e34a858db4c8925ef9484a9acfbc",
+      "bytes": 83157
+    }
+  },
+  "20210428": {
+    "date_et": "2021-04-28",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210428.html",
+      "sha256": "cdc54adeb9eeb23eb4dd29e1125af04d0f52dec01bb83ad7b6aff63ff234c007",
+      "bytes": 83145
+    }
+  },
+  "20210616": {
+    "date_et": "2021-06-16",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210616.html",
+      "sha256": "94258a103ae67adbc3a5e65ceb95844009f56544d15ea95616fd48aebb45b74c",
+      "bytes": 83105
+    }
+  },
+  "20210728": {
+    "date_et": "2021-07-28",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210728.html",
+      "sha256": "35ec98170978340dbab4532d68dd59a876afb70a0381805bd9ffbe481917f67b",
+      "bytes": 83188
+    }
+  },
+  "20210922": {
+    "date_et": "2021-09-22",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210922.html",
+      "sha256": "92933d5f7c76c73570915a72c11d22127d1e7585c1f802d1aeddfdc3cd8a2953",
+      "bytes": 83307
+    }
+  },
+  "20211103": {
+    "date_et": "2021-11-03",
+    "release_text": "2:00 p.m. EDT",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211103.html",
+      "sha256": "9c8d7b4ce226d1c40347ab290534bc3d71f85ab96c642ba42b93c6e2219bdbde",
+      "bytes": 83986
+    }
+  },
+  "20211215": {
+    "date_et": "2021-12-15",
+    "release_text": "2:00 p.m. EST",
+    "standard_1400": true,
+    "source": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211215.html",
+      "sha256": "12ffb81c8597517abb604ab0992744f1034445fc54d5afd7a53a7c1cfc5f2403",
+      "bytes": 83382
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://huggingface.co/datasets/mito0o852/OHLCV-1m/resolve/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/data/ohlcv_2019-03.parquet",
+  "sha256": "b9943d86c27d476661bc76f1f627e510b79ea894e53fc620e873f2c5e7324383",
+  "bytes": 277030090,
+  "status": 200,
+  "etag": "\"48a5363580b09d27f1e8f090e62c9102bfb993284ecb9a5165e42fa15594ee3f\"",
+  "started": "2026-10-23T01:51:01.257349+00:00",
+  "finished": "2026-10-23T01:51:08.526034+00:00"
+}

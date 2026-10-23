@@ -1,0 +1,73 @@
+{
+  "experiment_id": "P03_TREASURY_HEDGE",
+  "protocol_version": "prelim-v1",
+  "scientific_design_file": "docs/ebm_five_preliminary_experiments_design_and_shared_data_plan_v1.md",
+  "scientific_design_sha256": "519a2bca9ec060d0c3552926d2103e99c825d59e8c2905ce535fd8795f02ac14",
+  "target": "IEF_same_day_open_close_log_return_bp",
+  "predictor": "SPY_same_day_open_close_log_return_bp",
+  "state": "prior_available_DGS10_minus_DGS2_terciles",
+  "independent_unit": "trading_day",
+  "source_ids": [
+    "HF_ETF_DAILY",
+    "FED_RATES"
+  ],
+  "frequency": "daily",
+  "instrument_ids": [
+    "SPY",
+    "IEF"
+  ],
+  "session_timezone": "America/New_York",
+  "storage_timezone": "UTC",
+  "coverage": [
+    "2021-05-12",
+    "2023-12-29"
+  ],
+  "output_dir": "artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE",
+  "input_paths": [],
+  "input_fingerprints": {
+    "HF_ETF_DAILY": {},
+    "FED_RATES": {}
+  },
+  "validated_new_input_manifest": "manifests/validated_inputs.json; each immutable derived/source hash required immediately before screen",
+  "source_registry_sha256": "114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9",
+  "union_sha256": "03843f8937cb5b64bce1c7944545462547cc60638cdf471bb3b5fa50976bbaac",
+  "eligibility_rule": "Complete ordinary390-minute sessions for RV/5m;13 genuine30min bars for stock daily; no leap over a missing target session; no fill/imputation",
+  "reference_period_end": "2022-06-30",
+  "split_or_period_rule": "All observed screen dates exploratory; half-period temporal sensitivity only; later dates outside coverage untouched",
+  "support": {
+    "min_state_days": 30,
+    "min_bin_independent": 10,
+    "min_events_per_sign": 15,
+    "min_bin_events": 6
+  },
+  "bins": 7,
+  "bootstrap": {
+    "method": "circular scheduled-session blocks",
+    "block_length": 5,
+    "replicates": 500,
+    "seed": 20261022
+  },
+  "contrast_definitions": "high-minus-low slope; anchored response between fixed common-support x anchors; primary linear effect, curvature not tested",
+  "materiality": 0.1,
+  "materiality_units": "slope response units per predictor unit",
+  "x_anchors": [
+    -100,
+    0
+  ],
+  "primary_raw_no_winsorization": true,
+  "sensitivity": "exclude top1percent absolute focal x per date/event uniformly; period halves; no promotion based on outliers",
+  "adjusted_returns": "Log price returns; no total-return claim",
+  "minute_RV_definition": "389 adjacent genuine closes; no09:30open term; epsilon0, strictlypositiveRV only",
+  "p02_q_bins": [
+    0,
+    0.3333333333333333,
+    0.6666666666666666,
+    1
+  ],
+  "p02_lag_control": "immediately preceding eligible scheduled session logRV",
+  "p04_volume_definition": "log(volume today)-mean(logvolume previous20eligiblefullsessions), current excluded; per-stock reference-period terciles",
+  "p04_market_control": "same-day SPY open-close log price return in bp; broad control, not stock target replacement",
+  "p05_zero_tolerance_bp": 0.01,
+  "p05_event_window": "C14:29/C13:59 proxies14:30/14:00; preQA C13:59/C13:54; genuine6/31minutes required",
+  "notes": "No EBM, ML, profit, causality or untouched validation claims; universe/years selected before response relationships"
+}

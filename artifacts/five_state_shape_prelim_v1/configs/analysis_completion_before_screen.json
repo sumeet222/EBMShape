@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-23T02:18:43.208369+00:00",
+  "P01": "Report per-stock early/mid/late betas and early-minus-late cross-stock SD with common shared date resamples; primary generic contrast late-minus-early mean slope retained",
+  "P02": "SPY principal and pooled stocks separately; logRVnext on current logRV/state interactions plus strict laglogRV; rawRVnext on positive/negative semivariances reference",
+  "P03": "IEF/SPY open-close price return same-day response; reference cutpoints frozen by period",
+  "P04": "Pooled stock fixed effects, state slopes, SPY O-C control; own stock-volume state",
+  "P05": "Require15events/sign for shape; otherwise DATA HOLD count graphic, no economic curve. Raw published MPS rate-pp converted100to bp, independently documented by Bauer-Swanson p16",
+  "inference": "B500 joint5-session calendar blocks; no marginal p-values promoted to confirmation"
+}

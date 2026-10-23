@@ -1,0 +1,14 @@
+{
+  "experiment_id": "P05_FOMC_RESPONSE",
+  "config_sha256": "ab17d8d6d9f1948ab6d62e1bce34cbb96877059f83d180e77c29d991388f095a",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "SPY_standard_1400_1430_log_return_bp",
+  "predictor": "absolute_published_surprise_bp",
+  "state": "published_raw_surprise_sign",
+  "independent_unit": "FOMC_event",
+  "time_range": [
+    "2016-01-01",
+    "2021-12-31"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "P03_TREASURY_HEDGE",
+  "config_sha256": "fe4a1b73a08bc527b80297ddd0e269375ef290494b75ac5df37c868e0ef9a13b",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "IEF_same_day_open_close_log_return_bp",
+  "predictor": "SPY_same_day_open_close_log_return_bp",
+  "state": "prior_available_DGS10_minus_DGS2_terciles",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2021-05-12",
+    "2023-12-29"
+  ]
+}

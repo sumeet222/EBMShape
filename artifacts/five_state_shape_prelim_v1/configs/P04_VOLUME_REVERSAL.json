@@ -1,0 +1,233 @@
+{
+  "experiment_id": "P04_VOLUME_REVERSAL",
+  "protocol_version": "prelim-v1",
+  "scientific_design_file": "docs/ebm_five_preliminary_experiments_design_and_shared_data_plan_v1.md",
+  "scientific_design_sha256": "519a2bca9ec060d0c3552926d2103e99c825d59e8c2905ce535fd8795f02ac14",
+  "target": "same_stock_next_session_close_close_log_return_bp",
+  "predictor": "same_stock_current_close_close_log_return_bp",
+  "state": "own_log_volume_minus_prior20_mean_log_volume",
+  "independent_unit": "trading_day",
+  "source_ids": [
+    "LOCAL_OBSERVED_30M",
+    "HF_ETF_DAILY"
+  ],
+  "frequency": "30min",
+  "instrument_ids": [
+    "BAC",
+    "KO",
+    "HON",
+    "ORCL",
+    "DHR",
+    "KLAC",
+    "LOW",
+    "HCA",
+    "SLB",
+    "IP"
+  ],
+  "session_timezone": "America/New_York",
+  "storage_timezone": "UTC",
+  "coverage": [
+    "2024-09-26",
+    "2025-09-25"
+  ],
+  "output_dir": "artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL",
+  "input_paths": [
+    {
+      "symbol": "BAC",
+      "root": "sae",
+      "path": "data/raw/BAC.parquet",
+      "sha256": "846e64267cff02ba007003947af227a21caaa1539e20cd35f7ba9a03c7c35736",
+      "bytes": 309241,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/BAC.json",
+        "sha256": "34e24a3f93aaf51b2dd190182008d5cf8e7c88946b4fc856ee3abf79deddc653",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "DHR",
+      "root": "sae",
+      "path": "data/raw/DHR.parquet",
+      "sha256": "207face70ed9a9aaff0be4cfaa26553e1edee916c41589a518a41d9ff69fb048",
+      "bytes": 319628,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/DHR.json",
+        "sha256": "8d030eece2225cf66455570fafa5539fc8ac69e4840ab7b30904cc6eaea95cbc",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "HCA",
+      "root": "sae",
+      "path": "data/raw/HCA.parquet",
+      "sha256": "d473bda5587e31a76044d103a12408cdd915fc4f80a8c3ad8c8b20a3a32cc367",
+      "bytes": 324633,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/HCA.json",
+        "sha256": "921f744a4d850ceea7a014cec68e363e8b39d74404fb3851bad23d1e2d5461a2",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "HON",
+      "root": "sae",
+      "path": "data/raw/HON.parquet",
+      "sha256": "50246402ab4e371de051bb8c430342773b01ee591c32da4b8694eca36657731b",
+      "bytes": 360125,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/HON.json",
+        "sha256": "cf7ca5d286a099362827b34137252f06cff015519fe4c0ad7cac1bf75cd6092b",
+        "bytes": 5203
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "IP",
+      "root": "sae",
+      "path": "data/raw/IP.parquet",
+      "sha256": "9ffe4ac8b87c011f2ac5862ec837fae306dc319dc76224476a624844461054fe",
+      "bytes": 297973,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/IP.json",
+        "sha256": "d9bf585859f078ea287b52c5a9169ea2f3b45194351f66a35743d7a42e948e32",
+        "bytes": 5197
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "KLAC",
+      "root": "sae",
+      "path": "data/raw/KLAC.parquet",
+      "sha256": "63b86ff0a059e884bb1949be7b058d866503c5971369624df754d80d355da1d9",
+      "bytes": 352751,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/KLAC.json",
+        "sha256": "6b387a4feb98346eb9d4ef47e4db6a8202d048d875599ff07e1059b73e92e550",
+        "bytes": 5217
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "KO",
+      "root": "sae",
+      "path": "data/raw/KO.parquet",
+      "sha256": "9b827c93e7abfdcbc04a1ce915d15df03e577ee6c711cc5f50729753683cbeb7",
+      "bytes": 303704,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/KO.json",
+        "sha256": "0b73d1555e1b5ab7f207bfa6a2cff7b75b1c71aca4069d00c0e56681481f2d9d",
+        "bytes": 5205
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "LOW",
+      "root": "sae",
+      "path": "data/raw/LOW.parquet",
+      "sha256": "3432f514e1a63c208d990bd5d558819252f11cda538b8548b71844779027b356",
+      "bytes": 320914,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/LOW.json",
+        "sha256": "59c68201284ee0b1e0d53561b6b349ab56bd60b4a27da7eec0ca4595deb18a4c",
+        "bytes": 5213
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "ORCL",
+      "root": "sae",
+      "path": "data/raw/ORCL.parquet",
+      "sha256": "abfb2bd156a8e849351da24277fad953e74b3a5e0d2338c5c606e2e8b6e6e079",
+      "bytes": 339732,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/ORCL.json",
+        "sha256": "cd6fdd19346e896a3708ad0a6348f91a8a22dc3784ce57d28930449513a8b833",
+        "bytes": 5217
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "SLB",
+      "root": "sae",
+      "path": "data/raw/SLB.parquet",
+      "sha256": "8c7c75211317aa1d319ea3694224416c77837b4823e08455770560383c694129",
+      "bytes": 304353,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/SLB.json",
+        "sha256": "c650488f07b6f925e0356386bddf8388042d71082242485692b8de368229b616",
+        "bytes": 5198
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    }
+  ],
+  "input_fingerprints": {
+    "LOCAL_OBSERVED_30M": {
+      "data/raw/BAC.parquet": "846e64267cff02ba007003947af227a21caaa1539e20cd35f7ba9a03c7c35736",
+      "data/raw/DHR.parquet": "207face70ed9a9aaff0be4cfaa26553e1edee916c41589a518a41d9ff69fb048",
+      "data/raw/HCA.parquet": "d473bda5587e31a76044d103a12408cdd915fc4f80a8c3ad8c8b20a3a32cc367",
+      "data/raw/HON.parquet": "50246402ab4e371de051bb8c430342773b01ee591c32da4b8694eca36657731b",
+      "data/raw/IP.parquet": "9ffe4ac8b87c011f2ac5862ec837fae306dc319dc76224476a624844461054fe",
+      "data/raw/KLAC.parquet": "63b86ff0a059e884bb1949be7b058d866503c5971369624df754d80d355da1d9",
+      "data/raw/KO.parquet": "9b827c93e7abfdcbc04a1ce915d15df03e577ee6c711cc5f50729753683cbeb7",
+      "data/raw/LOW.parquet": "3432f514e1a63c208d990bd5d558819252f11cda538b8548b71844779027b356",
+      "data/raw/ORCL.parquet": "abfb2bd156a8e849351da24277fad953e74b3a5e0d2338c5c606e2e8b6e6e079",
+      "data/raw/SLB.parquet": "8c7c75211317aa1d319ea3694224416c77837b4823e08455770560383c694129"
+    },
+    "HF_ETF_DAILY": {}
+  },
+  "validated_new_input_manifest": "manifests/validated_inputs.json; each immutable derived/source hash required immediately before screen",
+  "source_registry_sha256": "114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9",
+  "union_sha256": "03843f8937cb5b64bce1c7944545462547cc60638cdf471bb3b5fa50976bbaac",
+  "eligibility_rule": "Complete ordinary390-minute sessions for RV/5m;13 genuine30min bars for stock daily; no leap over a missing target session; no fill/imputation",
+  "reference_period_end": "2025-03-31",
+  "split_or_period_rule": "All observed screen dates exploratory; half-period temporal sensitivity only; later dates outside coverage untouched",
+  "support": {
+    "min_state_days": 30,
+    "min_bin_independent": 10,
+    "min_events_per_sign": 15,
+    "min_bin_events": 6
+  },
+  "bins": 7,
+  "bootstrap": {
+    "method": "circular scheduled-session blocks",
+    "block_length": 5,
+    "replicates": 500,
+    "seed": 20261022
+  },
+  "contrast_definitions": "high-minus-low slope; anchored response between fixed common-support x anchors; primary linear effect, curvature not tested",
+  "materiality": 0.02,
+  "materiality_units": "slope response units per predictor unit",
+  "x_anchors": [
+    -100,
+    0
+  ],
+  "primary_raw_no_winsorization": true,
+  "sensitivity": "exclude top1percent absolute focal x per date/event uniformly; period halves; no promotion based on outliers",
+  "adjusted_returns": "Log price returns; no total-return claim",
+  "minute_RV_definition": "389 adjacent genuine closes; no09:30open term; epsilon0, strictlypositiveRV only",
+  "p02_q_bins": [
+    0,
+    0.3333333333333333,
+    0.6666666666666666,
+    1
+  ],
+  "p02_lag_control": "immediately preceding eligible scheduled session logRV",
+  "p04_volume_definition": "log(volume today)-mean(logvolume previous20eligiblefullsessions), current excluded; per-stock reference-period terciles",
+  "p04_market_control": "same-day SPY open-close log price return in bp; broad control, not stock target replacement",
+  "p05_zero_tolerance_bp": 0.01,
+  "p05_event_window": "C14:29/C13:59 proxies14:30/14:00; preQA C13:59/C13:54; genuine6/31minutes required",
+  "notes": "No EBM, ML, profit, causality or untouched validation claims; universe/years selected before response relationships"
+}

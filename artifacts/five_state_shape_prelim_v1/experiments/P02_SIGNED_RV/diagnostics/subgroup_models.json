@@ -1,0 +1,187 @@
+[
+  {
+    "n_rows": 929,
+    "n_independent_days": 238,
+    "first": "2019-01-03",
+    "last": "2019-12-30",
+    "columns": [
+      "intercept:low",
+      "intercept:middle",
+      "intercept:high",
+      "slope:low",
+      "slope:middle",
+      "slope:high",
+      "lag_log_RV",
+      "asset:DHR",
+      "asset:HON",
+      "asset:IP",
+      "asset:KO",
+      "asset:LOW",
+      "asset:ORCL",
+      "asset:SLB"
+    ],
+    "coefficients": [
+      -6.612054620137328,
+      -3.291869876582526,
+      -4.414924991139422,
+      0.15310371714532287,
+      0.49774945697159156,
+      0.41584158132889776,
+      0.13659350794975472,
+      0.1335786289407876,
+      -0.35294798971698293,
+      0.311042424886732,
+      -0.2607110223766927,
+      0.061179285842205416,
+      -0.12666710133728362,
+      0.288374314963243
+    ],
+    "state_slopes": {
+      "low": 0.15310371714532287,
+      "middle": 0.49774945697159156,
+      "high": 0.41584158132889776
+    },
+    "slope_intervals": {
+      "low": [
+        -1.0895674292387674,
+        1.1890700377580417
+      ],
+      "middle": [
+        0.4215431520868407,
+        0.5611647647143384
+      ],
+      "high": [
+        -0.40150872343571936,
+        0.6571709171673257
+      ]
+    },
+    "contrast": 0.2627378641835749,
+    "contrast_lo": -0.9783399576753433,
+    "contrast_hi": 1.4885277879433814,
+    "bootstrap_valid": 291,
+    "B": 500,
+    "mean_squared_residual": 0.15683735000089372,
+    "residual_sd": 0.3990451693221926,
+    "residual_skew": 0.8169800907188657,
+    "residual_excess_kurtosis": 2.2793522231015624,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [
+      "lag_log_RV"
+    ],
+    "asset_fixed_effects": true,
+    "coefficient_intervals": {
+      "intercept:low": [
+        -17.6523692698061,
+        3.172646233369803
+      ],
+      "intercept:middle": [
+        -3.942101427655691,
+        -2.8065130859794714
+      ],
+      "intercept:high": [
+        -10.711564521886784,
+        -2.257079599701092
+      ],
+      "slope:low": [
+        -1.0895674292387674,
+        1.1890700377580417
+      ],
+      "slope:middle": [
+        0.4215431520868407,
+        0.5611647647143384
+      ],
+      "slope:high": [
+        -0.40150872343571936,
+        0.6571709171673257
+      ],
+      "lag_log_RV": [
+        0.06513965807762587,
+        0.21835077239755407
+      ],
+      "asset:DHR": [
+        -0.16563661870533014,
+        0.32668025332758927
+      ],
+      "asset:HON": [
+        -0.49979782722582566,
+        -0.11723305089882385
+      ],
+      "asset:IP": [
+        0.24290926335439816,
+        0.402720372283681
+      ],
+      "asset:KO": [
+        -0.32816308882458467,
+        -0.1905119344464182
+      ],
+      "asset:LOW": [
+        -0.037007675149709485,
+        0.17327144069685577
+      ],
+      "asset:ORCL": [
+        -0.18953950146390885,
+        -0.07129806907214277
+      ],
+      "asset:SLB": [
+        0.21512953084878567,
+        0.36901931635676966
+      ]
+    },
+    "extra_contrasts": {},
+    "label": "STOCKS_POOLED",
+    "common_support": {
+      "status": "SUPPORTED_GRID",
+      "edges": [
+        -9.159792615221614,
+        -9.084049322522462,
+        -9.008306029823311,
+        -8.93256273712416,
+        -8.85681944442501,
+        -8.781076151725859,
+        -8.705332859026708,
+        -8.629589566327557
+      ],
+      "anchor_support": false,
+      "excluded_x_rows": 706,
+      "bin_mean_estimand": "finite interval conditional means, x coordinate fixed midpoint; not raw singleton m"
+    },
+    "state_support": [
+      {
+        "state": "high",
+        "n_rows": 10,
+        "n_independent_days": 10,
+        "x_min": -9.514095627749137,
+        "x_max": -7.119196280021074
+      },
+      {
+        "state": "low",
+        "n_rows": 5,
+        "n_independent_days": 5,
+        "x_min": -10.486050820096485,
+        "x_max": -8.524374153742414
+      },
+      {
+        "state": "middle",
+        "n_rows": 914,
+        "n_independent_days": 238,
+        "x_min": -10.763714887665461,
+        "x_max": -6.686276202947772
+      }
+    ],
+    "top1percent_dates_excluded": [
+      "2019-04-15",
+      "2019-05-24",
+      "2019-12-06"
+    ],
+    "contrast_without_top1percent": 0.2648460344838901,
+    "contrast_reference_period": 0.2627378641835749,
+    "contrast_later_period": null,
+    "jointly_supported_bins": 0,
+    "status": "DATA HOLD",
+    "temporal_and_top1_sign_stable": false,
+    "materiality_slope": 0.1,
+    "curvature": "NOT_TESTED; linear state slope changes suffice",
+    "support_status": "INSUFFICIENT_STATE_SUPPORT",
+    "uncertainty": "EXPLORATORY_FIXED_DESIGN_BLOCK_SENSITIVITY; not untouched confirmation"
+  }
+]

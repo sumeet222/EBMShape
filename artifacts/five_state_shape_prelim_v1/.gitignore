@@ -1,0 +1,5 @@
+cache/
+scratch/*.parquet
+scratch/*.part
+reports/*.zip
+*.tmp

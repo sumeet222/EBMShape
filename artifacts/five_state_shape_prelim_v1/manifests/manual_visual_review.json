@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-23T02:50:14.146242+00:00",
+  "method": "Actual tool view_image openings, final five summaries and overview plus corrected support/contrast exports",
+  "verdict": "PASS",
+  "final_reviewed_images": {
+    "P01_INTRADAY_BETA_summary.png": "1c026d30a89098ae4f11c24806389f211619e479c039eb6e3202eac8ea52b6d6",
+    "P02_SIGNED_RV_summary.png": "ce12cca70ff47124961720d13e6bd85efce568b979f342145686c0de3a61fdc8",
+    "P03_TREASURY_HEDGE_summary.png": "5f39ff6ef838ee17bfdd4904bba64009bf81f8a9ce056b46c8f6f17366917317",
+    "P04_VOLUME_REVERSAL_summary.png": "82d2b6c8978cc774936b0d2e955dd87c9c3adf2a6053472aa62d455b583738e6",
+    "P05_FOMC_RESPONSE_summary.png": "f4cb6c514b201587c51915951dbb55c16ea7cd5b36e1ec60931149cd77d162d2",
+    "five_experiment_overview.png": "5607b1c3c5c0b1f13b228b83a9de771b007fff9424a8fc01224242e196adf327",
+    "P03_TREASURY_HEDGE_support.png": "4fe02370e0b7278a1ff94290b3137e7ae92909bdfd917942ddc905258745d0e2",
+    "P04_VOLUME_REVERSAL_support.png": "58033742e57fc6b8c0dab49cddb687acdba747260b225c9217c90785a205a9ba",
+    "P03_TREASURY_HEDGE_shape_contrast.png": "62f322d5d9ea7a4cade5143bed82f53e8fd2c63b2878bc04588b83d6a71611eb"
+  },
+  "additional_earlier_review": "P01 scatter/support/contrast and P04 contrast inspected during development; final automated PNG/data/metadata checks cover all13.",
+  "findings": "Readable axes/units/dates/counts and HOLD warnings; no final clipped text. Manual review caught support-chart state-color inconsistency; fixed canonical state order and added rejection fixture before release. No scientific estimates changed."
+}

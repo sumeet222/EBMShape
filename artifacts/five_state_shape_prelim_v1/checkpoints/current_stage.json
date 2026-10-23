@@ -1,0 +1,15 @@
+{
+  "stage": 4,
+  "at": "2026-10-23T02:53:53.041552+00:00",
+  "state": "ALL_GATES_VERIFIED",
+  "next_action": "STOP; upload review artifacts for scientific review. No EBM training authorized.",
+  "completed_experiments": [
+    "P01_INTRADAY_BETA",
+    "P02_SIGNED_RV",
+    "P03_TREASURY_HEDGE",
+    "P04_VOLUME_REVERSAL",
+    "P05_FOMC_RESPONSE"
+  ],
+  "source_registry_sha256": "114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9",
+  "frozen_configs_sha256": "cf8ea90822712b46d13fa95a24b9f3b3e9624cb718a17ddbe27b607a47a3ef95"
+}

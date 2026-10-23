@@ -1,0 +1,61 @@
+{
+  "method": "Filesystem birthtime to last stdout write for uniquely named job logs; approximate elapsed log span, not exact CPU time. Overwritten test/report logs excluded from runtime inference. Exact unit-suite times are in test_execution_evidence.json.",
+  "jobs": [
+    {
+      "log": "logs/acquire.log",
+      "approx_start_UTC": "2026-10-23T01:50:47.644976+00:00",
+      "last_output_UTC": "2026-10-23T01:52:21.230837+00:00",
+      "log_span_seconds": 93.586,
+      "bytes": 2409
+    },
+    {
+      "log": "logs/acquire_resume.log",
+      "approx_start_UTC": "2026-10-23T01:55:06.014681+00:00",
+      "last_output_UTC": "2026-10-23T01:55:09.875058+00:00",
+      "log_span_seconds": 3.86,
+      "bytes": 2301
+    },
+    {
+      "log": "logs/derive.log",
+      "approx_start_UTC": "2026-10-23T01:58:07.807112+00:00",
+      "last_output_UTC": "2026-10-23T02:01:06.685167+00:00",
+      "log_span_seconds": 178.878,
+      "bytes": 2807
+    },
+    {
+      "log": "logs/derive_corrected.log",
+      "approx_start_UTC": "2026-10-23T02:08:18.985683+00:00",
+      "last_output_UTC": "2026-10-23T02:17:07.913637+00:00",
+      "log_span_seconds": 528.928,
+      "bytes": 1896
+    },
+    {
+      "log": "logs/derive_final.log",
+      "approx_start_UTC": "2026-10-23T02:17:52.956052+00:00",
+      "last_output_UTC": "2026-10-23T02:18:13.853502+00:00",
+      "log_span_seconds": 20.897,
+      "bytes": 5472
+    },
+    {
+      "log": "logs/screen.log",
+      "approx_start_UTC": "2026-10-23T02:18:40.274403+00:00",
+      "last_output_UTC": "2026-10-23T02:18:45.412577+00:00",
+      "log_span_seconds": 5.138,
+      "bytes": 2354
+    },
+    {
+      "log": "logs/screen_resume.log",
+      "approx_start_UTC": "2026-10-23T02:36:17.459712+00:00",
+      "last_output_UTC": "2026-10-23T02:36:19.277043+00:00",
+      "log_span_seconds": 1.817,
+      "bytes": 1752
+    },
+    {
+      "log": "logs/report_visual_final.log",
+      "approx_start_UTC": "2026-10-23T02:47:58.624550+00:00",
+      "last_output_UTC": "2026-10-23T02:48:15.035126+00:00",
+      "log_span_seconds": 16.411,
+      "bytes": 784
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "hard_cap_bytes": 10000000000,
+  "measured_peak_bytes": 297766292,
+  "largest_reserved_envelope_bytes": 397708076,
+  "current_incremental_bytes": 26871832,
+  "baseline": {
+    "hard_cap_bytes": 10000000000,
+    "soft_replan_bytes": 8000000000,
+    "baseline_repo_bytes": 838104304,
+    "physical_free_bytes": 59392000000,
+    "monthly_raw_max_bytes": 290814381,
+    "retained_new_minute_budget_bytes": 100000000,
+    "derivatives_bytes": 100000000,
+    "small_sources_bytes": 30000000,
+    "plots_reports_logs_bundle_bytes": 80000000,
+    "cache_bytes": 20000000,
+    "conservative_incremental_peak_forecast_bytes": 620814381,
+    "safety_margin_bytes": 9379185619,
+    "used_after_inventory": 193152,
+    "physical_workspace_total_cap": "No stricter imposed cap discovered; 10GB is explicitly incremental; free space separately checked"
+  },
+  "new_data_bytes": 19213917,
+  "run_bytes": 7393342,
+  "final_post_inventory_check_at": "2026-10-23T02:54:28.857215+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-23T02:54:28.841423+00:00",
+  "inventory_rows": 473,
+  "by_action": {
+    "INSPECTED": 110,
+    "DELETED": 12,
+    "CREATED": 351
+  },
+  "created_glob_counts": {
+    "artifacts/five_state_shape_prelim_v1/**": 189,
+    "data/shared/five_state_shape_prelim_v1/**": 148,
+    "src/ebm_research/five_prelim/**": 11
+  },
+  "note": "Exact per-file paths in artifact_inventory.csv. Self rows not hashed; logs/final JSON are closeout snapshots."
+}

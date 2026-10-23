@@ -1,0 +1,58 @@
+{
+  "experiment_id": "OVERVIEW",
+  "config_sha256": "cf8ea90822712b46d13fa95a24b9f3b3e9624cb718a17ddbe27b607a47a3ef95",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": [
+    "stock_5m_log_return_bp",
+    "next_session_log_RV_389",
+    "IEF_same_day_open_close_log_return_bp",
+    "same_stock_next_session_close_close_log_return_bp",
+    "SPY_standard_1400_1430_log_return_bp"
+  ],
+  "predictor": [
+    "spy_synchronous_5m_log_return_bp",
+    "current_log_RV_389",
+    "SPY_same_day_open_close_log_return_bp",
+    "same_stock_current_close_close_log_return_bp",
+    "absolute_published_surprise_bp"
+  ],
+  "state": [
+    "clock_start_ET_early_mid_late",
+    "current_q_down_fixed_thirds",
+    "prior_available_DGS10_minus_DGS2_terciles",
+    "own_log_volume_minus_prior20_mean_log_volume",
+    "published_raw_surprise_sign"
+  ],
+  "independent_unit": "dates / FOMC events, never pooled across experiments",
+  "time_range": {
+    "P01_INTRADAY_BETA": [
+      "2019-01-01",
+      "2019-12-31"
+    ],
+    "P02_SIGNED_RV": [
+      "2016-01-04",
+      "2021-12-31"
+    ],
+    "P03_TREASURY_HEDGE": [
+      "2021-05-12",
+      "2023-12-29"
+    ],
+    "P04_VOLUME_REVERSAL": [
+      "2024-09-26",
+      "2025-09-25"
+    ],
+    "P05_FOMC_RESPONSE": [
+      "2016-01-01",
+      "2021-12-31"
+    ]
+  },
+  "plot_data_sha256": "92d5080c6d25a8251d2239af7f42f7b68aa32804eae9ed1237e1467eacc07076",
+  "figure_sha256": "5607b1c3c5c0b1f13b228b83a9de771b007fff9424a8fc01224242e196adf327",
+  "png_qa": {
+    "width": 2400,
+    "height": 1800,
+    "rgb_sd": 46.458733520102186,
+    "nonwhite_fraction": 0.10544074074074074
+  }
+}

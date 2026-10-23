@@ -1,0 +1,47 @@
+{
+  "experiment_id": "P02_SIGNED_RV",
+  "config_sha256": "57db40d2fc8b9dfab52282abd07b8e663ae959a2cec832c0dc863c635d995eee",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "target": "next_session_log_RV_389",
+  "predictor": "current_log_RV_389",
+  "state": "current_q_down_fixed_thirds",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2016-01-04",
+    "2021-12-31"
+  ],
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "plot_data_sha256": "b5d4eb1370e9ebeb7c59a9e90d0f27976098768e76d8237ae30ea863af18f099",
+  "figure_sha256": "ce12cca70ff47124961720d13e6bd85efce568b979f342145686c0de3a61fdc8",
+  "plot_data_path": "figure_data/P02_SIGNED_RV_summary.csv",
+  "axis_semantics": [
+    "Current session log RV (389 close intervals)",
+    "Next session log RV (389 close intervals)",
+    "downside share: low / middle / high fixed thirds"
+  ],
+  "series": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "series_colors": {
+    "low": "#2166ac",
+    "middle": "#178578",
+    "high": "#d66018"
+  },
+  "state_cutpoints": [
+    0,
+    0.3333333333333333,
+    0.6666666666666666,
+    1
+  ],
+  "png_qa": {
+    "width": 2030,
+    "height": 870,
+    "rgb_sd": 59.87368436621747,
+    "nonwhite_fraction": 0.14462374723968066
+  },
+  "chart_input_roundtrip": "PASS",
+  "text_boundary_check": "PASS",
+  "notes": "NO VALID RESULT: support graphic only; no fabricated economic response"
+}

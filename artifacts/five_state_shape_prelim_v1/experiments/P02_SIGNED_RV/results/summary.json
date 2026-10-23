@@ -1,0 +1,200 @@
+{
+  "experiment_id": "P02_SIGNED_RV",
+  "config_sha256": "57db40d2fc8b9dfab52282abd07b8e663ae959a2cec832c0dc863c635d995eee",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "next_session_log_RV_389",
+  "predictor": "current_log_RV_389",
+  "state": "current_q_down_fixed_thirds",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2016-01-04",
+    "2021-12-31"
+  ],
+  "n_rows": 1454,
+  "n_independent_days": 1454,
+  "first": "2016-01-05",
+  "last": "2021-12-30",
+  "columns": [
+    "intercept:low",
+    "intercept:middle",
+    "intercept:high",
+    "slope:low",
+    "slope:middle",
+    "slope:high",
+    "lag_log_RV"
+  ],
+  "coefficients": [
+    -1.4217536266323574,
+    -1.4243670606583376,
+    -2.0063454137325616,
+    0.6397003281518409,
+    0.6309208009962328,
+    0.6329440614962417,
+    0.2334112183320686
+  ],
+  "state_slopes": {
+    "low": 0.6397003281518409,
+    "middle": 0.6309208009962328,
+    "high": 0.6329440614962417
+  },
+  "slope_intervals": {
+    "low": [
+      0.29330039361708626,
+      0.9016782185824804
+    ],
+    "middle": [
+      0.5800551655206538,
+      0.6773274472447502
+    ],
+    "high": [
+      -4.050835349707129,
+      1.1988816372598792
+    ]
+  },
+  "contrast": -0.006756266655599141,
+  "contrast_lo": -4.488938664038634,
+  "contrast_hi": 0.711313121952149,
+  "bootstrap_valid": 468,
+  "B": 500,
+  "mean_squared_residual": 0.34515169507623755,
+  "residual_sd": 0.5889154431655944,
+  "residual_skew": 0.4009458227346163,
+  "residual_excess_kurtosis": 0.28966671581398984,
+  "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+  "controls": [
+    "lag_log_RV"
+  ],
+  "asset_fixed_effects": false,
+  "coefficient_intervals": {
+    "intercept:low": [
+      -5.182864209297232,
+      1.3288029489051074
+    ],
+    "intercept:middle": [
+      -1.7443685729191292,
+      -1.132854249509517
+    ],
+    "intercept:high": [
+      -48.25272960322155,
+      3.7366188559899216
+    ],
+    "slope:low": [
+      0.29330039361708626,
+      0.9016782185824804
+    ],
+    "slope:middle": [
+      0.5800551655206538,
+      0.6773274472447502
+    ],
+    "slope:high": [
+      -4.050835349707129,
+      1.1988816372598792
+    ],
+    "lag_log_RV": [
+      0.1892485534276911,
+      0.2850366059109513
+    ]
+  },
+  "extra_contrasts": {},
+  "label": "SPY",
+  "common_support": {
+    "status": "NO_COMMON_SUPPORT"
+  },
+  "state_support": [
+    {
+      "state": "high",
+      "n_rows": 5,
+      "n_independent_days": 5,
+      "x_min": -10.966399320310817,
+      "x_max": -8.803622597568403
+    },
+    {
+      "state": "low",
+      "n_rows": 10,
+      "n_independent_days": 10,
+      "x_min": -11.163323590602177,
+      "x_max": -9.533609003468088
+    },
+    {
+      "state": "middle",
+      "n_rows": 1439,
+      "n_independent_days": 1439,
+      "x_min": -12.98626086058153,
+      "x_max": -6.000812654113064
+    }
+  ],
+  "top1percent_dates_excluded": [
+    "2017-08-07",
+    "2017-12-28",
+    "2017-10-03",
+    "2017-10-17",
+    "2017-10-11",
+    "2017-10-13",
+    "2016-12-23",
+    "2017-09-15",
+    "2017-10-18",
+    "2017-07-24",
+    "2017-12-27",
+    "2017-11-06",
+    "2017-10-16",
+    "2017-07-19",
+    "2017-10-09"
+  ],
+  "contrast_without_top1percent": -0.007518419650339281,
+  "contrast_reference_period": null,
+  "contrast_later_period": null,
+  "jointly_supported_bins": 0,
+  "status": "DATA HOLD",
+  "temporal_and_top1_sign_stable": false,
+  "materiality_slope": 0.1,
+  "curvature": "NOT_TESTED; linear state slope changes suffice",
+  "support_status": "INSUFFICIENT_STATE_SUPPORT",
+  "uncertainty": "EXPLORATORY_FIXED_DESIGN_BLOCK_SENSITIVITY; not untouched confirmation",
+  "definition": "389 within-session one-minute intervals; epsilon0; logRV positive only; no C RV390 reuse",
+  "raw_semivariance_reference": {
+    "intercept_scaled": 0.14448666299102025,
+    "negative_coefficient": 1.9477026708362213,
+    "positive_coefficient": -1.092087911056599,
+    "negative_minus_positive": 3.03979058189282,
+    "lag_RV_coefficient": 0.40843712700368945,
+    "scale_RV": 5.8102789785923286e-05,
+    "coefficient_intervals": {
+      "intercept:total": [
+        0.005320208749095909,
+        0.22597118492647378
+      ],
+      "slope:total": [
+        0.927994675423403,
+        3.135671143162781
+      ],
+      "RS_plus_scaled": [
+        -2.393367489230888,
+        0.12884684994220824
+      ],
+      "lag_RV_scaled": [
+        0.14827541576266592,
+        0.5717100832038009
+      ]
+    },
+    "contrast_interval": {
+      "estimate": 3.03979058189282,
+      "lo": 0.7949252646071433,
+      "hi": 5.532162429285212
+    },
+    "definition": "nextRV/scale ~1+RSminus/scale+RSplus/scale+lagRV/scale; same date-block sensitivity"
+  },
+  "lag_controlled_no_state_baseline": {
+    "columns": [
+      "intercept",
+      "current_log_RV",
+      "lag_log_RV"
+    ],
+    "coefficients": [
+      -1.4279049268420507,
+      0.6242484018733895,
+      0.2400034964516574
+    ],
+    "MSE": 0.34642666305941866
+  }
+}

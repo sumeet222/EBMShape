@@ -1,0 +1,55 @@
+{
+  "experiment_id": "P05_FOMC_RESPONSE",
+  "config_sha256": "ab17d8d6d9f1948ab6d62e1bce34cbb96877059f83d180e77c29d991388f095a",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "SPY_standard_1400_1430_log_return_bp",
+  "predictor": "absolute_published_surprise_bp",
+  "state": "published_raw_surprise_sign",
+  "independent_unit": "FOMC_event",
+  "time_range": [
+    "2016-01-01",
+    "2021-12-31"
+  ],
+  "status": "DATA HOLD",
+  "n_independent_days": 47,
+  "n_rows": 47,
+  "state_counts": {
+    "negative": 11,
+    "positive": 36
+  },
+  "reason": "Insufficient independent negative/positive events for frozen sign/magnitude shape support; no curves fitted",
+  "all_published_event_count": 54,
+  "excluded_events": [
+    {
+      "date_et": "2019-10-11",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-03-03",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-03-15",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-03-19",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-03-23",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-03-31",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    },
+    {
+      "date_et": "2020-08-27",
+      "exclusion_reason": "NON1400_OR_OFFICIAL_UNVERIFIED"
+    }
+  ],
+  "source_column": "FOMC (update 2023) / MPS, rate percentage points\u00d7100=bp; no MPS_ORTH; no futures return substituted for SPY",
+  "signed_linear_benchmark_bp_per_bp": -5.147320187210252
+}

@@ -1,0 +1,737 @@
+action,path,bytes,sha256,rows,schema,recovery
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet,785927.0,1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-01.parquet,135210.0,0f9387b7219a41a747f2a0205c7e98064c40a22eaa1abfbe25294b5670c5128b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-02.parquet,138045.0,89f3c49c4ab9ea626f0a59b8989939477145bbe2f8154d67c968dc94b013c302,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-03.parquet,151923.0,2b3ff047389d96d2fd5b99a38b72d685a0c47870c997d1b5c7137dbfe491b9fe,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-04.parquet,134966.0,a0b54afeb7bb5d3551fc5648b02049ce37d9e9c97df4efb4789e4a19203c7f06,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-05.parquet,135647.0,a572dbf02e0fe7725f2d3e10774cf7694fe1100dd2ec67198f6a80ba7c3a5f72,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-06.parquet,151958.0,fe98c313530ae8c447b71d3d57a05f5d6eb61ab380725f9693f3c7338df990cf,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-07.parquet,128327.0,3c28b6eb0d5347df240139ba2ffc8d409b8be12c4d2a47235567088c6bd8e1b9,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-08.parquet,143053.0,ce5fedc1e5152176913decf4b2a7d33c9fe39e90ea3998237ccdfd09aa3262a2,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-09.parquet,135096.0,03bb3fd8770a08a6101c5df2848d8ec01582ac3b158b6ea3e9b09502fc53ba28,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-10.parquet,133530.0,3d575e5fb17572679e97cc0632c2b80ca9db46bd9f75a3dc020539bf54a6d80d,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-11.parquet,135255.0,5af4ff5482a44e21d51cc686bc5812edd4998fbd355a92b05b70a4d32784aff8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2016-12.parquet,136918.0,60c6b52b2a1a56e8c599fa221712ee8bd9bf862bd502cabee23660859bfc9241,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet,774109.0,8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-01.parquet,131724.0,219789c133c54cbf6e1cce0de75eb7202a8fef0b20976ceba309a7c147e72020,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-02.parquet,124717.0,129e155a35306a3742a00166e50421dfa0bd17a9f9b0012b7c1c28792401b694,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-03.parquet,154120.0,feb166547bf85f865ebbb7b68029acd420fa64a5da1dd4d7c1b1d93858d72f5a,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-04.parquet,124020.0,e96208550b403910657826f29c475d4164ccb34fe1637bb5bf79a640be2fde56,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-05.parquet,139242.0,2c4d390e3a35cd2f49b3c0b9d878016dffaa3c48fc740718af87f01d5b210dd8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-06.parquet,140594.0,bb8452a4250a3f76d92fa903805b5b74f66a2b1d5ae1e7c4524bdab37afcd65b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-07.parquet,119999.0,68c5480655b6baf7dc662c86e602328431017e8e516dda275b3816f470e88b9a,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-08.parquet,150186.0,7d1012400a95f8592db3bd2a3b863327d66a6f03b5dfcccadc8c79311e7db20b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-09.parquet,120442.0,8b43da3d571a998b95dcb396527b29f01c93c3d0f4dc2834444a5febe26f36c5,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-10.parquet,137892.0,498507f3a20308f9a3919ba4d3b376009bca6b00cef95187d6284ce950a3e900,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-11.parquet,125757.0,9a24c669b48a8b1b7d59e1c1929f970a775e1e81727bd64ba03acdb78b18e0de,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2017-12.parquet,124856.0,d5eb5378dc53c8ca548bb4d704c2bc41a414f407c81d426944d36a7761cdaf44,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet,782288.0,be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-01.parquet,150283.0,bd681beab5400e5d1c445de26865a0224345bac1ff90a4b326c2dc0e326b930b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-02.parquet,136766.0,59cfb1cbd9c6f08757ce509e2e0ba6ca7b1c58a52106d50a8608b4f8cf6518db,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-03.parquet,147351.0,92fce74cfdc487779b981b800234f8dad06d0f91bf64ebba68e3513b8492dc94,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-04.parquet,142698.0,752648f214f4176d73d2dad9e7b65af7c04aeac18f9932a6036c23a073e3775b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-05.parquet,152137.0,9f1afe7cbe8d57d51ab65bbeee179390d73e20e0916430f34ed6e24bd6f990d5,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-06.parquet,134945.0,07be7e19e476ac68898baedce24dbae8e4f11c386a80e0a23ec6c4934c11e5f4,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-07.parquet,130898.0,5c7c05f69c2cb3bcce8a703bef7d92f7fa23578cb80c4f1f8b9989257535f010,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-08.parquet,156354.0,d23b6f55781a0be0b76588e2cec095af165d42c0fc04677246f0acf9769675d0,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-09.parquet,124995.0,178b7bf49858d15ec8f2d1698f036cc38e741faf786465aee85f9ab7ed7907a3,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-10.parquet,162998.0,d0dc0f34f43660a51a0111278a8e0ddcc50936ed1ec553644bc239745ca40d25,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-11.parquet,136987.0,ea7337d371565b5b636db882f570e1bde88f9b37efc5f134c92aa8d6a60509d6,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2018-12.parquet,136840.0,3399bd0a29ff097f8b04df811baa631c0ceb500f39e0e996ebe1c4434000feb6,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet,797568.0,57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-01.parquet,155531.0,3db64698b6dc6bed80d36570944fce9c161592ce07c98ab3ddb2577a42be6525,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-02.parquet,135030.0,66e890f6aec43d273d0810ef4e616c0f0fbb5b832f0324077cb171588d8a6623,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-03.parquet,136221.0,f9d0f26a2d3e4ecff2797cfbf66e1bf4d34eef5c51495ff926816da6efaa44db,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-04.parquet,137420.0,a70b616c758583fdba070aeec0b6faa2d636adcabce9692af10f49265bdc8f34,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-05.parquet,159155.0,6931e37cf4de7d195e53be69c423106caf094d938b74bf615261b3e68712fbde,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-06.parquet,138647.0,51b45a508f117c9b8d7cf6e4ea591c32488b73ff4380ddd12eb571d0cfe6b89f,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-07.parquet,132545.0,f62b9a40f960231a9ae47efee40dc5cc4b9b99aa7e9a5d88eadfe20689bb5859,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-08.parquet,144158.0,c665350348700d91c16705d9409e22ee5e6106ffb6d0390e895f9595c2407afe,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-09.parquet,134871.0,bdf8cddb2da4633c0073c60bdbd60e602fdea3601212c67407c2f9c275cc44be,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-10.parquet,163748.0,bdf23a5e461223ac9d9a4a30ff05f535789b7a822999565d26f60138816708f4,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-11.parquet,123210.0,d366a28fe515464ce300d0553084c2686fa22510533316d5c4cf30439b1f609e,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2019-12.parquet,133524.0,ecbc4aee9d521b948db9d6795c9fbfdb595c25af813d8f821511872ed4e3a0d4,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet,869578.0,0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-01.parquet,139545.0,8fc5ffa0164dcf80be4da750a5a12dc18f8a70f862211fc0aa57119366b88aaa,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-02.parquet,139638.0,788d0a2f2423f45389f6a4baacf9758cf845e3828ef2b4cbd46a3908b40e3d6b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-03.parquet,179562.0,ae3445bc71901a49f09d007180d57f6c9126ac3bc760f2bb99cc211543949422,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-04.parquet,160016.0,7e19c5986ebf071e8b9ae05dec56e19004aced6c6188feed992c4244cf916eec,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-05.parquet,147832.0,6c0e43e70e2b60557de18bb5a9573569040cfed968d3857c38321229c3749d99,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-06.parquet,157646.0,3acbedac5c2875249f28e1e8fb4dd5e5b313f04e86002bdcf881f56785ca65af,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-07.parquet,158644.0,56969f42cf688c62ff77ddc62e492bd9df7bd07bcaff4f663852084de2aeb469,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-08.parquet,148017.0,d6139b0799490922437d3e027e312cdedc590db45b18c4d8be05ae0e9eb29c4d,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-09.parquet,157091.0,5189f08a3e20499f85ad24ecd6cdb4d601fa2e997c66d285b95f2c0dc542c9f3,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-10.parquet,159906.0,7e8db77097f9536333ebe94177335b176761edeb2381bf5d96ed1208a4accde7,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-11.parquet,138984.0,4456e1f99755cd7537aa53cdfc3d6f8517b2af122ade414279edd1ff44edcc03,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2020-12.parquet,150589.0,24039bdb1a46ea2c0f3cb117fd5b50f2a711607a3683c53ca2c2bfc6c85b113e,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet,857427.0,fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-01.parquet,142707.0,7fa36f35cdd2543f4e6df04fee4f86e23af2f8275fe6be41fcb6b36982aed7a8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-02.parquet,140386.0,482b70adddb0284ac0c69a47aea5ed18b7bcee2806170cfe81b9f7129feca60a,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-03.parquet,165711.0,1fb4298e55e6a8c9d8a91c6c1d1c6401b77c406137e88c37610fcc1b2ef5d37b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-04.parquet,152476.0,5759f7faa24b779cfdd2084054f03ca9e3234b7708ef84cdd859ab71698a72a8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-05.parquet,149039.0,afc348a668c3f691a385332ca15f524015fa32793016b93d257113ce71243bc2,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-06.parquet,152828.0,303e4495a232310e2a4aee80df6560824017975b800944982d340bf821967fa5,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-07.parquet,155855.0,c324ea10fd4355a59132f61168ffd27e7f7a922cd848bd6b9e8b6a62c0fa601c,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-08.parquet,155434.0,9b84d430451b1dbd1ca363bc62f662292ce8842e4e019b091c880d9225dd93b9,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-09.parquet,156435.0,7f8024e9409bff6e5421b8172093898bab8254994b03d6b2671dff330d9e8bc8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-10.parquet,151628.0,0dc0ec539a823eeb70c140258a46cc7157c807a8b7941fcb1ccd7c07bad8ff07,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-11.parquet,141471.0,1a2f843cf19bff334bf79590128b8c5af7454a58357b9f7c565ac2db68d201bb,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,data/source_cache/C_spy_1m_p0_v1_1/2021-12.parquet,155783.0,e384d86d8be9b30a4f585d55fbab8c89bdd6a7a7e5b76c1afb1d6595c84a2381,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-01.parquet,3495521.0,ef433d24a5f2c9b2dceb75ebb1d3b88caa30bc5077e46a0ae2cc3e580c18a798,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-02.parquet,2964156.0,37fc2ff29adc3537d513518712b51a4603e698e0f8d2c0f0aec5990885f80b40,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-03.parquet,3351107.0,2e9a08dd4abcc99a8b3b9cbc1d890d5d8bafe1ae850a33dc4ca2dd92167c9886,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-04.parquet,3316897.0,7fe21daa0edaaf7228f0a0260c795a4345ad148b654c368c88e7d554644534fe,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-05.parquet,3633049.0,61b0f6b62f6d056dcb29b82e24eb86895f7bd4bbd7f01b585e2289daaaff1fe8,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-06.parquet,3209210.0,f9dfd0b8c140a153a3b918ccad4c59040b06bc17625e65a3e6b53beef4bae67d,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-07.parquet,3371983.0,528f5ca89ced4e1b8ba10a13e3daf440b4fbb964821bc088766e65938e5a073c,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-08.parquet,3545718.0,2e3a94214ed7e67aa6e13692f89e87724c536b8f1cc4f6c55c27cefa6f7b359f,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-09.parquet,3079237.0,a99dfcd54d0240a47498160f34211d4a8bd45ba3a69a09b94e15aa6ab7fb1b3d,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-10.parquet,3675857.0,c11114802882c778c996ad1b72aff30109283f65def2ee97e015f25022be2e5f,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-11.parquet,3026440.0,62dd6ca411cf0ff8ec357ca53900167eee2793b74fab916c23b064071655709b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,lstm:data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-12.parquet,3186188.0,2673dcbde38a574ccca219fb31f6249bc371afbee6884b130a045cb484c46621,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/BAC.parquet,309241.0,846e64267cff02ba007003947af227a21caaa1539e20cd35f7ba9a03c7c35736,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/BAC.json,5202.0,34e24a3f93aaf51b2dd190182008d5cf8e7c88946b4fc856ee3abf79deddc653,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/DHR.parquet,319628.0,207face70ed9a9aaff0be4cfaa26553e1edee916c41589a518a41d9ff69fb048,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/DHR.json,5202.0,8d030eece2225cf66455570fafa5539fc8ac69e4840ab7b30904cc6eaea95cbc,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/HCA.parquet,324633.0,d473bda5587e31a76044d103a12408cdd915fc4f80a8c3ad8c8b20a3a32cc367,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/HCA.json,5202.0,921f744a4d850ceea7a014cec68e363e8b39d74404fb3851bad23d1e2d5461a2,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/HON.parquet,360125.0,50246402ab4e371de051bb8c430342773b01ee591c32da4b8694eca36657731b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/HON.json,5203.0,cf7ca5d286a099362827b34137252f06cff015519fe4c0ad7cac1bf75cd6092b,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/IP.parquet,297973.0,9ffe4ac8b87c011f2ac5862ec837fae306dc319dc76224476a624844461054fe,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/IP.json,5197.0,d9bf585859f078ea287b52c5a9169ea2f3b45194351f66a35743d7a42e948e32,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/KLAC.parquet,352751.0,63b86ff0a059e884bb1949be7b058d866503c5971369624df754d80d355da1d9,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/KLAC.json,5217.0,6b387a4feb98346eb9d4ef47e4db6a8202d048d875599ff07e1059b73e92e550,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/KO.parquet,303704.0,9b827c93e7abfdcbc04a1ce915d15df03e577ee6c711cc5f50729753683cbeb7,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/KO.json,5205.0,0b73d1555e1b5ab7f207bfa6a2cff7b75b1c71aca4069d00c0e56681481f2d9d,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/LOW.parquet,320914.0,3432f514e1a63c208d990bd5d558819252f11cda538b8548b71844779027b356,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/LOW.json,5213.0,59c68201284ee0b1e0d53561b6b349ab56bd60b4a27da7eec0ca4595deb18a4c,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/ORCL.parquet,339732.0,abfb2bd156a8e849351da24277fad953e74b3a5e0d2338c5c606e2e8b6e6e079,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/ORCL.json,5217.0,cd6fdd19346e896a3708ad0a6348f91a8a22dc3784ce57d28930449513a8b833,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/raw/SLB.parquet,304353.0,8c7c75211317aa1d319ea3694224416c77837b4823e08455770560383c694129,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+INSPECTED,sae:data/metadata/SLB.json,5198.0,c650488f07b6f925e0356386bddf8388042d71082242485692b8de368229b616,,,"Existing immutable source referenced read-only; obtain authorized exact source hash, do not overwrite."
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-01.source.parquet,277707899.0,52e1ceb5381e1940c3e3b5d3472c48a699698f25e5785ccfa1be83f423ee018f,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-02.source.parquet,241038657.0,023a27bbc8b93511852cfee4d681e4c2dd7f079dafda4e6e7eaa94f2c14e990b,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-03.source.parquet,277030090.0,b9943d86c27d476661bc76f1f627e510b79ea894e53fc620e873f2c5e7324383,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-04.source.parquet,261491283.0,cfb12403ca323c801ea4caca0aaafbef82a6fb08d15a078e7d2fa96a19613085,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-05.source.parquet,284415111.0,7b4fdea9bd91e4ef7026cf791aa15e165b4ef6f412f2cd5bfd3cc74f43ae2dec,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-06.source.parquet,256978671.0,45413117e712b53a9e4f921ab816a4d46a2ea7337cc62d50e76b277491b46765,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-07.source.parquet,269314333.0,2ed17bbd4ef9eb0d1e4a88e9e548fa62af7756d1764a9b096a9d1f5212491739,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-08.source.parquet,290814381.0,e665168e1c2752392e2bc97e0acd340758818faacfb2cda2465610159dc9d868,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-09.source.parquet,261099545.0,9eba7e199b4aa7acbc939f7a4ef3b7c72eb1af237e97354508f81c8cd610b7a3,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-10.source.parquet,284282511.0,a53213e14e57333ac79387c86857592bee213abe0ce52c6e3f390a8357f578a8,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-11.source.parquet,247526723.0,87cd974f75a3b082210b2340603e29e5e68126d9d756442333efe23f627be844,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+DELETED,artifacts/five_state_shape_prelim_v1/scratch/2019-12.source.parquet,257874677.0,6f7a8b521cd70c41ebf5296d9ee1920f8c41ccd6e376626e18798438471c3e1e,,Temporary original monthly archive; filtered in bounded batches.,Only newly generated raw temporary; validated selected partition retained. No redownload of completed month needed.
+CREATED,artifacts/five_state_shape_prelim_v1/.gitignore,60.0,d48b582ef0999ef55c78e30856355bbc26b9a8842c99829746141665118a5333,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/cache/matplotlib/fontlist-v3.11.0.json,289954.0,ed9f718a92aa867927c57efa7d0e196156df6c3cbdd66040c372be29efd5c354,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/checkpoints/current_stage.json,543.0,8ccf84b9c6b96debe7a2a23358123ebb753ac72ae05e79d782216f69a3acefa0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/checkpoints/hf_months.jsonl,11880.0,b174f060f8e5decab7ebff0b02ac1115ac583232a83f9ed162042052f2f5b957,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/P01_INTRADAY_BETA.json,35768.0,197c769732e27298df2ff9a02b290ef2f9d5406404a74db3b7928895155faa3b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/P02_SIGNED_RV.json,35756.0,57db40d2fc8b9dfab52282abd07b8e663ae959a2cec832c0dc863c635d995eee,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/P03_TREASURY_HEDGE.json,3211.0,fe4a1b73a08bc527b80297ddd0e269375ef290494b75ac5df37c868e0ef9a13b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/P04_VOLUME_REVERSAL.json,12058.0,b12c6d0c70a4dbb13d4de5db64716ca690739c9458e1a817b0716903d187cd37,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/P05_FOMC_RESPONSE.json,29760.0,ab17d8d6d9f1948ab6d62e1bce34cbb96877059f83d180e77c29d991388f095a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/configs/analysis_completion_before_screen.json,893.0,1fd0fe4dbd409335d2f203044ca664b36b33af41a2d892fd6014d951c40c6720,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/diagnostics/market_direction_support.csv,163.0,95ab6018c2f367dc0608732619bf91cf9d094a22fade5cf3935d6aa1d24224fc,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/diagnostics/screen_design.json,223.0,0c8d98c3ab748ee94922897a9f041fb4903cc4384a6477f480108feffaa8bfc2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/diagnostics/subgroup_models.json,19837.0,58df72e5a32de9a3ce5dddb8c9f47e70921853fcf91ba860d5b834da41a690f9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/plots/reference_scatter.json,378.0,59fbd575e3503d145a42b27c29ac57fdd8f68bb8f78a528d9731b7249a8a457a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/plots/reference_shape_contrast.json,399.0,3acec860a4e16e0967b7553b505e65e535a204de9c5e9201a9868285ff7f13c3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/plots/reference_summary.json,378.0,767daf187318862fbb4b15af6c0b7cb13799d0522a2f5d22a49899710bd8c90d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/plots/reference_support.json,378.0,bb89935245feb41e94d014071341e0ff6222c7e9cac0a4328dcfe361ec724b47,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/report.md,2829.0,2c1796190038dbe5e7c507a5a1ff53c00cee47c68a77716d855a846ede6a366c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/results/completion.json,545.0,21d33fadb6970ff1eebf0644f5ed89e08ba46e9ab75a96ee10c14a21dde30eb5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/results/conditional_curves.csv,3129.0,f75f3700aecf2353affe0a15a3bc39dae9d1a6b9b1d6cb9e4369f8bdba182341,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/results/stock_state_betas.csv,2114.0,8c0254427770d20f60644627b5cbe84684318fb15d6a7d0a7a412bdae796b212,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P01_INTRADAY_BETA/results/summary.json,5038.0,7b3655fbe811121fc9b3342b96fa75dc04f270a8558527c072a2f826b385d231,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/diagnostics/screen_design.json,243.0,8b6858638081793fe7ea9c81231284f4d0be0293aec1a5f112eb37af35ffedb0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/diagnostics/subgroup_models.json,4719.0,cb257b7a152e11bde1752f0579b89b17825c96e332879415eb232dd3ec0458a1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/plots/reference_summary.json,366.0,7b0e4129a59d13b60dab2d5037aff6abf2b7a14ea6cb740fe1239596331e0824,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/report.md,2359.0,8e6754be0664842e564f1e906edb8811c8f4f257c106846194f1070361fc8e62,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/results/completion.json,526.0,5a4dbddbe5455e6d6a2b2cb8bdbf38f0804be238409fb43d9fc723711bde6480,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/results/conditional_curves.csv,1.0,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/results/stocks_conditional_curves.csv,2364.0,5b0182389800e84fd1d4aeecdc2c6399e38692963e0a892b26a744e22867f63a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P02_SIGNED_RV/results/summary.json,5145.0,051387676833bf1fdacc9cf324226085cf0a453964279e59b883a59c7956b487,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/diagnostics/screen_design.json,221.0,b5ebe9976f274405198f62ca44d863af3f441ca5505d79a2c091927994213f7b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/diagnostics/subgroup_models.json,3.0,37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/plots/reference_shape_contrast.json,402.0,c04a9ea641d8e8cd6ae65c2a5087163a5ffba2b6ff0143f477eda657e45ee79a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/plots/reference_summary.json,381.0,c2feb69f617868899e6dedf9531cf5c3512353d75d98f41b7d37d6d3db0da129,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/plots/reference_support.json,381.0,a04af1ccfc841ddda5bc6c55fb2e8a99ddb9c3ad6f695c6e1eee74ced46c2f34,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/report.md,2706.0,1fa0af40cd81ffe3de650fd6eba971d9797d41db171ac0609c3c21572ec72e40,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/results/completion.json,578.0,71fd3162f1c1972c4c3fdb88e032ce6174f0372f68f7c004f5f5d5e288a9ac06,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/results/conditional_curves.csv,3064.0,85503a041d0607331b9681c9f3b5da8456a1030969617072ab99ac237a879147,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P03_TREASURY_HEDGE/results/summary.json,4264.0,4dfbc601f3fb3ed01ec9526886439032caa8e9555d872e19750dc482adfa36c4,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/diagnostics/screen_design.json,243.0,58433697385d4838e44b0c5a6ab606efdb1f1c977e873e60e59d543720ba8366,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/diagnostics/subgroup_models.json,3.0,37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/plots/reference_shape_contrast.json,405.0,23e066ce7459eab9acc3f0be016f4c81f28d145563cbf5d7bbc4912d413de88c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/plots/reference_summary.json,384.0,a24ecfa5b80a2a67720c7509aa3e431b5b4b3a0c471e9c86d58f09a0308af498,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/plots/reference_support.json,384.0,663042baac9c9163faccafd1217f40a957f8b14e43b9805daeb9fd7f0e6dddf1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/report.md,2662.0,e6e28df4ad0198651ad3ca20e16eb003c3df4834bef5b4f8bfd6d358260e82e4,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/results/completion.json,601.0,63327ee158c7f6c8b3da5fde65798c4add002b630d6ade9c5ad521ee516d3abf,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/results/conditional_curves.csv,3076.0,e5d071abf256b5283e378ad88ebaf90501389db612cbd7325be6381fb95de40e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P04_VOLUME_REVERSAL/results/summary.json,6095.0,94b024a3512a153f78c2eb048c782155328f5d1825df3ae5b50d411b3e5e60c1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/diagnostics/signed_benchmark_leave_one_event_out.csv,2489.0,11f047aa5e3a56f2a29a88a0bab3460a4130ce8f584a244634092279ab5e91ba,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/plots/reference_summary.json,378.0,8b304e60f5cd9d5b16ea89c413b75727f331d048e77baad9d2b9a12f05f576eb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/report.md,2687.0,ed712e32904559d07f6d0dca9177acacc452a17d8f188161f0a3b0d9e81e33dc,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/results/completion.json,554.0,5dfa8366fe2561f091bf286c39403f39f70b23d73680426a683fe8eb04b7917e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/results/event_support.csv,39.0,e218c1959386390f26868bb4d252bea13c401472c73b58f54b63d50aa386afa9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/experiments/P05_FOMC_RESPONSE/results/summary.json,1787.0,75f628586ef72e50840cac0393399c5ebbc412d15afbb83abf193b0c60a65dae,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/acquire.log,2409.0,8b061c394ebf744c0a7463a7d258d20e5cef5a14f29bc1d4e839590f0bc772f2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/acquire_resume.log,2301.0,8be8b3d33c6c772a9d16f3092c88886594baf763864c7f956597a5198f8a28cd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/cleanup.jsonl,2616.0,98bed16d784a11df057d7422a00f2b253c8ffdab228dd8f6f0db4293a5b3fb7c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/derive.log,2807.0,51bcb8b2a08665fcfe3f2496c82587db906e5516add2788a58949961b9ff00c4,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/derive_corrected.log,1896.0,b49d46c4a6d3f987dee7fc6104dadf16b0aef7f4586b9925644aa15137a359d1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/derive_final.log,5472.0,78eed9f982f59ea2eaaf82688f514411ede418f047fbcb0d8f5fa8ea91080a8d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/network.jsonl,35241.0,9043b431b44602d7c419eb69ac6c64137623336b39e7f64d95dc7a713b805483,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report.log,2191.0,04746355967427c20eaa9be14a77eeb8a5cf1d5343041b99fd50e31817f8f587,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_closeout.log,784.0,ab107d8e393ecbbad3af0ec7b5b34903a923928af5ec2cf0bac871b93a88b429,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_corrected.log,2635.0,87b7e45730f9d605b6a1554cd599631d89b1c805107580371ef020cd2ffc99bb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_final.log,784.0,1c66a0900629552bc8ed858ef7434acba130f348f0bf8970aecb6eebef12cc2d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_release.log,784.0,5510bccd0dacf23c4633789f277bcc214ac80e1a349e9204fb8ab0e6d4f204cb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_verified_release.log,784.0,3a39f25759cd35f04c046afd125a487871970dfea65d39fa76c35b1ee45d12dd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/report_visual_final.log,784.0,e9ad965b1d46dfb9836672fab377f7abf585340952a94df0060dfee289fa66ed,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/screen.log,2354.0,8a9542494508e2d574b838046697d55999e4e12a171a7e2fe38e253bbfacf9b6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/screen_resume.log,1752.0,a0d01a9b55c8e6bf0b05e998aa7dcf69b90f08589ce3e69a1fbb6a7f79adce5f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/stage0_session_report.md,1330.0,dc47158e47287d031f055e3e3cdcd34f8e899d2bf0b67c2bf396c6da12de87e1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/stage1_session_report.md,1235.0,a8858d8a869b1e0a927a964bc8f188defa4aadcc972c4237cccd6d7542f1a5e9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/stage2_session_report.md,1227.0,ae1a3e7e90c5c6d339120ffdf697c5309e2a383a7598acbd13a94e99bbf43204,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/stage3_session_report.md,1165.0,e56bb40a9849b4718f4cee51b2d5a9ba5654f98f1a53699d035a9df0b37d9308,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/stage4_session_report.md,1298.0,c2e7e1b198f365d2fc75dc9651c5e5bbc247ac9ec4ef33174b38280206ff249f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/storage.jsonl,669519.0,3d1a7c66808797e8381228fe87ec102e39e717d3a9f42bb30b6074e3970ba349,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/tests_existing_scoped.log,1975.0,b7723539c918c1ebe5c6a11577398505fce7a89cf0b5e05d6fb47710082044e3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/tests_final.log,3448.0,5d70761cca36c5b3ae9c02b6e83c6c98028d18af853100ede4c51e23b96d903d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/tests_initial.log,1433.0,8b72de7b44da1614baf331b6c5102380ea515c52d250d8ac2f3b1ab8f1a9dbcd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/logs/verify_final.log,784.0,e15d091a07e2243748ff95afc879cf1bc04e60271557f76b4df23180d0c010f7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/acquired_sources.json,8495.0,b622899b5f47122f7c5b7e9b9df2695252551e85092a192af10ed8016bbe6102,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/additional_real_data_audits.json,1290.0,71ab846fd1979fbb09dcda720bf26e20ff2ad25d6f8aeb7ae1791c8a7f60c38e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/artifact_inventory.csv,118817.0,SELF_SNAPSHOT_NOT_HASHED,,,Self inventory; mutable final logs/receipts are snapshots.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/artifact_inventory_group_counts.json,8988.0,SELF_SNAPSHOT_NOT_HASHED,,,Self inventory; mutable final logs/receipts are snapshots.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/exact_analyzed_sample_counts.csv,4798.0,d4b26828198c0fddcac42f612f68da5727eb29b7b84b33b7452ce56389bff4f1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/execution_timing_estimates.json,2095.0,3ac5d7b801dc93b4417c076a7ac5b8c88f7793a0693266758779e4fda934e6f5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/fed_units_vintage_crosscheck.csv,4270.0,3670b4e3ceb86cc2139399f7d9936f81fef2dcd50636ca92946a3e21111b702f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/fed_units_vintage_crosscheck.json,262.0,664b9ec9215f90a0a8c1176b15d801b8aaf7d4e9f8a5963e6e68a5c160681b9e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/fed_workbook_schema.json,13407.0,0b8304b5ce36dfdbe456571b8f54bbc90a48217bcbc4f689c21bfb82c7777fc8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/final_integrity_QA.json,536.0,77398af5264f32447a07f97724848625ff51dc940251d311574225ddc43dc9d2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/final_storage.json,902.0,dd967f49fcd6c6be5ab7545888debaad011bf39ab8c2955c41977d18e64e30a7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/final_verification.json,1788.0,bc2572989e8033358f10676eb39c7bdd5f4f66a81c61fd0b052682df8f966d0e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/final_visual_statistical_QA.json,1685.0,1194b781314228302db105cfa58d57d348cb2c99acb3d2e464729fbd1d93c9cf,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/fomc_event_eligibility.csv,8796.0,620f2a9e44f7fac5b19aedf7b58780e02c67be6f878baa72f9c1fbeb35133e01,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/frozen_configs.json,457.0,cf8ea90822712b46d13fa95a24b9f3b3e9624cb718a17ddbe27b607a47a3ef95,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/git_closeout.json,773.0,77585cf67c8558b41a60b41ddd1eb2f58047c12316b8779f9038631e1a803906,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/hf_existing_metadata.json,5934.0,0b516d7e656e080df55ab250133e7bba180fc19c591910ecd582f21a181e5c44,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/initial_state.json,1052.0,719592bc13565d8eb0731a0f5244f6a1b55c382579877dd5868a56081ee69040,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/local_30m_roster.csv,8937.0,4e5a2b3da323794aa5091b1fb7ed7bff23128b6b9af7e51cba5b913cd1e6910d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/manual_visual_review.json,1600.0,e1700aa8465184f284ae685ae6fba6d0033857a8d30be82111c0555f3837a71e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/minute_completeness_by_symbol.csv,174.0,17de62712d765dc2739bd3b0700e0981778779b878068de8bdc8a8aa4214513a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/minute_session_quality.csv,235449.0,9b7f3a3a98d0acd9cac936dbd195ff4a9f8c5a9aec3fb8b86fe43bd3681e708e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/official_event_times.json,18932.0,238200d3c92aab54107566dcfdefdab38a11d97f887095c9ff739d2cc4f23c85,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/protected_legacy_files.json,145008.0,4bd37d42a17538b6ebb5f54679d4c5b79ae2f8e11ff37d92b50508ac6ea59f57,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_LICENSE,812.0,718d75c568a20ece523c50f86cecee778bd7673eb88f5139e2b896939445d21a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_LICENSE.receipt.json,397.0,74a726e1253a5c4aff8f0bdefd57b83475bfca73ebcf23d456b31503e74173e9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_README_md,8110.0,ab116493029e51321700fddcd1a35fbbdf49051ae64218d6910b2c89543d9dbd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_README_md.receipt.json,400.0,4f69a90422299344de53b946ca6ebea9770a79874928ec1797da945824b1423b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_manifest_json,766.0,370699b469f5f809f8acc1328f4bbfc9978185aca47e397d68ed219791b18ceb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/etf_manifest_json.receipt.json,403.0,d5d5a4262994e8d230123d5a38dac7b24d9017bba676389b63c62766cd58c75b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/frbsf.html,112711.0,6d92557fafa3df91d932d7338f3122fcfe9fa241c17e0ae5efc9c28ebd71f5b9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/frbsf.html.receipt.json,337.0,c28c326a7427f692c5045039b30d68330a66ce7dd23180bf9e42ce7f04d243cd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/frbsf_download_links.json,190.0,9c597bceef7ebadde66ac49ed9c30bcfd1646a23af735c1dee61d13e29fb1f96,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/h15_about.html,77045.0,3f0bc5a8397e1176dd22ca173d93f7a7d66b3c4d930966f2383a58b67eddf6f9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/h15_about.html.receipt.json,299.0,3c83d6fc33a690147d1d97edd74fb4bcfc3a242042da8ca0233360c473c443d2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/h15_release.html,105950.0,e5ac33567bbbd3300e8a4f9f01e0b7dedac46d11381ed64643b286ff9025bbd2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/h15_release.html.receipt.json,291.0,033e491fad794b318025f5fee3b1d168968a0bb281a9377673c4e639f231a443,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/hf_etf_api.json,2089.0,f3936994d88ac6d4dd7bdc58dce967362dda83c0be2f6182baaf18736c861874,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/hf_etf_api.json.receipt.json,338.0,ad4972f8e80ee6183da19d74f3d361f3123b0981b0902fcfc912bde3e0261c66,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/hf_minute_api.json,30885.0,78c3efdcf51a4156eb94c098cf8dd55715f3dfd1a30f1935e0a835eaf54e3a93,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/remote_metadata/hf_minute_api.json.receipt.json,336.0,287a1eed694f8f8c3bbb183443e57d953750ce8f5a041082e4d52463a5b4737d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/resolved_paths.json,639.0,d9ed41a830e2f4858d26bc4e751079a3a3fa025dfd94762d69a6e7bedc21bd37,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/runtime_environment.json,2404.0,ab092bebf2a0af7515a38780336dbcfaff9b22a290cbb88ccb241ccb18cab262,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/source_registry.json,33211.0,114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/source_registry_draft.json,31582.0,8807cb1f25cd0f994b04ec1a2c0cf2411e2d8e76066c5b1c33ac6c565a8bb5c7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/stock30_session_quality.csv,85340.0,4eea14515b9692d23dca0eccf4124bd9132d52cc90ec5368ffb4e0c51c551234,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/storage_budget.json,642.0,aa09f7e51a3b3381ce926a8189354601ecc8342dda5aee0b467d7e90d597ddd7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/test_execution_evidence.json,3131.0,605495e9163c90a56e67477055cff9de42a5d83d4386ceed05d60eedcbf6342e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/treasury_instrument_identity.json,710.0,04d5dd974107b1425b63480ae3c9c829d3953dae04dc3269796b07e9b5970052,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/union_acquisition_plan.json,6474.0,03843f8937cb5b64bce1c7944545462547cc60638cdf471bb3b5fa50976bbaac,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/manifests/validated_inputs.json,44012.0,5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/experiment_input_contract_matrix.md,1245.0,bae6ab5e5cb4609b1e8923f1fd16fe4761ba03b12c1c08166be7d5e8c9c88b60,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P01_INTRADAY_BETA_scatter.csv,298520.0,c21634ae873b60c223f30657f8db0bf558f3ca706307d5b7f9c4dceb704356df,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P01_INTRADAY_BETA_shape_contrast.csv,359.0,f94251e32be0757128ca6720437c82d592783ebaa56a83eb7c3063129cb3f296,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P01_INTRADAY_BETA_summary.csv,3636.0,c495a8b9b6b8521eca4d36599beba7009df80a3b2cd85929b8b435e8e47a566d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P01_INTRADAY_BETA_support.csv,6569.0,341cace882e00c66f7026f55cc1379c1f5b520d62de1836e7b813619d2bfe543,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P02_SIGNED_RV_summary.csv,2124.0,b5d4eb1370e9ebeb7c59a9e90d0f27976098768e76d8237ae30ea863af18f099,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P03_TREASURY_HEDGE_shape_contrast.csv,420.0,0afa2a669087bcec25bc369b501f43d51c7d7c800ee2c41a1220b53e02c657cd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P03_TREASURY_HEDGE_summary.csv,3604.0,e319c8f42fce2e276675494cacbfcece0c268b578cbf284590f7dc6e32aef299,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P03_TREASURY_HEDGE_support.csv,3356.0,0104293bb8abd49628a661f8c35ee49d7168fb66d8b800bd9fde040838f29f88,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P04_VOLUME_REVERSAL_shape_contrast.csv,437.0,583d8454b04c41e88799daf3597615473dc53dabc4e82d63c8eb7242c8a30aed,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P04_VOLUME_REVERSAL_summary.csv,3607.0,e183153baac0bb3ef758ca586e76aa0d2cd1a488ca801705551c4b28f60ec3f0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P04_VOLUME_REVERSAL_support.csv,3383.0,3f8ae7a519e9e19d5032ca4acb745705ab2e90842bf5326154d39a6623cbb56d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/P05_FOMC_RESPONSE_summary.csv,99.0,1aed6af45c1b463d41cfaf1e6432481abeb63d96147bf0451838e30b12971099,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figure_data/five_experiment_overview.csv,520.0,92d5080c6d25a8251d2239af7f42f7b68aa32804eae9ed1237e1467eacc07076,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_scatter.meta.json,1484.0,199c1b13b2fcaa6cf8377da13072cb9aae74b2f3092ece055f09e4da21491862,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_scatter.png,191134.0,27a899588fcaedcff379b8938eab77fe19879439d427ea1b09eed0347c0a6f47,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_shape_contrast.meta.json,1399.0,51d21d8a66d7a3e1ecf593b4603db12e2455e6d8418e516a0ee9c1b394c6a952,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_shape_contrast.png,93833.0,7ee5f1e212e7399a4514bbe0973973da52ce4914333bc409646b44e46923d4a9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_summary.meta.json,1393.0,c5ca3c6d7f2363ae97fa12266818c7638c01bea74eb6ac10d9abfc6adf80fd98,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_summary.png,167479.0,1c026d30a89098ae4f11c24806389f211619e479c039eb6e3202eac8ea52b6d6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_support.meta.json,1394.0,73397454b8c6bd3869385a3f0637607096290b99705f220b2d590b47f8d02419,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P01_INTRADAY_BETA_support.png,136401.0,c3caa215dd11ad8760e5bf2ca4f866fc1ee74042dd1498e90f487b2cc18e6975,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P02_SIGNED_RV_summary.meta.json,1474.0,bbb427b91a755c2008fc8221f213cd3f1dc24d79a89147fcdf56bee0255e6d75,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P02_SIGNED_RV_summary.png,96530.0,ce12cca70ff47124961720d13e6bd85efce568b979f342145686c0de3a61fdc8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_shape_contrast.meta.json,1449.0,cf37b9940d4c046c7c694c80ee1a47b4a0ca8aa19adc59fe72a8a55ac9494904,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_shape_contrast.png,91705.0,62f322d5d9ea7a4cade5143bed82f53e8fd2c63b2878bc04588b83d6a71611eb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_summary.meta.json,1443.0,27d2695fcb7710d3f5f46760b6ba8ad288c818691b200095013ec327d8dca70f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_summary.png,166329.0,5f39ff6ef838ee17bfdd4904bba64009bf81f8a9ce056b46c8f6f17366917317,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_support.meta.json,1442.0,d73b1536f723c6ceb03f2b9b521bb1ee4b5eab546b009055be3023d624d88361,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P03_TREASURY_HEDGE_support.png,126146.0,4fe02370e0b7278a1ff94290b3137e7ae92909bdfd917942ddc905258745d0e2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_shape_contrast.meta.json,2162.0,1dda588353d085da1c94687b506d2f1badbf26a79c4a34fe55e9e8f25fd60661,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_shape_contrast.png,91063.0,139c53f250a2abdd0927a30af0e7527515adb4218c0116581b5501a5e603b2c9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_summary.meta.json,2154.0,5072dd49a5b028bbfbe2ddb7172f8f7c08307b1c1dac5a25407622f37168d315,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_summary.png,186126.0,82d2b6c8978cc774936b0d2e955dd87c9c3adf2a6053472aa62d455b583738e6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_support.meta.json,2154.0,e1791a15af6e998e282ec580ae0e8c6354d1aefa3e922417d541860e3879c639,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P04_VOLUME_REVERSAL_support.png,143929.0,58033742e57fc6b8c0dab49cddb687acdba747260b225c9217c90785a205a9ba,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P05_FOMC_RESPONSE_summary.meta.json,1403.0,b0958069496be9ec875b18e218d47f6f97c691022e6900f6bf4fc2b1999bf33b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/P05_FOMC_RESPONSE_summary.png,93832.0,f4cb6c514b201587c51915951dbb55c16ea7cd5b36e1ec60931149cd77d162d2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/five_experiment_overview.meta.json,1758.0,66b2a8e2cb352feef9744c28f8923f1ddd372e1b4c2ec7e7d24a633a98579e69,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/figures/five_experiment_overview.png,590997.0,5607b1c3c5c0b1f13b228b83a9de771b007fff9424a8fc01224242e196adf327,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/five_experiment_execution_integrity_v1.md,10971.0,f6e5274d8f0450123902c56d2eff50c0290671a7d0f37da582b7e61501660ef0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/five_experiment_prelim_closeout_v1.md,19801.0,7940cb70bb477844292823143f4c372c5f14192844b18a4a068cfc1e02af6bb3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/five_experiment_prelim_review_bundle_v1.zip,2426665.0,ea70c5906bd78b306d11dbb408fa2999925353f21fa287b4fbbff96cfc34b3b8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/shared_data_inventory.md,1920.0,b171bbd9ec850c024f0fbb78db5bdeab90397748d1f6894f19764906df29cdb3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/shared_download_integrity.md,662.0,da05fc995d79f78d4615bf7db21fbf29416d51caabfd44a0499fd21d1d674555,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/reports/shared_features_QA.md,5859.0,b7f11ea08ba25a034cc4b60bcb7af3f7cabb5b262ce1fc514e6c9049d71ae330,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-01.source.parquet.receipt.json,442.0,5e96e132518d3ec8f52e7c6d632b4400ca071eb2e39e94f4e007fb4f16e6c715,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-02.source.parquet.receipt.json,442.0,42e0d3c19e721b78d044628cbbcdae77b80d2a68b35af51ff5b3f48010e2dda5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-03.source.parquet.receipt.json,442.0,606c280b4946cc2053f4f0b32b72eed50c19636fbe8e1f1963dbc9babb347609,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-04.source.parquet.receipt.json,442.0,4d8bd6f14c309ebffe3021222d5d6128c057c6566d2003c9b863f6bc39014971,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-05.source.parquet.receipt.json,442.0,14e5406cb574c495ed4c0dad0c286aecd978d81c0b8ad6d97390253a2501bb58,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-06.source.parquet.receipt.json,442.0,3617c5a40b844018570fccb92befc8b5d03b36e0a3461f4a79d08eadc66f62e0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-07.source.parquet.receipt.json,442.0,4f1208a9326a3c3d906e0edaf09671f0d9361f629208464205c30b2e935024f0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-08.source.parquet.receipt.json,442.0,a6d2a5e22d7287911bd0cc7ddb04e174daf978a627c6a2bab082eaf7478318de,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-09.source.parquet.receipt.json,442.0,34f9d425fb056d72dffc4d81669962fbaa8f5f4b39ab973a9ea76d9d28d05dff,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-10.source.parquet.receipt.json,442.0,a564997cf25d99d593d2ea0a363c412864673787c33ce2d4e35ea6548108d638,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-11.source.parquet.receipt.json,442.0,afbdfabd3e4ebe74a6a7f8ae532c8227c7bf6e71f3b45865785d30067a7d5a34,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,artifacts/five_state_shape_prelim_v1/scratch/2019-12.source.parquet.receipt.json,442.0,3c1d682e844e0da81e4624104c4d6318db4df4ee3f1ab2a4c293b62943257636,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/.gitignore,25.0,aae815b9313ef60fb99d51bec324f3de1cea5256d6bbf58a660578b3e2d5815c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/README.md,2041.0,b8960b1645012bd22250e3379df193280dedcb9ecb685117abaf0cf377e2b4ad,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/daily_etf_oc_controls.parquet,29463.0,305465e5f6b9ecb9e23220d0b1ecdd411975b35861e7f410de3cef0d4394eb65,1099.0,"date_et: large_string
+ief_oc_bp: double
+spy_oc_bp: double
+source_id: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 555",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/daily_rv_semivariance.parquet,370340.0,93829bbe488a835e18322274a2bc3d7b9781bc81f3cb33fac8aa5bb57d422eb2,2699.0,"symbol: large_string
+date_et: large_string
+RV: double
+RS_minus: double
+RS_plus: double
+q_down: double
+n_return_intervals: int64
+source_id: large_string
+observed: bool
+is_imputed: bool
+large_minute_move: bool
+available_at: large_string
+open: double
+close: double
+volume: double
+event_return_bp: double
+pre_event_return_bp: double
+event_start_reference: large_string
+event_end_reference: large_string
+previous_session: large_string
+next_session: large_string
+lag_RV: double
+next_session_RV: double
+log_RV: double
+lag_log_RV: double
+next_log_RV: double
+next_target_available_at: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 3351",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/daily_spy_treasury_returns.parquet,44020.0,54229e930e71349c4ed7a262285c445e582f727577b5bdd86c8a0f9f6e943518,664.0,"date_et: large_string
+ief_oc_bp: double
+spy_oc_bp: double
+source_id: large_string
+session_open: timestamp[us, tz=UTC]
+rate_observation_date: large_string
+DGS2: double
+DGS10: double
+available_at: timestamp[us, tz=UTC]
+yield_spread_pp: double
+macro_source_id: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1470",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/daily_stock_returns_volume.parquet,135999.0,612deb1aad6b184fe7e9b1a083a2693b33fd6e076dcca81c60760b17b1563fa9,2470.0,"symbol: large_string
+date_et: large_string
+open: double
+close: double
+volume: double
+source_id: large_string
+adjustment: large_string
+observed: bool
+stock_return_bp: double
+stock_next_return_bp: double
+next_session: large_string
+relative_log_volume: double
+prior20_count: int64
+state_available_at: large_string
+target_available_at: large_string
+spy_oc_bp: double
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 2024",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/fomc_events.parquet,10826.0,b4cdcd003f44f51bb070301a32dd40c235dd22964d602b07aed1592f070fb1ce,54.0,"event_id: large_string
+date_et: large_string
+release_time_source: large_string
+published_MPS_percentage_points: double
+surprise_bp: double
+official_1400: bool
+sheet_1400: bool
+standard_1400: bool
+source_id: large_string
+event_return_bp: double
+pre_event_return_bp: double
+eligible: bool
+exclusion_reason: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1715",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/derived/market_returns_5m.parquet,1018667.0,1fa846ffa8e41e01c7465bb302ed28781cd86366b816a703fb6e56d218af8056,104760.0,"symbol: large_string
+date_et: large_string
+bin_start_minute_ET: int64
+bin_end_utc: large_string
+return_5m_log_bp: double
+clock_state: large_string
+source_id: large_string
+n_genuine_intervals: int64
+observed: bool
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1175",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/etf_daily/etf_daily_prices.parquet,2372716.0,cfb074bb7ae23de69ce75f640c8a3a1b87b1fe0d0eec5723c285a2e596ad78a6,119954.0,"date: timestamp[us]
+symbol: large_string
+asset_type: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 983",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/etf_daily/etf_daily_prices.parquet.receipt.json,442.0,6dce2e473ef61b57f313ce5ff9ed7395109671a8564bbe162c25f96b012e6297,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/etf_daily/instrument_metadata.parquet,7610.0,d70bba35838a5ed4a40e7c557967810b283445560f37e10c36545416d5fadcb7,98.0,"symbol: large_string
+asset_type: large_string
+name: null
+type: large_string
+exchange: large_string
+exchange_name: large_string
+trading: large_string
+fractional_trading: large_string
+option_trading: large_string
+option_spread_trading: large_string
+shorting_availability: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1403",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/etf_daily/instrument_metadata.parquet.receipt.json,442.0,a1f8be426ed0d21af297defbacc6e2c96419ca4be35962b5b8a9d19af2be52e8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2016.html,95829.0,157cbba3a585d2ee60eaaba08b4203bfda83ff305ebe84bd819ed0713e9b7172,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2016.html.receipt.json,314.0,73baa7f1c458ebd95dfc8f4bdd28fa27d3bf9b8880588abda602d538cebd6cdb,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2017.html,95200.0,5813a5e94b1201d52353e34e7d473f1babe9ea6eb2e4bed4686d1aca6e11e01e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2017.html.receipt.json,314.0,ba7b2f289253bf03a2ace0dae461c3c31b453d8317ae57421d0ce3c2317682de,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2018.html,95705.0,c312839fd8ede1932cc51c3c3b6b2db01821652890bab877bee79b48e71ccf4c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2018.html.receipt.json,314.0,f4c674b6e2d726723c39691b6fc14aadb9bfa95e6110a87c3f9c54a712933ae7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2019.html,97344.0,da90a027cd4a803bfd6260d23e7e740d22402f210a3f433398e1d680d1d9935c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2019.html.receipt.json,314.0,f78a53321e5072b00ba01b759d45a337f384c7bc24dc91ab4c097771ded248c7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2020.html,98555.0,1a00eea7e5aa0679fb14c78dda924be21e12bf61ad03d642d514ec1e0b5378ff,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/calendar_2020.html.receipt.json,314.0,cca0361254824172576af452193938efbb312311b03413b70ad1af3e109bdbe9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/monetary-policy-surprises-data.xlsx,301655.0,708606624de050cdaf6fd850a320b38d45099ab7c2398e01ba12dcece5743668,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/monetary-policy-surprises-data.xlsx.receipt.json,352.0,2eb1dd111492fe96d348e0fde1402234c7c64718aa2982e1662455b0b3f3f70e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/published_chart_units_check.csv,2362.0,55aabf5b0742447614e6de91299822cc81de6be210475957fc3db7e4f4807508,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/published_chart_units_check.csv.receipt.json,351.0,80c8e9b297c38dc3c54acd5ae327b828d55ba00ee62b8c41e7443db3f2c51efa,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160127.html,83480.0,54e2736f0cd9b66b50ec7cf98209c43ee55dfdfbd0ef2da7e12b00e508103830,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160127.html.receipt.json,323.0,f42164a5d026cb1ca654d2dd09f0a2aa2492deef37e9558522a8472c91009c58,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160316.html,83538.0,cf60b3edcca8c9f047673757e67caa1ef1c042be391034e0b942ef3116f49104,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160316.html.receipt.json,323.0,f0f76cda57b3d50a74c155d25db2c4dd0d7a16d44ddbe1f1986cdda70bfde8a5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160427.html,83564.0,fa80143936e4c8a5505704446fc11a69a96a5782b5d32d032bb3a98730196a95,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160427.html.receipt.json,323.0,35562d5fb4541fdbc5427d0699801d2f12c8c62e457ce60ba08c7492ec0362d3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160615.html,83334.0,bf896d7187adb64d6e9fbe13aee1f3873e6de53739c9fc910418e5717b1082fc,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160615.html.receipt.json,323.0,08e90e2f7a20e2a5a01039691c6154238d18c5d555090f9ac3af9b18d11613f0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160727.html,83478.0,8632b7f033ccd0b008d2a0442dc64a824c5b884065668de2c2c3280acd60d0b5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160727.html.receipt.json,323.0,8431effb1e7f9ad830e2691cfc6e175c5676490b73a2ca2050ade52104943e60,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160921.html,83694.0,7ec486229b57c6d20d661435d35a7148262333f787ae8331ab06f3f391221b26,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20160921.html.receipt.json,323.0,91e8b5eb23afaaf7494e26d02a5f413fd984174cf30ae7ae90e32b0f9768e8b9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161102.html,83666.0,37925428072b587cabce5234a5a0669bf311f50903f770bb769571f95cff538c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161102.html.receipt.json,323.0,c31a39a1c849163f70396e9969fcc1b9e014a8f848e2019e6a825fcb305fa375,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161214.html,83325.0,4b70bd5044f5ff706c629e7c2433be28bdd8e94a1b44e379e3920fe42dcb3873,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20161214.html.receipt.json,323.0,e12cd7202c2f9bb856452279d1244668353265a095cdedf917605dec1eb0f49e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170201.html,83773.0,9d360fa175794236a51031cd81ead8545c8dce38e8cd19a2a1447e84ad3af78a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170201.html.receipt.json,323.0,e191319b3be03aa08a41fa63cbe7053533127d0a3ef8781dd2b32c5bad95db45,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170315.html,83508.0,73815e5f4c9846adb4cbd6e0b83aa260ea2865de168ceebf7b73b0f4765bd20c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170315.html.receipt.json,323.0,0b7602608b8ac700577e6811fd68d535f0bb2973972819aded671e0a5cd2d46b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170503.html,83489.0,5ee4750e9ae431158b3a796baa0d66f0158b6ec19e84b1d052e8b2a5f3e68105,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170503.html.receipt.json,323.0,3a37e155b71182d0675a863fbed673a764ae958017d4602795c3ce89b3587a8f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170614.html,83685.0,6e47d4357bc900b4f99b296ed1402418f39aa83bd47b150172b60abe840a6e77,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170614.html.receipt.json,323.0,37b23ff928a2f7ecab7a885d65cac576af40a4449e1a8482cea6466456289b35,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170726.html,83373.0,5bfcb5a2cdb22344752b2d2ef79fca1c09c2c5ae83a9d1323dec0b33140bef94,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170726.html.receipt.json,323.0,c1152268f16fc147808e4e3ae603837872cd7ae2fdd5468bcbe8fe305429a7e5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170920.html,83549.0,36e8970e47fe8a0eaffdfd6982d05aa46a5157813864fcf2c3483e49cdf77e12,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20170920.html.receipt.json,323.0,4a970e0b9430f16370c3294b8b40f56b09faaf7730cc97fa8924fc00646369e6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171101.html,83429.0,21d2169cdb1257eb0222b24295d24eeeea16d974dcfe724baa924e5866601f86,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171101.html.receipt.json,323.0,6e919b03f09b6274f40e0d907326e8166f9f5ad556b1d313767b23cbfb3377cf,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171213.html,83208.0,dc816817982cbb11f74072e13f6a5171c718ee35b499e0bff9e5f6f37fd828a7,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20171213.html.receipt.json,323.0,33f8065488150329dcb645046765b7fdb542da02f664a57ae4a4bac74c59b8cc,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180131.html,82749.0,a8a6dba35ea177ef37e53768f6351fcee2afd6646ae7983220aed0bd0b07f92b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180131.html.receipt.json,323.0,eed0a6207782616dbe9f743259315f6bf2bb14d3bd2559947fc22058428aa8d6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180321.html,82910.0,37152fe6313c2a53dc232944fb52efbb04162af2fe5720a0c82bbb553796617d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180321.html.receipt.json,323.0,6ab617fcde964bf35dada9692dfa10635e7fe935fef6dbeb7eeb036952a298db,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180502.html,82726.0,067db5b132aa6becf334ca648c7ce423ec8cf23b2b36895c4cff3829fccd4b21,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180502.html.receipt.json,323.0,33f374b9a9b9da7ebdbc5aa00f76051455755906f8c62f13a4b84867de49cc21,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180613.html,82088.0,36c8d68b9cedb851157921f45eae293a402e59911604bf7f82281623f75c5bb9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180613.html.receipt.json,323.0,7111a23a8b711007931c204a9510cd632faaa49c48e742581a340c50e1d2bb31,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180801.html,82029.0,23e0ffa7a2af1caa790d5a43c09a908bad884468c3dc039258630cc8769db1ae,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180801.html.receipt.json,323.0,52a1148c303ebc8a8a175aa17ecc09e980c07ce7d04e045c5ca8e490283a7821,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180926.html,81908.0,ed1e5358f927321ad225a81da2e1396b9e81004d97ef15c532c1d85d3ce09d98,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20180926.html.receipt.json,323.0,ebf2944481108d0efb17931a221fc1308a14617193e9f07008d6cdf8d3748d07,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181108.html,81982.0,941a906798630f20bd6079f0c923600b5da30082d8f5983e063fb0b2e6fc8e3c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181108.html.receipt.json,323.0,3e573136ac331b1e596aac2bbe9f29693f4385cb11092c5348bab0651154c0e9,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181219.html,82169.0,fb987cb0f3e2b50f0150923871c52df8132c7e94c34b400f3c16dea0e783e29e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20181219.html.receipt.json,323.0,21c85480e3f35a80a46b48d4e1ee2ce608610e843ea2564f70d8172eed89782c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190130.html,82155.0,bd9ed2faf7800114c8e47359690f542be22c680ae17b5531ac8e2e1f3891c888,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190130.html.receipt.json,323.0,d100ca641c2164b8bcf3396b30a2d651c91bf3889d411535d04fea17d858e181,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190320.html,82248.0,44a38ffc937b7716b0a852a629165eda5fa9d909404abc8b891fcd1ac35d7eba,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190320.html.receipt.json,323.0,adf630b9a7d941ffec7ba2618eb3c14dd385f10c6f3c4742a69c6bdf1ab60377,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190501.html,82078.0,8fecf6a0aadad7963dc8038adf34cee7c8a9b14d729d1fc9a58b99b018467bb8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190501.html.receipt.json,323.0,bc55f9d32784421e141026df79db8dbf916aa46303d446de980af325d2ede2ef,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190619.html,82320.0,eb1f47553cea06165330ceca3d085aa32c060e578cba1bd9c6833d53ea3a1e48,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190619.html.receipt.json,323.0,2fe02d98ec2ea01fb0ff95d0fbe7a9f924901a49a4a52743ed921be2e16eb108,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190731.html,82608.0,75f4e42526b37739f63d548011ea0f4b5ab09204a512987f8d3dbf71110a8431,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190731.html.receipt.json,323.0,246c0ffb8b3135ad4cb48949162bf53fe73756e08043b047b6248adfef65855c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190918.html,82504.0,cd3836bd26f1b96a89ce6baae16fc2a64d94c387841bdbe716056c17ead19194,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20190918.html.receipt.json,323.0,86699f7e2566fa4e373f0becd80b2656757a4f576b132b757c54c48d9f9f452f,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191011.html,85772.0,1fde126582bff89a7475ae78287d2f108cf85be105e49ce44174e9ba759cbc66,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191011.html.receipt.json,323.0,2ea59f6a0c9df8dc123197c5ad20de24a08dc572a2815a05f7abdcd554c312f1,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191030.html,82275.0,e4d9494cc4e6a7e1264c95473aaa784ede4adfb3b527f680f162677b85ac5c17,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191030.html.receipt.json,323.0,da08f64f605e10416f74e39d693773f3f1ee12e6b3d727322258de85febb7e3e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191211.html,82073.0,9cd198d098abfdd32f89fe71df6895d2a0221fc841336248c550850ecf38f0bd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20191211.html.receipt.json,323.0,a5a9290cbd0580eb86d76f32fd634776f2cf6ed41fe7be4bb9afd96edffc2fab,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200129.html,82079.0,83b03a71e9d841295518db0395346bc54e8b759ff4de2337e2e55da1d47bcdbe,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200129.html.receipt.json,323.0,58c6edb45f221ced0633a249853cc8d15d4d4e8b4108e248564f471fc11f8fdd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200303.html,80778.0,daef2f8627538752588d2fcb97dc20bd0ea36c0bceae3253711db46e40e67cd5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200303.html.receipt.json,323.0,7ab77465b9b9e1c4df91fe3f6824e66c088f8379fa622041b7ea7508fbe5e575,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200315.html,85154.0,1373b2330c6845471c73cd36f0a55845108cd5aea240ca1b51548d0119fc94da,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200315.html.receipt.json,323.0,db68196892bf106695e6930fb496fa0a1baf289141166621be73373f1e2f47ef,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200323.html,85027.0,d33de38cceb85afa5c699490a8e9ec93dcb985c59d431348fd3d174504c1d776,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200323.html.receipt.json,323.0,7b54c3e0908986dfdead12c1b3494e008d5dea90031d89d675b1ebf83001a141,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200331.html,82569.0,435082082f97551735eab6e019c0ab6d11e57d63dfdd45d11b1643478204f493,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200331.html.receipt.json,323.0,cce4957133a2807674b72c4469ab92d1e4bf042d803e30ad80c9aff73189ab05,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200429.html,82800.0,de0a11751819f6816ab1df267e74844d3fdf7fef558a4f2e71b6e6e01099c960,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200429.html.receipt.json,323.0,f88436b393b29e07d93192defe8336ca5e6fcf7cd40bccd811e0382c0c8e1a90,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200610.html,82796.0,267db82596ca4c760ba8f0f243a32274e7a351ab6f66e685af33b6756644b383,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200610.html.receipt.json,323.0,7b3e61c5c492d37ab3006d972618edccb5b2f0843a7d3e44efb2455307503a37,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200729.html,82936.0,b66a6581510f69af23affe226ed4add367a7a750788e15e56904254fdb369760,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200729.html.receipt.json,323.0,fe80aebd621fb9dcb761b3371b0d3ff8edab4f800943892e47f8bd4fb2ae4703,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200827.html,85930.0,3acc76c7961c8293553829aa4f21ccab70584fa4c9a6c4f8c98e4d9ac411fa34,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200827.html.receipt.json,323.0,4a880599326052fdde0df636f050b0cecd3dd97a7b5321f05f419615cc6041be,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200916.html,83554.0,a8fba21bc315cc3ac58904d0124d322d4b4daa205115af310507f67263e9cab3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20200916.html.receipt.json,323.0,7822a52d345a0cf23b6c1ada7dabb0469128ad029a62d3391833e1399ed15b3a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201105.html,83013.0,eb4a0127ba43df684af5f25a2ae6d1d839d4f3aecd81fda93b975e42f032edf6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201105.html.receipt.json,323.0,7f7aee9c9b4f2b245c8a78ab622c3fe381450b09b3c4df74cb1b46117434e111,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201216.html,83124.0,2dc5ae49012f9f65723350d35096cdb2cdd07144e9d47a91b81d58d96d8012cd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20201216.html.receipt.json,323.0,40dc27d2cb22839d95f37467e6e4f15a22cdc34a01de63ba2703fae4bbe0e0c2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210127.html,83195.0,c4d59ff72a9345e965a1ba1a2e675eac977450add5dbe20bc991629680bab98a,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210127.html.receipt.json,323.0,4880495fb70328313eaddc92f5d5d1125cf1434b6d6cf4c9ab8787132810718d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210317.html,83157.0,33296256eab5a50e5374126ec96639aece55e34a858db4c8925ef9484a9acfbc,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210317.html.receipt.json,323.0,ab052a8be206e7207283b27a57b535f829e9b16575df6881ef95f7c7e24eb6d5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210428.html,83145.0,cdc54adeb9eeb23eb4dd29e1125af04d0f52dec01bb83ad7b6aff63ff234c007,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210428.html.receipt.json,323.0,fc11986b4aee8ecc2813e343f3c6c2a62096a8faa9800f2980beafc3ed819ba3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210616.html,83105.0,94258a103ae67adbc3a5e65ceb95844009f56544d15ea95616fd48aebb45b74c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210616.html.receipt.json,323.0,cc13985769440c5c68691cb289615ecda8cd87571f857e0de1e8bb82794dc732,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210728.html,83188.0,35ec98170978340dbab4532d68dd59a876afb70a0381805bd9ffbe481917f67b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210728.html.receipt.json,323.0,349573539229732f13832bedae208bd80e58721a0707b741f10070588355bb9e,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210922.html,83307.0,92933d5f7c76c73570915a72c11d22127d1e7585c1f802d1aeddfdc3cd8a2953,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20210922.html.receipt.json,323.0,134be1972fed7e56c9e482b326f669508a36a0273d3ee2acc5c49efe2b9328c5,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211103.html,83986.0,9c8d7b4ce226d1c40347ab290534bc3d71f85ab96c642ba42b93c6e2219bdbde,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211103.html.receipt.json,323.0,d4fbfb2a255a4a881e8b4c08c635636fda5a191b06c667f50820614b65eec57c,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211215.html,83382.0,12ffb81c8597517abb604ab0992744f1034445fc54d5afd7a53a7c1cfc5f2403,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fed_surprises/statement_20211215.html.receipt.json,323.0,6292938224da59ba1fe078514b3207762521695a6e7e8c25f922fda2663cdd86,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fred_rates/DGS10.csv,11383.0,aa295a52c620be751c109cccb74c72feed46b9e5a7e5750dea0a3c93d01ea0d8,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fred_rates/DGS10.csv.receipt.json,334.0,9e7d042cd2db56adc9a17d7f218d844cee6ba9cda1fb6cc22271a2dcce74afa0,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fred_rates/DGS2.csv,11382.0,d3195b5a66990c1bf7a3a6befb0c0332a4777e625d5a21e82f9bb6bf13ff5277,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/fred_rates/DGS2.csv.receipt.json,333.0,a1369afb52600302144f8da7d4bc9f8f73c6661027ae18e978b47b1c851079dd,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-01.parquet,847201.0,ccb806b7bca4719bbde682137c8c7b1f90ec017059c430e5e0c35b8e5a209d40,64733.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-02.parquet,746649.0,f5a2a0b69a64083ab0991be0cd411a4ab18ad75138d35128f4f786df1a63948f,58173.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-03.parquet,831333.0,3b0abbc807e25bc67f46d20c6d6e70ce51f38fd2d4bb4ba53b37e31e6e1cac4a,64795.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-04.parquet,815862.0,d7fc42c6e013081cc809eaf0cfef15af028ad649bd329d2cdcfc5653c401890e,64528.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-05.parquet,878659.0,899e7731cf3ce72d456df3fb9f2b75bf5e0ed96ec826c73efd697b051e026088,67900.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-06.parquet,813740.0,0efb9a3bf3ef9f6098d3deb6e3203b72a11f4a81d0c8846b13fece18bed447bc,61105.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-07.parquet,833487.0,d618ae7a0d44fc6466dd0fc2822d04144960cb95259c11c3f424c437d49dcd26,65758.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-08.parquet,886803.0,6364cdebba1e1ed9f74a98eb29c220ca0cf6afe923f071fc982aa4f35450db3c,67171.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-09.parquet,826379.0,ca451b6ea101f09b4f212ad1e8ddac6d88bd29d4767bfa4f20e238f9b772bfce,61368.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-10.parquet,935965.0,1e9c78c13f3b15de6dc4fe64570ef5b68775e458a6610e564aca333f025f4098,69930.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-11.parquet,759375.0,229cf67470afc525287c161a9f735fa77e479631955d83cb102aeffa352a4427,59395.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,data/shared/five_state_shape_prelim_v1/market_1m/2019-12.parquet,811487.0,17006ba93995267ec326a4f9ea29864c7431e41471d170a07c2ca1667b193d4d,61865.0,"timestamp: timestamp[ns, tz=UTC]
+ticker: large_string
+open: double
+high: double
+low: double
+close: double
+volume: double
+is_valid: bool
+is_genuine: bool
+is_imputed: bool
+source_id: large_string
+source_revision: large_string
+-- schema metadata --
+pandas: '{""index_columns"": [], ""column_indexes"": [], ""columns"": [{""name"":' + 1475",New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,reports/sessions/20261022_2241_SHARED_five_prelim_session.md,39179.0,9aaa37d76c002c701c177bfb02f163640b3a297ec49263f362233b5154b20c9b,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,scripts/five_prelim.py,183.0,a62a5c45f4f669e56c33b47de1a62e3a0547d310e0c2aa8034f03c026f3829c4,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/__init__.py,72.0,5b04b327a6388ea85b8762a708e7e9593489d4e240bf7269f8d0f74c4a735c26,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/__pycache__/__init__.cpython-314.pyc,272.0,a6c857f7df5971d4679d39788b9bbeeb856d2840ec6f4c134c828220d17af20d,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/__pycache__/core.cpython-314.pyc,18069.0,d55f272174ecf4da47fe9eb431dd6e5e63989e385657dbea1a2063c8b49e16ce,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/__pycache__/features.cpython-314.pyc,35804.0,4c1221c1e16c0d02efa4bfef43b7a9ed139655c8f836f0a0e7c58a7fcb116e86,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/__pycache__/sources.cpython-314.pyc,23783.0,8e7eeb78b4f21ff218db098d4d3be44b8f6a1ccc90b8f7bd0e552251e0a89583,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/core.py,8734.0,b5df77ba36eb1bd4c4c9176825027b93b22849a8f7d53820fba4d6b99a2c9df3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/features.py,19217.0,752a18eb0e4c1600f088bb0d9321cdeb2570f642aa35b34cb4635d337f897768,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/reporting.py,55422.0,0c0cae509cd494c08cd140f58e9479407457746df9a61548cd4621fbb30a59d2,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/run.py,19546.0,fe8327af7b7b0274de92fb6b74c4b3d5e05fbbaf9a6d4df791505a75919a56f6,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/sources.py,13349.0,9037bc89c52a3bd7b8e1af07e2f9c2bfc514e14408d63afd363315b4e72b06b3,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,src/ebm_research/five_prelim/statistics.py,21420.0,3adc8d438882f209431bdf4ad602b1db40fcbfc21a11df0c1a280d6b3d518515,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.
+CREATED,tests/test_five_prelim.py,12229.0,60c44f8d662e3c95be16e49a56a01c22811ec5645acc570f45be8ce7874f7d73,,,New namespace; authoritative frozen input/figure hashes are also checked by verify.

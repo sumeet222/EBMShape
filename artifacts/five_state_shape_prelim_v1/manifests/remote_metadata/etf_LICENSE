@@ -1,0 +1,9 @@
+Custom Educational Dataset Terms
+
+This dataset is provided for educational and research use only.
+
+The files contain transformed portfolio-analysis inputs, such as cleaned ETF price tables, metadata labels, liquidity rankings, and skfolio-oriented features. They are not raw API responses and do not include API keys, account data, customer data, balances, holdings, transactions, orders, or trading instructions.
+
+Users may use this dataset to run associated educational notebooks and reproduce the examples. Redistribution, resale, and commercial use are not permitted without written permission from the dataset maintainer and any applicable upstream data rights holders.
+
+No financial advice is provided. No warranty is provided for accuracy, completeness, timeliness, or fitness for any investment purpose.

@@ -1,0 +1,83 @@
+{
+  "experiment_id": "P04_VOLUME_REVERSAL",
+  "config_sha256": "b12c6d0c70a4dbb13d4de5db64716ca690739c9458e1a817b0716903d187cd37",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "target": "same_stock_next_session_close_close_log_return_bp",
+  "predictor": "same_stock_current_close_close_log_return_bp",
+  "state": "own_log_volume_minus_prior20_mean_log_volume",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2024-09-26",
+    "2025-09-25"
+  ],
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "plot_data_sha256": "e183153baac0bb3ef758ca586e76aa0d2cd1a488ca801705551c4b28f60ec3f0",
+  "figure_sha256": "82d2b6c8978cc774936b0d2e955dd87c9c3adf2a6053472aa62d455b583738e6",
+  "plot_data_path": "figure_data/P04_VOLUME_REVERSAL_summary.csv",
+  "axis_semantics": [
+    "Stock current close-to-close log return (bp)",
+    "Same stock next-session log return (bp)",
+    "own relative log volume: low / middle / high"
+  ],
+  "series": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "series_colors": {
+    "low": "#2166ac",
+    "middle": "#178578",
+    "high": "#d66018"
+  },
+  "state_cutpoints": {
+    "BAC": [
+      -0.15632236806526253,
+      0.12060909075741338
+    ],
+    "DHR": [
+      -0.14308058438847485,
+      0.15229870365364193
+    ],
+    "HCA": [
+      -0.16171412124700119,
+      0.1636136882706171
+    ],
+    "HON": [
+      -0.1821405246689434,
+      0.20051160992906236
+    ],
+    "IP": [
+      -0.20637490563230426,
+      0.19522894292848764
+    ],
+    "KLAC": [
+      -0.12691763622799546,
+      0.15867423374932396
+    ],
+    "KO": [
+      -0.0661072934900601,
+      0.19941031760277986
+    ],
+    "LOW": [
+      -0.09951642442891706,
+      0.10409213182926003
+    ],
+    "ORCL": [
+      -0.16538365299876887,
+      0.21142990469407683
+    ],
+    "SLB": [
+      -0.12448642366614258,
+      0.11891421891181975
+    ]
+  },
+  "png_qa": {
+    "width": 2030,
+    "height": 870,
+    "rgb_sd": 40.38531999104984,
+    "nonwhite_fraction": 0.11277447483154975
+  },
+  "chart_input_roundtrip": "PASS",
+  "text_boundary_check": "PASS",
+  "notes": ""
+}

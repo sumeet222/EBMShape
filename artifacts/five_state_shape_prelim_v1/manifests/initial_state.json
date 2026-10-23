@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-23T01:12:59.148810+00:00",
+  "git_branch": "main",
+  "git_commit": "3e9c2447064fb67d1c558d000a05ff93b6ddf987",
+  "git_status": "?? artifacts/five_state_shape_prelim_v1/\n?? docs/ebm_five_preliminary_experiments_codex_execution_prompt_v1.md\n?? docs/ebm_five_preliminary_experiments_design_and_shared_data_plan_v1.md\n?? reports/C/C3_one_state_EBM_figures_for_human_review.pdf\n?? reports/C/experiment_C_final_development_closeout_report_v1_0.md\n?? scripts/five_prelim.py\n?? src/ebm_research/five_prelim/\n",
+  "physical_free_bytes": 59392000000,
+  "python": "3.14.6",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "23.0.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0",
+    "exchange-calendars": "4.13.2"
+  },
+  "baseline_repo_bytes": 838104304,
+  "controlling_design_sha256": "519a2bca9ec060d0c3552926d2103e99c825d59e8c2905ce535fd8795f02ac14",
+  "execution_prompt_sha256": "6ac2ea3550f9d9cbfb4f0f02505814e189eda44ad97602bec5ce65ea5f8566c1"
+}

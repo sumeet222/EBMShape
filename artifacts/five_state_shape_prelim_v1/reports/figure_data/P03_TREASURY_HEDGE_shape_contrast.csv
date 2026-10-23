@@ -1,0 +1,6 @@
+kind,state,x,y,lo,hi,n_independent_days
+contrast,"main, 95% block interval",0,-0.04431348269617466,-0.12622615688884187,0.03449000198616642,664
+contrast,without top 1% |X| dates,1,-0.03647130508527463,,,664
+contrast,reference period,2,0.03651114832232777,,,664
+contrast,later period,3,,,,664
+anchored_whole_surface,D = (b_last − b_first) × (x_b − x_a),0,-4.431348269617466,-12.622615688884187,3.449000198616642,664

@@ -1,0 +1,107 @@
+symbol,sector,rows,start,end,adjustment
+A,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+AAPL,Information Technology,65,2026-09-14,2026-09-18,split-adjusted; not dividend-adjusted
+ALLE,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+AOSL,Information Technology,6481,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ARWR,Health Care,6482,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ATR,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+AVA,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+AVTR,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+AX,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+BAC,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+BR,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CARG,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CATY,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CF,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CHD,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CMC,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CNP,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CNXN,Information Technology,6324,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+CXT,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+DHR,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+DLR,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+DRH,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+DTM,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ELF,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+EPR,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ESI,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+EWBC,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+F,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+FIZZ,Consumer Staples,6481,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+FRT,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+GEF,Materials,6478,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+GME,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+GNTX,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+HCA,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+HIG,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+HON,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+HP,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+HST,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+INGR,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+IP,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+JPM,Financials,65,2026-09-14,2026-09-18,split-adjusted; not dividend-adjusted
+KEY,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+KLAC,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+KO,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LAUR,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LAZ,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LFST,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LIF,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LKQ,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LNT,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+LOW,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+MDU,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+META,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+MPC,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+MSM,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+MTUS,Materials,6482,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+NFLX,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+NOVT,Information Technology,6476,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+NTAP,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+NWSA,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+NXST,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+OGE,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+OKE,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ONB,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ORA,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ORCL,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+OTTR,Utilities,6480,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+OUT,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+PBF,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+PCRX,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+PII,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+POST,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+POWL,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+PRGS,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+PTEN,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+RES,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+ROKU,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SBRA,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SCHL,Consumer Discretionary,6482,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SF,Financials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SHC,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SLB,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SLG,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SLVM,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SMP,Consumer Discretionary,6459,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SMTC,Information Technology,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SNDR,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SPXC,Industrials,6482,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SR,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+SRE,Utilities,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+STLD,Materials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+STRL,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+TGT,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+TPR,Consumer Discretionary,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+UNFI,Consumer Staples,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+UPWK,Industrials,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+UTL,Utilities,6372,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+UVV,Consumer Staples,6481,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+VSXY,Consumer Discretionary,1053,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+WAY,Health Care,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+WFRD,Energy,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+WLY,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+WMG,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+WPC,Real Estate,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted
+XOM,Energy,65,2026-09-14,2026-09-18,split-adjusted; not dividend-adjusted
+ZD,Communication Services,6483,2024-09-26,2026-09-25,split-adjusted; not dividend-adjusted

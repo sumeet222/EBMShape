@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P03_TREASURY_HEDGE_shape_contrast.png",
+  "figure_sha256": "62f322d5d9ea7a4cade5143bed82f53e8fd2c63b2878bc04588b83d6a71611eb",
+  "sidecar": "reports/figures/P03_TREASURY_HEDGE_shape_contrast.meta.json",
+  "plot_data": "reports/figure_data/P03_TREASURY_HEDGE_shape_contrast.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

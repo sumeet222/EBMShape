@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P04_VOLUME_REVERSAL_support.png",
+  "figure_sha256": "58033742e57fc6b8c0dab49cddb687acdba747260b225c9217c90785a205a9ba",
+  "sidecar": "reports/figures/P04_VOLUME_REVERSAL_support.meta.json",
+  "plot_data": "reports/figure_data/P04_VOLUME_REVERSAL_support.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

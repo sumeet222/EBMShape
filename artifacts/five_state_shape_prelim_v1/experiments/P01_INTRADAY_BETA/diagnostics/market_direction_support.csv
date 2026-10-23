@@ -1,0 +1,7 @@
+state,market_direction,n_rows,n_independent_days
+early,down,10341,248
+early,up,11039,248
+mid,down,17199,248
+mid,up,18200,248
+late,down,13876,248
+late,up,14498,248

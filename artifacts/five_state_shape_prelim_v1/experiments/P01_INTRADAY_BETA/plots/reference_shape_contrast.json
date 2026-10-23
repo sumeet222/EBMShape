@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P01_INTRADAY_BETA_shape_contrast.png",
+  "figure_sha256": "7ee5f1e212e7399a4514bbe0973973da52ce4914333bc409646b44e46923d4a9",
+  "sidecar": "reports/figures/P01_INTRADAY_BETA_shape_contrast.meta.json",
+  "plot_data": "reports/figure_data/P01_INTRADAY_BETA_shape_contrast.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

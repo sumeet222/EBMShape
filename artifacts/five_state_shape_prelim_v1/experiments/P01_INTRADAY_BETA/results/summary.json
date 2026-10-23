@@ -1,0 +1,202 @@
+{
+  "experiment_id": "P01_INTRADAY_BETA",
+  "config_sha256": "197c769732e27298df2ff9a02b290ef2f9d5406404a74db3b7928895155faa3b",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "stock_5m_log_return_bp",
+  "predictor": "spy_synchronous_5m_log_return_bp",
+  "state": "clock_start_ET_early_mid_late",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2019-01-01",
+    "2019-12-31"
+  ],
+  "n_rows": 86904,
+  "n_independent_days": 248,
+  "first": "2019-01-02",
+  "last": "2019-12-31",
+  "columns": [
+    "intercept:early",
+    "intercept:mid",
+    "intercept:late",
+    "slope:early",
+    "slope:mid",
+    "slope:late",
+    "asset:DHR",
+    "asset:HCA",
+    "asset:HON",
+    "asset:IP",
+    "asset:KLAC",
+    "asset:KO",
+    "asset:LOW",
+    "asset:ORCL",
+    "asset:SLB"
+  ],
+  "coefficients": [
+    0.06905266500300067,
+    0.03327745753115954,
+    -0.10936695685572945,
+    1.0199980127921418,
+    0.9802773135200166,
+    0.9723993580370015,
+    -0.019268677444958335,
+    -0.4526691629903181,
+    -0.12277810832287266,
+    -0.052390832762013693,
+    -0.9092347850388159,
+    -0.027548565548198567,
+    -0.02547379100969156,
+    -0.07782493112429256,
+    -0.01462091657899687
+  ],
+  "state_slopes": {
+    "early": 1.0199980127921418,
+    "mid": 0.9802773135200166,
+    "late": 0.9723993580370015
+  },
+  "slope_intervals": {
+    "early": [
+      0.9898774564744146,
+      1.0546451247441642
+    ],
+    "mid": [
+      0.9577959850478834,
+      1.003375578746245
+    ],
+    "late": [
+      0.9441030963262149,
+      0.9993946910532209
+    ]
+  },
+  "contrast": -0.047598654755140246,
+  "contrast_lo": -0.0916151198031142,
+  "contrast_hi": -0.012768097441240477,
+  "bootstrap_valid": 493,
+  "B": 500,
+  "mean_squared_residual": 110.41855639269073,
+  "residual_sd": 10.50893041157441,
+  "residual_skew": 0.20706977822477204,
+  "residual_excess_kurtosis": 16.541836575705446,
+  "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+  "controls": [],
+  "asset_fixed_effects": true,
+  "coefficient_intervals": {
+    "intercept:early": [
+      -0.12603071289463494,
+      0.2826024918316877
+    ],
+    "intercept:mid": [
+      -0.11644907506439615,
+      0.16929131385506344
+    ],
+    "intercept:late": [
+      -0.27454482954989756,
+      0.04774865874107976
+    ],
+    "slope:early": [
+      0.9898774564744146,
+      1.0546451247441642
+    ],
+    "slope:mid": [
+      0.9577959850478834,
+      1.003375578746245
+    ],
+    "slope:late": [
+      0.9441030963262149,
+      0.9993946910532209
+    ],
+    "asset:DHR": [
+      -0.3635119696085493,
+      0.3363803532250178
+    ],
+    "asset:HCA": [
+      -3.783381759798837,
+      2.4038958160345496
+    ],
+    "asset:HON": [
+      -0.3330839674193593,
+      0.09465823363283189
+    ],
+    "asset:IP": [
+      -0.4422143738121452,
+      0.3621894968769013
+    ],
+    "asset:KLAC": [
+      -1.6446984401363198,
+      0.18016318426072622
+    ],
+    "asset:KO": [
+      -0.23161875191696504,
+      0.17704801797736364
+    ],
+    "asset:LOW": [
+      -0.2765637950086803,
+      0.20791193839695662
+    ],
+    "asset:ORCL": [
+      -0.2504152120939037,
+      0.08993793735552442
+    ],
+    "asset:SLB": [
+      -0.27482259182999647,
+      0.24101947133276522
+    ]
+  },
+  "extra_contrasts": {},
+  "label": "POOLED",
+  "common_support": {
+    "status": "SUPPORTED_GRID",
+    "edges": [
+      -8.898048576710885,
+      -6.345463728327802,
+      -3.7928788799447206,
+      -1.240294031561639,
+      1.3122908168214433,
+      3.8648756652045257,
+      6.417460513587606,
+      8.970045361970692
+    ],
+    "anchor_support": false,
+    "excluded_x_rows": 11073,
+    "bin_mean_estimand": "finite interval conditional means, x coordinate fixed midpoint; not raw singleton m"
+  },
+  "state_support": [
+    {
+      "state": "early",
+      "n_rows": 21726,
+      "n_independent_days": 248,
+      "x_min": -89.88354828382627,
+      "x_max": 58.14785898511573
+    },
+    {
+      "state": "late",
+      "n_rows": 28968,
+      "n_independent_days": 248,
+      "x_min": -43.35507874940155,
+      "x_max": 59.62542958707549
+    },
+    {
+      "state": "mid",
+      "n_rows": 36210,
+      "n_independent_days": 248,
+      "x_min": -74.49299919053992,
+      "x_max": 60.25642350429751
+    }
+  ],
+  "top1percent_dates_excluded": [
+    "2019-10-03",
+    "2019-08-23",
+    "2019-08-01"
+  ],
+  "contrast_without_top1percent": -0.05053189540425618,
+  "contrast_reference_period": -0.04815308653562478,
+  "contrast_later_period": -0.042533316385995557,
+  "jointly_supported_bins": 7,
+  "status": "NO-GO",
+  "temporal_and_top1_sign_stable": true,
+  "materiality_slope": 0.1,
+  "curvature": "NOT_TESTED; linear state slope changes suffice",
+  "support_status": "ADEQUATE_OPERATIONAL_COUNTS",
+  "uncertainty": "EXPLORATORY_FIXED_DESIGN_BLOCK_SENSITIVITY; not untouched confirmation",
+  "balanced_panel_days": 0
+}

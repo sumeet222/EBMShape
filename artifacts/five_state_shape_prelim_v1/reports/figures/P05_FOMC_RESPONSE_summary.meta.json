@@ -1,0 +1,40 @@
+{
+  "experiment_id": "P05_FOMC_RESPONSE",
+  "config_sha256": "ab17d8d6d9f1948ab6d62e1bce34cbb96877059f83d180e77c29d991388f095a",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "target": "SPY_standard_1400_1430_log_return_bp",
+  "predictor": "absolute_published_surprise_bp",
+  "state": "published_raw_surprise_sign",
+  "independent_unit": "FOMC_event",
+  "time_range": [
+    "2016-01-01",
+    "2021-12-31"
+  ],
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "plot_data_sha256": "1aed6af45c1b463d41cfaf1e6432481abeb63d96147bf0451838e30b12971099",
+  "figure_sha256": "f4cb6c514b201587c51915951dbb55c16ea7cd5b36e1ec60931149cd77d162d2",
+  "plot_data_path": "figure_data/P05_FOMC_RESPONSE_summary.csv",
+  "axis_semantics": [
+    "Absolute published raw surprise (bp)",
+    "SPY 14:00\u201314:30 log return (bp)",
+    "negative / positive published raw surprise"
+  ],
+  "series": [
+    "negative",
+    "positive"
+  ],
+  "series_colors": {
+    "negative": "#2166ac",
+    "positive": "#178578"
+  },
+  "state_cutpoints": null,
+  "png_qa": {
+    "width": 2030,
+    "height": 870,
+    "rgb_sd": 70.09483939914699,
+    "nonwhite_fraction": 0.1975392106902214
+  },
+  "chart_input_roundtrip": "PASS",
+  "text_boundary_check": "PASS",
+  "notes": "NO VALID RESULT: support graphic only; no fabricated economic response"
+}

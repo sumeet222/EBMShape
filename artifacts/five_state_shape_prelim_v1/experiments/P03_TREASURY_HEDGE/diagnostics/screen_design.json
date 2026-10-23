@@ -1,0 +1,16 @@
+{
+  "states": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "controls": [],
+  "source_rows": 664,
+  "first": "2021-05-12",
+  "last": "2023-12-29",
+  "state_counts": {
+    "high": 96,
+    "low": 473,
+    "middle": 95
+  }
+}

@@ -1,0 +1,812 @@
+[
+  {
+    "symbol": "BAC",
+    "n_rows": 17784,
+    "n_independent_days": 247,
+    "first": "2019-01-02",
+    "last": "2019-12-31",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      0.04057416667962041,
+      0.2674837582976064,
+      -0.4119572080236915,
+      1.2702684913905462,
+      1.1549703581921182,
+      1.0402047072021792
+    ],
+    "state_slopes": {
+      "early": 1.2702684913905462,
+      "mid": 1.1549703581921182,
+      "late": 1.0402047072021792
+    },
+    "slope_intervals": {
+      "early": [
+        1.153951888563185,
+        1.407809731813291
+      ],
+      "mid": [
+        1.089046116126377,
+        1.2386063196276966
+      ],
+      "late": [
+        0.9521369810582221,
+        1.1285514957675966
+      ]
+    },
+    "contrast": -0.23006378418836704,
+    "contrast_lo": -0.40076513184494217,
+    "contrast_hi": -0.07835933683713361,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 80.95931053716896,
+    "residual_sd": 8.99925741174973,
+    "residual_skew": -0.13560762417942349,
+    "residual_excess_kurtosis": 9.130634276893598,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.3307880701866934,
+        0.38763507807263775
+      ],
+      "intercept:mid": [
+        0.06906932974684601,
+        0.44368659643454966
+      ],
+      "intercept:late": [
+        -0.6326459915858844,
+        -0.216723486643477
+      ],
+      "slope:early": [
+        1.153951888563185,
+        1.407809731813291
+      ],
+      "slope:mid": [
+        1.089046116126377,
+        1.2386063196276966
+      ],
+      "slope:late": [
+        0.9521369810582221,
+        1.1285514957675966
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "DHR",
+    "n_rows": 2808,
+    "n_independent_days": 39,
+    "first": "2019-01-07",
+    "last": "2019-12-23",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      0.49030803345931734,
+      -0.7148230599845915,
+      0.4387736005346585,
+      0.9980467699878771,
+      1.008031040870856,
+      1.0538713164623688
+    ],
+    "state_slopes": {
+      "early": 0.9980467699878771,
+      "mid": 1.008031040870856,
+      "late": 1.0538713164623688
+    },
+    "slope_intervals": {
+      "early": [
+        0.7959384316890542,
+        1.2010072569622063
+      ],
+      "mid": [
+        0.8724619113484172,
+        1.1428517138298167
+      ],
+      "late": [
+        0.9259475993235585,
+        1.2080886601444076
+      ]
+    },
+    "contrast": 0.05582454647449164,
+    "contrast_lo": -0.09168220774932972,
+    "contrast_hi": 0.2127034230181124,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 114.74194431696714,
+    "residual_sd": 10.723229197021963,
+    "residual_skew": 0.4568977076370616,
+    "residual_excess_kurtosis": 3.2515223283550485,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.4290613414574059,
+        1.3666360008054586
+      ],
+      "intercept:mid": [
+        -1.4405775133059697,
+        -0.15924417216373546
+      ],
+      "intercept:late": [
+        0.020798612292650218,
+        0.8922059171894416
+      ],
+      "slope:early": [
+        0.7959384316890542,
+        1.2010072569622063
+      ],
+      "slope:mid": [
+        0.8724619113484172,
+        1.1428517138298167
+      ],
+      "slope:late": [
+        0.9259475993235585,
+        1.2080886601444076
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "HCA",
+    "n_rows": 432,
+    "n_independent_days": 6,
+    "first": "2019-01-03",
+    "last": "2019-07-30",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      1.159453002083734,
+      -1.8380792345615855,
+      0.02204448868154163,
+      1.0061158493896054,
+      1.2251577916668523,
+      0.6978902938701516
+    ],
+    "state_slopes": {
+      "early": 1.0061158493896054,
+      "mid": 1.2251577916668523,
+      "late": 0.6978902938701516
+    },
+    "slope_intervals": {
+      "early": [
+        -0.6418244691240326,
+        1.884286022791196
+      ],
+      "mid": [
+        -0.00971860968511135,
+        1.2893262233868048
+      ],
+      "late": [
+        0.05452771785120191,
+        0.8862905628699128
+      ]
+    },
+    "contrast": -0.30822555551945385,
+    "contrast_lo": -1.2722134885508791,
+    "contrast_hi": 0.6914920069825381,
+    "bootstrap_valid": 481,
+    "B": 500,
+    "mean_squared_residual": 583.3637105744963,
+    "residual_sd": 24.32241971647307,
+    "residual_skew": 0.08028903240840136,
+    "residual_excess_kurtosis": 4.5757173107500755,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -6.847525634999196,
+        6.502857753934073
+      ],
+      "intercept:mid": [
+        -7.450337125190541,
+        2.614114923052323
+      ],
+      "intercept:late": [
+        -1.3238005858573496,
+        1.125255049373224
+      ],
+      "slope:early": [
+        -0.6418244691240326,
+        1.884286022791196
+      ],
+      "slope:mid": [
+        -0.00971860968511135,
+        1.2893262233868048
+      ],
+      "slope:late": [
+        0.05452771785120191,
+        0.8862905628699128
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "HON",
+    "n_rows": 3600,
+    "n_independent_days": 50,
+    "first": "2019-01-07",
+    "last": "2019-11-14",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      -0.11818681335320194,
+      -0.22888340860691359,
+      -0.02464751226467299,
+      0.9927781489419947,
+      1.0324197830396484,
+      1.0110971936306177
+    ],
+    "state_slopes": {
+      "early": 0.9927781489419947,
+      "mid": 1.0324197830396484,
+      "late": 1.0110971936306177
+    },
+    "slope_intervals": {
+      "early": [
+        0.9183593777385237,
+        1.0414790736319168
+      ],
+      "mid": [
+        0.9562903906237402,
+        1.1052980897684264
+      ],
+      "late": [
+        0.9597727193135972,
+        1.0583320861620185
+      ]
+    },
+    "contrast": 0.018319044688623,
+    "contrast_lo": -0.052938977503577095,
+    "contrast_hi": 0.09298747416038941,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 46.02586493169566,
+    "residual_sd": 6.789897110387245,
+    "residual_skew": -0.24645253568930434,
+    "residual_excess_kurtosis": 4.177551008467221,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.5031797936657771,
+        0.27946962348003074
+      ],
+      "intercept:mid": [
+        -0.5701166101248838,
+        0.09223082019386093
+      ],
+      "intercept:late": [
+        -0.34868196164362364,
+        0.22142134001624306
+      ],
+      "slope:early": [
+        0.9183593777385237,
+        1.0414790736319168
+      ],
+      "slope:mid": [
+        0.9562903906237402,
+        1.1052980897684264
+      ],
+      "slope:late": [
+        0.9597727193135972,
+        1.0583320861620185
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "IP",
+    "n_rows": 1944,
+    "n_independent_days": 27,
+    "first": "2019-01-04",
+    "last": "2019-10-31",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      -0.1800154689458814,
+      -0.34539790880330323,
+      0.4468454484011649,
+      1.2622945188004728,
+      0.9938260224259444,
+      0.9951321253564281
+    ],
+    "state_slopes": {
+      "early": 1.2622945188004728,
+      "mid": 0.9938260224259444,
+      "late": 0.9951321253564281
+    },
+    "slope_intervals": {
+      "early": [
+        1.065382162035275,
+        1.4726482672050474
+      ],
+      "mid": [
+        0.8934994584517759,
+        1.1153957183601972
+      ],
+      "late": [
+        0.8820659205329591,
+        1.126062216196425
+      ]
+    },
+    "contrast": -0.2671623934440447,
+    "contrast_lo": -0.528841759906633,
+    "contrast_hi": 0.008639440736349408,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 158.77162727115993,
+    "residual_sd": 12.619951675690649,
+    "residual_skew": 0.33018240215140204,
+    "residual_excess_kurtosis": 4.0761097186920985,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -1.1892186507667286,
+        1.1121422774557321
+      ],
+      "intercept:mid": [
+        -0.8455768410525082,
+        0.16764497444736454
+      ],
+      "intercept:late": [
+        -0.06462123540168559,
+        1.0376415998604207
+      ],
+      "slope:early": [
+        1.065382162035275,
+        1.4726482672050474
+      ],
+      "slope:mid": [
+        0.8934994584517759,
+        1.1153957183601972
+      ],
+      "slope:late": [
+        0.8820659205329591,
+        1.126062216196425
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "KLAC",
+    "n_rows": 432,
+    "n_independent_days": 6,
+    "first": "2019-02-21",
+    "last": "2019-06-03",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      -2.543817121736593,
+      -1.0851857874174755,
+      0.5998054943971771,
+      1.9279274428033346,
+      1.0851686330336259,
+      1.297494203457874
+    ],
+    "state_slopes": {
+      "early": 1.9279274428033346,
+      "mid": 1.0851686330336259,
+      "late": 1.297494203457874
+    },
+    "slope_intervals": {
+      "early": [
+        1.324457698397245,
+        2.2763364246317686
+      ],
+      "mid": [
+        0.9201174150362776,
+        1.3320795603451374
+      ],
+      "late": [
+        1.0370352208667546,
+        1.5925809006873184
+      ]
+    },
+    "contrast": -0.6304332393454606,
+    "contrast_lo": -0.7707994137779339,
+    "contrast_hi": -0.2512244274781288,
+    "bootstrap_valid": 497,
+    "B": 500,
+    "mean_squared_residual": 205.3157375515799,
+    "residual_sd": 14.429397371443155,
+    "residual_skew": -0.3100260429561132,
+    "residual_excess_kurtosis": 2.253587155827965,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -5.571546160514243,
+        0.8976169722581312
+      ],
+      "intercept:mid": [
+        -2.341461093268694,
+        0.42374615938820587
+      ],
+      "intercept:late": [
+        -2.1808712796940117,
+        3.24283380969911
+      ],
+      "slope:early": [
+        1.324457698397245,
+        2.2763364246317686
+      ],
+      "slope:mid": [
+        0.9201174150362776,
+        1.3320795603451374
+      ],
+      "slope:late": [
+        1.0370352208667546,
+        1.5925809006873184
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "KO",
+    "n_rows": 16416,
+    "n_independent_days": 228,
+    "first": "2019-01-02",
+    "last": "2019-12-31",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      -0.11005041924796047,
+      -0.048569501958779626,
+      0.10964613363760944,
+      0.45789599839259487,
+      0.5819519072803571,
+      0.7315407703983644
+    ],
+    "state_slopes": {
+      "early": 0.45789599839259487,
+      "mid": 0.5819519072803571,
+      "late": 0.7315407703983644
+    },
+    "slope_intervals": {
+      "early": [
+        0.3729181427338383,
+        0.5172203572506221
+      ],
+      "mid": [
+        0.5154910445116418,
+        0.6472887607568545
+      ],
+      "late": [
+        0.6829440488426194,
+        0.7792454448124025
+      ]
+    },
+    "contrast": 0.27364477200576953,
+    "contrast_lo": 0.22941521139713741,
+    "contrast_hi": 0.3343076700922638,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 48.24578570846471,
+    "residual_sd": 6.947188341299779,
+    "residual_skew": -0.15524405610039246,
+    "residual_excess_kurtosis": 5.046173998736657,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.3705052873587052,
+        0.19017096077914303
+      ],
+      "intercept:mid": [
+        -0.1858023959369824,
+        0.08507052757182479
+      ],
+      "intercept:late": [
+        -0.06369879712008916,
+        0.2584032786958525
+      ],
+      "slope:early": [
+        0.3729181427338383,
+        0.5172203572506221
+      ],
+      "slope:mid": [
+        0.5154910445116418,
+        0.6472887607568545
+      ],
+      "slope:late": [
+        0.6829440488426194,
+        0.7792454448124025
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "LOW",
+    "n_rows": 10008,
+    "n_independent_days": 139,
+    "first": "2019-01-07",
+    "last": "2019-12-17",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      0.1832004979982983,
+      -0.07640963848472992,
+      -0.1525604123706895,
+      1.078921553265078,
+      1.0722466235573667,
+      1.0544389515072516
+    ],
+    "state_slopes": {
+      "early": 1.078921553265078,
+      "mid": 1.0722466235573667,
+      "late": 1.0544389515072516
+    },
+    "slope_intervals": {
+      "early": [
+        0.9795093215114402,
+        1.1868385987315488
+      ],
+      "mid": [
+        1.0021380845432706,
+        1.1479851695215746
+      ],
+      "late": [
+        1.0017664878234867,
+        1.105543499196064
+      ]
+    },
+    "contrast": -0.02448260175782635,
+    "contrast_lo": -0.12140059030316251,
+    "contrast_hi": 0.07421748543805731,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 113.17918108194196,
+    "residual_sd": 10.641760898075335,
+    "residual_skew": 1.2589167866421556,
+    "residual_excess_kurtosis": 78.53749920821757,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.29905316107752833,
+        0.6304326492411876
+      ],
+      "intercept:mid": [
+        -0.2998745357669811,
+        0.14136737226636462
+      ],
+      "intercept:late": [
+        -0.42012117950029026,
+        0.08061886052497655
+      ],
+      "slope:early": [
+        0.9795093215114402,
+        1.1868385987315488
+      ],
+      "slope:mid": [
+        1.0021380845432706,
+        1.1479851695215746
+      ],
+      "slope:late": [
+        1.0017664878234867,
+        1.105543499196064
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "ORCL",
+    "n_rows": 16056,
+    "n_independent_days": 223,
+    "first": "2019-01-02",
+    "last": "2019-12-31",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      0.20073834141888022,
+      -0.05561174811099601,
+      -0.32976464777551695,
+      0.9874531284480248,
+      0.9768014475996817,
+      0.9917343886725354
+    ],
+    "state_slopes": {
+      "early": 0.9874531284480248,
+      "mid": 0.9768014475996817,
+      "late": 0.9917343886725354
+    },
+    "slope_intervals": {
+      "early": [
+        0.9166009619004006,
+        1.048611932720364
+      ],
+      "mid": [
+        0.9244056253601126,
+        1.0280636628509252
+      ],
+      "late": [
+        0.9381575590495151,
+        1.0432063098517437
+      ]
+    },
+    "contrast": 0.004281260224510586,
+    "contrast_lo": -0.05965381262719829,
+    "contrast_hi": 0.07294703338410889,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 58.41260956214196,
+    "residual_sd": 7.644242673522204,
+    "residual_skew": 0.2019309870503684,
+    "residual_excess_kurtosis": 8.412299327454884,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.08572905154020515,
+        0.48625297157196806
+      ],
+      "intercept:mid": [
+        -0.22394757968972856,
+        0.12069334373111915
+      ],
+      "intercept:late": [
+        -0.49196396478895876,
+        -0.17828664322045387
+      ],
+      "slope:early": [
+        0.9166009619004006,
+        1.048611932720364
+      ],
+      "slope:mid": [
+        0.9244056253601126,
+        1.0280636628509252
+      ],
+      "slope:late": [
+        0.9381575590495151,
+        1.0432063098517437
+      ]
+    },
+    "extra_contrasts": {}
+  },
+  {
+    "symbol": "SLB",
+    "n_rows": 17424,
+    "n_independent_days": 242,
+    "first": "2019-01-02",
+    "last": "2019-12-31",
+    "columns": [
+      "intercept:early",
+      "intercept:mid",
+      "intercept:late",
+      "slope:early",
+      "slope:mid",
+      "slope:late"
+    ],
+    "coefficients": [
+      -0.07981762750698494,
+      0.11900591341360922,
+      -0.1718754792971373,
+      1.2316852191885648,
+      1.1048772098620043,
+      1.0439889816738468
+    ],
+    "state_slopes": {
+      "early": 1.2316852191885648,
+      "mid": 1.1048772098620043,
+      "late": 1.0439889816738468
+    },
+    "slope_intervals": {
+      "early": [
+        1.1333524241867685,
+        1.347139318793635
+      ],
+      "mid": [
+        1.0395501581935296,
+        1.1636941945943993
+      ],
+      "late": [
+        0.9954312504543847,
+        1.0897394571059484
+      ]
+    },
+    "contrast": -0.18769623751471798,
+    "contrast_lo": -0.30003430739254433,
+    "contrast_hi": -0.08363766788578568,
+    "bootstrap_valid": 500,
+    "B": 500,
+    "mean_squared_residual": 227.25545857255145,
+    "residual_sd": 15.077590707450637,
+    "residual_skew": 0.08627276542536172,
+    "residual_excess_kurtosis": 3.3200678656357194,
+    "method": "OLS; 5-session circular date-block percentile sensitivity, conditional exploratory; not confirmatory",
+    "controls": [],
+    "asset_fixed_effects": false,
+    "coefficient_intervals": {
+      "intercept:early": [
+        -0.7395892654689615,
+        0.6023409551498535
+      ],
+      "intercept:mid": [
+        -0.14597876235728013,
+        0.38186175787755783
+      ],
+      "intercept:late": [
+        -0.4511342258410625,
+        0.13527034795466486
+      ],
+      "slope:early": [
+        1.1333524241867685,
+        1.347139318793635
+      ],
+      "slope:mid": [
+        1.0395501581935296,
+        1.1636941945943993
+      ],
+      "slope:late": [
+        0.9954312504543847,
+        1.0897394571059484
+      ]
+    },
+    "extra_contrasts": {}
+  }
+]

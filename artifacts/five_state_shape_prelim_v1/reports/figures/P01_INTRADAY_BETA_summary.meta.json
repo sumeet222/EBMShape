@@ -1,0 +1,47 @@
+{
+  "experiment_id": "P01_INTRADAY_BETA",
+  "config_sha256": "197c769732e27298df2ff9a02b290ef2f9d5406404a74db3b7928895155faa3b",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "target": "stock_5m_log_return_bp",
+  "predictor": "spy_synchronous_5m_log_return_bp",
+  "state": "clock_start_ET_early_mid_late",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2019-01-01",
+    "2019-12-31"
+  ],
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "plot_data_sha256": "c495a8b9b6b8521eca4d36599beba7009df80a3b2cd85929b8b435e8e47a566d",
+  "figure_sha256": "1c026d30a89098ae4f11c24806389f211619e479c039eb6e3202eac8ea52b6d6",
+  "plot_data_path": "figure_data/P01_INTRADAY_BETA_summary.csv",
+  "axis_semantics": [
+    "SPY synchronous 5-minute log return (bp)",
+    "Stock synchronous 5-minute log return (bp)",
+    "early / mid / late clock time"
+  ],
+  "series": [
+    "early",
+    "mid",
+    "late"
+  ],
+  "series_colors": {
+    "early": "#2166ac",
+    "mid": "#178578",
+    "late": "#d66018"
+  },
+  "state_cutpoints": [
+    "10:00",
+    "11:30",
+    "14:00",
+    "16:00"
+  ],
+  "png_qa": {
+    "width": 2030,
+    "height": 870,
+    "rgb_sd": 36.20012285008073,
+    "nonwhite_fraction": 0.04474095464582979
+  },
+  "chart_input_roundtrip": "PASS",
+  "text_boundary_check": "PASS",
+  "notes": ""
+}

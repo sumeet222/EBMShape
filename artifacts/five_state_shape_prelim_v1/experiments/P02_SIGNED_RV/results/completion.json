@@ -1,0 +1,14 @@
+{
+  "experiment_id": "P02_SIGNED_RV",
+  "config_sha256": "57db40d2fc8b9dfab52282abd07b8e663ae959a2cec832c0dc863c635d995eee",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "next_session_log_RV_389",
+  "predictor": "current_log_RV_389",
+  "state": "current_q_down_fixed_thirds",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2016-01-04",
+    "2021-12-31"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "experiment_id": "P03_TREASURY_HEDGE",
+  "config_sha256": "fe4a1b73a08bc527b80297ddd0e269375ef290494b75ac5df37c868e0ef9a13b",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "target": "IEF_same_day_open_close_log_return_bp",
+  "predictor": "SPY_same_day_open_close_log_return_bp",
+  "state": "prior_available_DGS10_minus_DGS2_terciles",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2021-05-12",
+    "2023-12-29"
+  ],
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "plot_data_sha256": "0104293bb8abd49628a661f8c35ee49d7168fb66d8b800bd9fde040838f29f88",
+  "figure_sha256": "4fe02370e0b7278a1ff94290b3137e7ae92909bdfd917942ddc905258745d0e2",
+  "plot_data_path": "figure_data/P03_TREASURY_HEDGE_support.csv",
+  "axis_semantics": [
+    "SPY same-day open-to-close log return (bp)",
+    "IEF same-day open-to-close log return (bp)",
+    "prior-available 10Y minus 2Y spread terciles"
+  ],
+  "series": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "series_colors": {
+    "low": "#2166ac",
+    "middle": "#178578",
+    "high": "#d66018"
+  },
+  "state_cutpoints": [
+    0.5899999999999997,
+    1.0866666666666664
+  ],
+  "png_qa": {
+    "width": 2030,
+    "height": 870,
+    "rgb_sd": 63.58381518349026,
+    "nonwhite_fraction": 0.16248910027744748
+  },
+  "chart_input_roundtrip": "PASS",
+  "text_boundary_check": "PASS",
+  "notes": ""
+}

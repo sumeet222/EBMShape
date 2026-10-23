@@ -1,0 +1,14 @@
+{
+  "experiment_id": "P04_VOLUME_REVERSAL",
+  "config_sha256": "b12c6d0c70a4dbb13d4de5db64716ca690739c9458e1a817b0716903d187cd37",
+  "source_manifest_sha256": "5aeef79b565d833bceb832004b638ada449eb6075838ea869b89201cae4256f5",
+  "input_fingerprint": "877717c8fddd79652f725482ac9bf43ba198f67111dad377c6176ce3f1df8909",
+  "target": "same_stock_next_session_close_close_log_return_bp",
+  "predictor": "same_stock_current_close_close_log_return_bp",
+  "state": "own_log_volume_minus_prior20_mean_log_volume",
+  "independent_unit": "trading_day",
+  "time_range": [
+    "2024-09-26",
+    "2025-09-25"
+  ]
+}

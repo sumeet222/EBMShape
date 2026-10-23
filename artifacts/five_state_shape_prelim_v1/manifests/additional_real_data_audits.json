@@ -1,0 +1,58 @@
+{
+  "native30_OHLC_bounds": [
+    {
+      "symbol": "BAC",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "DHR",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "HCA",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "HON",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "IP",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "KLAC",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "KO",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "LOW",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "ORCL",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    },
+    {
+      "symbol": "SLB",
+      "rows_checked": 3232,
+      "OHLC_bound_violations": 0
+    }
+  ],
+  "all_PASS": true,
+  "exact_analyzed_sample_counts": "exact_analyzed_sample_counts.csv",
+  "units_vintage_crosscheck": "fed_units_vintage_crosscheck.json",
+  "note": "Full newly used native30m date range checked once. Minute RV uses only complete valid sessions; no filled proxies."
+}

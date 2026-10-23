@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P02_SIGNED_RV_summary.png",
+  "figure_sha256": "ce12cca70ff47124961720d13e6bd85efce568b979f342145686c0de3a61fdc8",
+  "sidecar": "reports/figures/P02_SIGNED_RV_summary.meta.json",
+  "plot_data": "reports/figure_data/P02_SIGNED_RV_summary.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

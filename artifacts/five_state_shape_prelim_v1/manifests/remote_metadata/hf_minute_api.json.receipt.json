@@ -1,0 +1,9 @@
+{
+  "url": "https://huggingface.co/api/datasets/mito0o852/OHLCV-1m",
+  "sha256": "78c3efdcf51a4156eb94c098cf8dd55715f3dfd1a30f1935e0a835eaf54e3a93",
+  "bytes": 30885,
+  "status": 200,
+  "etag": "W/\"78a5-7zerBBLZrcVShhUecvJePdB2aLE\"",
+  "started": "2026-10-23T01:37:11.830143+00:00",
+  "finished": "2026-10-23T01:37:12.427160+00:00"
+}

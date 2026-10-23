@@ -1,0 +1,285 @@
+{
+  "minute_partitions": [
+    {
+      "rows": 64733,
+      "source_rows_scanned": 23078536,
+      "symbol_counts": {
+        "DHR": 8074,
+        "HCA": 7908,
+        "HON": 8173,
+        "IP": 8139,
+        "KLAC": 7873,
+        "LOW": 8186,
+        "ORCL": 8190,
+        "SLB": 8190
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-01.parquet",
+      "sha256": "ccb806b7bca4719bbde682137c8c7b1f90ec017059c430e5e0c35b8e5a209d40",
+      "bytes": 847201
+    },
+    {
+      "rows": 58173,
+      "source_rows_scanned": 20282889,
+      "symbol_counts": {
+        "DHR": 7343,
+        "HCA": 6758,
+        "HON": 7398,
+        "IP": 7344,
+        "KLAC": 7109,
+        "LOW": 7403,
+        "ORCL": 7410,
+        "SLB": 7408
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-02.parquet",
+      "sha256": "f5a2a0b69a64083ab0991be0cd411a4ab18ad75138d35128f4f786df1a63948f",
+      "bytes": 746649
+    },
+    {
+      "rows": 64795,
+      "source_rows_scanned": 23302705,
+      "symbol_counts": {
+        "DHR": 8134,
+        "HCA": 7875,
+        "HON": 8164,
+        "IP": 8115,
+        "KLAC": 7951,
+        "LOW": 8177,
+        "ORCL": 8190,
+        "SLB": 8189
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-03.parquet",
+      "sha256": "3b0abbc807e25bc67f46d20c6d6e70ce51f38fd2d4bb4ba53b37e31e6e1cac4a",
+      "bytes": 831333
+    },
+    {
+      "rows": 64528,
+      "source_rows_scanned": 22186698,
+      "symbol_counts": {
+        "DHR": 8102,
+        "HCA": 7865,
+        "HON": 8144,
+        "IP": 8089,
+        "KLAC": 7763,
+        "LOW": 8187,
+        "ORCL": 8188,
+        "SLB": 8190
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-04.parquet",
+      "sha256": "d7fc42c6e013081cc809eaf0cfef15af028ad649bd329d2cdcfc5653c401890e",
+      "bytes": 815862
+    },
+    {
+      "rows": 67900,
+      "source_rows_scanned": 23703421,
+      "symbol_counts": {
+        "DHR": 8420,
+        "HCA": 8258,
+        "HON": 8527,
+        "IP": 8503,
+        "KLAC": 8457,
+        "LOW": 8575,
+        "ORCL": 8580,
+        "SLB": 8580
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-05.parquet",
+      "sha256": "899e7731cf3ce72d456df3fb9f2b75bf5e0ed96ec826c73efd697b051e026088",
+      "bytes": 878659
+    },
+    {
+      "rows": 61105,
+      "source_rows_scanned": 21505309,
+      "symbol_counts": {
+        "DHR": 7643,
+        "HCA": 7238,
+        "HON": 7670,
+        "IP": 7704,
+        "KLAC": 7456,
+        "LOW": 7796,
+        "ORCL": 7798,
+        "SLB": 7800
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-06.parquet",
+      "sha256": "0efb9a3bf3ef9f6098d3deb6e3203b72a11f4a81d0c8846b13fece18bed447bc",
+      "bytes": 813740
+    },
+    {
+      "rows": 65758,
+      "source_rows_scanned": 22764251,
+      "symbol_counts": {
+        "DHR": 8277,
+        "HCA": 7909,
+        "HON": 8279,
+        "IP": 8274,
+        "KLAC": 7825,
+        "LOW": 8386,
+        "ORCL": 8400,
+        "SLB": 8408
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-07.parquet",
+      "sha256": "d618ae7a0d44fc6466dd0fc2822d04144960cb95259c11c3f424c437d49dcd26",
+      "bytes": 833487
+    },
+    {
+      "rows": 67171,
+      "source_rows_scanned": 23947476,
+      "symbol_counts": {
+        "DHR": 8385,
+        "HCA": 8051,
+        "HON": 8477,
+        "IP": 8481,
+        "KLAC": 8083,
+        "LOW": 8560,
+        "ORCL": 8563,
+        "SLB": 8571
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-08.parquet",
+      "sha256": "6364cdebba1e1ed9f74a98eb29c220ca0cf6afe923f071fc982aa4f35450db3c",
+      "bytes": 886803
+    },
+    {
+      "rows": 61368,
+      "source_rows_scanned": 21759807,
+      "symbol_counts": {
+        "DHR": 7690,
+        "HCA": 7391,
+        "HON": 7694,
+        "IP": 7722,
+        "KLAC": 7511,
+        "LOW": 7760,
+        "ORCL": 7800,
+        "SLB": 7800
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-09.parquet",
+      "sha256": "ca451b6ea101f09b4f212ad1e8ddac6d88bd29d4767bfa4f20e238f9b772bfce",
+      "bytes": 826379
+    },
+    {
+      "rows": 69930,
+      "source_rows_scanned": 23788486,
+      "symbol_counts": {
+        "DHR": 8708,
+        "HCA": 8191,
+        "HON": 8844,
+        "IP": 8780,
+        "KLAC": 8552,
+        "LOW": 8919,
+        "ORCL": 8966,
+        "SLB": 8970
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-10.parquet",
+      "sha256": "1e9c78c13f3b15de6dc4fe64570ef5b68775e458a6610e564aca333f025f4098",
+      "bytes": 935965
+    },
+    {
+      "rows": 59395,
+      "source_rows_scanned": 20692130,
+      "symbol_counts": {
+        "DHR": 7526,
+        "HCA": 7212,
+        "HON": 7479,
+        "IP": 7340,
+        "KLAC": 7028,
+        "LOW": 7571,
+        "ORCL": 7613,
+        "SLB": 7626
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-11.parquet",
+      "sha256": "229cf67470afc525287c161a9f735fa77e479631955d83cb102aeffa352a4427",
+      "bytes": 759375
+    },
+    {
+      "rows": 61865,
+      "source_rows_scanned": 21868641,
+      "symbol_counts": {
+        "DHR": 7989,
+        "HCA": 7215,
+        "HON": 7771,
+        "IP": 7794,
+        "KLAC": 7139,
+        "LOW": 7942,
+        "ORCL": 8004,
+        "SLB": 8011
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-12.parquet",
+      "sha256": "17006ba93995267ec326a4f9ea29864c7431e41471d170a07c2ca1667b193d4d",
+      "bytes": 811487
+    }
+  ],
+  "small_sources": {
+    "etf_daily_prices.parquet": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/etf_daily/etf_daily_prices.parquet",
+      "sha256": "cfb074bb7ae23de69ce75f640c8a3a1b87b1fe0d0eec5723c285a2e596ad78a6",
+      "bytes": 2372716
+    },
+    "instrument_metadata.parquet": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/etf_daily/instrument_metadata.parquet",
+      "sha256": "d70bba35838a5ed4a40e7c557967810b283445560f37e10c36545416d5fadcb7",
+      "bytes": 7610
+    },
+    "DGS2": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fred_rates/DGS2.csv",
+      "sha256": "d3195b5a66990c1bf7a3a6befb0c0332a4777e625d5a21e82f9bb6bf13ff5277",
+      "bytes": 11382
+    },
+    "DGS10": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fred_rates/DGS10.csv",
+      "sha256": "aa295a52c620be751c109cccb74c72feed46b9e5a7e5750dea0a3c93d01ea0d8",
+      "bytes": 11383
+    },
+    "FED_SHOCKS": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/monetary-policy-surprises-data.xlsx",
+      "sha256": "708606624de050cdaf6fd850a320b38d45099ab7c2398e01ba12dcece5743668",
+      "bytes": 301655
+    },
+    "FED_SHOCKS_CHART_UNITS": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/published_chart_units_check.csv",
+      "sha256": "55aabf5b0742447614e6de91299822cc81de6be210475957fc3db7e4f4807508",
+      "bytes": 2362
+    }
+  },
+  "holds": {},
+  "at": "2026-10-23T01:55:09.868060+00:00",
+  "source_registry_sha256": "114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9"
+}

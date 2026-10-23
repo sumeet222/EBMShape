@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "IEF",
+    "asset_type": "ETF",
+    "name": null,
+    "type": "EQUITY",
+    "exchange": "XNAS",
+    "exchange_name": "NASDAQ",
+    "trading": "BUY_AND_SELL",
+    "fractional_trading": "BUY_AND_SELL",
+    "option_trading": "BUY_AND_SELL",
+    "option_spread_trading": "BUY_AND_SELL",
+    "shorting_availability": "EASY_TO_BORROW"
+  },
+  {
+    "symbol": "SPY",
+    "asset_type": "ETF",
+    "name": null,
+    "type": "EQUITY",
+    "exchange": "ARCX",
+    "exchange_name": "NYSE ARCA",
+    "trading": "BUY_AND_SELL",
+    "fractional_trading": "BUY_AND_SELL",
+    "option_trading": "BUY_AND_SELL",
+    "option_spread_trading": "BUY_AND_SELL",
+    "shorting_availability": "EASY_TO_BORROW"
+  }
+]

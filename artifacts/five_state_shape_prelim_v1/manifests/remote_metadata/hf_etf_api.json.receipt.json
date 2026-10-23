@@ -1,0 +1,9 @@
+{
+  "url": "https://huggingface.co/api/datasets/thecharttruth/etf-data",
+  "sha256": "f3936994d88ac6d4dd7bdc58dce967362dda83c0be2f6182baaf18736c861874",
+  "bytes": 2089,
+  "status": 200,
+  "etag": "W/\"829-LqAXBffNXAcI3FU354lqIShXwh0\"",
+  "started": "2026-10-23T01:37:12.433033+00:00",
+  "finished": "2026-10-23T01:37:12.515521+00:00"
+}

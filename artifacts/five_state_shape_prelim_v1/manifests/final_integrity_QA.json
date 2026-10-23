@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "protected_preexisting_files": 843,
+  "changed_preexisting_files": [],
+  "validated_months": 12,
+  "unique_validated_months": 12,
+  "raw_monthly_temps_remaining": 0,
+  "source_and_derived_hashes_checked": 124,
+  "dataset": "mito0o852/OHLCV-1m",
+  "revision": "776328445b7ac6e7815ef3a483e9c8ded1eb6d56",
+  "no_mirror": true,
+  "bootstrap_B": 500,
+  "seed": 20261022,
+  "successful_monthly_network_transfers": 12,
+  "total_monthly_network_bytes": 3209573881,
+  "additional_official_statement_hashes_checked": 53
+}

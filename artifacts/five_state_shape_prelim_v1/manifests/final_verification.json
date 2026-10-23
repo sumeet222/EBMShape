@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-23T02:53:53.038988+00:00",
+  "status": "PASS",
+  "figure_count": 13,
+  "embedded_images": 13,
+  "integrity": {
+    "status": "PASS",
+    "protected_preexisting_files": 843,
+    "changed_preexisting_files": [],
+    "validated_months": 12,
+    "unique_validated_months": 12,
+    "raw_monthly_temps_remaining": 0,
+    "source_and_derived_hashes_checked": 124,
+    "dataset": "mito0o852/OHLCV-1m",
+    "revision": "776328445b7ac6e7815ef3a483e9c8ded1eb6d56",
+    "no_mirror": true,
+    "bootstrap_B": 500,
+    "seed": 20261022,
+    "successful_monthly_network_transfers": 12,
+    "total_monthly_network_bytes": 3209573881,
+    "additional_official_statement_hashes_checked": 53
+  },
+  "storage": {
+    "hard_cap_bytes": 10000000000,
+    "measured_peak_bytes": 297766292,
+    "largest_reserved_envelope_bytes": 397708076,
+    "current_incremental_bytes": 26874353,
+    "baseline": {
+      "hard_cap_bytes": 10000000000,
+      "soft_replan_bytes": 8000000000,
+      "baseline_repo_bytes": 838104304,
+      "physical_free_bytes": 59392000000,
+      "monthly_raw_max_bytes": 290814381,
+      "retained_new_minute_budget_bytes": 100000000,
+      "derivatives_bytes": 100000000,
+      "small_sources_bytes": 30000000,
+      "plots_reports_logs_bundle_bytes": 80000000,
+      "cache_bytes": 20000000,
+      "conservative_incremental_peak_forecast_bytes": 620814381,
+      "safety_margin_bytes": 9379185619,
+      "used_after_inventory": 193152,
+      "physical_workspace_total_cap": "No stricter imposed cap discovered; 10GB is explicitly incremental; free space separately checked"
+    },
+    "new_data_bytes": 19213917,
+    "run_bytes": 7393342
+  },
+  "review_bundle_sha256": "ea70c5906bd78b306d11dbb408fa2999925353f21fa287b4fbbff96cfc34b3b8",
+  "review_bundle_bytes": 2426665
+}

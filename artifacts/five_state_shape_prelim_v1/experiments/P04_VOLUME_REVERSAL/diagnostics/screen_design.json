@@ -1,0 +1,18 @@
+{
+  "states": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "controls": [
+    "spy_oc_bp"
+  ],
+  "source_rows": 2200,
+  "first": "2024-10-24",
+  "last": "2025-09-24",
+  "state_counts": {
+    "high": 202,
+    "low": 194,
+    "middle": 209
+  }
+}

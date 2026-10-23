@@ -1,0 +1,6 @@
+kind,state,x,y,lo,hi,n_independent_days
+contrast,"main, 95% block interval",0,-0.047598654755140246,-0.0916151198031142,-0.012768097441240477,248
+contrast,without top 1% |X| dates,1,-0.05053189540425618,,,248
+contrast,reference period,2,-0.04815308653562478,,,248
+contrast,later period,3,-0.042533316385995557,,,248
+dispersion,early_minus_late_beta_SD,0,,,,0

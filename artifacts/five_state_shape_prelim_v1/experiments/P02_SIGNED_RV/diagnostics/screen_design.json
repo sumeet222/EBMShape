@@ -1,0 +1,18 @@
+{
+  "states": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "controls": [
+    "lag_log_RV"
+  ],
+  "source_rows": 2383,
+  "first": "2016-01-05",
+  "last": "2021-12-30",
+  "state_counts": {
+    "high": 15,
+    "low": 14,
+    "middle": 1442
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "project_root": "/Users/pradeepgupta/Desktop/Quant /Projects/EBMShape",
+  "run_root": "/Users/pradeepgupta/Desktop/Quant /Projects/EBMShape/artifacts/five_state_shape_prelim_v1",
+  "new_shared_data": "/Users/pradeepgupta/Desktop/Quant /Projects/EBMShape/data/shared/five_state_shape_prelim_v1",
+  "legacy_parent": "artifacts; existing B,C remain read only",
+  "external_roots": {
+    "sae": "/Users/pradeepgupta/Desktop/Quant /Projects/SAE_Project",
+    "lstm": "/Users/pradeepgupta/Desktop/Quant /Projects/LSTM"
+  },
+  "portable_roots": "ROOT/data or PRELIM_SAE_ROOT/PRELIM_LSTM_ROOT; defaults sibling directories; hashes required"
+}

@@ -1,0 +1,16 @@
+{
+  "states": [
+    "early",
+    "mid",
+    "late"
+  ],
+  "controls": [],
+  "source_rows": 86904,
+  "first": "2019-01-02",
+  "last": "2019-12-31",
+  "state_counts": {
+    "early": 248,
+    "late": 248,
+    "mid": 248
+  }
+}

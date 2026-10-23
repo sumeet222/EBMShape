@@ -1,0 +1,49 @@
+{
+  "P01_INTRADAY_BETA": {
+    "status": "PASS",
+    "OLS_reconstructed": true,
+    "all_curve_coordinates_reconstructed": true,
+    "direct_source_bins": 3,
+    "supported_common_bins": 7,
+    "bootstrap_valid": 493,
+    "CI_center_outside_percentiles": 0,
+    "note": "Percentile intervals need not contain original estimates; outside centers flagged, never forced inside. Nonlinear curvature not tested."
+  },
+  "P02_SIGNED_RV": {
+    "status": "PASS",
+    "support_counts": {
+      "high": 5,
+      "low": 10,
+      "middle": 1439
+    },
+    "curves": "no valid state shape presented for DATA HOLD; diagnostic references retained"
+  },
+  "P03_TREASURY_HEDGE": {
+    "status": "PASS",
+    "OLS_reconstructed": true,
+    "all_curve_coordinates_reconstructed": true,
+    "direct_source_bins": 3,
+    "supported_common_bins": 4,
+    "bootstrap_valid": 500,
+    "CI_center_outside_percentiles": 0,
+    "note": "Percentile intervals need not contain original estimates; outside centers flagged, never forced inside. Nonlinear curvature not tested."
+  },
+  "P04_VOLUME_REVERSAL": {
+    "status": "PASS",
+    "OLS_reconstructed": true,
+    "all_curve_coordinates_reconstructed": true,
+    "direct_source_bins": 3,
+    "supported_common_bins": 7,
+    "bootstrap_valid": 500,
+    "CI_center_outside_percentiles": 0,
+    "note": "Percentile intervals need not contain original estimates; outside centers flagged, never forced inside. Nonlinear curvature not tested."
+  },
+  "P05_FOMC_RESPONSE": {
+    "status": "PASS",
+    "support_counts": {
+      "negative": 11,
+      "positive": 36
+    },
+    "curves": "no valid state shape presented for DATA HOLD; diagnostic references retained"
+  }
+}

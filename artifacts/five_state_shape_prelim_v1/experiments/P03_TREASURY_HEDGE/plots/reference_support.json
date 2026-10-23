@@ -1,0 +1,7 @@
+{
+  "figure": "reports/figures/P03_TREASURY_HEDGE_support.png",
+  "figure_sha256": "4fe02370e0b7278a1ff94290b3137e7ae92909bdfd917942ddc905258745d0e2",
+  "sidecar": "reports/figures/P03_TREASURY_HEDGE_support.meta.json",
+  "plot_data": "reports/figure_data/P03_TREASURY_HEDGE_support.csv",
+  "explanation": "One authoritative figure, referenced here without copying image bytes."
+}

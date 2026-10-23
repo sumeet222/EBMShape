@@ -1,0 +1,1168 @@
+{
+  "derived": {
+    "daily_rv_semivariance": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/daily_rv_semivariance.parquet",
+      "sha256": "93829bbe488a835e18322274a2bc3d7b9781bc81f3cb33fac8aa5bb57d422eb2",
+      "bytes": 370340
+    },
+    "market_returns_5m": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/market_returns_5m.parquet",
+      "sha256": "1fa846ffa8e41e01c7465bb302ed28781cd86366b816a703fb6e56d218af8056",
+      "bytes": 1018667
+    },
+    "daily_stock_returns_volume": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/daily_stock_returns_volume.parquet",
+      "sha256": "612deb1aad6b184fe7e9b1a083a2693b33fd6e076dcca81c60760b17b1563fa9",
+      "bytes": 135999
+    },
+    "daily_spy_treasury_returns": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/daily_spy_treasury_returns.parquet",
+      "sha256": "54229e930e71349c4ed7a262285c445e582f727577b5bdd86c8a0f9f6e943518",
+      "bytes": 44020
+    },
+    "daily_etf_oc_controls": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/daily_etf_oc_controls.parquet",
+      "sha256": "305465e5f6b9ecb9e23220d0b1ecdd411975b35861e7f410de3cef0d4394eb65",
+      "bytes": 29463
+    },
+    "fomc_events": {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/derived/fomc_events.parquet",
+      "sha256": "b4cdcd003f44f51bb070301a32dd40c235dd22964d602b07aed1592f070fb1ce",
+      "bytes": 10826
+    }
+  },
+  "original_source_refs": [
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2016.parquet",
+      "sha256": "1573214bfda34a2582499c8c9bbbb61aee8b111e061b9e43e72110768b613628",
+      "bytes": 785927
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-01.parquet",
+      "sha256": "0f9387b7219a41a747f2a0205c7e98064c40a22eaa1abfbe25294b5670c5128b",
+      "bytes": 135210
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-02.parquet",
+      "sha256": "89f3c49c4ab9ea626f0a59b8989939477145bbe2f8154d67c968dc94b013c302",
+      "bytes": 138045
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-03.parquet",
+      "sha256": "2b3ff047389d96d2fd5b99a38b72d685a0c47870c997d1b5c7137dbfe491b9fe",
+      "bytes": 151923
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-04.parquet",
+      "sha256": "a0b54afeb7bb5d3551fc5648b02049ce37d9e9c97df4efb4789e4a19203c7f06",
+      "bytes": 134966
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-05.parquet",
+      "sha256": "a572dbf02e0fe7725f2d3e10774cf7694fe1100dd2ec67198f6a80ba7c3a5f72",
+      "bytes": 135647
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-06.parquet",
+      "sha256": "fe98c313530ae8c447b71d3d57a05f5d6eb61ab380725f9693f3c7338df990cf",
+      "bytes": 151958
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-07.parquet",
+      "sha256": "3c28b6eb0d5347df240139ba2ffc8d409b8be12c4d2a47235567088c6bd8e1b9",
+      "bytes": 128327
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-08.parquet",
+      "sha256": "ce5fedc1e5152176913decf4b2a7d33c9fe39e90ea3998237ccdfd09aa3262a2",
+      "bytes": 143053
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-09.parquet",
+      "sha256": "03bb3fd8770a08a6101c5df2848d8ec01582ac3b158b6ea3e9b09502fc53ba28",
+      "bytes": 135096
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-10.parquet",
+      "sha256": "3d575e5fb17572679e97cc0632c2b80ca9db46bd9f75a3dc020539bf54a6d80d",
+      "bytes": 133530
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-11.parquet",
+      "sha256": "5af4ff5482a44e21d51cc686bc5812edd4998fbd355a92b05b70a4d32784aff8",
+      "bytes": 135255
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2016-12.parquet",
+      "sha256": "60c6b52b2a1a56e8c599fa221712ee8bd9bf862bd502cabee23660859bfc9241",
+      "bytes": 136918
+    },
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2017.parquet",
+      "sha256": "8c63fba7fbf21c13f2733e0bd9d018933dba9494b16a8f938dccb04612a7dbcd",
+      "bytes": 774109
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-01.parquet",
+      "sha256": "219789c133c54cbf6e1cce0de75eb7202a8fef0b20976ceba309a7c147e72020",
+      "bytes": 131724
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-02.parquet",
+      "sha256": "129e155a35306a3742a00166e50421dfa0bd17a9f9b0012b7c1c28792401b694",
+      "bytes": 124717
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-03.parquet",
+      "sha256": "feb166547bf85f865ebbb7b68029acd420fa64a5da1dd4d7c1b1d93858d72f5a",
+      "bytes": 154120
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-04.parquet",
+      "sha256": "e96208550b403910657826f29c475d4164ccb34fe1637bb5bf79a640be2fde56",
+      "bytes": 124020
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-05.parquet",
+      "sha256": "2c4d390e3a35cd2f49b3c0b9d878016dffaa3c48fc740718af87f01d5b210dd8",
+      "bytes": 139242
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-06.parquet",
+      "sha256": "bb8452a4250a3f76d92fa903805b5b74f66a2b1d5ae1e7c4524bdab37afcd65b",
+      "bytes": 140594
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-07.parquet",
+      "sha256": "68c5480655b6baf7dc662c86e602328431017e8e516dda275b3816f470e88b9a",
+      "bytes": 119999
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-08.parquet",
+      "sha256": "7d1012400a95f8592db3bd2a3b863327d66a6f03b5dfcccadc8c79311e7db20b",
+      "bytes": 150186
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-09.parquet",
+      "sha256": "8b43da3d571a998b95dcb396527b29f01c93c3d0f4dc2834444a5febe26f36c5",
+      "bytes": 120442
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-10.parquet",
+      "sha256": "498507f3a20308f9a3919ba4d3b376009bca6b00cef95187d6284ce950a3e900",
+      "bytes": 137892
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-11.parquet",
+      "sha256": "9a24c669b48a8b1b7d59e1c1929f970a775e1e81727bd64ba03acdb78b18e0de",
+      "bytes": 125757
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2017-12.parquet",
+      "sha256": "d5eb5378dc53c8ca548bb4d704c2bc41a414f407c81d426944d36a7761cdaf44",
+      "bytes": 124856
+    },
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2018.parquet",
+      "sha256": "be0349e734e4f75c8f0aa3bdb12f97b858af42362bf028690d0e927532c35485",
+      "bytes": 782288
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-01.parquet",
+      "sha256": "bd681beab5400e5d1c445de26865a0224345bac1ff90a4b326c2dc0e326b930b",
+      "bytes": 150283
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-02.parquet",
+      "sha256": "59cfb1cbd9c6f08757ce509e2e0ba6ca7b1c58a52106d50a8608b4f8cf6518db",
+      "bytes": 136766
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-03.parquet",
+      "sha256": "92fce74cfdc487779b981b800234f8dad06d0f91bf64ebba68e3513b8492dc94",
+      "bytes": 147351
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-04.parquet",
+      "sha256": "752648f214f4176d73d2dad9e7b65af7c04aeac18f9932a6036c23a073e3775b",
+      "bytes": 142698
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-05.parquet",
+      "sha256": "9f1afe7cbe8d57d51ab65bbeee179390d73e20e0916430f34ed6e24bd6f990d5",
+      "bytes": 152137
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-06.parquet",
+      "sha256": "07be7e19e476ac68898baedce24dbae8e4f11c386a80e0a23ec6c4934c11e5f4",
+      "bytes": 134945
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-07.parquet",
+      "sha256": "5c7c05f69c2cb3bcce8a703bef7d92f7fa23578cb80c4f1f8b9989257535f010",
+      "bytes": 130898
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-08.parquet",
+      "sha256": "d23b6f55781a0be0b76588e2cec095af165d42c0fc04677246f0acf9769675d0",
+      "bytes": 156354
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-09.parquet",
+      "sha256": "178b7bf49858d15ec8f2d1698f036cc38e741faf786465aee85f9ab7ed7907a3",
+      "bytes": 124995
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-10.parquet",
+      "sha256": "d0dc0f34f43660a51a0111278a8e0ddcc50936ed1ec553644bc239745ca40d25",
+      "bytes": 162998
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-11.parquet",
+      "sha256": "ea7337d371565b5b636db882f570e1bde88f9b37efc5f134c92aa8d6a60509d6",
+      "bytes": 136987
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2018-12.parquet",
+      "sha256": "3399bd0a29ff097f8b04df811baa631c0ceb500f39e0e996ebe1c4434000feb6",
+      "bytes": 136840
+    },
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2019.parquet",
+      "sha256": "57b1b0a05eaf1115fd024498ba8dee6f4f2a705e9846956026946a380b20027a",
+      "bytes": 797568
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-01.parquet",
+      "sha256": "3db64698b6dc6bed80d36570944fce9c161592ce07c98ab3ddb2577a42be6525",
+      "bytes": 155531
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-02.parquet",
+      "sha256": "66e890f6aec43d273d0810ef4e616c0f0fbb5b832f0324077cb171588d8a6623",
+      "bytes": 135030
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-03.parquet",
+      "sha256": "f9d0f26a2d3e4ecff2797cfbf66e1bf4d34eef5c51495ff926816da6efaa44db",
+      "bytes": 136221
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-04.parquet",
+      "sha256": "a70b616c758583fdba070aeec0b6faa2d636adcabce9692af10f49265bdc8f34",
+      "bytes": 137420
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-05.parquet",
+      "sha256": "6931e37cf4de7d195e53be69c423106caf094d938b74bf615261b3e68712fbde",
+      "bytes": 159155
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-06.parquet",
+      "sha256": "51b45a508f117c9b8d7cf6e4ea591c32488b73ff4380ddd12eb571d0cfe6b89f",
+      "bytes": 138647
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-07.parquet",
+      "sha256": "f62b9a40f960231a9ae47efee40dc5cc4b9b99aa7e9a5d88eadfe20689bb5859",
+      "bytes": 132545
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-08.parquet",
+      "sha256": "c665350348700d91c16705d9409e22ee5e6106ffb6d0390e895f9595c2407afe",
+      "bytes": 144158
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-09.parquet",
+      "sha256": "bdf8cddb2da4633c0073c60bdbd60e602fdea3601212c67407c2f9c275cc44be",
+      "bytes": 134871
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-10.parquet",
+      "sha256": "bdf23a5e461223ac9d9a4a30ff05f535789b7a822999565d26f60138816708f4",
+      "bytes": 163748
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-11.parquet",
+      "sha256": "d366a28fe515464ce300d0553084c2686fa22510533316d5c4cf30439b1f609e",
+      "bytes": 123210
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2019-12.parquet",
+      "sha256": "ecbc4aee9d521b948db9d6795c9fbfdb595c25af813d8f821511872ed4e3a0d4",
+      "bytes": 133524
+    },
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2020.parquet",
+      "sha256": "0acaf32e7c4cc85836fe211f516bd9205a261e09cbea1f801cf8fd27471c5dae",
+      "bytes": 869578
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-01.parquet",
+      "sha256": "8fc5ffa0164dcf80be4da750a5a12dc18f8a70f862211fc0aa57119366b88aaa",
+      "bytes": 139545
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-02.parquet",
+      "sha256": "788d0a2f2423f45389f6a4baacf9758cf845e3828ef2b4cbd46a3908b40e3d6b",
+      "bytes": 139638
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-03.parquet",
+      "sha256": "ae3445bc71901a49f09d007180d57f6c9126ac3bc760f2bb99cc211543949422",
+      "bytes": 179562
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-04.parquet",
+      "sha256": "7e19c5986ebf071e8b9ae05dec56e19004aced6c6188feed992c4244cf916eec",
+      "bytes": 160016
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-05.parquet",
+      "sha256": "6c0e43e70e2b60557de18bb5a9573569040cfed968d3857c38321229c3749d99",
+      "bytes": 147832
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-06.parquet",
+      "sha256": "3acbedac5c2875249f28e1e8fb4dd5e5b313f04e86002bdcf881f56785ca65af",
+      "bytes": 157646
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-07.parquet",
+      "sha256": "56969f42cf688c62ff77ddc62e492bd9df7bd07bcaff4f663852084de2aeb469",
+      "bytes": 158644
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-08.parquet",
+      "sha256": "d6139b0799490922437d3e027e312cdedc590db45b18c4d8be05ae0e9eb29c4d",
+      "bytes": 148017
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-09.parquet",
+      "sha256": "5189f08a3e20499f85ad24ecd6cdb4d601fa2e997c66d285b95f2c0dc542c9f3",
+      "bytes": 157091
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-10.parquet",
+      "sha256": "7e8db77097f9536333ebe94177335b176761edeb2381bf5d96ed1208a4accde7",
+      "bytes": 159906
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-11.parquet",
+      "sha256": "4456e1f99755cd7537aa53cdfc3d6f8517b2af122ade414279edd1ff44edcc03",
+      "bytes": 138984
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2020-12.parquet",
+      "sha256": "24039bdb1a46ea2c0f3cb117fd5b50f2a711607a3683c53ca2c2bfc6c85b113e",
+      "bytes": 150589
+    },
+    {
+      "root": "repo",
+      "path": "data/canonical/spy_minute/B_alpaca_sip_SPY_1m_split_D2_v1/year=2021.parquet",
+      "sha256": "fb5dcab4f64a3bb0be1c66c572b4236b29bc7ad54992f4f6073d7caf60904d06",
+      "bytes": 857427
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-01.parquet",
+      "sha256": "7fa36f35cdd2543f4e6df04fee4f86e23af2f8275fe6be41fcb6b36982aed7a8",
+      "bytes": 142707
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-02.parquet",
+      "sha256": "482b70adddb0284ac0c69a47aea5ed18b7bcee2806170cfe81b9f7129feca60a",
+      "bytes": 140386
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-03.parquet",
+      "sha256": "1fb4298e55e6a8c9d8a91c6c1d1c6401b77c406137e88c37610fcc1b2ef5d37b",
+      "bytes": 165711
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-04.parquet",
+      "sha256": "5759f7faa24b779cfdd2084054f03ca9e3234b7708ef84cdd859ab71698a72a8",
+      "bytes": 152476
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-05.parquet",
+      "sha256": "afc348a668c3f691a385332ca15f524015fa32793016b93d257113ce71243bc2",
+      "bytes": 149039
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-06.parquet",
+      "sha256": "303e4495a232310e2a4aee80df6560824017975b800944982d340bf821967fa5",
+      "bytes": 152828
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-07.parquet",
+      "sha256": "c324ea10fd4355a59132f61168ffd27e7f7a922cd848bd6b9e8b6a62c0fa601c",
+      "bytes": 155855
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-08.parquet",
+      "sha256": "9b84d430451b1dbd1ca363bc62f662292ce8842e4e019b091c880d9225dd93b9",
+      "bytes": 155434
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-09.parquet",
+      "sha256": "7f8024e9409bff6e5421b8172093898bab8254994b03d6b2671dff330d9e8bc8",
+      "bytes": 156435
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-10.parquet",
+      "sha256": "0dc0ec539a823eeb70c140258a46cc7157c807a8b7941fcb1ccd7c07bad8ff07",
+      "bytes": 151628
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-11.parquet",
+      "sha256": "1a2f843cf19bff334bf79590128b8c5af7454a58357b9f7c565ac2db68d201bb",
+      "bytes": 141471
+    },
+    {
+      "root": "repo",
+      "path": "data/source_cache/C_spy_1m_p0_v1_1/2021-12.parquet",
+      "sha256": "e384d86d8be9b30a4f585d55fbab8c89bdd6a7a7e5b76c1afb1d6595c84a2381",
+      "bytes": 155783
+    },
+    {
+      "rows": 64733,
+      "source_rows_scanned": 23078536,
+      "symbol_counts": {
+        "DHR": 8074,
+        "HCA": 7908,
+        "HON": 8173,
+        "IP": 8139,
+        "KLAC": 7873,
+        "LOW": 8186,
+        "ORCL": 8190,
+        "SLB": 8190
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-01.parquet",
+      "sha256": "ccb806b7bca4719bbde682137c8c7b1f90ec017059c430e5e0c35b8e5a209d40",
+      "bytes": 847201
+    },
+    {
+      "month": "2019-01",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-01.parquet",
+      "sha256": "ef433d24a5f2c9b2dceb75ebb1d3b88caa30bc5077e46a0ae2cc3e580c18a798",
+      "bytes": 3495521
+    },
+    {
+      "rows": 58173,
+      "source_rows_scanned": 20282889,
+      "symbol_counts": {
+        "DHR": 7343,
+        "HCA": 6758,
+        "HON": 7398,
+        "IP": 7344,
+        "KLAC": 7109,
+        "LOW": 7403,
+        "ORCL": 7410,
+        "SLB": 7408
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-02.parquet",
+      "sha256": "f5a2a0b69a64083ab0991be0cd411a4ab18ad75138d35128f4f786df1a63948f",
+      "bytes": 746649
+    },
+    {
+      "month": "2019-02",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-02.parquet",
+      "sha256": "37fc2ff29adc3537d513518712b51a4603e698e0f8d2c0f0aec5990885f80b40",
+      "bytes": 2964156
+    },
+    {
+      "rows": 64795,
+      "source_rows_scanned": 23302705,
+      "symbol_counts": {
+        "DHR": 8134,
+        "HCA": 7875,
+        "HON": 8164,
+        "IP": 8115,
+        "KLAC": 7951,
+        "LOW": 8177,
+        "ORCL": 8190,
+        "SLB": 8189
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-03.parquet",
+      "sha256": "3b0abbc807e25bc67f46d20c6d6e70ce51f38fd2d4bb4ba53b37e31e6e1cac4a",
+      "bytes": 831333
+    },
+    {
+      "month": "2019-03",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-03.parquet",
+      "sha256": "2e9a08dd4abcc99a8b3b9cbc1d890d5d8bafe1ae850a33dc4ca2dd92167c9886",
+      "bytes": 3351107
+    },
+    {
+      "rows": 64528,
+      "source_rows_scanned": 22186698,
+      "symbol_counts": {
+        "DHR": 8102,
+        "HCA": 7865,
+        "HON": 8144,
+        "IP": 8089,
+        "KLAC": 7763,
+        "LOW": 8187,
+        "ORCL": 8188,
+        "SLB": 8190
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-04.parquet",
+      "sha256": "d7fc42c6e013081cc809eaf0cfef15af028ad649bd329d2cdcfc5653c401890e",
+      "bytes": 815862
+    },
+    {
+      "month": "2019-04",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-04.parquet",
+      "sha256": "7fe21daa0edaaf7228f0a0260c795a4345ad148b654c368c88e7d554644534fe",
+      "bytes": 3316897
+    },
+    {
+      "rows": 67900,
+      "source_rows_scanned": 23703421,
+      "symbol_counts": {
+        "DHR": 8420,
+        "HCA": 8258,
+        "HON": 8527,
+        "IP": 8503,
+        "KLAC": 8457,
+        "LOW": 8575,
+        "ORCL": 8580,
+        "SLB": 8580
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-05.parquet",
+      "sha256": "899e7731cf3ce72d456df3fb9f2b75bf5e0ed96ec826c73efd697b051e026088",
+      "bytes": 878659
+    },
+    {
+      "month": "2019-05",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-05.parquet",
+      "sha256": "61b0f6b62f6d056dcb29b82e24eb86895f7bd4bbd7f01b585e2289daaaff1fe8",
+      "bytes": 3633049
+    },
+    {
+      "rows": 61105,
+      "source_rows_scanned": 21505309,
+      "symbol_counts": {
+        "DHR": 7643,
+        "HCA": 7238,
+        "HON": 7670,
+        "IP": 7704,
+        "KLAC": 7456,
+        "LOW": 7796,
+        "ORCL": 7798,
+        "SLB": 7800
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-06.parquet",
+      "sha256": "0efb9a3bf3ef9f6098d3deb6e3203b72a11f4a81d0c8846b13fece18bed447bc",
+      "bytes": 813740
+    },
+    {
+      "month": "2019-06",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-06.parquet",
+      "sha256": "f9dfd0b8c140a153a3b918ccad4c59040b06bc17625e65a3e6b53beef4bae67d",
+      "bytes": 3209210
+    },
+    {
+      "rows": 65758,
+      "source_rows_scanned": 22764251,
+      "symbol_counts": {
+        "DHR": 8277,
+        "HCA": 7909,
+        "HON": 8279,
+        "IP": 8274,
+        "KLAC": 7825,
+        "LOW": 8386,
+        "ORCL": 8400,
+        "SLB": 8408
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-07.parquet",
+      "sha256": "d618ae7a0d44fc6466dd0fc2822d04144960cb95259c11c3f424c437d49dcd26",
+      "bytes": 833487
+    },
+    {
+      "month": "2019-07",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-07.parquet",
+      "sha256": "528f5ca89ced4e1b8ba10a13e3daf440b4fbb964821bc088766e65938e5a073c",
+      "bytes": 3371983
+    },
+    {
+      "rows": 67171,
+      "source_rows_scanned": 23947476,
+      "symbol_counts": {
+        "DHR": 8385,
+        "HCA": 8051,
+        "HON": 8477,
+        "IP": 8481,
+        "KLAC": 8083,
+        "LOW": 8560,
+        "ORCL": 8563,
+        "SLB": 8571
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-08.parquet",
+      "sha256": "6364cdebba1e1ed9f74a98eb29c220ca0cf6afe923f071fc982aa4f35450db3c",
+      "bytes": 886803
+    },
+    {
+      "month": "2019-08",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-08.parquet",
+      "sha256": "2e3a94214ed7e67aa6e13692f89e87724c536b8f1cc4f6c55c27cefa6f7b359f",
+      "bytes": 3545718
+    },
+    {
+      "rows": 61368,
+      "source_rows_scanned": 21759807,
+      "symbol_counts": {
+        "DHR": 7690,
+        "HCA": 7391,
+        "HON": 7694,
+        "IP": 7722,
+        "KLAC": 7511,
+        "LOW": 7760,
+        "ORCL": 7800,
+        "SLB": 7800
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-09.parquet",
+      "sha256": "ca451b6ea101f09b4f212ad1e8ddac6d88bd29d4767bfa4f20e238f9b772bfce",
+      "bytes": 826379
+    },
+    {
+      "month": "2019-09",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-09.parquet",
+      "sha256": "a99dfcd54d0240a47498160f34211d4a8bd45ba3a69a09b94e15aa6ab7fb1b3d",
+      "bytes": 3079237
+    },
+    {
+      "rows": 69930,
+      "source_rows_scanned": 23788486,
+      "symbol_counts": {
+        "DHR": 8708,
+        "HCA": 8191,
+        "HON": 8844,
+        "IP": 8780,
+        "KLAC": 8552,
+        "LOW": 8919,
+        "ORCL": 8966,
+        "SLB": 8970
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-10.parquet",
+      "sha256": "1e9c78c13f3b15de6dc4fe64570ef5b68775e458a6610e564aca333f025f4098",
+      "bytes": 935965
+    },
+    {
+      "month": "2019-10",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-10.parquet",
+      "sha256": "c11114802882c778c996ad1b72aff30109283f65def2ee97e015f25022be2e5f",
+      "bytes": 3675857
+    },
+    {
+      "rows": 59395,
+      "source_rows_scanned": 20692130,
+      "symbol_counts": {
+        "DHR": 7526,
+        "HCA": 7212,
+        "HON": 7479,
+        "IP": 7340,
+        "KLAC": 7028,
+        "LOW": 7571,
+        "ORCL": 7613,
+        "SLB": 7626
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-11.parquet",
+      "sha256": "229cf67470afc525287c161a9f735fa77e479631955d83cb102aeffa352a4427",
+      "bytes": 759375
+    },
+    {
+      "month": "2019-11",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-11.parquet",
+      "sha256": "62dd6ca411cf0ff8ec357ca53900167eee2793b74fab916c23b064071655709b",
+      "bytes": 3026440
+    },
+    {
+      "rows": 61865,
+      "source_rows_scanned": 21868641,
+      "symbol_counts": {
+        "DHR": 7989,
+        "HCA": 7215,
+        "HON": 7771,
+        "IP": 7794,
+        "KLAC": 7139,
+        "LOW": 7942,
+        "ORCL": 8004,
+        "SLB": 8011
+      },
+      "conflicting_rows_excluded": 0,
+      "invalid_rows_retained_flagged": 0,
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/market_1m/2019-12.parquet",
+      "sha256": "17006ba93995267ec326a4f9ea29864c7431e41471d170a07c2ca1667b193d4d",
+      "bytes": 811487
+    },
+    {
+      "month": "2019-12",
+      "root": "lstm",
+      "path": "data/processed/hf20_hf1m_long_v1/776328445b7ac6e7815ef3a483e9c8ded1eb6d56/qa_v2/canonical_observed/2019-12.parquet",
+      "sha256": "2673dcbde38a574ccca219fb31f6249bc371afbee6884b130a045cb484c46621",
+      "bytes": 3186188
+    },
+    {
+      "symbol": "BAC",
+      "root": "sae",
+      "path": "data/raw/BAC.parquet",
+      "sha256": "846e64267cff02ba007003947af227a21caaa1539e20cd35f7ba9a03c7c35736",
+      "bytes": 309241,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/BAC.json",
+        "sha256": "34e24a3f93aaf51b2dd190182008d5cf8e7c88946b4fc856ee3abf79deddc653",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "DHR",
+      "root": "sae",
+      "path": "data/raw/DHR.parquet",
+      "sha256": "207face70ed9a9aaff0be4cfaa26553e1edee916c41589a518a41d9ff69fb048",
+      "bytes": 319628,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/DHR.json",
+        "sha256": "8d030eece2225cf66455570fafa5539fc8ac69e4840ab7b30904cc6eaea95cbc",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "HCA",
+      "root": "sae",
+      "path": "data/raw/HCA.parquet",
+      "sha256": "d473bda5587e31a76044d103a12408cdd915fc4f80a8c3ad8c8b20a3a32cc367",
+      "bytes": 324633,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/HCA.json",
+        "sha256": "921f744a4d850ceea7a014cec68e363e8b39d74404fb3851bad23d1e2d5461a2",
+        "bytes": 5202
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "HON",
+      "root": "sae",
+      "path": "data/raw/HON.parquet",
+      "sha256": "50246402ab4e371de051bb8c430342773b01ee591c32da4b8694eca36657731b",
+      "bytes": 360125,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/HON.json",
+        "sha256": "cf7ca5d286a099362827b34137252f06cff015519fe4c0ad7cac1bf75cd6092b",
+        "bytes": 5203
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "IP",
+      "root": "sae",
+      "path": "data/raw/IP.parquet",
+      "sha256": "9ffe4ac8b87c011f2ac5862ec837fae306dc319dc76224476a624844461054fe",
+      "bytes": 297973,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/IP.json",
+        "sha256": "d9bf585859f078ea287b52c5a9169ea2f3b45194351f66a35743d7a42e948e32",
+        "bytes": 5197
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "KLAC",
+      "root": "sae",
+      "path": "data/raw/KLAC.parquet",
+      "sha256": "63b86ff0a059e884bb1949be7b058d866503c5971369624df754d80d355da1d9",
+      "bytes": 352751,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/KLAC.json",
+        "sha256": "6b387a4feb98346eb9d4ef47e4db6a8202d048d875599ff07e1059b73e92e550",
+        "bytes": 5217
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "KO",
+      "root": "sae",
+      "path": "data/raw/KO.parquet",
+      "sha256": "9b827c93e7abfdcbc04a1ce915d15df03e577ee6c711cc5f50729753683cbeb7",
+      "bytes": 303704,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/KO.json",
+        "sha256": "0b73d1555e1b5ab7f207bfa6a2cff7b75b1c71aca4069d00c0e56681481f2d9d",
+        "bytes": 5205
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "LOW",
+      "root": "sae",
+      "path": "data/raw/LOW.parquet",
+      "sha256": "3432f514e1a63c208d990bd5d558819252f11cda538b8548b71844779027b356",
+      "bytes": 320914,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/LOW.json",
+        "sha256": "59c68201284ee0b1e0d53561b6b349ab56bd60b4a27da7eec0ca4595deb18a4c",
+        "bytes": 5213
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "ORCL",
+      "root": "sae",
+      "path": "data/raw/ORCL.parquet",
+      "sha256": "abfb2bd156a8e849351da24277fad953e74b3a5e0d2338c5c606e2e8b6e6e079",
+      "bytes": 339732,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/ORCL.json",
+        "sha256": "cd6fdd19346e896a3708ad0a6348f91a8a22dc3784ce57d28930449513a8b833",
+        "bytes": 5217
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "symbol": "SLB",
+      "root": "sae",
+      "path": "data/raw/SLB.parquet",
+      "sha256": "8c7c75211317aa1d319ea3694224416c77837b4823e08455770560383c694129",
+      "bytes": 304353,
+      "metadata": {
+        "root": "sae",
+        "path": "data/metadata/SLB.json",
+        "sha256": "c650488f07b6f925e0356386bddf8388042d71082242485692b8de368229b616",
+        "bytes": 5198
+      },
+      "schema": "timestamp: timestamp[ns, tz=UTC]\nticker: large_string\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: double\nvwap: double\ntransactions: int64\nbar_end: timestamp[ns, tz=UTC]\nbar_minutes: int16\nsession: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1493"
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/etf_daily/etf_daily_prices.parquet",
+      "sha256": "cfb074bb7ae23de69ce75f640c8a3a1b87b1fe0d0eec5723c285a2e596ad78a6",
+      "bytes": 2372716
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/etf_daily/instrument_metadata.parquet",
+      "sha256": "d70bba35838a5ed4a40e7c557967810b283445560f37e10c36545416d5fadcb7",
+      "bytes": 7610
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fred_rates/DGS2.csv",
+      "sha256": "d3195b5a66990c1bf7a3a6befb0c0332a4777e625d5a21e82f9bb6bf13ff5277",
+      "bytes": 11382
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fred_rates/DGS10.csv",
+      "sha256": "aa295a52c620be751c109cccb74c72feed46b9e5a7e5750dea0a3c93d01ea0d8",
+      "bytes": 11383
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/monetary-policy-surprises-data.xlsx",
+      "sha256": "708606624de050cdaf6fd850a320b38d45099ab7c2398e01ba12dcece5743668",
+      "bytes": 301655
+    },
+    {
+      "root": "repo",
+      "path": "data/shared/five_state_shape_prelim_v1/fed_surprises/published_chart_units_check.csv",
+      "sha256": "55aabf5b0742447614e6de91299822cc81de6be210475957fc3db7e4f4807508",
+      "bytes": 2362
+    }
+  ],
+  "schema": {
+    "daily_rv_semivariance": {
+      "rows": 2699,
+      "columns": [
+        "symbol",
+        "date_et",
+        "RV",
+        "RS_minus",
+        "RS_plus",
+        "q_down",
+        "n_return_intervals",
+        "source_id",
+        "observed",
+        "is_imputed",
+        "large_minute_move",
+        "available_at",
+        "open",
+        "close",
+        "volume",
+        "event_return_bp",
+        "pre_event_return_bp",
+        "event_start_reference",
+        "event_end_reference",
+        "previous_session",
+        "next_session",
+        "lag_RV",
+        "next_session_RV",
+        "log_RV",
+        "lag_log_RV",
+        "next_log_RV",
+        "next_target_available_at"
+      ],
+      "schema": "symbol: large_string\ndate_et: large_string\nRV: double\nRS_minus: double\nRS_plus: double\nq_down: double\nn_return_intervals: int64\nsource_id: large_string\nobserved: bool\nis_imputed: bool\nlarge_minute_move: bool\navailable_at: large_string\nopen: double\nclose: double\nvolume: double\nevent_return_bp: double\npre_event_return_bp: double\nevent_start_reference: large_string\nevent_end_reference: large_string\nprevious_session: large_string\nnext_session: large_string\nlag_RV: double\nnext_session_RV: double\nlog_RV: double\nlag_log_RV: double\nnext_log_RV: double\nnext_target_available_at: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 3351",
+      "input_frequency": "daily"
+    },
+    "market_returns_5m": {
+      "rows": 104760,
+      "columns": [
+        "symbol",
+        "date_et",
+        "bin_start_minute_ET",
+        "bin_end_utc",
+        "return_5m_log_bp",
+        "clock_state",
+        "source_id",
+        "n_genuine_intervals",
+        "observed"
+      ],
+      "schema": "symbol: large_string\ndate_et: large_string\nbin_start_minute_ET: int64\nbin_end_utc: large_string\nreturn_5m_log_bp: double\nclock_state: large_string\nsource_id: large_string\nn_genuine_intervals: int64\nobserved: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1175",
+      "input_frequency": "5min"
+    },
+    "daily_stock_returns_volume": {
+      "rows": 2470,
+      "columns": [
+        "symbol",
+        "date_et",
+        "open",
+        "close",
+        "volume",
+        "source_id",
+        "adjustment",
+        "observed",
+        "stock_return_bp",
+        "stock_next_return_bp",
+        "next_session",
+        "relative_log_volume",
+        "prior20_count",
+        "state_available_at",
+        "target_available_at",
+        "spy_oc_bp"
+      ],
+      "schema": "symbol: large_string\ndate_et: large_string\nopen: double\nclose: double\nvolume: double\nsource_id: large_string\nadjustment: large_string\nobserved: bool\nstock_return_bp: double\nstock_next_return_bp: double\nnext_session: large_string\nrelative_log_volume: double\nprior20_count: int64\nstate_available_at: large_string\ntarget_available_at: large_string\nspy_oc_bp: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2024",
+      "input_frequency": "daily"
+    },
+    "daily_spy_treasury_returns": {
+      "rows": 664,
+      "columns": [
+        "date_et",
+        "ief_oc_bp",
+        "spy_oc_bp",
+        "source_id",
+        "session_open",
+        "rate_observation_date",
+        "DGS2",
+        "DGS10",
+        "available_at",
+        "yield_spread_pp",
+        "macro_source_id"
+      ],
+      "schema": "date_et: large_string\nief_oc_bp: double\nspy_oc_bp: double\nsource_id: large_string\nsession_open: timestamp[us, tz=UTC]\nrate_observation_date: large_string\nDGS2: double\nDGS10: double\navailable_at: timestamp[us, tz=UTC]\nyield_spread_pp: double\nmacro_source_id: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1470",
+      "input_frequency": "daily"
+    },
+    "daily_etf_oc_controls": {
+      "rows": 1099,
+      "columns": [
+        "date_et",
+        "ief_oc_bp",
+        "spy_oc_bp",
+        "source_id"
+      ],
+      "schema": "date_et: large_string\nief_oc_bp: double\nspy_oc_bp: double\nsource_id: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 555",
+      "input_frequency": "daily"
+    },
+    "fomc_events": {
+      "rows": 54,
+      "columns": [
+        "event_id",
+        "date_et",
+        "release_time_source",
+        "published_MPS_percentage_points",
+        "surprise_bp",
+        "official_1400",
+        "sheet_1400",
+        "standard_1400",
+        "source_id",
+        "event_return_bp",
+        "pre_event_return_bp",
+        "eligible",
+        "exclusion_reason"
+      ],
+      "schema": "event_id: large_string\ndate_et: large_string\nrelease_time_source: large_string\npublished_MPS_percentage_points: double\nsurprise_bp: double\nofficial_1400: bool\nsheet_1400: bool\nstandard_1400: bool\nsource_id: large_string\nevent_return_bp: double\npre_event_return_bp: double\neligible: bool\nexclusion_reason: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1715",
+      "input_frequency": "event"
+    }
+  },
+  "holds": {},
+  "source_registry_sha256": "114b14d6193f737688bc4773c2cbdf134e42c4f584e8079b144d9d5006e0fbf9",
+  "at": "2026-10-23T02:18:13.801324+00:00",
+  "RV": "389 adjacent close-to-close one-minute returns, no overnight, epsilon0",
+  "column_dictionary": {
+    "RS_minus": "sum squared negative minute log returns",
+    "q_down": "RS_minus/RV",
+    "stock_return_bp": "same-stock split-adjusted close-to-close price log return\u00d710000",
+    "relative_log_volume": "own logvolume minus previous20eligible mean logvolume; current excluded",
+    "surprise_bp": "updated FOMC sheet rawMPS percentage points\u00d7100; never MPS_ORTH"
+  },
+  "source_time": "UTC minute/bar starts; full390 ordinary XNYS only; 5m label end; event14:00=C13:59 and14:30=C14:29",
+  "exploratory_periods": {
+    "P01_INTRADAY_BETA": [
+      "2019-01-01",
+      "2019-12-31"
+    ],
+    "P02_SIGNED_RV": [
+      "2016-01-04",
+      "2021-12-31"
+    ],
+    "P03_TREASURY_HEDGE": [
+      "2021-05-12",
+      "2023-12-29"
+    ],
+    "P04_VOLUME_REVERSAL": [
+      "2024-09-26",
+      "2025-09-25"
+    ],
+    "P05_FOMC_RESPONSE": [
+      "2016-01-01",
+      "2021-12-31"
+    ]
+  }
+}

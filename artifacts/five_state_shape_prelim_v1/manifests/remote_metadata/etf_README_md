@@ -1,0 +1,189 @@
+---
+license: other
+language:
+- en
+pretty_name: skfolio Masterclass ETF Teaching Data
+tags:
+- finance
+- etf
+- portfolio-optimization
+- skfolio
+- time-series
+- parquet
+- education
+- google-colab
+size_categories:
+- 100K<n<1M
+configs:
+- config_name: prices
+  data_files: "etf_daily_prices.parquet"
+  default: true
+- config_name: metadata
+  data_files: "instrument_metadata.parquet"
+- config_name: liquidity
+  data_files: "etf_liquidity_365d.parquet"
+- config_name: indexes
+  data_files: "index_daily_prices.parquet"
+---
+
+# skfolio Masterclass ETF Teaching Data
+
+This dataset provides cleaned ETF price, metadata, liquidity, and market-index context tables for educational portfolio-research notebooks, especially the **skfolio Masterclass by The Chart Truth**.
+
+The goal is to give learners a public, no-login data source that can be loaded in Google Colab and transformed into the return matrices used by skfolio portfolio workflows. It is designed for teaching diversification, liquidity screening, price-to-return transformation, risk, correlation, drawdowns, and allocation research.
+
+## What Is Included
+
+| File | Rows | What it contains | Main teaching use |
+|---|---:|---|---|
+| `etf_daily_prices.parquet` | 117,959 | Daily ETF OHLCV-style price and volume records for 95 ETF symbols | Raw market history used to teach price checks and return conversion |
+| `instrument_metadata.parquet` | 98 | Symbol-level metadata and trading-status fields | Universe inspection, labeling, and practical data-quality checks |
+| `etf_liquidity_365d.parquet` | 95 | Average and median volume and dollar-volume rankings | Liquidity screening and realistic universe design |
+| `index_daily_prices.parquet` | 3,784 | Daily index history for SPX, VIX, and NDX | Market-regime context and benchmark/risk discussion |
+| `manifest.json` | 1 | Public snapshot metadata and row counts | Lightweight audit trail for notebooks and examples |
+
+The dataset intentionally does **not** include raw API responses, account data, balances, holdings, transactions, orders, credentials, or trading instructions.
+
+## Quick Start
+
+```python
+import pandas as pd
+from huggingface_hub import hf_hub_download
+from skfolio.preprocessing import prices_to_returns
+
+repo_id = "thecharttruth/etf-data"
+
+prices_path = hf_hub_download(
+    repo_id=repo_id,
+    repo_type="dataset",
+    filename="etf_daily_prices.parquet",
+)
+
+prices_long = pd.read_parquet(prices_path)
+prices_wide = (
+    prices_long
+    .pivot(index="date", columns="symbol", values="close")
+    .sort_index()
+)
+
+returns = prices_to_returns(prices_wide)
+```
+
+No Hugging Face token is required for the public dataset.
+
+You can also load the tables through the `datasets` library. The dataset card defines three named configs so the tables stay separate in the Hugging Face Dataset Viewer:
+
+```python
+from datasets import load_dataset
+
+prices = load_dataset("thecharttruth/etf-data", "prices", split="train")
+metadata = load_dataset("thecharttruth/etf-data", "metadata", split="train")
+liquidity = load_dataset("thecharttruth/etf-data", "liquidity", split="train")
+indexes = load_dataset("thecharttruth/etf-data", "indexes", split="train")
+```
+
+## Current Snapshot
+
+| Item | Value |
+|---|---:|
+| ETF symbols with price history | 95 |
+| Price rows | 117,959 |
+| Metadata rows | 98 |
+| Liquidity rows | 95 |
+| Index rows | 3,784 |
+| Index symbols | SPX, VIX, NDX |
+| Date range | 2021-05-12 to 2026-05-13 |
+| Default file format | Parquet |
+
+The metadata table can contain symbols that are not present in the current price table. That is useful for teaching real-world data checks: not every instrument discovered by a data source is automatically suitable for a clean portfolio universe.
+
+## Table Schemas
+
+### `etf_daily_prices.parquet`
+
+| Column | Meaning |
+|---|---|
+| `date` | Trading date used for analysis and pivoting |
+| `symbol` | ETF ticker symbol |
+| `asset_type` | Asset label, currently `ETF` for this file |
+| `open`, `high`, `low`, `close` | Daily price fields |
+| `volume` | Daily volume |
+
+### `instrument_metadata.parquet`
+
+| Column | Meaning |
+|---|---|
+| `symbol` | Instrument ticker symbol |
+| `asset_type` | Asset label |
+| `name`, `type`, `exchange`, `exchange_name` | Descriptive fields from the source |
+| `trading` | Trading-status field from the source |
+| `fractional_trading` | Fractional-trading status field from the source, when available |
+| `option_trading`, `option_spread_trading`, `shorting_availability` | Instrument capability fields from the source |
+
+Some descriptive metadata fields may be blank. Treat metadata as a practical teaching aid, not as a complete security master.
+
+### `etf_liquidity_365d.parquet`
+
+| Column | Meaning |
+|---|---|
+| `rank_avg_daily_volume` | Rank by average daily share volume |
+| `rank_avg_daily_dollar_volume` | Rank by average daily dollar volume |
+| `symbol` | ETF ticker symbol |
+| `avg_daily_volume`, `median_daily_volume` | Share-volume liquidity estimates |
+| `avg_daily_dollar_volume`, `median_daily_dollar_volume` | Dollar-volume liquidity estimates |
+| `latest_volume`, `latest_close`, `latest_date` | Most recent values in the lookback window |
+| `lookback_bars`, `lookback_days` | Liquidity lookback settings |
+| `history_bars`, `history_start`, `history_end` | Available history summary |
+
+### `index_daily_prices.parquet`
+
+| Column | Meaning |
+|---|---|
+| `date` | Trading date used for analysis and pivoting |
+| `symbol` | Index ticker symbol, currently SPX, VIX, and NDX |
+| `asset_type` | Asset label, currently `INDEX` for this file |
+| `open`, `high`, `low`, `close` | Daily index level fields |
+| `volume` | Daily volume field when provided |
+
+## Intended Use
+
+This dataset is meant for:
+
+- educational notebooks
+- reproducible portfolio-research examples
+- skfolio tutorials and demonstrations
+- learning how to inspect, reshape, and validate market data before optimization
+
+The recommended teaching flow is:
+
+1. Load the long price table.
+2. Validate symbols, dates, duplicates, and missing values.
+3. Pivot prices into a date-by-symbol matrix.
+4. Convert prices to linear returns.
+5. Use returns for risk, correlation, optimization, and validation.
+
+## Limitations
+
+This dataset is intentionally compact and teaching-oriented. It may contain errors, omissions, stale values, adjusted values, vendor quirks, transformation mistakes, missing metadata, survivorship bias, or incomplete histories. It is not a complete market database and should not be treated as a live trading feed.
+
+The dataset is suitable for learning a research process. It is not suitable as the only source for real-money trading, tax reporting, regulatory reporting, or production investment operations.
+
+## Independence And Responsible Use
+
+This dataset is independent educational material. It is not endorsed by, sponsored by, or affiliated with any broker, ETF issuer, index provider, exchange, data provider, Hugging Face, Google Colab, or the skfolio project maintainers.
+
+Nothing in this dataset is financial, investment, tax, or legal advice. Nothing here is a recommendation to buy, sell, short, hold, or allocate to any security. Historical data cannot guarantee future results.
+
+Users are responsible for validating data quality, confirming rights and licenses, and deciding whether any use is appropriate for their own situation.
+
+## Access, Updates, And License
+
+The public files are provided for educational and research use under the custom terms in `LICENSE`.
+
+Updates may be published periodically from a maintained data pipeline, but no update cadence is guaranteed. Existing files may remain available even if future refreshes pause or change.
+
+Redistribution, resale, and commercial use are not permitted without written permission from the maintainer and any applicable upstream rights holders.
+
+## Suggestions
+
+Learners and researchers may suggest additional ETF fields, documentation improvements, or derived teaching tables. Suggestions are evaluated based on educational value, licensing and redistribution limits, privacy, data quality, maintainability, and fit with the cleaned teaching-data scope.
